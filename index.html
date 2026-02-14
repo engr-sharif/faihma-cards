@@ -1847,6 +1847,12 @@
         document.addEventListener('DOMContentLoaded', () => {
             console.log('🏥 Faihma\'s NCLEX Flashcards - Loading...');
             
+            // Wire up login FIRST (before anything else)
+            document.getElementById('loginBtn').addEventListener('click', authenticate);
+            document.getElementById('pinInput').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') authenticate();
+            });
+            
             // Auto-focus PIN input
             document.getElementById('pinInput').focus();
             
