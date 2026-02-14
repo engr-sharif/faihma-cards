@@ -768,9 +768,10 @@
 
                 <!-- ANSWER BUTTONS -->
                 <div class="answer-buttons" id="answerButtons">
-                    <button class="answer-btn btn-incorrect" id="incorrectBtn">❌ Incorrect (1)</button>
-                    <button class="answer-btn btn-unsure" id="unsureBtn">❓ Unsure (3)</button>
-                    <button class="answer-btn btn-correct" id="correctBtn">✅ Correct (2)</button>
+                    <button class="answer-btn btn-incorrect" id="againBtn">🔄 Again</button>
+                    <button class="answer-btn btn-unsure" id="hardBtn">😤 Hard</button>
+                    <button class="answer-btn btn-correct" id="goodBtn">👍 Good</button>
+                    <button class="answer-btn btn-correct" id="easyBtn" style="background: linear-gradient(135deg, #26a69a, #00897b);">⚡ Easy</button>
                 </div>
                 
                 <div class="answer-buttons" id="nextButton" style="display: none;">
@@ -1524,8 +1525,13 @@
                 AppState.stats.sessionCorrect++;
             }
             
-            if (quality === 5) {
+            // Check if card is now mastered (5+ successful repetitions)
+            const cardProgress = AppState.progress[cardId];
+            if (cardProgress && cardProgress.repetitions >= 5) {
                 AppState.stats.masteredCards++;
+                createParticles();
+            } else if (quality === 5) {
+                // Easy = mini celebration
                 createParticles();
             }
             
@@ -1673,9 +1679,9 @@
             if (Math.abs(diffX) > 100) {
                 if (AppState.showingAnswer) {
                     if (diffX > 0) {
-                        answerCard(1); // Swipe left = incorrect
+                        answerCard(0); // Swipe left = Again
                     } else {
-                        answerCard(4); // Swipe right = correct
+                        answerCard(3); // Swipe right = Good
                     }
                 }
             }
@@ -1690,13 +1696,16 @@
             if (AppState.showingAnswer) {
                 switch(e.key) {
                     case '1':
-                        answerCard(1);
+                        answerCard(0); // Again
                         break;
                     case '2':
-                        answerCard(4);
+                        answerCard(2); // Hard
                         break;
                     case '3':
-                        answerCard(2);
+                        answerCard(3); // Good
+                        break;
+                    case '4':
+                        answerCard(5); // Easy
                         break;
                     case ' ':
                         e.preventDefault();
@@ -1777,9 +1786,10 @@
             });
             
             // Answer buttons
-            document.getElementById('incorrectBtn').addEventListener('click', () => answerCard(1));
-            document.getElementById('unsureBtn').addEventListener('click', () => answerCard(2));
-            document.getElementById('correctBtn').addEventListener('click', () => answerCard(4));
+            document.getElementById('againBtn').addEventListener('click', () => answerCard(0));
+            document.getElementById('hardBtn').addEventListener('click', () => answerCard(2));
+            document.getElementById('goodBtn').addEventListener('click', () => answerCard(3));
+            document.getElementById('easyBtn').addEventListener('click', () => answerCard(5));
             document.getElementById('nextBtn').addEventListener('click', nextCard);
             
             // Login
