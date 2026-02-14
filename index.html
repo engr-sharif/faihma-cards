@@ -804,6 +804,11 @@
                         <div class="stat-value" id="weakestTopic">-</div>
                         <div class="stat-label">Weakest Topic</div>
                     </div>
+                    <div style="grid-column: 1 / -1; display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; justify-content: center;">
+                        <button onclick="exportProgress()" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--primary-teal); background: transparent; color: var(--text-dark); font-weight: 600; cursor: pointer;">📤 Export Progress</button>
+                        <button onclick="importProgress()" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--primary-blue); background: transparent; color: var(--text-dark); font-weight: 600; cursor: pointer;">📥 Import Progress</button>
+                        <button onclick="if(confirm('Reset all progress? This cannot be undone.')){AppState.progress={};AppState.stats.totalStudied=0;AppState.stats.totalCorrect=0;AppState.stats.totalIncorrect=0;AppState.stats.totalUnsure=0;AppState.stats.streak=0;saveProgress();filterCards();renderCard();renderStats();}" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--error-red); background: transparent; color: var(--error-red); font-weight: 600; cursor: pointer;">🗑️ Reset</button>
+                    </div>
                 </div>
             </main>
         </div>
@@ -840,8 +845,6 @@
                 weakestTopic: 'fundamentals'
             },
             progress: {},
-            gistId: 'd2fa410ddf039b72237a95b8b69654c7',
-            githubToken: null // Will be set dynamically
         };
 
         // ==== QUESTION DATA ====
@@ -1323,118 +1326,75 @@
             return card;
         }
 
-        // ==== GITHUB GIST FUNCTIONS ====
-        function getGitHubToken() {
-            if (!AppState.githubToken) {
-                // Try to get from localStorage first
-                AppState.githubToken = localStorage.getItem('faihma_github_token');
-                
-                // If not found, prompt user (this should be done securely in production)
-                if (!AppState.githubToken) {
-                    AppState.githubToken = prompt('Enter GitHub token for progress sync (will be stored locally):');
-                    if (AppState.githubToken) {
-                        localStorage.setItem('faihma_github_token', AppState.githubToken);
-                    }
-                }
-            }
-            return AppState.githubToken;
-        }
-        
-        async function saveProgressToGist() {
+        // ==== PROGRESS STORAGE (localStorage + Export/Import) ====
+        function saveProgress() {
             try {
-                const token = getGitHubToken();
-                if (!token) {
-                    console.log('No GitHub token available, saving locally only');
-                    localStorage.setItem('faihma_progress', JSON.stringify({
-                        progress: AppState.progress,
-                        stats: AppState.stats,
-                        lastUpdated: Date.now()
-                    }));
-                    return;
-                }
-                
                 const progressData = {
                     progress: AppState.progress,
                     stats: AppState.stats,
                     lastUpdated: Date.now()
                 };
-                
-                const response = await fetch(`https://api.github.com/gists/${AppState.gistId}`, {
-                    method: 'PATCH',
-                    headers: {
-                        'Authorization': `token ${token}`,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        files: {
-                            'progress.json': {
-                                content: JSON.stringify(progressData, null, 2)
-                            }
-                        }
-                    })
-                });
-                
-                if (!response.ok) {
-                    console.error('Failed to save progress to GitHub:', response.statusText);
-                    // Fallback to localStorage
-                    localStorage.setItem('faihma_progress', JSON.stringify(progressData));
-                }
+                localStorage.setItem('faihma_progress', JSON.stringify(progressData));
             } catch (error) {
                 console.error('Error saving progress:', error);
-                // Fallback to localStorage
-                localStorage.setItem('faihma_progress', JSON.stringify({
-                    progress: AppState.progress,
-                    stats: AppState.stats,
-                    lastUpdated: Date.now()
-                }));
             }
         }
         
-        async function loadProgressFromGist() {
-            try {
-                const token = getGitHubToken();
-                
-                if (token) {
-                    const response = await fetch(`https://api.github.com/gists/${AppState.gistId}`, {
-                        headers: {
-                            'Authorization': `token ${token}`
-                        }
-                    });
-                    
-                    if (response.ok) {
-                        const gist = await response.json();
-                        const content = gist.files['progress.json']?.content;
-                        
-                        if (content) {
-                            const data = JSON.parse(content);
-                            AppState.progress = data.progress || {};
+        function exportProgress() {
+            const data = {
+                progress: AppState.progress,
+                stats: AppState.stats,
+                lastUpdated: Date.now(),
+                version: 1
+            };
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'faihma-nclex-progress.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        function importProgress() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.json';
+            input.onchange = (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                    try {
+                        const data = JSON.parse(ev.target.result);
+                        if (data.progress) {
+                            AppState.progress = data.progress;
                             AppState.stats = { ...AppState.stats, ...data.stats };
-                            return; // Successfully loaded from GitHub
+                            saveProgress();
+                            filterCards();
+                            renderCard();
+                            renderStats();
+                            alert('✅ Progress imported successfully!');
                         }
+                    } catch (err) {
+                        alert('❌ Invalid file. Please select a valid progress backup.');
                     }
-                }
-                
-                // Fallback to localStorage
+                };
+                reader.readAsText(file);
+            };
+            input.click();
+        }
+        
+        function loadProgress() {
+            try {
                 const localData = localStorage.getItem('faihma_progress');
                 if (localData) {
                     const data = JSON.parse(localData);
                     AppState.progress = data.progress || {};
                     AppState.stats = { ...AppState.stats, ...data.stats };
                 }
-                
             } catch (error) {
                 console.error('Error loading progress:', error);
-                // Final fallback to localStorage
-                const localData = localStorage.getItem('faihma_progress');
-                if (localData) {
-                    try {
-                        const data = JSON.parse(localData);
-                        AppState.progress = data.progress || {};
-                        AppState.stats = { ...AppState.stats, ...data.stats };
-                    } catch (parseError) {
-                        console.error('Error parsing local progress:', parseError);
-                    }
-                }
             }
         }
 
@@ -1560,7 +1520,7 @@
             document.getElementById('nextButton').style.display = 'flex';
             
             renderStats();
-            saveProgressToGist();
+            saveProgress();
         }
         
         function nextCard() {
@@ -1752,9 +1712,9 @@
         }
 
         // ==== APP INITIALIZATION ====
-        async function initializeApp() {
+        function initializeApp() {
             // Load progress from GitHub
-            await loadProgressFromGist();
+            loadProgress();
             
             // Initialize cards
             filterCards();
