@@ -1,0 +1,4682 @@
+Chapter 34 diagnosis testing
+1️⃣ NURSING RESPONSIBILITIES (MOST TESTED)
+Before Any Diagnostic Test
+✔ Verify patient using 2 identifiers​
+✔ Check for signed consent (before sedation)​
+✔ Perform time-out (correct patient, procedure, site)​
+✔ Check allergies (contrast, iodine, shellfish)​
+✔ Check NPO status if required​
+✔ Get baseline vital signs​
+✔ Review medications (anticoagulants ↑ bleeding risk)
+Fundamentals LOVES safety questions here.
+
+👉
+
+2️⃣ AFTER PROCEDURES — WHAT TO MONITOR
+Always assess for:
+• Bleeding​
+• Infection​
+• Allergic reaction​
+• Respiratory distress​
+• Changes in vital signs
+That’s priority thinking.
+
+🩸
+
+3️⃣ SPECIMEN COLLECTION (VERY TESTABLE)
+Blood (Venipuncture)
+✔ Wear gloves​
+✔ Dispose needle in sharps container​
+✔ Release tourniquet quickly​
+✔ Apply pressure 3–5 minutes if on:
+●​ Warfarin
+●​ Heparin
+●​ Aspirin​
+⚠ Hemolysis = RBCs break (small needle)​
+⚠ Hemoconcentration = tourniquet too long
+
+🚽
+Clean-Catch Urine (Know This)
+✔ Clean front to back​
+✔ Void first small amount​
+✔ Collect midstream​
+✔ Do not let cup touch skin​
+✔ Send to lab quickly
+24-Hour Urine:​
+✔ Discard first morning void​
+✔ Collect ALL urine​
+✔ Keep on ice
+
+💩
+Stool Collection
+✔ Avoid urine contamination​
+✔ Small sample for occult blood​
+✔ Blue color = positive blood
+False positives can happen with:​
+• Aspirin​
+• NSAIDs​
+• Red meat
+4️⃣ CONTRAST MEDIA SAFETY
+Before CT with contrast:
+✔ Check kidney function (blood urea nitrogen, creatinine)​
+✔ Ask about iodine/shellfish allergy​
+✔ Monitor for anaphylaxis
+After barium:​
+✔ Increase fluids​
+✔ White stool is expected
+5️⃣ POSITIONING AFTER SPECIFIC PROCEDURES
+Lumbar puncture:​
+✔ Lay flat​
+✔ Monitor headache
+Endoscopy:​
+✔ Nothing by mouth until gag reflex returns
+Paracentesis / Thoracentesis:​
+✔ Monitor vital signs​
+✔ Watch for shock​
+✔ Limit fluid removal (usually 1000 mL)
+6️⃣ BASIC LAB VALUES YOU MUST RECOGNIZE (NOT DIAGNOSE)
+You do NOT need deep pathology.
+Just recognize:
+Low hemoglobin → anemia​
+High white blood cells → infection​
+High glucose → diabetes​
+High potassium → dangerous (heart risk)​
+High troponin → myocardial injury​
+Low platelets → bleeding risk
+That’s enough for Fundamentals.
+7️⃣ DELEGATION
+Can delegate:​
+• Blood glucose testing​
+• Urine collection (not catheter specimen)​
+• Stool collection
+
+Cannot delegate:​
+• Throat culture​
+• Assessing results​
+• Interpreting abnormal labs
+
+🎯
+If Your Professor Writes an Exam Question…
+It will likely test:
+• Safety​
+• Priority​
+• Monitoring​
+• What to assess​
+• What to report​
+• What can be delegated
+NOT “what disease does this lab mean.”
+
+🧠 If1.​YouVerifyRemember
+Only 5 Things:
+patient + consent before procedure
+2.​ Monitor for bleeding and allergic reaction
+3.​ Clean-catch = midstream
+4.​ Check kidney function before contrast
+5.​ Know which labs signal infection, anemia, bleeding risk​
+
+CHAPTER 41 – Urinary Elimination
+Definition
+Urinary elimination is the regular removal of liquid waste (urine) from the body.​
+It is essential for maintaining life and health.
+Key Concepts (Very Important for Exam)
+Urinary elimination is affected by:
+●​ Food intake
+●​ Fluid intake
+●​ Medications
+●​ Fluid loss (breathing, perspiration)
+●​ Social and cultural habits
+●​ Emotional needs
+●​ Privacy​
+
+⚠️Physical
+In Fundamentals, always think:​
++ emotional + privacy needs
+
+Normal Adult Output
+Healthy adults eliminate approximately:
+
+1400 mL of urine per day
+(Depends on intake and losses)
+Organs Required for Normal Elimination
+Proper urinary elimination requires:
+1.​ Kidneys
+2.​ Ureters
+3.​ Urinary bladder
+4.​ Urethra
+5.​ Pelvic floor muscles
+All must function correctly.
+Nursing Importance
+Understanding normal anatomy and physiology is essential because nurses must:
+●​ Assess elimination patterns
+●​ Identify abnormal findings
+●​ Prevent complications
+●​ Promote normal function
+●​ Protect dignity and privacy
+High-Yield Galen Exam Points
+●​ Privacy is part of elimination care
+●​ Emotional needs matter
+●​ 1400 mL/day = normal adult average
+●​ Urinary system = kidneys → ureters → bladder → urethra
+●​ Pelvic floor muscles are essential for continence​
+NORMAL STRUCTURE AND FUNCTION OF THE URINARY SYSTEM (LO 41.1)
+(Fundamentals – High-Yield Notes)
+Overall Function of the Urinary System
+The urinary system:
+●​ Excretes water and electrolytes
+●​ Removes waste products from blood
+●​ Maintains blood composition
+●​ Regulates blood pressure
+●​ Maintains electrolyte balance
+●​ Maintains acid–base balance
+Important Waste Products
+●​ Urea → from digestion of protein
+●​ Creatinine → from muscle metabolism
+These must be removed to prevent toxicity.
+Location
+●​ Two kidneys
+●​ Bilateral
+●​ Below ribs
+
+●​ Mid-back area
+Major Functions (Very Important for Exam)
+Kidneys:
+●​ Filter liquid waste from blood
+●​ Balance electrolytes
+●​ Regulate blood volume
+●​ Regulate blood pressure
+●​ Produce erythropoietin (RBC production)
+●​ Synthesize vitamin D (calcium control)
+●​ Maintain acid–base balance
+Nephrons (Functional Unit)
+Each kidney contains:
+210,000 to 2 million nephrons
+Each nephron includes:
+1.​ Renal corpuscle
+○​ Glomerulus
+○​ Bowman capsule
+2.​ Renal tubule
+○​ Proximal tubule
+○​ Loop of Henle
+○​ Distal convoluted tubule
+Urine Formation (3 Processes – Must Know)
+1.​ Filtration
+○​ Occurs in glomerulus
+○​ Pressure forces fluid across membrane
+2.​ Reabsorption
+○​ Occurs in renal tubule
+○​ Most filtrate returns to blood
+3.​ Secretion
+○​ Waste, excess solutes, water remain
+○​ Urine is formed
+URETERS
+●​ Narrow tubes
+●​ Carry urine from kidneys to bladder
+●​ Muscle walls contract and relax (peristalsis)
+●​ Push urine downward
+Backflow or retention → risk for kidney infection
+Bladder
+Location:
+●​ Below umbilicus
+●​ Above symphysis pubis
+Function:
+●​ Stores urine
+
+⚠️
+
+●​ Expands to hold urine
+●​ Contracts to empty
+Sphincter Muscles
+●​ Located at base of bladder
+●​ Prevent leakage
+●​ Relax during urination
+Urethra
+●​ Transports urine outside body
+Micturition (Urination)
+Process:
+1.​ Bladder stretches
+2.​ Nerve signals create urge
+3.​ Brain signals:
+○​ Bladder contracts
+○​ Sphincter relaxes
+4.​ Urine exits
+If sequence is disrupted → retention or incontinence
+NORMAL URINE CHARACTERISTICS
+Normal urine:
+●​ Sterile
+●​ Contains fluids, salts, waste
+●​ No bacteria, viruses, fungi
+Amount
+Average adult:
+~1400 mL/day
+Depends on:
+●​ Fluid intake
+●​ Diet (salt)
+●​ Medications
+●​ Medical conditions
+Nighttime
+●​ Urine production decreases at night
+●​ About half of daytime amount
+With aging:
+●​ Decreased ability to concentrate urine
+●​ Increased nighttime urination
+UNFOLDING CASE – A.J.
+Symptoms:
+●​ Frequency
+●​ Urgency
+
+●​ Burning
+●​ Fever 38.8°C
+●​ Suprapubic tenderness
+●​ No flank pain
+This suggests:​
+Likely lower urinary tract infection (bladder)
+Flank pain would suggest kidney involvement.
+Galen Exam High-Yield Points
+●​ Kidneys regulate BP
+●​ Kidneys produce erythropoietin
+●​ Urine formation = filtration + reabsorption + secretion
+●​ Ureters use peristalsis
+●​ Bladder stores, sphincter controls
+●​ Micturition requires nerve coordination
+●​ Normal urine is sterile
+●​ 1400 mL/day average
+ALTERED STRUCTURE AND FUNCTION OF THE URINARY SYSTEM (LO 41.2)
+(Fundamentals – High-Yield Exam Notes)
+Definition
+Altered urinary elimination usually results from:
+●​ Urinary retention
+●​ Loss of voluntary control of voiding
+Except normal changes due to:
+●​ Aging
+●​ Pregnancy
+Factors That Affect Urinary Function
+●​ Psychosocial factors
+●​ Food and fluid intake
+●​ Surgical/diagnostic procedures
+●​ Hypertension
+●​ Arteriosclerosis
+●​ UTIs
+These can change:
+●​ Urine volume
+●​ Urine characteristics
+●​ Effectiveness of excretion
+ABNORMAL URINATION PATTERNS
+1. Anuria
+Definition
+Failure of kidneys to produce urine.
+Amount
+
+Less than 50–100 mL in 24 hours
+Causes
+●​ Decreased blood flow to kidneys
+●​ Complete obstruction (stones, tumors)
+●​ Blocked ureters or urethra
+Serious Risk
+●​ Acute kidney injury
+●​ Chronic kidney disease
+●​ Coma
+●​ Death
+Acute anuria = LIFE-THREATENING EMERGENCY
+
+⚠️
+
+Dialysis
+Hemodialysis
+●​ Blood flows through machine
+●​ Waste filtered out
+●​ Usually 3 times per week in ESRD
+Peritoneal Dialysis
+●​ Dialysis solution placed into abdomen
+●​ Peritoneum acts as membrane
+●​ Waste removed through catheter
+2. Oliguria
+Definition
+Reduced urine output.
+Values
+●​ Adults: < 500 mL/day
+●​ Adults/Children: < 0.5 mL/kg/hr
+●​ Infants: < 1 mL/kg/hr
+Causes
+Prerenal:
+●​ Dehydration
+●​ Low cardiac output
+●​ Vascular collapse
+Intrarenal:
+●​ Kidney structural damage
+Postrenal:
+●​ Obstruction
+Signs & Symptoms
+●​ Pale, clammy skin
+●​ Hypotension
+●​ Edema
+●​ Anemia
+●​ Heart rhythm changes
+
+●​ Hepatomegaly
+●​ Hypertension
+Nursing Management
+●​ Treat cause
+●​ Restore fluids if volume low
+●​ Strict I&O
+●​ Daily weights
+●​ Monitor potassium
+Potassium must be < 5 mEq/L​
+Dialysis may be required.
+
+⚠️
+
+SAFE PRACTICE ALERT
+Strict I&O is essential in:
+●​ Acute kidney injury
+●​ Chronic kidney disease
+●​ Fluid restriction orders​
+3. Polyuria
+Definition
+Excessive urine output.
+Value
+≥ 2500 mL/day
+Causes
+●​ High fluid intake
+●​ Caffeine/alcohol
+●​ High salt/glucose
+●​ Diuretics
+●​ Diabetes
+●​ Contrast dye
+4. Nocturia
+Definition
+Excessive urination at night.
+Normal
+Most people sleep 6–8 hours without voiding.
+Common Causes
+●​ BPH (men)
+●​ Postmenopausal women
+●​ Diuretics
+●​ UTIs
+●​ CHF
+●​ Cystitis
+●​ Diabetes
+Nursing Intervention
+
+Encourage:
+●​ Fluid diary
+●​ Void frequency record
+●​ Daily weights
+5. Dysuria
+Definition
+Painful urination.
+Causes
+●​ UTI
+●​ Cystitis
+●​ STI
+●​ Yeast infection
+●​ Stones
+●​ Prostate enlargement
+●​ Malignancy
+●​ Irritants (soaps, spermicides, etc.)
+Associated Symptoms
+●​ Urgency
+●​ Frequency
+●​ Abdominal pain
+●​ Cloudy urine
+●​ Bloody urine
+6. Hematuria
+Definition
+Red blood cells in urine.
+Types
+●​ Gross (visible)
+●​ Microscopic
+Important
+Color does NOT reflect the amount of blood loss.
+Causes
+●​ Infection
+●​ Stones
+●​ Tumors
+●​ Trauma
+●​ Medications
+●​ Renal cysts
+●​ AV malformations
+URINARY INCONTINENCE
+Definition
+Inability to control urine passage.
+Risk Factors
+●​ Age
+
+●​ Diabetes
+●​ Vaginal childbirth
+●​ Obesity
+Types
+Stress
+Leakage with coughing, sneezing, laughing.
+Urge
+Sudden strong urge, cannot reach toilet in time.
+Mixed
+Combination of stress + urge.
+Functional
+Physical limitation prevents reaching toilet.
+Overflow
+Bladder cannot empty → constant dribbling.
+Temporary
+Due to:
+●​ Constipation
+●​ UTI
+●​ Medications
+Acute Causes
+●​ Bed rest
+●​ Infection
+●​ Pregnancy
+●​ Prostate inflammation
+●​ Stool impaction
+Chronic Causes
+●​ Bladder cancer
+●​ Neurologic disorders
+●​ Enlarged prostate
+●​ Pelvic prolapse
+●​ Spinal injury
+●​ Weak sphincter
+URINARY RETENTION
+Definition
+Inability to empty bladder.
+Types
+Acute:
+●​ Painful
+●​ Cannot void
+●​ Medical emergency
+Chronic:
+●​ Weak stream
+
+●​ Difficulty starting
+●​ Dribbling
+●​ Feeling incomplete emptying
+Causes
+●​ Obstruction
+●​ Neurologic disorders
+●​ Stroke
+●​ Diabetes
+●​ Prostate enlargement
+●​ Constipation
+●​ Tumors
+●​ Medications:
+○​ Antihistamines
+○​ Anticholinergics
+○​ Antispasmodics
+○​ Tricyclic antidepressants
+Galen Exam High-Yield Summary
+Know exact numbers:
+●​ Anuria: < 50–100 mL/day
+●​ Oliguria: < 500 mL/day
+●​ Polyuria: ≥ 2500 mL/day
+●​ Oliguria adult: < 0.5 mL/kg/hr
+Know emergencies:
+●​ Acute anuria
+●​ Acute retention
+●​ Hyperkalemia in renal failure
+Know types of incontinence.
+Know that strict I&O is critical in renal failure.
+FACTORS AFFECTING URINARY ELIMINATION
+(Fundamentals – Exam-Focused Breakdown)
+Urination is affected by physical, psychological, developmental, and medical factors.
+1️⃣ Privacy & Emotional Factors
+Urination is private for most people.
+If privacy is not provided:
+●​ Anxiety increases
+●​ Muscles tighten
+●​ Difficulty initiating voiding
+Suppressing urge → ↑ risk of:
+●​ Incontinence
+●​ UTI
+QSEN Point:​
+Ask urinary questions in a nonjudgmental way.
+
+⚠️
+
+2️⃣ Developmental Factors
+Infants
+●​ No voluntary control
+Toddlers
+●​ Control develops between 2–5 years
+Preschool
+●​ Accidents normal until about age 5
+Nocturnal Enuresis (Bedwetting)
+Normal until age 5.
+After age 5, causes may include:
+●​ High nighttime urine production
+●​ Small bladder capacity
+●​ Sleep arousal problem
+Older Adults
+Changes include:
+●​ Decreased kidney function
+●​ Weakened bladder muscles
+●​ Urgency
+●​ Frequency
+●​ Nocturia
+Men:
+●​ Prostate enlargement → incomplete emptying
+●​ Residual urine → ↑ UTI risk
+3️⃣ Psychosocial Factors
+●​ Stress
+●​ Embarrassment
+●​ Lack of toilet access
+●​ Habit suppression
+These increase:
+●​ Retention
+●​ UTI
+●​ Incontinence
+4️⃣ Food & Fluid Intake
+Dehydration
+→ ↓ urine output​
+→ Dark urine
+Excess fluids
+→ Dilute urine​
+→ Frequency
+Diet changes
+Can alter:
+●​ Color
+
+●​ Odor
+5️⃣ Medications
+Some medications alter:
+●​ Urine production
+●​ Concentration
+●​ Retention
+Diuretics
+●​ ↑ urine output
+●​ Affect electrolytes
+Autonomic nervous system drugs
+●​ May cause urinary retention
+6️⃣ Muscle Tone
+Pelvic floor muscles control:
+●​ Filling
+●​ Emptying
+●​ Sphincter control
+Poor muscle tone causes:
+●​ Leakage
+●​ Incontinence
+●​ Incomplete emptying
+7️⃣ Surgical & Diagnostic Procedures
+Can affect:
+●​ Color (post-op bleeding)
+●​ Volume
+●​ Ability to void
+Anesthesia
+●​ ↓ awareness of bladder fullness
+●​ Causes urinary retention
+8️⃣ Pathologic Conditions
+Kidney disease
+→ ↓ urine production
+Heart disorders
+→ ↓ renal perfusion
+Stones (calculi)
+→ Obstruction
+Dehydration
+→ Kidneys retain water​
+→ ↓ output
+Bladder removal
+→ Urinary diversion required
+9️⃣ Urinary Tract Infections (UTIs)
+
+Definition
+Bacteria in urine.
+Most common organism:​
+Escherichia coli (E. coli)
+Why females are at higher risk
+●​ Shorter urethra
+●​ Close to anus
+●​ Sexual activity
+High-Risk Groups
+●​ Obstruction
+●​ Indwelling catheter
+●​ Elderly
+●​ Diabetes
+●​ Immunocompromised
+
+🔟
+Urinary Diversion
+Definition
+
+Surgical rerouting of urine when bladder function is impaired.
+Can be:
+●​ Temporary
+●​ Permanent
+●​ Continent
+●​ Incontinent
+Types
+Incontinent diversion
+●​ Ileal conduit
+●​ Urostomy
+●​ Requires external bag
+Continent diversion
+●​ Internal reservoir created
+●​ Catheterized every 4–6 hours
+Orthotopic neobladder
+●​ Intestine used to create new bladder
+●​ Connected to urethra
+●​ Most natural function
+Galen Exam Focus
+Know:
+●​ Bedwetting normal until age 5
+●​ Elderly = frequency + urgency
+●​ Prostate enlargement = retention
+●​ Diuretics increase urine
+●​ Anesthesia causes retention
+
+●​ E. coli = most common UTI cause
+●​ Females higher UTI risk​
+ASSESSMENT – Urinary Elimination (Fundamentals – Galen Focus)
+Assessment must identify early changes in urinary function.​
+You collect subjective + objective data.
+1️⃣ SUBJECTIVE ASSESSMENT (Interview)
+Use open-ended + focused questions.
+Ask About:
+History
+●​ Kidney or bladder disease?
+●​ Past UTIs?
+●​ Surgery or trauma?
+●​ Family history?
+●​ Diabetes, HTN, stroke, MS?
+Current Symptoms
+●​ Frequency?
+●​ Urgency?
+●​ Nocturia?
+●​ Dysuria (burning)?
+●​ Hesitancy?
+●​ Weak stream?
+●​ Dribbling?
+●​ Incontinence?
+●​ Retention feeling?
+●​ Flank pain?
+●​ Suprapubic pain?
+●​ Blood in urine?
+Changes in Pattern
+●​ More frequent?
+●​ Small amounts?
+●​ Trouble starting?
+●​ Night voiding?
+Urine Characteristics
+●​ Color?
+●​ Odor?
+●​ Clarity?
+●​ Amount?
+●​ When did it change?
+Medications & Diet
+●​ Diuretics?
+
+●​ Antibiotics?
+●​ Vitamins?
+●​ New foods?
+●​ Chemical exposure?
+Pain
+Rate 0–10​
+Location:
+●​ Flank pain → kidney
+●​ Suprapubic → bladder
+Female-Specific Question
+●​ Do you wipe front to back?
+(Galen exam loves this)
+2️⃣ OBJECTIVE ASSESSMENT
+Mental Status
+●​ Confusion → possible ↑ BUN / kidney failure
+●​ UTI in elderly → confusion common
+Vital Signs
+●​ Fever → infection
+●​ Tachycardia → dehydration/sepsis
+●​ Hypertension → kidney disease
+3️⃣ ABDOMINAL ASSESSMENT
+Inspection
+Patient supine.
+Normal:
+●​ Soft
+●​ Symmetrical
+●​ No distention
+Abnormal:
+●​ Suprapubic bulge → urinary retention
+●​ Distention → ascites, pregnancy, obstruction
+Bladder Scan
+
+Used to:
+●​ Detect retention
+●​ Prevent unnecessary catheterization
+Palpation
+Light palpation:
+●​ Lower abdomen
+●​ Should be soft
+Distended bladder:
+●​ Firm
+●​ Tender
+Kidneys normally NOT palpable​
+Pain with percussion → kidney disease
+4️⃣ INSPECTION OF URINE (Very Testable)
+Color
+Normal:
+●​ Pale yellow → amber
+Dark amber:
+●​ Dehydration
+Clear:
+●​ Excess fluids
+Red/pink:
+●​ Blood
+●​ Stones
+●​ Cancer
+●​ Enlarged prostate
+●​ UTI
+Food Causes
+●​ Beets → red
+●​ Carrots → orange
+
+●​ Asparagus → green
+Medication Causes
+●​ Rifampin → orange
+●​ Phenazopyridine → orange
+●​ Warfarin → orange
+●​ Metronidazole → brown
+●​ Cimetidine → blue/green
+Clarity
+Normal:
+●​ Clear
+Cloudy:
+●​ Infection
+●​ Bacteria
+●​ WBCs
+●​ Crystals
+Bloody clots:
+●​ Post-op → may need 3-way catheter irrigation
+Odor
+Normal:
+●​ Mild
+Fruity odor:
+●​ Diabetic ketoacidosis
+Strong foul odor:
+●​ Infection
+Amount (HIGH-YIELD)
+Normal adult output:​
+0.5–1.5 mL/kg/hr
+Minimum safe:​
+≥ 30 mL/hr
+Less than 30 mL/hr:​
+→ Decreased renal perfusion​
+→ Report immediately
+
+⚠️
+
+Galen Exam Clues
+If question says:
+●​ Confusion + decreased output → think kidney failure
+●​ Fever + burning → UTI
+●​ Distended bladder + no urine → retention
+●​ Output <30 mL/hr → report
+●​ Dark concentrated urine → dehydration
+●​ Fruity smell → uncontrolled diabetes
+LABORATORY TESTS – Urinary System (Fundamentals – Exam Ready)
+
+These labs evaluate kidney function, infection, and metabolic problems.
+1️⃣ Blood Urea Nitrogen (BUN)
+Definition
+BUN measures urea in the blood.​
+Urea = end product of protein metabolism.
+Normal Value
+10–20 mg/dL
+Increased BUN (High-Yield Causes)
+●​ Kidney disease
+●​ Dehydration
+●​ GI bleeding
+●​ High-protein diet
+●​ Heart failure
+●​ Diabetes
+●​ Urinary obstruction
+●​ Severe burns
+●​ Certain medications
+Decreased BUN
+●​ Liver failure
+●​ Malnutrition
+●​ Low-protein diet
+●​ Overhydration
+2️⃣ Serum Creatinine
+Definition
+Waste product from muscle metabolism.​
+Filtered by kidneys.
+Normal Values
+●​ Women: 0.5–1.1 mg/dL
+●​ Men: 0.6–1.3 mg/dL
+Elevated Creatinine
+→ Kidney damage​
+→ Decreased kidney filtration
+Important Exam Point
+Creatinine is more specific for kidney function than BUN.
+3️⃣ BUN-to-Creatinine Ratio
+Used together.
+High Ratio
+Seen in:
+●​ Dehydration
+
+●​ Shock
+●​ GI bleeding
+●​ Acute kidney injury
+Low Ratio
+Seen in:
+●​ Liver cirrhosis
+●​ Low-protein diet
+●​ SIADH
+●​ Severe muscle injury
+4️⃣ Urinalysis (UA)
+Definition
+Single urine sample test.​
+Used to detect:
+●​ UTI
+●​ Kidney disease
+●​ Metabolic disorders
+Only 10–15 mL needed.
+Urinalysis Components (Very Testable)
+
+🔹
+Specific Gravity
+Normal
+
+1.005–1.030
+Low:
+●​ Overhydration
+●​ Kidney unable to concentrate urine
+High:
+●​ Dehydration
+
+🔹
+pH
+Normal urine:​
+
+~6 (slightly acidic)
+Range:
+●​ 4 = very acidic
+●​ 7 = neutral
+●​ 9 = alkaline
+Low pH:
+●​ Metabolic acidosis
+High pH:
+●​ Metabolic alkalosis
+
+🔹
+Protein
+Normal:​
+
+None
+Protein present:
+
+●​ Kidney disease
+●​ Glomerulonephritis
+●​ Pregnancy
+●​ Fever
+●​ Heavy exercise
+
+🔹
+Glucose
+Normal:​
+
+None
+Present:
+●​ Uncontrolled diabetes
+●​ Kidney damage
+
+🔹
+Ketones
+Normal:​
+
+None
+Present in:
+●​ Diabetic ketoacidosis (DKA)
+●​ Starvation
+●​ Vomiting
+●​ Low-carb diet
+
+🔹
+Microscopic Analysis
+Checks for:
+
+●​ RBCs
+●​ WBCs
+●​ Casts
+●​ Crystals
+●​ Bacteria
+●​ Yeast
+Crystals → possible kidney stones​
+Bacteria/WBCs → infection
+5️⃣ Suspected UTI Tests
+Nitrites
+Positive → bacteria present
+Leukocyte Esterase
+Positive → WBCs present
+Together strongly suggest UTI.
+6️⃣ Urine Culture & Sensitivity
+Purpose:
+●​ Confirm UTI
+●​ Identify bacteria
+●​ Determine correct antibiotic
+Urine should normally be sterile.
+
+7️⃣ 24-Hour Urine Collection
+Purpose
+●​ Measure creatinine clearance
+●​ Measure protein
+●​ Measure hormones
+●​ Evaluate kidney function
+Key Procedure Points (Exam Favorite)
+1.​ First morning void → discard
+2.​ Collect ALL urine for 24 hours
+3.​ Keep specimen on ice
+4.​ Include first void of second day
+5.​ Do not miss any urine
+If urine missed → test invalid
+Creatinine Clearance
+Measures how well kidneys filter creatinine.
+Lower value → decreased kidney function.
+Galen Exam Must-Know Numbers
+●​ BUN: 10–20 mg/dL
+●​ Creatinine women: 0.5–1.1 mg/dL
+●​ Creatinine men: 0.6–1.3 mg/dL
+●​ Specific gravity: 1.005–1.030
+●​ Urine pH: ~6
+●​ Output minimum: ≥30 mL/hr
+●​ Normal output: 0.5–1.5 mL/kg/hr​
+DIAGNOSTIC EXAMINATIONS – Urinary System (Fundamentals – Galen Exam Focus)
+These tests are used when basic labs (UA, BUN, creatinine) are not enough.
+You must know:
+●​ Purpose
+●​ Preparation
+●​ Risks
+●​ Nursing care before & after
+1️⃣ Ultrasound (Bladder or Kidneys)
+Definition
+Noninvasive imaging using sound waves.​
+No radiation. No contrast.
+Used To:
+●​ Assess kidney size, shape, location
+●​ Detect tumors, cysts, obstruction
+●​ Measure blood flow (Doppler)
+
+●​ Assess urinary retention (bladder scan)
+Safe For:
+●​ Pregnant patients
+●​ Patients allergic to contrast dye
+Preparation
+●​ Usually none
+●​ If bladder studied → drink fluids and do not void
+Interfering Factors
+●​ Severe obesity
+●​ Recent barium study
+●​ Excess gas
+Nursing Priority
+●​ If bladder scan shows retention → report
+●​ Prevent unnecessary catheterization
+2️⃣ KUB (Kidney–Ureter–Bladder X-ray)
+Definition
+Plain abdominal X-ray.
+Used To:
+●​ Detect kidney stones
+●​ Detect bowel obstruction
+●​ Check ureteral stent placement
+Preparation
+●​ Usually none
+Key Exam Point
+Detects stones that are radiopaque.
+3️⃣ Intravenous Pyelogram (IVP)
+Definition
+X-ray study with IV contrast dye to visualize urinary tract.
+Used To:
+●​ Kidney stones
+●​ Tumors
+●​ Infection
+●​ Trauma
+Preparation
+●​ NPO 8–12 hours
+
+●​ May need laxative or enema
+●​ Assess iodine allergy
+●​ Hold metformin 48 hours
+●​ Check kidney function first
+Contraindications
+●​ Pregnancy
+●​ Severe kidney disease
+●​ Iodine allergy
+●​ Recent metformin use
+Risks
+●​ Allergic reaction
+●​ Contrast-induced kidney injury
+Nursing Aftercare
+●​ Increase fluids
+●​ Monitor urine output
+●​ Monitor for allergic reaction
+4️⃣ CT Scan (Computed Tomography)
+Definition
+Cross-sectional imaging (more detailed than X-ray).
+Used To:
+●​ Kidney stones
+●​ Tumors
+●​ Obstruction
+●​ Infection
+Preparation
+●​ NPO 8–12 hours if contrast
+●​ Assess contrast allergy
+●​ May receive sedative
+During Test
+●​ Must lie still
+●​ 30–60 minutes
+Aftercare
+●​ Increase fluids to flush contrast
+5️⃣ Cystoscopy
+Definition
+Direct visualization of bladder using scope inserted into urethra.
+
+Used To:
+●​ Hematuria
+●​ Dysuria
+●​ Retention
+●​ Incontinence
+●​ Remove stones
+●​ Biopsy
+Anesthesia
+●​ Local
+●​ Spinal
+●​ General
+Preparation
+●​ NPO 8–12 hours (if general anesthesia possible)
+Expected After Procedure
+●​ Burning with urination
+●​ Pink-tinged urine
+●​ Urgency
+Nursing Aftercare
+●​ Increase fluids
+●​ Monitor for:
+○​ Severe bleeding
+○​ Fever
+○​ Inability to void
+Galen Exam High-Yield Points
+If contrast used →​
+✔ Check allergy​
+✔ Check creatinine​
+✔ Encourage fluids after
+If urine output <30 mL/hr →​
+Report immediately
+If hematuria after cystoscopy →​
+✔ Mild pink = normal​
+Bright red or clots = report
+
+🚨
+🚨
+
+NURSING DIAGNOSIS – Urinary Elimination (LO 41.4)
+Fundamentals – Galen Exam Focus
+After assessment, you analyze cues, cluster data, and identify the correct nursing diagnosis.​
+Diagnosis must match defining characteristics (supporting data).
+1️⃣ Impaired Urination
+Definition
+
+Disturbance in normal urination pattern.
+Supporting Data (Clues)
+●​ Urgency
+●​ Frequency
+●​ Burning with urination
+●​ Microorganisms in urine
+●​ Dysuria
+●​ Hematuria
+Often Seen With:
+●​ UTI
+●​ Inflammation
+●​ Irritation
+2️⃣ Urinary Retention
+Definition
+Inability to completely empty the bladder.
+Supporting Data
+●​ Post-anesthesia state
+●​ No urine output
+●​ Lower abdominal distention
+●​ Bladder scan shows residual urine
+●​ Weak stream
+●​ Dribbling
+Priority Concern
+Acute retention = emergency
+
+🚨
+
+3️⃣ Impaired Self-Toileting
+Definition
+Inability to perform toileting tasks independently.
+Supporting Data
+●​ Paralysis
+●​ Neuromuscular impairment
+●​ Stroke
+●​ Cannot manage clothing
+●​ Cannot perform hygiene
+4️⃣ Types of Urinary Incontinence (Separate Diagnoses)
+These are different and tested separately.
+
+🔹
+Stress Incontinence
+Leakage with ↑ intra-abdominal pressure:
+●​ Coughing
+●​ Sneezing
+●​ Laughing
+●​ Exercise
+
+🔹
+Urge Incontinence
+Strong sudden urge → cannot reach toilet in time.
+🔹
+Functional Incontinence
+Urinary system normal, but:
+●​ Cannot reach bathroom
+●​ Mobility problems
+●​ Cognitive impairment
+
+🔹
+Reflex Incontinence
+No awareness of urge → automatic emptying.​
+Usually neurologic cause.
+Other Important Related Diagnoses (Very Testable)
+Even though not urinary-specific, these are commonly used:
+
+🔸
+Risk for Impaired Skin Integrity
+Due to:
+●​ Incontinence
+●​ Moisture
+●​ Maceration
+
+🔸
+Risk for Infection
+Due to:
+●​ Catheter
+●​ Urinary stasis
+●​ Retention
+
+🔸
+Disturbed Body Image
+Seen in:
+●​ Urinary diversion
+●​ Urostomy
+
+🔸 Difficulty
+Coping
+●​ Embarrassment
+
+●​ Chronic incontinence
+
+🔸 Acute
+Pain
+●​ Dysuria
+
+●​ Stones
+●​ Infection
+Galen Exam Strategy
+When choosing diagnosis:
+1.​ Look at assessment data.
+2.​ Match exact defining characteristics.
+
+3.​ Identify priority:​
+○​ Infection?
+○​ Retention?
+○​ Obstruction?
+○​ Skin breakdown?
+4.​ Choose diagnosis that fits cues, not just condition.
+PLANNING – Urinary Elimination (LO 41.5)
+Definition
+Planning is developing patient-centered, measurable goals to correct urinary elimination
+problems.
+Goals focus on:
+●​ Restoring normal elimination
+●​ Returning to previous function
+●​ Preventing complications
+●​ Helping patient cope with changes
+Planning must be:
+●​ Specific
+●​ Measurable
+●​ Time-limited
+●​ Realistic
+●​ Patient-centered
+Priority Areas in Planning
+When prioritizing, consider:
+1️⃣ Infection control​
+2️⃣ Bladder emptying​
+3️⃣ Prevention of retention​
+4️⃣ Prevention of skin breakdown​
+5️⃣ Independence with toileting​
+6️⃣ Psychosocial concerns (embarrassment, body image)
+Safety and physiological needs come first.
+
+⚠️
+
+Expected Outcomes
+Outcomes focus on:
+●​ Effective bladder emptying
+●​ Controlled incontinence
+●​ Independent toileting
+●​ Prevention of UTI
+●​ Absence of retention
+Short-Term Goals (Hours to Days)
+Examples:
+• Patient will report resolution of UTI symptoms within 5 days of antibiotic therapy.​
+• Patient will completely empty bladder within 12 hours postoperatively.​
+
+• Patient will demonstrate proper perineal hygiene within 5 days.​
+• Patient will void at least 30 mL/hr.
+Short-term goals address immediate problems.
+Long-Term Goals (Weeks to Months)
+Examples:
+• Patient will remain free from UTI for 12 months.​
+• Patient will have no residual urine on bladder scan at 6-month follow-up.​
+• Patient will independently perform toileting tasks within 9 months post-stroke.
+Long-term goals focus on prevention and independence.
+Galen Exam Strategy
+When choosing the best goal:
+✔ Must match diagnosis​
+✔ Must be measurable​
+✔ Must include timeframe​
+✔ Must reflect improvement​
+✔ Must be patient-focused
+Wrong answers often:
+●​ Are vague
+●​ Have no timeframe
+●​ Do not match the diagnosis
+IMPLEMENTATION & EVALUATION (LO 41.6)
+IMPLEMENTATION
+Definition
+Implementation = nursing interventions used to help the patient meet urinary goals.
+Interventions are based directly on the nursing diagnosis.
+Main Nursing Goals
+●​ Promote continence
+●​ Ensure complete bladder emptying
+●​ Promote independent toileting
+●​ Prevent infection
+●​ Prevent skin breakdown
+Nursing Interventions
+1️⃣ Promote Adequate Fluid Intake
+●​ Encourage appropriate fluid intake (unless restricted)
+●​ Helps flush bacteria
+●​ Prevents concentrated urine
+2️⃣ Assist With Voiding
+●​ Provide privacy
+●​ Position patient properly
+
+●​ Offer toileting schedule
+●​ Encourage relaxation
+3️⃣ Teach Self-Care
+●​ Perineal hygiene
+●​ Front-to-back wiping (females)
+●​ Hand hygiene
+●​ Catheter care if applicable
+4️⃣ Pelvic Muscle Training
+●​ Teach Kegel exercises
+●​ Strengthens pelvic floor
+●​ Helps stress incontinence
+5️⃣ Prevent UTIs
+●​ Increase fluids (if not contraindicated)
+●​ Avoid delaying voiding
+●​ Empty bladder completely
+●​ Proper catheter care
+Collaborative Interventions
+May involve:
+●​ Primary care provider (PCP)
+●​ Physical therapy
+●​ Nutritionist
+●​ Wound ostomy continence nurse (WOCN)
+EVALUATION
+Evaluation determines if goals were:
+●​ Met
+●​ Partially met
+●​ Unmet
+Assess:
+●​ Is bladder emptying completely?
+●​ Is urine output ≥ 30 mL/hr?
+●​ Are UTI symptoms resolved?
+●​ Is patient independent with toileting?
+●​ Is skin intact?
+If goals not met → modify care plan.
+Discharge Teaching for A.J. (UTI Case Study)
+Minimum 3 topics required:
+1️⃣ UTI Prevention
+Teach:
+●​ Complete entire antibiotic course
+
+●​ Increase fluids
+●​ Void after intercourse
+●​ Do not delay urination
+●​ Proper perineal hygiene (front to back)
+●​ Avoid irritating products
+2️⃣ When to Seek Medical Attention
+Report:
+●​ Fever
+●​ Flank pain
+●​ Worsening burning
+●​ Blood in urine
+●​ Decreased urine output
+3️⃣ Follow-Up Importance
+Explain:
+●​ Prevent kidney infection
+●​ Monitor recurrence
+●​ Ensure infection fully resolved
+4️⃣ Hygiene & Lifestyle
+Discuss:
+●​ Hand hygiene
+●​ Avoid tight clothing
+●​ Change damp underwear
+●​ Manage incontinence properly
+Home Safety (Very Testable)
+Assess:
+●​ Distance to toilet
+●​ Lighting
+●​ Remove rugs/clutter
+●​ Install grab bars if needed
+Falls are a major risk in urinary urgency.
+
+⚠️
+
+Galen Exam Focus
+Priority in urinary problems:
+1️⃣ Obstruction / Retention​
+2️⃣ Infection​
+3️⃣ Skin breakdown​
+4️⃣ Safety (falls)
+PROMOTING NORMAL URINARY PATTERNS
+(Fundamentals – High-Yield for Exams)
+In health care settings, elimination patterns often change because of:
+●​ Bed rest
+
+●​ Medications (especially diuretics)
+●​ Procedures
+●​ Lack of privacy
+●​ Unfamiliar environment
+Your role: maintain patient’s normal routine as much as possible.
+
+⚠️
+SAFETY PRIORITY
+Diuretics → urgency + frequency​
+
+If patient is on fall precautions →​
+✔ Instruct to call for help before ambulating
+Falls + urgency = HIGH RISK exam question.
+1️⃣ Bedpan & Urinal
+Used when patient cannot ambulate.
+Nursing Priorities:
+●​ Provide privacy (close curtain)
+●​ Allow enough time (do NOT rush)
+●​ Warm the bedpan (cold inhibits voiding)
+●​ Position properly
+Best Position for Voiding:
+●​ High Fowler’s position
+●​ Hips and knees flexed (normal voiding posture)
+●​ Small pillow behind back for comfort
+Fracture bedpan → for patients <30° positioning.
+2️⃣ Urinal (Mostly Male)
+Key Nursing Points:
+●​ Apply clean gloves
+●​ Penis completely inside urinal
+●​ Remove after 10 minutes
+●​ Perform hand hygiene
+●​ Document:
+○​ Amount
+○​ Color
+○​ Odor
+○​ Stream characteristics
+○​ Frequency
+Do NOT leave urinal under bed or on floor.
+
+⚠️
+
+3️⃣ Bedside Commode
+Used when:
+●​ Weak
+●​ Unsteady
+●​ Fall risk
+●​ Short of breath
+NOT used if:
+
+●​ Strict bed rest
+●​ Cannot sit safely
+More natural than bedpan → promotes elimination.
+4️⃣ Privacy (Very Testable)
+●​ Close curtain
+●​ Ask visitors to step out
+●​ Turn on running water (stimulates voiding)
+●​ Warm compress on lower abdomen
+●​ Face slightly away if monitoring for safety
+Privacy reduces anxiety → helps relax sphincters.
+5️⃣ Toileting Schedule (Bladder Training)
+For functional incontinence.
+Start Schedule:
+●​ On awakening
+●​ Every 1–2 hours during day
+●​ Before bedtime
+●​ Every 4 hours at night
+Gradually increase interval.
+Helps:
+●​ Increase bladder capacity
+●​ Improve control
+●​ Reduce accidents
+6️⃣ Fluid Intake
+Normal adult: 1500–2000 mL/day
+For:
+●​ UTI history
+●​ Kidney stones
+Increase to: ~3 liters/day (if no cardiac/renal restriction)
+To reduce nocturia:
+●​ Stop fluids 2 hours before bedtime
+
+⚠️
+Dehydration Alert
+Patients trying to reduce incontinence may restrict fluids.
+This can cause:
+●​ Confusion
+●​ Dark urine
+●​ UTI risk
+●​ Hypotension
+Never restrict fluids without an order.
+Galen Exam Focus (Priority Thinking)
+If patient cannot void:​
+1️⃣ Check positioning​
+
+2️⃣ Provide privacy​
+3️⃣ Run water​
+4️⃣ Assess for retention​
+5️⃣ Bladder scan if needed
+Always try noninvasive measures first.
+MONITORING INTAKE & OUTPUT (I&O)
+Fundamentals – Very Testable
+Monitoring I&O evaluates fluid balance and kidney function.
+Used for:
+●​ Post-op patients
+●​ Heart failure
+●​ Kidney disease
+●​ Diuretics
+●​ IV fluids
+UAP may record → RN interprets and evaluates.
+
+🟢
+INTAKE
+Includes all fluids entering the body
+Oral Fluids
+Record in mL:
+●​ Coffee cup = 240 mL
+●​ Juice glass = 120 mL
+●​ Water pitcher = 900 mL
+Ice chips = ½ total volume
+
+Foods Liquid at Room Temperature
+●​ Ice cream
+●​ Gelatin
+●​ Popsicles
+Other Intake
+●​ Tube feedings
+●​ IV fluids (maintenance + piggyback)
+●​ Blood products
+Solid food documented as % eaten (not mL).
+
+⚠️
+🔵
+OUTPUT
+Measured in mL.
+
+Includes:
+●​ Urine
+●​ Liquid stool
+●​ Vomit
+●​ Blood
+●​ NG drainage
+●​ Wound drainage
+●​ Chest tube drainage
+
+●​ Ostomy output
+Collected using:
+
+⚠️
+SAFE PRACTICE
+Before discarding urine:
+●​ Assess color
+●​ Assess clarity
+●​ Assess odor
+●​ Measure amount
+Once discarded → cannot measure.
+Irrigation Rule (Exam Favorite)
+If irrigation fluid is instilled:
+Subtract irrigation amount from total output.
+Example:
+●​ 1000 mL drained
+●​ 300 mL irrigation given
+True urine output = 700 mL
+NORMAL URINE OUTPUT
+Adults:​
+0.5 – 1.5 mL/kg/hr
+Less than 30 mL/hr = REPORT immediately
+
+⚠️
+
+Positive vs Negative Balance
+Positive Balance
+Intake > Output​
+Fluid retained
+Seen in:
+●​ Heart failure
+●​ Renal failure
+●​ Edema
+Negative Balance
+Output > Intake​
+Fluid loss
+Seen in:
+●​ Dehydration
+●​ Diuretics
+●​ Vomiting/diarrhea
+RN Critical Thinking
+When reviewing I&O ask:
+●​ Is patient post-op?
+●​ On diuretics?
+●​ Kidney disease?
+
+●​ Heart failure?
+●​ Signs of edema?
+●​ Dry mucous membranes?
+I&O trends matter more than one value.
+Galen Exam Priority
+If urine <30 mL/hr:​
+1️⃣ Assess patient​
+2️⃣ Check BP​
+3️⃣ Check bladder distention​
+4️⃣ Review medications​
+5️⃣ Notify provider
+KEGEL EXERCISES (Pelvic Floor Exercises)
+Definition
+Kegel exercises are repeated contractions of the pelvic floor muscles to strengthen the muscles
+that support the:
+●​ Bladder
+●​ Uterus
+●​ Bowel
+Used mainly to prevent and treat urinary incontinence (especially stress incontinence).
+Anatomy – What Muscle?
+Pelvic floor muscles (levator ani group) support pelvic organs and control urethral closure.
+How to Identify the Muscle (Exam Tip)
+Tell patient to:
+●​ Tighten muscles as if stopping urine flow
+●​ Or preventing passing gas
+Do NOT routinely stop urine midstream (only to identify muscle once).
+
+⚠️
+
+How to Perform (Teach This Exactly)
+1.​ Tighten pelvic floor muscles.
+2.​ Hold contraction for 5–10 seconds.
+3.​ Relax for 5–10 seconds.
+4.​ Repeat 10–15 times per session.
+5.​ Perform 3 times daily.
+Can be done:
+●​ Lying down
+●​ Sitting
+●​ Standing
+No one should see movement of:
+●​ Abdomen
+●​ Thighs
+●​ Buttocks
+Only pelvic floor contracts.
+
+When Improvement Occurs
+Improvement usually seen in:
+8–10 weeks with regular practice.
+Consistency is key.
+
+⏳
+
+If Patient Has Difficulty
+Biofeedback may be used:
+●​ Small vaginal or rectal probe
+●​ Or external electrodes
+●​ Monitor shows correct muscle contraction
+Helps ensure proper technique.
+PREVENTION OF URINARY TRACT INFECTIONS (UTIs)
+High-Yield Nursing Teaching
+1️⃣ Fluid Intake
+●​ At least 8 glasses (≈2–3 L/day)
+●​ Flushes bacteria from urinary tract
+2️⃣ Do Not Hold Urine
+Holding urine ↑ bacterial growth.
+Void when urge is felt.
+3️⃣ Perineal Hygiene
+Women:
+●​ Wipe front to back
+●​ Clean after voiding and bowel movement
+●​ Void after intercourse
+Men:
+●​ Retract foreskin and clean thoroughly
+4️⃣ Clothing
+●​ Cotton-lined underwear
+●​ Avoid tight-fitting clothing
+Promotes ventilation and decreases moisture.
+5️⃣ Bathing
+●​ Prefer showers
+●​ Avoid:
+○​ Bubble baths
+○​ Bath bombs
+○​ Sprays
+○​ Powders
+These irritate urethra.
+
+📌
+
+6️⃣ Catheter Awareness (Exam Favorite)
+~80% of UTIs are related to catheter use.
+
+Prevention:
+●​ Avoid unnecessary catheterization
+●​ Maintain closed system
+●​ Keep bag below bladder
+●​ Perform daily catheter care
+7️⃣ Antibiotic Teaching
+●​ Finish full course even if symptoms improve
+●​ Symptoms improve in 1–2 days
+●​ Do NOT stop early (resistance risk)
+8️⃣ Comfort Measures
+●​ Heating pad
+●​ Increase fluids
+●​ Avoid caffeine, alcohol, spicy food
+Galen Exam Focus
+If patient reports:
+●​ Frequency
+●​ Urgency
+●​ Burning
+●​ Fever
+→ Think UTI​
+→ Obtain urinalysis & culture​
+→ Start antibiotics
+URINARY CATHETERIZATION
+Fundamentals – High Priority Topic (Galen + NCLEX style)
+Urinary catheterization = insertion of a catheter through the urethra into the bladder to drain
+urine.
+TYPES OF URINARY CATHETERS
+1️⃣ Straight Catheter (Single Lumen)
+Short-term / one-time use
+Used to:
+●​ Obtain sterile urine specimen
+●​ Measure residual urine
+●​ Relieve retention
+●​ Empty continent diversion
+●​ Intermittent catheterization (paraplegic/quadriplegic)
+Removed immediately after drainage.
+2️⃣ Foley Catheter (Indwelling – Double Lumen)
+●​ One lumen → drains urine
+●​ One lumen → inflates balloon
+Stays in place for:
+●​ Hours
+
+●​ Days
+●​ Weeks
+Continuous drainage.
+3️⃣ Coudé Catheter (Special Double Lumen)
+●​ Curved, stiff tip
+●​ Used mostly in men with BPH or prostate enlargement
+●​ Easier passage through obstructed urethra
+Often inserted by urologist if resistance.
+4️⃣ Triple-Lumen Catheter
+Used for:
+●​ Continuous bladder irrigation
+●​ Post-prostate surgery
+●​ Removing blood clots
+One lumen drains urine​
+One inflates balloon​
+One irrigates
+ONLY 6 APPROPRIATE INDICATIONS (EXAM FAVORITE)
+Indwelling catheter is appropriate ONLY for:
+1.​ Acute urinary retention/obstruction
+2.​ Accurate urine measurement in critically ill
+3.​ Complex surgical procedures
+4.​ Protect sacral/perineal wounds in incontinent patients
+5.​ Prolonged immobilization
+6.​ End-of-life comfort
+Not for convenience.
+
+⚠️
+
+CAUTI (Catheter-Associated UTI)
+~80% of UTIs are catheter-related.
+Prevention:
+●​ Use smallest appropriate catheter
+●​ Use sterile technique
+●​ Maintain CLOSED system
+●​ Keep bag below bladder
+●​ Remove ASAP
+●​ Empty bag when ⅔ full
+ROUTINE CATHETER CARE
+●​ Clean meatus 1–2 times daily
+●​ Soap & water or chlorhexidine (per facility)
+●​ No routine irrigation
+●​ Change catheter only if:
+○​ Encrusted
+○​ Blocked
+○​ Damaged
+
+SUPRAPUBIC CATHETER
+Inserted through abdominal wall above symphysis pubis.
+Used when:
+●​ Urethral obstruction
+●​ Trauma
+●​ Prostate issues
+Care:
+●​ Clean daily
+●​ No creams
+●​ Monitor redness, drainage
+●​ Encourage fluids
+EXTERNAL CATHETERS
+External Female Catheter
+●​ Wicking system
+●​ Suction drainage
+●​ Reduces CAUTI risk
+External Male (Condom Catheter)
+Applied over penis.
+Advantages:
+●​ Less UTI risk than Foley
+●​ More comfortable
+Risks:
+●​ Skin breakdown
+●​ Necrosis
+●​ Strangulation
+Change daily.​
+Assess skin every shift.
+PERINEAL CARE (Very Testable)
+Urine → converts to ammonia → causes skin maceration.
+Prevention:
+●​ Clean with soap/water
+●​ Avoid harsh products
+●​ Dry thoroughly
+●​ Women wipe front to back
+●​ Use moisture barrier cream if needed
+Monitor:
+●​ Redness
+●​ Breakdown
+●​ Ulceration
+URINARY DIVERSION
+Types:
+Incontinent (Urostomy / Ileal Conduit)
+
+●​ Stoma on abdomen
+●​ Urine drains into bag
+Continent Diversion (Indiana pouch, Kock pouch)
+●​ Internal reservoir
+●​ Patient self-catheterizes
+Orthotopic Neobladder
+●​ Intestine forms new bladder
+●​ Connected to urethra
+Nursing Focus:
+●​ Stoma assessment (pink, moist)
+●​ Skin integrity
+●​ Monitor mucus (normal)
+●​ Encourage independence
+●​ WOCN referral
+OBTAINING URINE SPECIMENS
+Routine UA
+Clean container
+Culture & Sensitivity
+Clean-catch midstream (sterile cup)
+From Indwelling Catheter
+●​ Obtain from sampling port
+●​ Never from bag
+Straight Catheterization
+Sterile technique
+EVALUATION (Nursing Process)
+Document:
+●​ Met
+●​ Partially met
+●​ Unmet
+Goals:
+●​ No infection
+●​ Adequate output
+●​ No retention
+●​ Intact skin
+●​ Independent toileting
+Galen Exam Triggers
+If:
+●​ Urine <30 mL/hr → report
+●​ Catheter >2 weeks and still needed → replace
+●​ Fever + catheter → suspect CAUTI
+●​ Bladder distention post-op → scan first, then cath
+
+CHAPTER 40 – BOWEL ELIMINATION
+Introduction – Why Bowel Elimination Matters
+●​ Bowel elimination is private in society.
+●​ In health care, it must be openly assessed.
+●​ Patients may feel:
+○​ Embarrassment
+○​ Discomfort
+○​ Threat to self-esteem
+●​ Nurse must be:
+○​ Sensitive
+○​ Respectful
+○​ Professional
+Why elimination is critical
+●​ Removes solid waste
+●​ Maintains:
+○​ Nutrition
+○​ Hydration
+○​ Fluid balance
+○​ Electrolyte balance
+●​ Can be disrupted by:
+○​ Diet & fluids
+○​ Illness
+○​ Surgery
+○​ Medications
+○​ Immobility
+○​ Psychological stress
+●​ Severe alteration = life-threatening
+●​ Monitoring bowel patterns = essential nursing assessment
+NORMAL STRUCTURE & FUNCTION (LO 40.1)
+GI Tract
+Definition:​
+System responsible for digestion and absorption.
+Function related to bowel elimination:
+●​ Forms waste
+●​ Stores waste
+●​ Eliminates waste
+Extends:​
+Mouth → Anus
+Esophagus
+Definition:​
+Collapsible tube connecting pharynx to stomach.
+Function:
+
+●​ Transports food and liquid to stomach.​
+Ends at:​
+Lower esophageal sphincter (LES)
+Stomach
+Location:​
+Left upper quadrant (LUQ)
+Function:
+●​ Mixes food with digestive juices
+●​ Breaks food down chemically & mechanically
+●​ Forms chyme
+Chyme
+Thick, partially digested food + gastric secretions.
+Stomach Secretions
+●​ Hydrochloric acid → kills bacteria, breaks food down
+●​ Pepsin → breaks down protein
+●​ Intrinsic factor → needed for Vitamin B12 absorption
+●​ Mucus → protects stomach lining
+Small Intestine
+Length:​
+~6 meters (18–21 ft)
+Function:
+●​ Digestion
+●​ Nutrient absorption​
+3 Segments
+Duodenum
+●​ Receives bile & pancreatic enzymes
+●​ Neutralizes stomach acid​
+Jejunum
+●​ Absorbs carbohydrates & proteins​
+Ileum
+●​ Absorbs:
+○​ Fats
+○​ Bile salts
+○​ Water
+●​ Empties into large intestine
+Large Intestine
+Length:​
+1.5 m (5.5 ft)
+Main organ of bowel elimination.
+
+Parts:
+●​ Cecum
+●​ Ascending colon
+●​ Transverse colon
+●​ Descending colon
+●​ Sigmoid colon
+●​ Rectum
+●​ Anus​
+Peristalsis
+Wave-like contractions that move stool forward.
+Functions:
+●​ Absorbs water
+●​ Absorbs electrolytes (Na, Cl)
+●​ Secretes bicarbonate
+●​ Excretes potassium (4–9 mEq/day)
+●​ Forms feces
+⚠ Electrolyte imbalance can occur with colon dysfunction.
+Rectum & Anus
+Rectum:
+●​ 10–15 cm
+●​ Stores feces temporarily
+Anus:
+●​ 2.5–5 cm​
+●​ Contains:
+○​ Internal sphincter (involuntary)
+○​ External sphincter (voluntary)​
+Hemorrhoids
+Swollen veins caused by straining.
+Defecation
+Definition:​
+Final process of eliminating feces.
+Occurs when:
+●​ Peristalsis pushes stool into rectum
+●​ Rectal nerves trigger urge​
+Normal frequency:
+●​ 2–3 times per week
+●​ To several times per day​
+Stool can be:
+●​ Hard
+
+●​ Formed
+●​ Soft
+●​ Liquid
+●​ Brown (varies with diet, meds, illness)
+ALTERED STRUCTURE & FUNCTION (LO 40.2)
+Common in hospitalized patients.
+Causes:
+●​ Surgery
+●​ Disease
+●​ Diet change
+●​ Medications
+●​ Immobility
+●​ Stress
+●​ Anxiety
+●​ Depression
+●​ Eating disorders​
+Nurse role:
+●​ Recognize alteration
+●​ Identify risks
+●​ Prevent complications​
+ALTERED STRUCTURE AND FUNCTION OF THE GI TRACT (LO 40.2)
+General Concept
+Hospitalized patients are at high risk for bowel alterations.
+Causes of Alteration
+Physiologic
+●​ Surgery
+●​ Disease processes
+●​ Diet changes
+●​ Medication effects
+●​ Immobility
+Psychological
+●​ Stress
+●​ Anxiety
+●​ Depression
+●​ Eating disorders
+Nurse Role
+●​ Recognize alteration
+●​ Identify risks
+●​ Prevent worsening condition
+●​ Protect patient health status
+ABNORMAL DEFECATION PATTERNS
+
+Any alteration in GI function can cause serious complications because:
+●​ GI processes food & fluids
+●​ Impaired elimination affects:
+○​ Nutrition
+○​ Hydration
+○​ Electrolytes
+○​ Treatment outcomes
+DIARRHEA
+Definition
+Abnormal increase in frequency and fluidity of bowel movements.
+Characteristics
+●​ Hyperactive bowel sounds
+●​ Urgency
+●​ Abdominal pain
+●​ Cramping
+●​ Liquid or unformed stool
+●​ Difficulty controlling urge​
+What Happens Physiologically
+●​ Increased intestinal motility
+●​ Stool moves too fast
+●​ Decreased time for:
+○​ Fluid absorption
+○​ Nutrient absorption
+Result → Fluid & electrolyte loss
+Causes of Diarrhea
+●​ Food allergies/intolerance
+●​ Antibiotics
+●​ Laxatives/cathartics
+●​ Foodborne pathogens
+●​ Colon disease
+●​ Lower GI diagnostic testing
+●​ Enteral nutrition
+●​ Medications
+●​ Psychological stress
+●​ GI surgery
+●​ Clostridioides difficile (C. diff)
+C. difficile (C. diff)
+Bacterium that causes diarrhea and can cause life-threatening colitis.
+Risk Group
+●​ Older adults
+●​ Hospitalized patients
+
+●​ Long-term care residents
+●​ After antibiotic use​
+Symptoms
+●​ Foul-smelling watery diarrhea
+●​ 3+ stools per day
+●​ ≥ 2 days
+●​ Mild abdominal cramping
+●​ Tenderness​
+⚠ Easily transmitted by contact​
+⚠ Harder to treat
+Complications of Diarrhea
+●​ Dehydration
+●​ Electrolyte imbalance
+●​ Nutritional deficiency
+●​ Fatigue
+●​ Weakness
+●​ Malaise
+●​ Muscle loss
+●​ Confusion
+●​ Restlessness
+●​ Muscle spasms
+●​ Skin breakdown (anal irritation)
+⚠ Infants & elderly = highest risk
+INCONTINENCE
+Definition
+Loss of voluntary control of feces and gas.
+Effects
+●​ Body image disturbance
+●​ Social isolation
+●​ Embarrassment
+●​ Skin breakdown risk​
+Patient may be:
+●​ Alert
+●​ Aware
+●​ Unable to control defecation
+CONSTIPATION
+Definition
+●​ Fewer than 3 bowel movements per week
+●​ Difficult or infrequent bowel movements
+What Happens Physiologically
+
+●​ Slowed peristalsis
+●​ Increased water absorption in colon
+●​ Hard stool
+●​ Excessive straining
+Signs & Symptoms
+●​ Hard feces
+●​ Straining
+●​ Rectal pain
+●​ Abdominal cramping
+●​ Pressure
+●​ Distention
+●​ Anorexia
+●​ Headache
+Causes of Constipation
+Lifestyle
+●​ Ignoring urge
+●​ Low fiber diet
+●​ High animal fat diet
+●​ Low fluid intake
+●​ Irregular bowel habits
+●​ Bed rest
+●​ Lack of exercise​
+Neurologic
+●​ Spinal cord injury
+●​ Tumors​
+Metabolic
+●​ Hypothyroidism
+●​ Hypercalcemia​
+Hypokalemia​
+Psychiatric
+●​ Anxiety
+●​ Depression
+●​ Cognitive impairment​
+Medications
+●​ Anticholinergics
+●​ Antispasmodics
+●​ Anticonvulsants
+●​ Antidepressants
+●​ Antihistamines
+●​ Antihypertensives
+
+●​ Antiparkinsonian drugs
+●​ Diuretics
+●​ Antacids
+●​ Iron supplements
+●​ Calcium supplements
+●​ Opioids​
+⚠ Laxative misuse → rebound constipation
+Older Adults
+●​ Slowed peristalsis
+●​ Reduced mucus
+●​ Low fiber intake​
+Hemorrhoids
+●​ Pain → stool retention → worsens constipation
+RISKS OF CONSTIPATION
+Straining during defecation can cause:
+●​ Increased intraocular pressure
+●​ Increased intracranial pressure
+●​ Cardiac rhythm changes
+●​ Hemorrhoids
+VALSALVA MANEUVER
+Definition:​
+Bearing down while holding breath.
+What happens:
+●​ Increased intrathoracic pressure
+●​ Rapid rise in BP
+●​ Sudden drop in BP​
+Results:
+●​ Dizziness
+●​ Blurred vision
+●​ Fainting​
+⚠ High risk in cardiac patients
+IMPACTION
+Definition
+Hard fecal mass in rectum or colon that cannot be expelled.
+Cause
+●​ Unresolved constipation
+●​ Stool becomes wedged in bowel​
+High-Risk Patients
+●​ Debilitated
+
+●​ Confused
+●​ Unconscious
+Signs & Symptoms
+●​ No normal stool for several days
+●​ Repeated urge to defecate
+●​ Cardinal sign: continuous oozing of liquid stool
+○​ Liquid stool leaks around hardened mass
+●​ Loss of appetite
+●​ Nausea
+●​ Vomiting
+●​ Abdominal distention
+●​ Cramping
+●​ Rectal pain​
+Risk Factors
+●​ Barium from radiologic exams
+○​ Increases risk for impaction
+○​ Encourage fluids after barium
+○​ May need laxatives or enemas
+Diagnosis
+●​ Digital rectal exam
+●​ Palpation of fecal mass​
+Digital removal:
+●​ Within nursing scope (depends on facility policy)
+●​ May require PCP order
+FLATULENCE
+Definition
+Gas produced in intestine during digestion.
+Gas (flatus) expelled by:
+●​ Mouth → belching
+●​ Anus → passing gas
+Causes
+●​ Bacterial action in colon
+●​ Swallowed air
+●​ Gas diffusion from bloodstream
+●​ Gas-forming foods:
+○​ Cabbage
+○​ Onions
+●​ Abdominal surgery
+●​ Narcotics
+
+Signs & Symptoms
+●​ Gas pressure
+●​ Abdominal distention
+●​ Sharp pain
+●​ Audible sounds
+Nursing Points
+●​ Normal sign of bowel activity
+●​ Document return of flatus after surgery
+●​ Walking or rocking helps relieve gas
+●​ Rectal tube may be needed if severe
+BOWEL DIVERSIONS
+Terminology
+Ostomy
+●​ Surgically created opening
+●​ Exits onto skin​
+Stoma
+●​ Actual visible opening
+●​ Slight protrusion of mucosa
+●​ Should be:
+○​ Dark pink to red
+○​ Warm
+○​ Moist
+○​ Similar to lips
+Purpose of Bowel Diversions
+●​ Divert fecal material
+●​ Temporary or permanent
+●​ Used when normal passage through rectum is not possible
+Stool Consistency Depends on Location
+●​ Ileostomy → very liquid stool
+●​ Descending colostomy → formed stool​
+Because:​
+Water reabsorption varies by location in bowel.
+COLOSTOMY
+Definition
+Portion of colon brought through abdominal wall to allow stool passage.
+Temporary Colostomy
+●​ Allows lower colon to heal
+
+●​ Often emergency surgery
+●​ Can be reversed
+●​ May have 1 or 2 openings
+○​ One may discharge mucus only
+Permanent Colostomy
+●​ After colon resection (e.g., cancer)
+●​ End (terminal) colostomy
+●​ Distal portion removed or sewn closed
+Types of Colostomies
+Descending / Sigmoid Colostomy
+●​ Most common
+●​ Located LLQ
+●​ Produce solid stool
+●​ Frequency can be regulated
+●​ May not need appliance at all times
+●​ Odor usually controlled
+Transverse Colostomy
+●​ Upper abdomen (middle/right)
+●​ Semiformed, liquid stool
+●​ Malodorous
+●​ No control over discharge
+●​ Appliance worn at all times
+Ascending Colostomy
+●​ Right side abdomen
+●​ Liquid stool
+●​ Digestive enzymes present
+●​ Cannot regulate
+●​ Rare
+Loop Colostomy
+●​ Temporary
+●​ Right abdomen
+●​ One stoma, two openings
+○​ Proximal → stool
+○​ Distal → mucus
+●​ Large stoma
+●​ Difficult to manage
+Double-Barrel Colostomy
+●​ Two separate stomas
+●​ Proximal → functional
+●​ Distal → nonfunctional
+
+●​ Bowel surgically severed
+ILEOSTOMY
+Definition
+Opening in small intestine (ileum).
+Stool Characteristics
+●​ Frequent
+●​ Liquid
+●​ Cannot regulate
+●​ Contains digestive enzymes
+●​ Can damage skin
+●​ Odor minimal (few bacteria)​
+Nursing Priority
+●​ Continuous appliance
+●​ Skin protection
+●​ Monitor fluid & electrolytes​
+ILEOANAL POUCH (J-Pouch)
+●​ Colon and most rectum removed
+●​ Internal pouch created from ileum
+●​ Attached to anus
+●​ No stoma
+●​ Anal sphincter intact
+●​ Temporary ileostomy first for healing​
+Also called:
+●​ Pull-through
+●​ Pelvic pouch
+●​ J-pouch
+KOCK POUCH
+●​ Internal reservoir from ileum
+●​ Valve created
+●​ Stoma present
+●​ Catheter inserted several times daily to drain feces
+Good. Same order. Clean study notes. Fundamentals level. No extra content.
+FACTORS AFFECTING BOWEL ELIMINATION
+Elimination patterns are individualized.
+Influenced by:
+●​ Age
+●​ Environment
+●​ Culture
+●​ Diet
+
+●​ Physical activity
+●​ Emotional health
+●​ Surroundings​
+DIET
+Daily food intake maintains peristalsis.
+Fiber
+High-fiber diet promotes normal elimination.
+Sources:
+●​ Whole grains
+●​ Fresh fruits
+●​ Vegetables​
+Recommended intake:​
+20–35 g fiber/day (adults)
+Fiber:
+●​ Adds bulk
+●​ Keeps stool soft
+●​ Flushes fats & waste
+Gas-Producing Foods
+●​ Onions
+●​ Cauliflower
+●​ Beans​
+Effects:
+●​ Intestinal distention
+●​ Increased colon motility
+●​ Flatulence
+Food Intolerance
+Example:
+●​ Lactose intolerance​
+Symptoms:
+●​ Watery stool
+●​ Diarrhea
+●​ Cramps
+●​ Flatulence
+Fluid Intake
+Increased fluids:
+●​ Easier stool passage​
+Low fluid intake:
+
+●​ Slower stool movement
+●​ More water reabsorption
+●​ Hard stool
+●​ Constipation risk
+Foods That Affect Stool
+Spicy foods → diarrhea, gas​
+Cheese, pasta, eggs, lean meats → constipation​
+Bran, prunes, figs, chocolate, alcohol → laxative effect
+Regular mealtimes:
+●​ Promote regular peristalsis
+PHYSICAL ACTIVITY
+Regular exercise:
+●​ Promotes peristalsis
+●​ Moves chyme through colon
+●​ Maintains abdominal & pelvic muscle tone​
+Lack of activity:
+●​ Weak abdominal muscles
+●​ Poor intra-abdominal pressure
+●​ Constipation
+PSYCHOLOGICAL FACTORS
+Stress:
+●​ Increases peristalsis
+●​ Causes diarrhea, nausea, gas​
+Stress-related diseases:
+●​ Colitis
+●​ Crohn’s disease
+●​ Ulcers
+●​ IBS​
+Depression:
+●​ Slows peristalsis
+●​ Causes constipation​
+PERSONAL HABITS
+Influenced by:
+●​ Privacy
+●​ Bathroom availability
+●​ Busy schedule
+●​ Hospital environment
+Hospital factors:
+
+●​ Embarrassment (bedpan, shared toilets)
+●​ Ignoring urge to defecate​
+Ignoring urge:
+●​ Increased water absorption
+●​ Hard stool
+●​ Constipation
+●​ Impaction​
+Chronic suppression:
+●​ Loss of urge reflex
+POSTURE
+Normal defecation posture:
+●​ Squatting​
+Immobility:
+●​ Weak abdominal contraction
+●​ Difficult defecation​
+Nursing action:
+●​ Elevate head of bed if allowed
+PAIN
+Causes suppression of urge:
+●​ Hemorrhoids
+●​ Rectal surgery
+●​ Fistulas
+●​ Abdominal surgery​
+Repeated suppression:
+●​ Constipation​
+Narcotics:
+●​ Slow peristalsis
+●​ Cause constipation​
+Stool softeners may be ordered.
+PREGNANCY
+●​ Enlarged uterus presses on rectum
+●​ Difficult stool passage
+●​ Increased risk hemorrhoids
+●​ Iron in prenatal vitamins → constipation
+SURGERY & ANESTHESIA
+
+Anesthesia:
+●​ Blocks parasympathetic stimulation
+●​ Slows or stops peristalsis​
+Manipulation of intestines:
+●​ Temporary bowel shutdown​
+Paralytic Ileus
+Definition:​
+Temporary cessation of peristalsis
+Duration:​
+24–48 hours
+Risk increases if:
+●​ Patient inactive
+●​ NPO for long time​
+Less common with:
+●​ Spinal/local anesthesia​
+Nursing priorities:
+●​ Early ambulation
+●​ Assess bowel sounds frequently
+MEDICATIONS
+Medications That Promote Defecation
+Laxatives:
+●​ Bulk-forming
+●​ Osmotic
+●​ Saline
+●​ Stimulant
+●​ Stool softeners​
+Cathartics:
+●​ Strong laxatives
+●​ Change GI transit time​
+Medications That Slow GI Motility
+●​ Anticholinergics
+●​ Opioids
+●​ Antihistamines
+●​ Antidepressants
+●​ Calcium supplements
+Medications Causing Diarrhea
+●​ Antibiotics (alter normal flora)
+
+Medications Affecting Stool Color
+NSAIDs (GI bleeding):
+●​ Red stool
+●​ Black stool​
+Iron:
+●​ Black stool
+●​ Constipation​
+Antacids:
+●​ White stool
+●​ White specks
+DIAGNOSTIC TESTS
+Before procedure:
+●​ Restricted diet
+●​ Cleansing enemas
+●​ Bowel prep​
+After procedure:
+●​ Increased gas
+●​ Loose stool
+●​ Temporary change in elimination
+Good. Same order. Clean study notes. Fundamentals level.
+ASSESSMENT (LO 40.3)
+Purpose:​
+Identify bowel patterns, abnormalities, and possible problems.
+Assessment includes:
+●​ Subjective data
+●​ Objective data​
+Components:
+●​ Focused interview
+●​ Health history
+●​ Abdominal physical exam
+●​ Inspection of feces
+●​ Diet history​
+○​ Chewing problems
+○​ Medications
+○​ Illnesses
+○​ Food intolerance
+Nursing Considerations During Assessment
+
+Consider:
+●​ Physical ability
+●​ Mental status
+●​ Functional ability
+●​ Home environment
+●​ Family/social support​
+Priority:
+●​ Identify immediate problems
+●​ Relieve symptoms
+●​ Then complete full assessment
+HEALTH HISTORY
+Goal:​
+Identify normal vs abnormal bowel patterns.
+Compare:
+●​ Patient’s usual pattern
+●​ Current pattern​
+Include history of:
+●​ GI surgeries
+●​ GI illnesses
+●​ GI cancer
+●​ Crohn’s disease
+●​ Familial GI disorders
+GASTROINTESTINAL & ABDOMINAL ASSESSMENT
+Step 1: Inspect Mouth
+Assess:
+●​ Teeth
+●​ Gums
+●​ Tongue
+●​ Moisture
+●​ Sores
+●​ Dentition​
+Why?
+●​ Poor dentition
+●​ Dry mucosa
+●​ Mouth sores​
+→ Can affect chewing & swallowing​
+→ Impacts nutrition & elimination
+ABDOMINAL ASSESSMENT ORDER
+Always:
+
+1.​ Inspection
+2.​ Auscultation
+3.​ Palpation
+4.​ Percussion (advanced skill)​
+Reason:​
+Palpation & percussion change peristalsis.
+INSPECTION
+Position:
+●​ Supine
+●​ Pillow under head & knees
+●​ View at eye level​
+Assess abdominal contour:
+●​ Flat
+●​ Round
+●​ Scaphoid
+●​ Protuberant (pregnancy, obesity, ascites)​
+Look for:
+●​ Distention
+●​ Taut skin
+●​ Symmetry
+●​ Bulging
+●​ Masses
+●​ Pulsations​
+Check umbilicus:
+●​ Protruding?
+●​ Displaced?​
+→ Possible hernia or mass​
+Observe:
+●​ Abdominal wall movement
+●​ Visible peristalsis​
+Increased visible peristalsis:​
+→ Possible obstruction
+Also note:
+●​ Scars
+●​ Stomas
+●​ Lesions
+AUSCULTATION
+
+Position:​
+Supine
+Start:​
+Right lower quadrant (RLQ)
+Move:​
+Systematically through all 4 quadrants
+Normal Bowel Sounds
+●​ Irregular
+●​ High-pitched
+●​ Gurgling
+●​ Every 5–15 seconds
+Hyperactive Bowel Sounds
+●​ Loud
+●​ High-pitched
+●​ Rushing​
+Common with:
+●​ Diarrhea
+●​ Inflammatory disorders
+Hypoactive Bowel Sounds
+●​ Slow
+●​ Sluggish
+●​ Fewer than 5 sounds per minute​
+Common:
+●​ After surgery
+Absent Bowel Sounds
+Possible:
+●​ Obstruction​
+●​ Paralytic ileus​
+Nursing rule:​
+Listen 5 full minutes before documenting absence.
+⚠ Ileus or obstruction = medical emergency
+PALPATION
+Purpose:​
+Assess:
+●​ Organ size
+●​ Organ placement
+●​ Masses
+
+●​ Tenderness
+●​ Fluid​
+Technique:
+●​ Light touch in all 4 quadrants
+●​ Painful areas last​
+Normal abdomen:
+●​ Soft
+●​ Smooth
+●​ Non-tender​
+Patient should:
+●​ Be relaxed
+●​ Avoid muscle tension​
+Obese patient:
+●​ May require deep or bimanual palpation​
+Important:​
+If pulsation seen → Do NOT palpate
+LABORATORY TESTS
+Purpose:
+●​ Identify cause of elimination problems
+●​ Detect:​
+○​ Bleeding
+○​ Inflammation
+○​ Infection​
+●​ Assess electrolyte balance​
+Common tests:
+●​ Stool culture
+●​ Fecal occult blood test (FOBT)
+●​ Serum electrolytes (blood draw)
+STOOL CULTURES
+Purpose
+●​ Detect parasites
+●​ Identify bacterial infection
+●​ Determine cause of diarrhea
+Indications
+Order stool culture if:
+●​ Diarrhea for several days
+
+●​ Blood in stool
+●​ Mucus in stool
+●​ History of eating:​
+○​ Undercooked meat
+○​ Raw eggs
+○​ Contaminated food​
+●​ Others who ate same food are ill
+●​ Recent travel outside U.S.
+●​ Previous GI bacterial infection (to confirm resolution)
+Interpretation
+Negative culture:
+●​ Diarrhea likely from non-bacterial cause​
+Positive culture:
+●​ Infection likely cause​
+●​ Sensitivity report identifies:​
+○​ Specific organism​
+○​ Appropriate treatment​
+FECAL OCCULT BLOOD TEST (FOBT)
+Purpose
+Detect microscopic blood in stool.
+Conditions Associated with Positive FOBT
+●​ Colon polyps
+●​ Colorectal cancer
+●​ Hemorrhoids
+●​ Anal fissures
+●​ Intestinal infections
+●​ Ulcerative colitis
+●​ Crohn’s disease
+●​ Diverticular disease
+●​ Peptic ulcers
+●​ Vascular abnormalities in colon
+Types of GI Bleeding
+Occult bleeding:
+●​ Microscopic
+
+●​ Not visible​
+Visible bleeding:
+●​ Red blood
+●​ Black, tar-like stool → melena
+Results
+Positive FOBT:
+●​ Blood present​
+Negative FOBT:
+●​ No blood detected
+Collection Guidelines
+●​ Collect 3 stool samples​
+●​ 1 day apart​
+●​ Separate specimens​
+Reason:​
+Colon cancer may bleed intermittently.
+Diet Restrictions Before FOBT
+Special diet:​
+48–72 hours before test
+Avoid:
+●​ Beets
+●​ Broccoli
+●​ Cantaloupe
+●​ Carrots
+●​ Cauliflower
+●​ Cucumbers
+●​ Fish
+●​ Grapefruit
+●​ Horseradish
+●​ Mushrooms
+●​ Poultry
+●​ Radishes
+●​ Red meat
+●​ Turnips
+●​ Vitamin C–enriched foods/beverages​
+Reason:​
+These can alter test results.
+Good. Same order. Clean, detailed study notes. Fundamentals level. No extra content.
+
+DIAGNOSTIC EXAMINATIONS
+Purpose
+●​ Identify GI alterations not seen in lab tests
+●​ Visualize GI organs
+●​ Assess function
+●​ Obtain tissue samples (biopsy)​
+Nurse responsibilities:
+●​ Prepare patient
+●​ Explain procedure
+●​ Monitor after procedure
+●​ Understand complications
+UPPER GI SERIES (Barium Swallow)
+Purpose
+Radiologic study to visualize:
+●​ Esophagus
+●​ Stomach
+●​ Duodenum​
+Helps diagnose:
+●​ Ulcers
+●​ Tumors
+●​ Hiatal hernias
+●​ Scarring
+●​ Blockages
+●​ GI abnormalities
+Risks
+●​ Radiation exposure
+●​ Notify radiology if pregnant
+Preparation
+●​ NPO 4–8 hours before test
+Procedure
+●​ Patient swallows barium liquid
+●​ Barium coats intestinal lining
+●​ X-rays taken at different angles
+Post-Procedure Care
+Major side effect:
+●​ Constipation​
+Nursing actions:
+
+●​ Encourage extra fluids
+●​ May give laxative
+●​ Monitor for barium elimination within 1–2 days​
+Normal finding after test:
+●​ Whitish stool for several days
+LOWER GI SERIES (Barium Enema)
+Purpose
+X-ray imaging of:
+●​ Rectum
+●​ Colon
+●​ Lower small intestine​
+Diagnoses:
+●​ Polyps
+●​ Ulcers
+●​ Diverticula
+●​ Colon cancer
+●​ Abnormal growths
+Procedure
+●​ Barium inserted into colon
+●​ X-rays taken
+●​ Patient changes positions​
+Patient may feel:
+●​ Fullness
+●​ Pressure
+●​ Urge to defecate
+Preparation
+●​ Restricted diet for several days
+●​ Liquid diet 2 days before
+●​ Clear liquids 24 hours before
+●​ Laxative or enema prior to procedure
+Post-Procedure
+●​ Constipation possible
+●​ Stool may be gray or white
+ENDOSCOPY (Upper Endoscopy / EGD)
+Includes:
+●​ Esophagoscopy (esophagus)
+●​ Gastroscopy (stomach)
+
+●​ Duodenoscopy (duodenum)​
+Collectively called:​
+EGD (Esophagogastroduodenoscopy)
+Purpose
+Evaluate:
+●​ Swallowing difficult
+●​ Vomiting
+●​ Bleeding
+●​ Reflux
+●​ Abdominal pain
+●​ Chest pain​
+Clarify abnormal x-ray findings
+Procedure
+●​ Flexible fiberoptic endoscope inserted through mouth
+●​ Camera visualizes structures
+Preparation
+●​ NPO at least 8 hours
+●​ Sedation given (causes drowsiness & amnesia)
+●​ Throat sprayed with numbing agent
+●​ Patient may swallow during insertion​
+Procedure time:
+●​ 10–20 minutes
+During Procedure
+●​ Air injected → fullness feeling
+●​ Biopsy may be taken
+●​ Electrosurgery may treat conditions
+●​ Photos/video may be taken
+Post-Procedure Nursing Care
+●​ No driving for 12 hours
+●​ Check gag reflex before giving food or fluids
+COLONOSCOPY
+Purpose
+Visualize:
+●​ Anus
+●​ Rectum
+●​ Colon
+Diagnoses:
+
+●​ Colorectal cancer
+●​ Polyps
+●​ Ulcers
+●​ Inflammation
+●​ Bleeding
+●​ Unexplained bowel changes
+●​ Weight loss
+Preparation
+●​ Clear liquid diet 1–3 days
+●​ Avoid red or purple dye
+●​ Bowel prep, laxative, or enema night before
+●​ NPO several hours before
+Patient must report:
+●​ Aspirin use
+●​ Anticoagulants
+●​ Diabetes medications
+●​ Iron supplements
+●​ Arthritis medications
+Procedure
+●​ Patient lies on left side
+●​ IV sedative given
+●​ Colonoscope inserted through anus
+●​ Camera displays colon lining
+Possible Complications
+●​ Bleeding (uncommon)
+●​ Bowel perforation (rare)
+During Procedure
+●​ Polyps removed
+●​ Biopsy taken
+●​ Bleeding treated
+Post-Procedure
+●​ Cramping
+●​ Bloating (first hour)
+●​ No driving for 12 hours​
+NURSING DIAGNOSIS (LO 40.4)
+After assessment:
+●​ Identify actual elimination problem​
+
+●​ Or risk for elimination problem​
+Use:​
+ICNP nursing diagnoses
+Cluster supporting data to determine diagnosis.
+DIARRHEA
+Supporting Data
+●​ Soft, distended abdomen
+●​ Hyperactive bowel sounds
+●​ Reports of diarrhea
+●​ Then no stool for a few days
+●​ Cramping ↑ after eating
+●​ Relief after bowel movement
+●​ Nausea
+●​ Belching
+●​ Anorexia
+●​ Recent weight loss (“lost 5 lbs”)
+●​ Liquid, mucousy stool
+CONSTIPATION
+Supporting Data
+●​ Narcotic use
+●​ Poor fluid intake
+●​ No stool for several days
+●​ Hypoactive bowel sounds
+●​ Firm abdomen
+●​ Abdominal tenderness
+BOWEL INCONTINENCE
+Supporting Data
+●​ Sphincter dysfunction
+●​ Constant dribbling of soft/liquid stool
+●​ Cannot recognize urge to defecate
+●​ Fecal staining of underclothes
+Associated Nursing Diagnoses
+May also include:
+●​ Disturbed Body Image
+●​ Risk for Impaired Skin Integrity
+●​ Fluid Imbalance
+●​ Impaired Self-Toileting
+●​ Acute Pain
+●​ Chronic Pain
+PLANNING (LO 40.5)
+
+Goals focus on:
+●​ Maintaining normal elimination
+●​ Returning to previous function
+●​ Preventing complications
+Example Goals
+●​ Patient will defecate formed stool within 48 hours after colonoscopy.
+●​ Patient will pass soft stool daily during rehabilitation.
+●​ Episodes of bowel incontinence will decrease within 48 hours after starting bowel
+training.
+Good. Same order. Clean. No extra. Fundamentals format.
+IMPLEMENTATION AND EVALUATION (LO 40.6)
+Nurse promotes regular bowel elimination by:
+●​ Assisting with techniques
+●​ Reinforcing healthy habits
+●​ Managing diarrhea, constipation, impaction, incontinence
+●​ Managing bowel diversions
+INTERVENTIONS
+Establish Regular Pattern
+●​ Assess normal elimination pattern
+●​ Encourage regular schedule
+●​ Avoid laxative overuse​
+Risks of chronic laxative use:
+●​ Constipation
+●​ Impaction
+●​ Colorectal cancer risk
+●​ Dependency
+●​ Electrolyte imbalance
+Promote Normal Bowel Regimen
+Key components:
+●​ Fluid
+●​ Fiber
+●​ Activity
+●​ Regular defecation schedule​
+Warm liquids → stimulate peristalsis
+Avoid straining:
+●​ Valsalva maneuver
+●​ Can cause bradycardia
+●​ Risk in cardiac patients
+Monitoring
+
+●​ Daily weight (fluid balance indicator)
+●​ Monitor mental status (risk for incontinence)
+●​ Check for impaction before giving antidiarrheals
+●​ Monitor elderly closely (high impaction risk)
+Fecal management system:
+●​ Used in immobile incontinent patients
+●​ Protects skin
+●​ Similar to urinary drainage system
+DIARRHEA MANAGEMENT
+●​ Strict hand hygiene
+●​ Contain stool
+●​ Protect skin​
+Barrier creams:
+●​ Zinc oxide
+●​ Lanolin
+●​ Petroleum-based products​
+Remove soiled barrier → reapply after cleansing
+PREVENTIVE SCREENING
+Colorectal screening:
+●​ FOBT yearly starting at age 45
+●​ Colonoscopy begins at 45 (earlier if high risk)
+●​ Stool tests: every 1–3 years
+●​ Colonoscopy: every 5–10 years
+DIET
+For Constipation
+●​ 20–35 g fiber daily
+●​ 6–8 glasses fluid daily
+●​ Fruits, vegetables, bran, beans​
+For Diarrhea
+●​ Bland, small meals
+●​ Avoid milk, caffeine, spices, gas-producing foods
+●​ Avoid hot/cold liquids
+●​ Use tepid liquids
+●​ Prevent dehydration (oral/IV fluids)​
+Tube Feeding
+●​ Rinse container every 8 hours
+●​ Replace container every 24 hours
+●​ Slow rate if diarrhea
+●​ Use soluble fiber (psyllium)
+
+●​ Monitor fluid & electrolytes
+EXERCISE
+●​ Early ambulation
+●​ Turn/reposition
+●​ ROM exercises
+●​ Walk 10–15 minutes daily
+●​ Wait 1 hour after meals before exercise
+PROMOTING NORMAL PATTERNS IN FACILITIES
+●​ Provide privacy
+●​ Offer frequent toileting
+●​ Encourage independence
+●​ Prevent falls
+●​ Assist to commode if weak
+BEDPAN
+●​ Respond quickly to urge
+●​ Limit time ≤ 10 minutes
+●​ Prevent pressure injury
+●​ Maintain privacy
+●​ Gloves required
+●​ Hand hygiene
+●​ Disinfect after each use
+SAFE PRACTICE ALERT
+When cleaning bedpan:
+Always wear gloves.
+If splashing risk:
+●​ Gloves
+●​ Gown
+●​ Mask
+●​ Eye protection
+BEDSIDE COMMODE
+●​ Portable toilet chair
+●​ Used for patients who can transfer
+●​ Safety during transfer is priority
+EARLY AMBULATION
+●​ Stimulates peristalsis
+●​ Encouraged ASAP post-op
+BOWEL PATTERN RESTORATION
+Goal:​
+Return to previous function
+
+May require:
+●​ Bowel training
+●​ Scheduled elimination
+●​ Medications
+ANTIDIARRHEAL MEDICATIONS
+Purpose:
+●​ Slow motility
+●​ Increase fluid absorption​
+Common:
+●​ Loperamide
+●​ Diphenoxylate-atropine​
+Given 48–72 hours
+Caution:
+●​ Habit-forming
+●​ Determine cause first
+LAXATIVES & STOOL SOFTENERS
+Cathartics:
+●​ Strong effect
+●​ Induce defecation​
+Laxatives:
+●​ Mild
+●​ Soften stool​
+Contraindicated if:
+●​ Nausea
+●​ Vomiting
+●​ Undiagnosed abdominal pain​
+Chronic use → rebound constipation
+SUPPOSITORIES
+●​ Insert into rectum
+●​ Must touch mucosa
+●​ Work in ~30 minutes
+●​ Soften stool
+●​ Distend rectum
+ENEMAS
+Definition:​
+Introduction of fluid into rectum and sigmoid colon
+Purpose:
+
+●​ Relieve constipation
+●​ Remove impaction
+●​ Pre-diagnostic prep
+●​ Bowel training
+●​ Medication administration​
+Effect:​
+Distends colon → stimulates evacuation
+NASOGASTRIC (NG) INTUBATION
+Purpose:
+●​ Decompression
+●​ Medication
+●​ Enteral feeding
+●​ Lavage
+●​ Control bleeding​
+Large-bore tubes:
+●​ ≥ 12 Fr
+●​ Used for decompression​
+Salem sump:
+●​ Two lumens
+●​ One suction
+●​ One air vent​
+Used in:
+●​ Ileus
+●​ Obstruction
+●​ Trauma
+●​ Surgery
+OSTOMY CARE
+Appliances:
+●​ One-piece
+●​ Two-piece (wafer + pouch)​
+Wafer:
+●​ Protects skin
+Drainable pouch:
+●​ Used for frequent emptying​
+Skin protection:
+●​ Barrier wipes
+●​ Sprays
+
+●​ Powders
+WOCN (Wound Ostomy Continence Nurse)
+●​ Consult early
+●​ Teaches self-care
+●​ Prevents skin damage
+●​ Manages diversion
+BODY IMAGE & SUPPORT
+Ostomy may cause:
+●​ Disturbed body image
+●​ Low self-esteem
+●​ Sexual concerns
+●​ Social isolation​
+Stoma should be:
+●​ Dark pink/red
+●​ Warm
+●​ Moist​
+Encourage:
+●​ Early participation in care
+●​ Emotional expression
+●​ Support groups​
+Odor control:
+●​ Special appliances
+●​ Deodorizing products​
+EVALUATION
+Evaluation of goals and outcomes for patients with bowel elimination problems is essential.
+Goals may include:
+●​ Return to normal bowel function
+●​ Maintenance of current function within patient’s condition​
+The nurse must determine:
+●​ Were the goals met?
+●​ If not, why?
+If Goals Are Not Met
+The nurse:
+●​ Reviews the plan of care
+●​ Revises bowel-related interventions as needed​
+Reassess:
+●​ Current food intake
+
+●​ Fluid intake
+●​ Medication use
+●​ Activity level
+●​ Patient knowledge​
+These factors are evaluated to determine their effect on GI function.
+Ongoing Process
+●​ Include the patient in changes to the plan of care
+●​ Reevaluate interim steps
+●​ Continuously readjust interventions as needed
+
+CHAPTER 35 – Medication Administration
+Nurse’s Role in Medication Administration
+Historically:
+●​ Nurses administered prescribed medications at scheduled times.
+●​ Given by the prescribed route.
+●​ Minimal assessment.
+●​ Minimal documentation.​
+Today:
+●​ Role and responsibility are more complex.
+●​ Safe nursing practice includes knowledge of:​
+○​ Medication actions
+○​ Side effects
+○​ Interactions with foods, herbs, and other medications
+○​ Associated assessment and evaluation
+○​ Ethical considerations
+○​ Legal aspects of medication therapy​
+Medications are prescribed to:
+●​ Help diagnose illness
+●​ Treat illness
+●​ Prevent illness
+●​ Relieve symptoms
+●​ Cure illness
+●​ Nurses must integrate self-prescribed medications and herbs into the plan of care.
+Medication Management
+Requires collaboration with:
+●​ Prescribing primary care provider (PCP)
+●​ Pharmacist
+●​ Respiratory therapist
+●​ Dietitian​
+Nurse’s essential role:
+●​ Educate patients about medications
+●​ Administer medications according to accepted protocols
+●​ Evaluate the patient’s response​
+Patient education helps prevent:
+●​ Illness relapse
+●​ New medical problems
+●​ Patient injury
+●​ Family members or caregivers may be included in teaching.
+●​ Clinical judgment is needed before, during, and after medication administration.
+
+●​ Continuing education ensures:​
+○​ Standards of practice are met
+○​ New/unfamiliar medications are administered properly
+○​ Medication technology is used correctly​
+MEDICATIONS AND REGULATIONS (LO 35.1)
+Medications:
+●​ Substances that can prevent, improve, or reduce symptoms of a medical condition.​
+Objective of drug therapy:
+●​ Provide maximum benefit
+●​ Cause minimum harm
+●​ Ongoing research supports medication use.
+●​ The chemical makeup of a medication determines its action in the body.
+DRUGS AND MEDICATIONS
+Drug:
+●​ Any substance that positively or negatively alters physiologic function.​
+Medication:
+●​ A drug administered for its therapeutic effect.​
+Medications and preparations may be researched using:
+●​ Drug textbooks
+●​ Point-of-care software
+Medication Names
+Medications can have four designations:
+1.​ Chemical name
+2.​ Official name
+3.​ Generic name
+4.​ Trade (brand) name
+●​ Chemical name: describes the molecular structure.
+●​ Official name: assigned by the U.S. Adopted Names Council (usually the generic name).
+●​ Generic name: not capitalized; may contain a prefix or suffix identifying drug class.
+●​ Trade name: registered name assigned by the manufacturer.​
+Example:​
+Beta blockers often end in -olol
+●​ propranolol
+●​ metoprolol
+●​ labetalol​
+MEDICATION STANDARDS AND REGULATIONS
+
+●​ Medications are synthesized in a laboratory or developed from plant, mineral, or animal
+sources.
+●​ Medications vary in:​
+○​ Purity
+○​ Potency
+○​ Efficacy
+○​ Safety
+○​ Toxicity​
+●​ The United States and other governments developed standards to ensure uniform quality
+so that effects are predictable.​
+Official medication lists in the United States:
+●​ United States Pharmacopeia (USP) — since 1820
+●​ National Formulary (NF) — since 1898​
+These sources:
+●​ Protect public safety
+●​ Identify medication properties
+●​ Establish appropriate range of quality and purity
+Regulation of Medications in the United States
+●​ Medication administration is regulated by law.​
+●​ The Pure Food and Drug Act of 1906:​
+○​ Designated USP and NF as official authorities
+○​ Required medications to be free of impurities​
+Subsequent legislation sets standards related to:
+●​ Safety
+●​ Potency
+●​ Sales
+●​ Distribution
+●​ Efficacy​
+Controlled substances:
+●​ Have government-regulated manufacturing
+●​ Prescribing requirements
+●​ Dispensing requirements​
+Enforcement of medication legislation is the responsibility of the:
+●​ U.S. Food and Drug Administration (FDA)​
+The FDA:
+
+●​ Mandates safety testing before medications are released to the public
+Controlled Substances
+●​ Use of controlled substances is governed by law.​
+The:
+●​ Comprehensive Drug Abuse Prevention and Control Act​
+(Informally called the Controlled Substances Act — CSA)​
+The CSA:
+●​ Established five categories of scheduled drugs
+●​ Refers to these as controlled substances​
+Objective of the CSA:
+●​ Reduce diversion of drugs from legitimate sources to drug abusers​
+The CSA mandates regulations for:
+●​ Manufacturers
+●​ Distributors
+●​ Pharmacists
+●​ Nurses
+●​ Care providers​
+Compliance is monitored by:
+●​ Drug Enforcement Administration (DEA)​
+(Office within the U.S. Department of Justice)
+Documentation Requirements
+For controlled substances:
+●​ Written record required for all transactions
+●​ Every purchase or dispensing must be documented
+●​ Inventory must be maintained
+●​ Inventory reported to DEA every 2 years​
+Many hospitals and clinics require:
+●​ Floor stock counted at beginning and end of each nursing shift​
+If a controlled drug must be wasted:
+●​ Two licensed clinical staff must witness disposal
+●​ Disposal must be documented
+STATE AND LOCAL MEDICATION REGULATIONS
+Health care facilities:
+●​ Develop policies and procedures
+●​ Must comply with federal, state, and local regulations
+
+●​ May be more restrictive than government controls​
+Goal:
+●​ Prevent adverse patient outcomes​
+Nursing responsibilities are defined by each state’s:
+●​ Nurse Practice Act​
+Important:
+●​ Facilities cannot modify or expand the Nurse Practice Act​
+●​ Nurses must understand and follow:​
+○​ The Nurse Practice Act
+○​ Facility policies​
+Violations can result in:
+●​ Fines
+●​ Imprisonment​
+●​ Loss of nurse licensure
+PRINCIPLES OF DRUG ACTIONS (LO 35.2)
+●​ The nurse should understand how a drug exerts its effects on the body.​
+Pharmacokinetics
+●​ Study of how a medication:​
+○​ Enters the body
+○​ Moves through the body
+○​ Leaves the body​
+Pharmacodynamics
+●​ Process in which a medication interacts with the body’s cells to produce a biologic
+response.​
+Understanding these processes helps the nurse evaluate:
+●​ Therapeutic (intended) effects
+●​ Adverse (unintended) effects
+PHARMACOKINETICS
+Therapeutic effect
+●​ Desired result or action of a medication.​
+To achieve a therapeutic effect, the medication must:
+●​ Enter the body
+●​ Be absorbed
+
+●​ Be distributed to cells and tissues
+●​ Alter physiologic functioning​
+Effectiveness is influenced by:
+●​ Medication dose
+●​ Route of administration
+●​ Frequency of administration
+●​ Function of metabolizing organs (liver, kidneys)
+●​ Age of the patient
+●​ Prescribing practitioners and nurses monitor the patient’s response.
+●​ Laboratory and diagnostic studies measure medication effects.
+●​ Medication actions depend on:​
+○​ Absorption
+○​ Distribution
+○​ Metabolism
+○​ Excretion
+Absorption
+●​ Passage of a drug from the administration site into the bloodstream.​
+Factors affecting absorption:
+●​ Route of administration
+●​ Ability of the drug to dissolve (solubility)
+●​ Blood flow to the administration site
+●​ Body surface area
+●​ Patient age​
+Rate of absorption (fastest to slowest):
+1.​ Intravenous (IV)
+2.​ Intramuscular (IM)
+3.​ Subcutaneous (SubQ)
+4.​ Oral (PO)
+Distribution
+●​ Process of delivering the medication to tissues and organs and ultimately to the specific
+site of action.​
+Distribution is affected by:
+●​ Chemical properties of the drug
+●​ Effectiveness of the cardiac system
+●​ Ability to pass through tissue and organ membranes
+●​ Extent of protein binding
+●​ Accumulation in fatty tissue
+Metabolism
+
+●​ Process by which a drug is altered to a less active form to prepare for excretion.
+●​ Products of metabolism are called metabolites.
+●​ Most metabolism occurs in the liver.​
+Metabolism may be slowed in:
+●​ Elderly individuals
+●​ Individuals with impaired liver function​
+Risk:
+●​ Toxic drug levels can build up if the liver cannot break down the drug properly.
+Excretion
+●​ Process that removes the less active drug or its metabolites.​
+Most excretion occurs through:
+●​ Kidneys​
+Other routes:
+●​ Feces
+●​ Breath
+●​ Saliva
+●​ Sweat
+●​ Breast milk​
+Risk for accumulation:
+●​ Elderly individuals
+●​ Individuals with impaired kidney function​
+May require:
+●​ Smaller doses
+●​ Longer intervals between doses
+PHARMACODYNAMICS
+●​ Drug activity results from chemical interactions between a medication and the cells of the
+body, causing a biologic response.​
+Biochemical response may be:
+Systemic
+●​ Example: Pain medication affecting:​
+○​ Nervous system (sedation)
+○​ Respiratory system (change in respiratory rate)
+○​ Gastrointestinal system (constipation)​
+Local
+●​ Example: Antipruritic lotion applied to an insect bite
+●​ Response is evaluated based on changes in the patient’s clinical condition.
+
+●​ Improvement occurs when the therapeutic effect is achieved.
+●​ Unexpected or unwanted effects may occur.
+●​ Different patients may respond differently to the same medication.
+Drug Level and Half-Life
+●​ Desired drug action is produced by maintaining a constant drug level in the body.
+●​ Based on the drug’s half-life.​
+Half-life
+●​ Time it takes for blood concentration to decrease to one-half of the original dose due to
+metabolism and excretion.​
+Example:
+●​ If half-life is 12 hours → 50% remains in bloodstream after 12 hours.
+●​ Repeated doses are usually required to maintain desired drug level.
+●​ Correct spacing of doses is based on the drug’s half-life.
+●​ Maintaining consistent drug levels is important to obtain therapeutic effects.
+Other Drug Action Factors
+Onset of action
+●​ Time it takes for the body to respond after administration.
+●​ Affected by:​
+○​ Route
+○​ Drug formulation
+○​ Pharmacokinetic factors​
+Example:
+●​ Insulin onset varies depending on:
+○​ Route (IV vs. subcutaneous)
+○​ Type (lispro vs. glargine)
+BOX 35.1 – DIVERSITY CONSIDERATIONS
+Life Span
+Pregnancy
+●​ Extreme care required, especially first trimester.
+●​ Risk of harm to fetus.
+●​ FDA pregnancy categories:​
+○​ Category A → no demonstrated risk
+○​ Category D or X → documented risk or harm​
+Infants
+●​ Require small doses due to:
+○​ Body size
+
+○​ Immature organs​
+Infants and children
+●​ Doses often based on weight.​
+Older adults​
+Age-related changes:
+●​ Increased fat deposits
+●​ Decreased gastric motility
+●​ Decreased renal function
+●​ Decreased liver function
+●​ Changes in blood–brain barrier​
+These can lead to:
+●​ Increased side effects​
+Older adults also have increased risk of:
+●​ Comorbidities
+●​ Polypharmacy
+●​ Drug interactions
+●​ Falls
+●​ Delirium
+Gender
+Differences in:
+●​ Body weight
+●​ Plasma volume
+●​ Cardiac output
+●​ Hormones​
+These affect:
+●​ Drug metabolism
+●​ Drug clearance
+●​ Women have slower gastric motility → affects absorption of oral medications.
+●​ Men have higher glomerular filtration rate and renal blood flow → faster kidney
+clearance.
+Culture, Ethnicity, and Religion
+●​ Genetic factors affect drug metabolism and influence therapeutic and adverse effects.
+●​ Medication adherence rates are lower among individuals with:​
+○​ Lower socioeconomic status
+○​ Racial/ethnic minority backgrounds​
+●​ Herbal medicines may affect prescribed medications.
+●​ Assess patients for herbal use to prevent serious interactions.
+
+●​ Some cultural/religious groups discourage use of medications other than natural
+remedies.
+●​ Differences in drug responses may be due to:​
+○​ Genetic differences
+○​ Cultural food preferences
+○​ Gene–environment interactions
+Peak and Trough Levels
+Peak plasma level
+●​ Highest serum concentration.​
+After peak:
+●​ Serum levels decrease until next dose.​
+Trough level
+●​ Lowest serum concentration.
+●​ Measured with serum laboratory tests.
+●​ Used to:​
+○​ Adjust dose
+○​ Monitor for toxicity​
+Timing of blood draws:
+●​ Peak → drawn at specific time after administration (based on half-life).​
+●​ Trough → drawn just before next scheduled dose.
+SIDE EFFECTS, ADVERSE EFFECTS, AND INTERACTIONS
+Side Effects
+●​ Predictable but unwanted reactions to medications.
+●​ Sometimes unavoidable.
+●​ May be:​
+○​ Minor and harmless
+○​ Severe enough to cause patient injury​
+●​ Patients may refuse medication because of side effects.
+●​ Patient education can help manage expected side effects.​
+Example:
+●​ If nausea is common → take medication with a light meal.
+●​ Nurses must monitor closely:​
+○​ When a new medication is started
+○​ When the dose is increased
+
+Adverse Effects
+●​ Severe
+●​ Unintended
+●​ Unwanted
+●​ Often unpredictable​
+May occur:
+●​ After one dose (e.g., severe allergic response)
+●​ Over time (e.g., anemia from medication)​
+If an adverse reaction occurs:
+●​ Medication is stopped immediately.​
+Reported through:
+●​ MedWatch​
+(Reported to the U.S. Food and Drug Administration)
+Toxic Effects
+●​ Result from:​
+○​ Overdose
+○​ Buildup due to impaired metabolism or excretion
+●​ Can lead to serious physiologic effects
+●​ May be lethal​
+Example:
+●​ Toxic morphine → respiratory depression → respiratory arrest​
+Organs affected by toxicity:
+●​ Kidneys (nephrotoxicity)
+●​ Liver (hepatotoxicity)
+●​ Hearing organs (ototoxicity)
+●​ Heart (cardiotoxicity)​
+Most toxicity is avoidable with:
+●​ Careful monitoring
+●​ Monitoring kidney and liver function
+Allergic Reactions
+●​ Unpredictable immune responses to medications.​
+Process:
+●​ First exposure → body produces antibodies.
+●​ On re-exposure → allergic reaction occurs.​
+Caused by:
+
+●​ Medication
+●​ Preservative
+●​ Metabolite​
+Minor reactions:
+●​ Rash
+●​ Itching
+●​ Nasal inflammation
+●​ Swelling
+●​ Clear discharge
+●​ Hives
+Anaphylactic Reaction
+●​ Severe allergic reaction.
+●​ Medical emergency.
+●​ Can occur immediately.
+●​ Can be fatal.​
+Treatment includes:
+●​ Stop medication immediately
+●​ Epinephrine
+●​ IV fluids
+●​ Steroids
+●​ Antihistamines
+●​ Respiratory support​
+Patients with severe allergy:
+●​ Should wear identification bracelet or tag.
+SAFE PRACTICE ALERT
+●​ Many facilities require patients to remain 20–30 minutes after receiving medication to
+monitor for severe allergic reaction.
+●​ Always check for allergies before administering medication.​
+Idiosyncratic Reaction
+●​ Unpredictable response.
+●​ May be:​
+○​ Overresponse
+○​ Underresponse
+○​ Abnormal response​
+Example:
+●​ Antihistamine causes alertness instead of drowsiness.
+
+Medication Interactions
+●​ Occur when drug action is modified by:​
+○​ Food
+○​ Herb
+○​ Another medication​
+May affect:
+●​ Absorption
+●​ Metabolism
+●​ Elimination
+Synergistic Effect
+●​ Combined effect greater than either drug alone.​
+Example:
+●​ Alcohol + CNS depressants → increased effect
+●​ Diuretic + vasodilator → greater antihypertensive effect
+Antagonism
+●​ Drug effect decreased by another substance.​
+Examples:
+●​ Antibiotics decrease effectiveness of birth control pills.
+●​ Grapefruit juice alters absorption of statins.
+Drug Incompatibility
+●​ Occurs when medications:​
+○​ Cause precipitation
+○​ Cause adverse chemical reaction when mixed​
+●​ Compatibility must be verified before mixing.​
+●​ If incompatible:​
+○​ Administer separately
+○​ Flush IV tubing between medications
+SAFE PRACTICE ALERT
+●​ Monitor patients 20–30 minutes after medication administration in community settings.
+●​ Always check allergies before giving medication.​
+NONPRESCRIPTION AND PRESCRIPTION MEDICATIONS (LO 35.3)
+●​ Medications are classified as:
+○​ Those requiring a legal prescription
+
+○​ Those obtained without health care provider authorization
+●​ Nurses must assess use of:​
+○​ Nonprescription substances
+○​ Prescription substances​
+●​ Nurses provide teaching on possible interactions among substances.
+NONPRESCRIPTION MEDICATIONS
+●​ Medications, vitamins, herbs, and supplements available without prescription are called
+over-the-counter (OTC) medications.​
+Examples:
+●​ Cold medicines
+●​ Mild analgesics
+●​ Diet and nutrition supplements
+●​ Sleep aids​
+●​ The U.S. Food and Drug Administration (FDA):​
+○​ Regulates OTC medications for safety and recommended dosage
+○​ Does not regulate all supplements​
+Potential misuse includes:
+●​ Inappropriate dosing
+●​ Delayed evaluation by PCP
+●​ Lack of knowledge about interactions with prescription medications​
+Nursing education:
+●​ Follow package directions
+●​ Notify PCP when using OTC medications
+Factors When Selecting an OTC Medication
+1.​ Understand desired effect
+2.​ Understand potential side and adverse effects
+3.​ Possible allergic reactions
+4.​ Potential interactions with medications and herbs
+5.​ Warnings
+6.​ Directions and dosage
+7.​ Features (e.g., safety caps)​
+The FDA developed:
+●​ Choosing the Right Over-the-Counter Medicine (checklist for selecting OTC
+medications)
+Vitamins
+
+●​ Usually obtained from a well-balanced diet.
+●​ Used for:​
+○​ Growth
+○​ Digestion
+○​ Nerve function​
+Water-Soluble Vitamins
+●​ Excreted through kidneys​
+●​ Include:​
+○​ B complex
+○​ Vitamin C​
+Fat-Soluble Vitamins
+●​ Stored in the body
+●​ Excess can build up in the liver
+●​ Must be used with caution
+●​ Include:​
+○​ Vitamins A, D, E, K​
+Vitamins may be needed during:
+●​ Pregnancy
+●​ Breastfeeding
+●​ Vegetarian or vegan diet
+●​ Illness preventing oral intake
+●​ Need for dietary supplements
+●​ Vitamin use should be recorded in patient history.
+●​ Possible side effects:​
+○​ Anticoagulation
+○​ Interference with medical test results​
+●​ FDA regulates vitamin products as dietary supplements:​
+○​ Tests for purity
+○​ Strength
+○​ Composition
+Alternative Therapies (Herbal Supplements)
+●​ Many people use herbal supplements.
+●​ 2020 survey: ~73% of U.S. adults reported using an herb or supplement.​
+Common supplements:
+
+●​ Fish oil
+●​ Glucosamine/chondroitin
+●​ Probiotics
+●​ Melatonin
+●​ Coenzyme Q-10
+●​ Echinacea
+●​ Cranberry
+●​ Garlic
+●​ Ginseng
+●​ Ginkgo biloba
+Herbal Medications
+●​ Derived from plants or plant parts.
+●​ Can be:​
+○​ Dried
+○​ Processed
+○​ Concentrated into capsules or pills​
+●​ Many commercial products contain more than one herb.
+●​ Many prescription drugs are derived from plants.​
+Examples:
+●​ Aspirin → willow tree bark
+●​ Morphine → opium poppy
+●​ Digitalis → foxglove
+Regulation of Herbal Supplements
+●​ Regulated by the FDA through:​
+○​ Dietary Supplement Health and Education Act (DSHEA)​
+●​ Regulation differs from prescription medications.
+●​ Herbs and prescription medications can act similarly in the body.
+●​ PCPs must be informed of herbal use.
+Important Considerations
+●​ Herbs are often taken for specific symptoms and limited time.
+●​ Should be used with caution.
+●​ Many must be discontinued several days before surgery.
+●​ Patients may not report herbal use.
+●​ Increases risk of adverse reactions with prescribed medications.
+Standardization and Quality Control
+●​ Herbs grown in different environments → variation in quality.
+
+●​ Standardization is difficult.​
+Nursing responsibility:
+●​ Obtain complete medication history including:​
+○​ Herbs
+○​ Extracts
+○​ Teas
+○​ Tinctures
+○​ Dietary supplements​
+●​ Herbs may have same properties as prescription medications.
+●​ Using both may cause toxic reaction.​
+Each preparation must be researched individually to determine:
+●​ Side effects
+●​ Possible drug interactions
+PRESCRIPTION MEDICATIONS
+●​ Medications are dispensed by a pharmacist upon receipt of:​
+○​ Electronically transmitted PCP orders
+○​ Written directions (prescription)​
+●​ Prescribing medications is legally limited to:​
+○​ Physicians
+○​ Dentists
+○​ Specially qualified nurse practitioners or other advanced practice nurses
+○​ Physician assistants​
+●​ It is illegal to dispense medications without a legal prescription.
+Components of a Legally Valid Medication Prescription
+A medication order must include:
+●​ Patient’s name
+●​ Date and time the order is written
+●​ Name of drug to be administered
+●​ Dosage of the drug
+●​ Route of drug administration
+●​ Frequency of drug administration
+●​ Signature of the person writing the order
+Medication Administration Record (MAR)
+Each patient in a health care facility has a MAR.
+The MAR includes:
+●​ Patient’s name
+
+●​ Full name of medication
+●​ Administration time
+●​ Dose
+●​ Route
+●​ Frequency
+●​ Site of administration (for parenteral medications)
+●​ Nurse’s initials and signatures
+●​ Prescribing PCP (may be identified)​
+The MAR shows:
+●​ When previous routine doses were administered
+●​ Who administered them
+●​ PRN medications
+●​ Intermittent (one-time) medications​
+Specific documentation is required when:
+●​ A patient refuses a medication
+●​ A nurse holds a medication
+●​ A medication is not administered as prescribed​
+Computerized charting meets legal requirements.
+QSEN Focus
+●​ The nurse uses informatics and technology to support safe processes of care.
+●​ The nurse values technologies that support error prevention in medication administration.
+Understanding Medication Timing
+Nurses must know:
+●​ Why a medication is ordered at specific times
+●​ Whether times can be altered​
+Example:
+q 6 hr
+●​ Given every 6 hours
+●​ Around the clock
+●​ Maintains constant blood level
+●​ Example times: 6 a.m., 12 p.m., 6 p.m., midnight​
+qid
+●​ Four times per day
+●​ During waking hours
+●​ Example times: 9 a.m., 1 p.m., 5 p.m., 9 p.m.
+Changes in Medication Orders
+Orders may change due to:
+●​ Sudden change in patient condition
+
+●​ Adverse reaction
+●​ Transfer to different care unit
+●​ After surgical procedures
+●​ At discharge​
+Examples:
+●​ Insulin → taken before meals
+●​ Some medications → taken after meals
+Types of Medication Orders (Acute Care)
+Five common types:
+1.​ Routine
+2.​ PRN (as needed)
+3.​ One-time or on-call
+4.​ Stat
+5.​ Now​
+Stat
+●​ Given immediately
+On-call
+●​ Given when a treatment/procedure is ready to begin
+PRN
+●​ Given as needed
+●​ Within time constraints
+●​ Each facility’s pharmacy sets administration time guidelines.
+●​ Nurses must follow pharmacy protocol unless otherwise ordered by the PCP.
+●​ It is not within the nurse’s scope of practice to determine medication administration
+times.​
+FORMS OF MEDICATION AND ROUTES OF ADMINISTRATION (LO 35.4)
+●​ Medications are formulated for a specific route of administration.
+●​ The route of administration is specified on the prescribed order.
+●​ The route refers to how the drug is absorbed.
+FORMS OF MEDICATION
+●​ Nurses must administer:
+○​ The correct form
+○​ By the correct route
+●​ This ensures:
+○​ Optimal effectiveness
+○​ Patient safety
+●​ Patient education on correct administration is a nursing responsibility.
+ROUTES OF MEDICATION ADMINISTRATION
+●​ Pharmacy dispenses the correct form.
+●​ The nurse verifies that the medication is correct for the route.
+
+●​ Medication preparations are not interchangeable for alternate routes.
+Example:
+●​ If a patient cannot swallow a tablet → nurse cannot substitute liquid form without PCP
+order.
+●​ Liquid may have:​
+○​ Different concentration
+○​ Different absorption rate
+Common routes:
+●​ Oral (PO)
+●​ Buccal
+●​ Sublingual
+●​ Parenteral
+●​ Topical
+●​ Inhalation
+●​ Through medical tubes (NG, PEG)
+Oral Administration
+●​ Most common route.
+●​ Abbreviated PO (per os = by mouth).
+●​ Safest, most convenient, least expensive.
+●​ Slower onset than parenteral route.​
+Nurse responsibilities:
+●​ Ensure medication is swallowed.
+●​ Monitor for:​
+○​ Pocketing in cheeks
+○​ Holding in mouth
+Sublingual and Buccal Routes
+●​ Used for rapid absorption through oral mucosa.
+●​ Prevent destruction by gastric secretions.​
+Sublingual
+●​ Placed under tongue to dissolve.
+●​ Example: Nitroglycerin.​
+Buccal
+●​ Placed against cheek mucosa until dissolved.
+●​ Examples:​
+○​ Antiemetics
+○​ Opiate pain medications
+Tube Administration
+
+●​ Oral meds may be given through:​
+○​ Nasogastric
+○​ Gastric
+○​ Intestinal
+○​ Jejunal tubes​
+●​ Tube placement must be checked before administration.
+●​ Precautions needed to prevent:​
+○​ Aspiration
+○​ Tube clogging​
+SAFE PRACTICE ALERT
+●​ Do NOT crush:​
+○​ Enteric-coated
+○​ Time-release
+○​ Sublingual
+○​ Buccal
+○​ Special-coated medications​
+●​ Contact PCP for alternate route if needed.
+Topical Medications
+●​ Applied to skin or mucous membranes.​
+Forms include:
+●​ Eye drops/ointments
+●​ Rectal or vaginal suppositories
+●​ Ear, nose, bladder instillations
+●​ Medicated irrigations
+●​ Throat sprays
+●​ Lotions and ointments​
+Absorption depends on:
+●​ Vascularity of site​
+Often require:
+●​ Multiple applications in 24 hours​
+Transdermal patch
+●​ Delivers medication slowly for systemic effect.​
+Examples:
+●​ Nicotine
+●​ Fentanyl
+
+●​ Nitroglycerin
+Inhaled Medications
+●​ Absorbed through respiratory tract.
+●​ Large surface area for absorption.​
+Used for:
+●​ Anesthesia
+●​ Respiratory disorders​
+Administered via:
+●​ Nasal passages
+●​ Oral passages
+●​ Endotracheal tube
+●​ Tracheostomy tube​
+Delivery systems:
+●​ Small fluid volumes
+●​ Metered-dose inhalers (MDIs)
+●​ Turbo-inhalers
+●​ Nebulizers
+Parenteral Medications
+●​ Administered by injection or infusion.
+●​ Faster and more complete absorption than oral.
+●​ Bypasses skin barrier → infection risk.
+●​ Requires aseptic technique.​
+Risks:
+●​ Infection
+●​ Tissue damage​
+Four major injection sites:
+1.​ Intradermal
+○​ Into dermal layer​
+2.​ Subcutaneous (SubQ)
+○​ Into subcutaneous tissue
+3.​ Intramuscular (IM)
+○​ Into muscle
+4.​ Intravenous (IV)
+○​ Into bloodstream
+Parenteral Medication Preparation
+Syringes
+Parts:
+
+●​ Barrel
+●​ Plunger
+●​ Tip
+●​ Luer-Lok syringe: needle secured by twisting.
+●​ Can attach directly to IV port without needle.​
+Do NOT touch:
+●​ Tip of barrel
+●​ Inside of barrel
+●​ Shaft of plunger
+●​ Needle​
+Sizes range:
+●​ 0.5 mL (small injections)
+●​ 60 mL (irrigations, tube feeding)​
+Three common types:
+●​ Standard
+●​ Tuberculin
+●​ Insulin
+Needles
+Parts:
+●​ Hub
+●​ Shaft
+●​ Bevel​
+Gauge:
+●​ Smaller number = larger diameter
+●​ Example:​
+○​ 18 gauge larger than 25 gauge​
+Common gauges:
+●​ 18–30​
+●​ 14–16 used in emergencies​
+Needle selection based on:
+●​ Viscosity of medication
+●​ Route of administration​
+Oil-based meds → larger gauge needed.
+Needle Length
+
+●​ ¼ inch to 3 inches.​
+●​ Based on:​
+○​ Age
+○​ Size
+○​ Route
+Syringe and Needle Sizes
+Subcutaneous
+●​ 1 mL syringe
+●​ 3/8–5/8 inch
+●​ 25–31 gauge​
+Intramuscular
+●​ 3 mL syringe
+●​ 1–3 inch
+●​ 19–25 gauge​
+Intradermal
+●​ 1 mL tuberculin syringe
+●​ ¼–5/8 inch​
+Insulin (U-100)
+●​ 100 units per mL
+●​ Sizes:​
+○​ 30 units (0.3 mL)
+○​ 50 units (0.5 mL)
+○​ 100 units (1 mL)​
+●​ 26–31 gauge
+●​ Insulin may be given with prefilled pen.
+Other Parenteral Routes
+Used by advanced practice or physicians:
+●​ Epidural
+●​ Intrathecal
+●​ Intraosseous
+●​ Intraperitoneal
+●​ Intraarterial​
+Nurse responsibilities:
+●​ Monitor delivery system integrity
+●​ Understand desired outcome
+●​ Evaluate patient response
+
+Filter Needles
+●​ Used with glass ampules.
+●​ Trap glass fragments.
+●​ Must replace with regular needle before injection.
+Needleless Delivery Systems
+●​ Reduce needlestick injuries.
+●​ Used for IV medication administration.
+●​ Use blunt-tip cannulas.
+●​ Some connect directly to IV ports.
+●​ Disposed same as regular needles.
+SAFE PRACTICE ALERT
+●​ Not all medications can be crushed for tube administration.
+●​ Enteric-coated, time-release, sublingual, buccal, and special-coated medications cannot
+be given through tubes.
+●​ Contact PCP for alternate route if needed.​
+SAFE MEDICATION ADMINISTRATION (LO 35.5)
+●​ The nurse is accountable for adherence to professional standards in medication
+administration.
+●​ Accountability is based on:​
+○​ Facility policies and procedures
+○​ American Nurses Association’s Nursing: Scope and Standards of Practice (2021)​
+Before administering a medication, the nurse should:
+●​ Check the patient’s MAR or PCP prescription
+●​ Review diet and fluid orders
+●​ Review relevant laboratory values
+●​ Perform a brief physical assessment
+●​ Safe practice standards require following only written orders.
+●​ In emergencies, a verbal order may be given, but it must be entered into the MAR or
+written as soon as possible.
+●​ Student nurses are generally not allowed to transcribe written orders or accept verbal
+orders.​
+SAFE PRACTICE ALERT
+●​ Nurses are legally accountable for medications they administer.
+●​ Nurses are responsible for recognizing side effects and adverse reactions.
+●​ Questions about:​
+○​ Purpose
+○​ Dose
+
+○​ Route
+○​ Time
+○​ Abbreviations
+○​ Laboratory values
+○​ Interactions
+○​ Allergies
+○​ Patient response​
+must be resolved with the PCP or pharmacist before administration.​
+●​ The nurse has the right and responsibility to refuse to administer a medication if it
+endangers patient safety.
+●​ The PCP must be notified of refusal and the reason.
+INTERPRETING THE ORDER
+●​ The nurse must carefully read and interpret the medication order.
+●​ The order must be clearly written or entered correctly in an electronic system.
+●​ Clinical judgment is required to evaluate:​
+○​ Medication
+○​ Dose
+○​ Route
+○​ Safety​
+The nurse must understand:
+●​ Purpose
+●​ Typical dosage
+●​ Route
+●​ Side effects
+●​ Orders that are unclear, incomplete, or contain prohibited/unfamiliar abbreviations must
+be clarified with the prescriber.
+●​ Nurses assume legal responsibility for medications they administer.
+MEDICATION ERRORS
+●​ Prevention is the first step in medication safety.
+●​ 7,000–9,000 deaths per year in the United States are due to medication errors.
+●​ Nearly 75% of medication errors result from distraction.​
+Medication administration:
+●​ Is a complex cognitive task
+●​ Requires precision and timeliness​
+Factors increasing risk:
+●​ Workload pressure
+●​ Multiple patients needing medications at same time
+●​ Multiple PRN requests​
+
+Nurses must use:
+●​ Situational awareness
+●​ Critical thinking
+Definition of Medication Error
+According to the National Coordinating Council for Medication Error Reporting and Prevention
+(NCCMERP):
+A medication error is:
+●​ Any preventable event that may cause or lead to inappropriate medication use or patient
+harm
+●​ While medication is under control of:​
+○​ Health care professional
+○​ Patient
+○​ Consumer​
+May relate to:
+●​ Prescribing
+●​ Order communication
+●​ Labeling
+●​ Packaging
+●​ Compounding
+●​ Dispensing
+●​ Distribution
+●​ Administration
+●​ Education
+●​ Monitoring
+●​ Use
+QSEN Focus
+●​ Safety includes recognizing categories of errors and hazards.
+●​ Nurses value their role in preventing errors.
+Medication errors can occur:
+●​ Anywhere in the system
+●​ From manufacturer to patient​
+Mistakes can occur:
+●​ At any step in medication administration​
+SAFE PRACTICE ALERT
+●​ Nurses are legally accountable for medications administered.
+●​ All concerns must be resolved before administration.
+●​ Nurses may refuse unsafe medications but must notify the PCP.
+
+Preventing Errors
+●​ Multidisciplinary collaboration helps prevent errors.
+●​ The nurse is often the last line of defense.​
+Interruptions increase risk:
+●​ Nurses may request help to minimize interruptions.
+●​ Some facilities have No Interruption Zone policies.
+●​ Preparing medications in a quiet setting reduces errors.
+Types of Medication Errors
+Examples:
+●​ Excessive dose
+●​ Too little medication
+●​ Wrong drug
+●​ Wrong patient
+●​ Wrong route​
+Human factors:
+●​ Knowledge deficits
+●​ Performance deficits
+●​ Dosage miscalculation
+●​ Stress
+●​ Lack of sleep
+●​ Look-alike/sound-alike names
+If a Medication Error Occurs
+Priorities:
+1.​ Assess the patient
+2.​ Intervene to offset adverse effects
+3.​ Notify PCP
+4.​ Initiate prescribed interventions
+5.​ Document event
+6.​ Complete error report per facility policy​
+Error reporting:
+●​ Essential for patient safety
+●​ Should be completed once patient is stable
+QSEN Focus
+●​ Promote culture of safety
+●​ Use organizational error reporting systems
+Technology to Reduce Errors
+Effective measures:
+●​ Computerized Provider Order Entry (CPOE)
+●​ Barcode systems
+
+●​ Electronic MAR (eMAR)
+●​ IV smart pumps
+●​ Automated dispensing systems​
+Barcodes:
+●​ Verify correct patient
+●​ Verify correct medication
+●​ Reduce adverse interactions​
+Institute for Safe Medication Practices:
+●​ Lists error-prone abbreviations to avoid
+SAFE PRACTICE ALERT
+●​ Consult pharmacist before administering newly developed medications without reference
+information.​
+ABBREVIATIONS
+●​ Safe use of abbreviations is important in preventing medication errors.
+●​ The National Patient Safety Goals developed by The Joint Commission emphasize
+prevention of medication errors.
+●​ From this effort came The Joint Commission’s Do Not Use list of abbreviations
+identified as contributing to medication errors.
+●​ Common approved abbreviations are listed in Table 35.9.
+BOX 35.3 – INTERPROFESSIONAL COLLABORATION AND DELEGATION
+Medication Administration in the Acute Care Setting
+●​ Collaboration with patient and family promotes proper medication use.
+●​ Family assisting after discharge must understand:​
+○​ Monitoring for therapeutic effects
+○​ Monitoring for adverse effects​
+●​ Care providers, pharmacists, case managers, and social workers help ensure access to
+medications.​
+●​ Pharmacists:​
+○​ Review medication orders for accuracy
+○​ Check dosage, labs, interactions
+○​ Provide consultation​
+●​ Dietitians:​
+○​ Consult patients whose medications are affected by food intake
+○​ Examples: diabetes, cardiac disorders, chemotherapy, anticoagulants​
+
+●​ Medication administration cannot be delegated to unlicensed assistive personnel (UAP)
+in acute care.
+●​ UAP are informed of expected medication effects (e.g., dizziness after antihypertensive).​
+SAFE PRACTICE ALERT
+●​ Consult pharmacists before administering newly developed medications without drug
+guide references.
+DOSAGE CALCULATION
+Three measurement systems:
+1.​ Metric
+2.​ Apothecary
+3.​ Household​
+Nurses must understand all three.
+Metric System
+Basic measures:
+●​ Gram (weight)
+●​ Liter (volume)
+●​ Meter (linear)
+●​ Based on units of 10.
+●​ 1 g = 1000 mg​
+Example:
+●​ 0.5 g = 500 mg​
+SAFE PRACTICE ALERT
+●​ Always place a zero before decimal (0.5 mL).
+●​ Never use trailing zero (5 mL, not 5.0 mL).
+Apothecary System
+●​ Older system.
+●​ Basic unit of volume: minim
+●​ Increasing order: dram, ounce, pint, quart, gallon
+●​ Weight based on grain (gr).
+●​ No longer used on drug labels.
+●​ Metric system should be used.
+Household System
+●​ Least accurate.
+●​ Base unit: drop (gtt)
+●​ Increasing order:​
+○​ Teaspoon (tsp)
+
+○​ Tablespoon (tbsp)
+○​ Cup (c)​
+Conversions:
+●​ 1 tsp = 5 mL
+●​ 1 tbsp = 15 mL
+Calculation Methods
+●​ Identify:​
+○​ Available quantity
+○​ Desired (prescribed) quantity​
+Dimensional Analysis
+●​ Consistent method
+●​ Used for:​
+○​ Basic calculations
+○​ Pediatric doses
+○​ Critical care titrations​
+Steps:
+1.​ Identify required unit.
+2.​ Start with prescribed dose.
+3.​ Multiply by available concentration.
+4.​ Cancel like units.
+5.​ Multiply numerators.
+6.​ Multiply denominators.
+7.​ Divide numerator by denominator.​
+Example:
+Amoxicillin 0.5 g​
+Available: 250 mg per capsule
+Conversion:
+●​ 0.5 g × 1000 mg / 1 g​
+Final answer:
+●​ 2 capsules per dose​
+Using a consistent method reduces medication errors.
+SAFE PRACTICE ALERT
+●​ When writing a metric dose:​
+○​ Always place a zero in front of the decimal point.
+○​ Never use a trailing zero.​
+
+Correct examples:
+●​ 0.5 mL (not .5 mL)
+●​ 5 mL (not 5.0 mL)​
+ADMINISTERING MEDICATIONS BY USING THE SIX RIGHTS
+●​ The Six Rights of Medication Administration help prevent mistakes.
+●​ Preventing errors includes:​
+○​ Confirming the medication label matches the prescribed order
+○​ Ensuring dosage is safe
+○​ Reviewing patient allergies
+○​ Verifying expiration date
+○​ Following the Six Rights during each interaction​
+The Six Rights of Medication Administration
+1.​ Right drug
+2.​ Right dose
+3.​ Right time
+4.​ Right route
+5.​ Right patient
+6.​ Right documentation
+Three Safety Checks
+Before administering a medication:
+First Safety Check
+●​ Confirm label matches MAR
+●​ Perform dosage calculations
+●​ Review allergies
+●​ Verify expiration date​
+Second Safety Check
+●​ Prepare medication
+●​ Recheck medication label against MAR​
+Third Safety Check
+●​ Final recheck of medication label against MAR
+●​ Before opening package at bedside​
+OR
+●​ Before returning medication to storage
+High-Risk Situations for Medication Administration
+Situations that increase error risk:
+●​ Patient identification errors
+●​ Not preparing medication personally
+●​ Not double-checking doses
+●​ Not verifying high-risk drugs with second nurse
+
+●​ Ignoring patient questions
+●​ Not understanding why medication is ordered​
+Safeguards:
+●​ Follow facility identification policies
+●​ Give only medications prepared by the administering nurse
+●​ Double-check doses
+●​ Verify high-risk medications with second nurse
+●​ Address patient questions
+●​ Know indication for medication
+Patient Rights (Medication Administration)
+Developed by the American Hospital Association (2003).
+Patients have the right to:
+●​ Be informed of:​
+○​ Medication name
+○​ Purpose
+○​ Potential side effects​
+●​ Refuse a medication
+●​ Have accurate medication history taken
+●​ Receive medications according to the Six Rights​
+If medication is part of research:
+●​ Nurse should be informed
+●​ Patient questions and concerns must be treated respectfully.
+●​ Nurse answers questions and follows through if:​
+○​ Medication is refused
+○​ Adverse effect occurs
+ASSESSMENT (LO 35.6)
+●​ Safe medication administration requires patient assessment.
+●​ Critical information:​
+○​ Drug and food allergies
+○​ Pregnancy or breastfeeding status​
+●​ Initial assessment provides baseline data.
+●​ Medication-specific assessment is ongoing.​
+Ongoing assessment evaluates:
+●​ Medication effectiveness
+●​ Early recognition of adverse effects​
+Data collected:
+
+●​ Medical history
+●​ Allergy information
+●​ Medication history (prescription, OTC, alternative therapies)
+●​ Physical exam findings
+●​ Relevant laboratory results
+●​ Questions are adapted to patient understanding.
+●​ Responses are documented in the health record.
+SAFE PRACTICE ALERT
+●​ Allergies are documented in:​
+○​ History and physical section
+○​ MAR​
+●​ Pharmacy and dietary departments are notified.
+●​ Allergy band is placed on patient’s wrist.
+Monitoring Laboratory Values
+Common labs monitored:
+●​ Electrolytes
+●​ Serum glucose
+●​ CBC
+●​ WBC
+●​ Bleeding time
+●​ BUN
+●​ Creatinine
+●​ Serum medication levels
+Physical Assessment
+●​ Assess systems affected by medication.​
+Example:
+●​ Respiratory assessment before bronchodilator:​
+○​ Respiratory rate
+○​ Lung sounds
+○​ Accessory muscle use
+○​ Oxygen saturation​
+●​ Reassess after administration.​
+Vital signs monitored before and after medications that affect:
+●​ Temperature
+●​ Pulse
+●​ Respirations
+●​ Blood pressure​
+
+Examples:
+●​ Digoxin → apical pulse (hold if HR < 60 bpm)
+●​ Antihypertensive → blood pressure
+●​ Antipyretic → temperature
+●​ Opiate → respiratory rate and BP​
+Other assessments:
+●​ Ability to swallow (oral meds)
+●​ Adequate muscle mass (IM)
+●​ Patent IV access (IV)
+●​ Skin inspection (topical)​
+Most important steps:
+●​ Assessment
+●​ Adherence to Six Rights
+NURSING DIAGNOSIS (LO 35.7)
+●​ Analyze subjective and objective data.
+●​ Identify actual or potential problems.
+●​ Prioritize diagnoses before planning interventions.​
+Examples (ICNP):
+Lack of Knowledge
+●​ Double dose of furosemide
+●​ Unaware of side effects​
+Constipation
+●​ Opioid use
+●​ Hard stools
+●​ Painful defecation​
+Impaired Health Maintenance
+●​ Misunderstanding regimen
+●​ Refusal to continue medications
+PLANNING (LO 35.8)
+●​ Develop goals based on diagnosis and assessment.
+●​ Set realistic expectations.​
+Examples:
+●​ Patient verbalizes medication side effects before discharge.
+●​ Patient verbalizes need for fluids and fiber.
+●​ Patient takes medications daily until next appointment.
+IMPLEMENTATION AND EVALUATION (LO 35.9)
+●​ Implement interventions based on goals.
+
+●​ Evaluate effectiveness within established time frames.
+●​ Use measurable outcomes.
+MEDICATION ADMINISTRATION
+●​ Every medication must:
+○​ Be prescribed
+○​ Be appropriate for patient
+●​ Orders entered electronically or handwritten (rare/emergency).
+●​ Nurse uses MAR for preparation and administration.
+SAFE PRACTICE ALERT (NIOSH)
+●​ Some drugs are hazardous to nurses.
+●​ Require special handling to prevent:
+○​ Skin rashes
+○​ Infertility
+○​ Spontaneous abortion
+○​ Cancer
+Oral Medications
+●​ Most convenient route.
+●​ Absorbed in stomach and small intestine.​
+Assess:
+●​ Ability to swallow
+●​ Level of consciousness
+●​ Gag reflex
+●​ Nausea/vomiting
+●​ If NPO → alternate route or special order.
+●​ Verify medication swallowed.
+●​ Encourage fluids.​
+If medication feels stuck:
+●​ Small amount of soft food may help.
+Crushing Medications
+●​ Capsules may be opened if allowed.
+●​ Tablets may be crushed if permitted.
+●​ Use small amount of food.​
+SAFE PRACTICE ALERT
+●​ Never crush enteric-coated or sustained-release tablets.
+Liquid Medications
+●​ Use calibrated syringe or medication cup.
+●​ “Swish and swallow” medications used last.
+●​ Never use medication with unreadable label.
+
+●​ Discard if color changes or solution unstable.
+●​ Offer oral hygiene for unpleasant taste.
+Enteral Tube Medications
+●​ Liquid preferred.
+●​ Flush before and after (15 mL sterile water).
+●​ Elevate head of bed.
+●​ Remain elevated 30 minutes.
+●​ Avoid gastric suction for 20–30 minutes.
+●​ Record fluid as intake.
+Sublingual and Buccal
+●​ Rapid absorption.
+●​ Do not eat/drink until dissolved.
+●​ Buccal: alternate cheeks.
+●​ Do not chew or swallow.
+Topical
+●​ Apply to skin or mucous membranes.
+●​ Clean skin first.
+●​ Use gloves.
+●​ Rotate transdermal patch sites.
+●​ Document placement and removal.
+Ophthalmic
+●​ Used for irritation, infection, glaucoma.
+●​ Avoid dropper touching eye.
+●​ Prevent cross-contamination.
+Otic
+●​ Use room temperature solution.
+●​ Do not force into canal.
+●​ Sterile technique if tympanic membrane damaged.
+Nasal
+●​ Use medical asepsis.
+●​ Avoid overuse of decongestants (rebound effect).
+Inhaled
+●​ MDIs, DPIs, nebulizers.
+●​ Rapid absorption.
+●​ Assess respiratory status before and after.​
+SAFE PRACTICE ALERT
+●​ Rinse mouth after inhaled steroids.
+
+Vaginal
+●​ Creams, foams, tablets, suppositories, gels.
+●​ Use applicator.
+●​ Refrigerate suppositories.
+●​ Offer pad.
+●​ No tampons after instillation.
+Rectal
+●​ Used for local or systemic effect.
+●​ Insert past internal sphincter (3–4 inches).
+●​ Remain positioned 5–45 minutes.
+Parenteral
+●​ Injection into tissue, muscle, or vein.
+●​ Use sterile technique.
+●​ Activate safety device immediately.​
+SAFE PRACTICE ALERT
+●​ Never recap needles.
+Preparing Parenteral Medications
+Ampule
+●​ Single dose glass container
+●​ Use filter needle
+●​ Discard after use​
+Vial
+●​ Single or multidose
+●​ Label with date/time opened
+●​ Inject air equal to withdrawal amount​
+Powdered Medication
+●​ Reconstitute with correct diluent​
+Prefilled Cartridge/Syringe
+●​ Remove excess air if required
+●​ Some (e.g., enoxaparin) air not removed
+Injection Types
+Intradermal
+●​ 0.01–0.1 mL
+●​ Forearm, upper arm, scapular
+Subcutaneous
+●​ ≤1 mL
+●​ Abdomen, thigh, arm
+
+●​ 45–90° angle​
+IM
+●​ Ventrogluteal (preferred)
+●​ Vastus lateralis
+●​ Deltoid
+●​ Z-track for irritating meds​
+SAFE PRACTICE ALERT
+●​ Use correct anatomical landmarks.
+IV Administration
+●​ Rapid effect.
+●​ Risk:​
+○​ Infection
+○​ Extravasation
+○​ Thrombophlebitis
+○​ Speed shock​
+●​ Assess IV site before administration.
+●​ Use infusion pump for high-risk meds.​
+SAFE PRACTICE ALERT
+●​ Frequent IV site assessment required.​
+MEDICATIONS AND HOME CARE
+●​ Patient education about medications is a nursing responsibility.
+●​ Education may be directed to:
+○​ Patient
+○​ Family member
+○​ Caregiver
+●​ Teaching should prioritize what needs to be known about each medication and
+supplement.
+Home Medication Administration
+●​ Oral medications have long been given in the home.
+●​ Long-term treatments now administered at home include:​
+○​ Transdermal therapy
+○​ Peritoneal dialysis
+○​ IV treatments with infusion pumps​
+Home care supervision involves:
+●​ Equipment providers
+●​ Pharmacists
+
+●​ Care agencies
+●​ Care providers
+●​ Nurses
+Patient Education Content
+Use language the patient understands.
+Patient/family/caregiver should be able to state:
+●​ Name of medication
+●​ Reason for taking it
+●​ How and when to take it
+●​ Food, drinks, OTC medications, and herbs that affect it
+●​ Safety concerns (e.g., driving)
+●​ Usual side effects
+●​ Usual adverse reactions
+●​ Special route instructions
+Additional Teaching Points
+●​ Take medications:
+○​ In prescribed amounts
+○​ For prescribed length of time
+●​ Teach:
+○​ What to do if a dose is missed
+○​ Do not share medications
+○​ Proper disposal of unused or outdated medications
+●​ Patient should demonstrate skills (e.g., insulin self-administration).
+●​ Teaching and outcomes must be documented.
+EVALUATION
+●​ Clinical observation evaluates medication effectiveness.​
+Examples:
+Subjective data
+●​ “My pain is a level 2.”​
+Objective data
+●​ Apical pulse regular at 88 beats/min​
+Assess for adverse effects:
+●​ Nausea
+●​ Rash
+●​ Vital sign changes
+●​ Difficulty breathing
+Laboratory tests:
+●​ Indicate medication response
+●​ Monitor therapeutic drug levels
+
+●​ Determine need for dose adjustment​
+Electronic monitoring:
+●​ Oxygen saturation after respiratory medications
+●​ Heart rate/rhythm after antiarrhythmics
+●​ Significant deviations must be reported to PCP.
+Key Points for Safe Medication Administration
+Nurse must know:
+●​ Drug classification
+●​ Expected effects
+●​ Adverse effects
+●​ Potential interactions
+●​ Safe dosage
+●​ Assessment requirements
+●​ Be alert for allergic reactions.
+●​ Educate patients about reasons for medications.
+●​ Follow protocols to prevent errors and ensure safety.​
+
+
