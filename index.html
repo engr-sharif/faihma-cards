@@ -390,9 +390,10 @@
             padding: 30px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             box-shadow: var(--shadow-medium);
-            transition: all 0.3s var(--spring-smooth);
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
         }
         
         .card-front:hover {
@@ -2417,70 +2418,82 @@
             document.getElementById('cardExplanation').textContent = card.explanation;
             
             const hintElement = document.getElementById('cardHint');
-            if (card.hint) {
-                hintElement.textContent = card.hint;
-                hintElement.style.display = 'block';
-            } else {
-                hintElement.style.display = 'none';
-            }
+            hintElement.textContent = card.hint || '';
+            hintElement.style.display = 'none'; // Hidden until wrong answer
 
             // Reset card state
-            document.getElementById('flashcard').classList.remove('flipped');
+            const flashcard = document.getElementById('flashcard');
+            flashcard.classList.remove('flipped', 'shake');
+            flashcard.style.transform = '';
             document.getElementById('answerButtons').style.display = 'none';
             document.getElementById('nextButton').style.display = 'none';
+            
+            // Reset selectedChoice
+            AppState.selectedChoice = null;
+            AppState.showingAnswer = false;
 
             updateProgress();
         }
 
         function selectChoice(choiceIndex) {
-            if (AppState.showingAnswer) return;
+            if (AppState.showingAnswer || AppState.selectedChoice !== null) return;
 
             AppState.selectedChoice = choiceIndex;
             const card = getCurrentCard();
             const choices = document.querySelectorAll('.card-choice');
             
-            // Clear previous selections
-            choices.forEach(choice => {
-                choice.classList.remove('selected', 'correct', 'incorrect');
+            // Mark selected and disable all choices
+            choices[choiceIndex].classList.add('selected');
+            choices.forEach(choice => { choice.style.pointerEvents = 'none'; });
+            
+            // Show correct/incorrect immediately
+            choices.forEach((choice, index) => {
+                if (index === card.correct) {
+                    choice.classList.add('correct');
+                } else if (index === choiceIndex && index !== card.correct) {
+                    choice.classList.add('incorrect');
+                }
             });
 
-            // Mark selected choice
-            choices[choiceIndex].classList.add('selected');
+            const isCorrect = choiceIndex === card.correct;
             
-            // Show answer after brief delay
-            setTimeout(() => {
-                showAnswer();
-            }, 500);
+            if (!isCorrect) {
+                // Wrong: shake first, then flip after delay
+                document.getElementById('flashcard').classList.add('shake');
+                setTimeout(() => {
+                    document.getElementById('flashcard').classList.remove('shake');
+                }, 600);
+                setTimeout(() => {
+                    showAnswer();
+                }, 1500);
+            } else {
+                // Correct: brief pause then flip
+                setTimeout(() => {
+                    showAnswer();
+                }, 600);
+            }
         }
 
         function showAnswer() {
             AppState.showingAnswer = true;
             const card = getCurrentCard();
-            const choices = document.querySelectorAll('.card-choice');
-            
-            // Show correct/incorrect answers
-            choices.forEach((choice, index) => {
-                if (index === card.correct) {
-                    choice.classList.add('correct');
-                } else if (index === AppState.selectedChoice && index !== card.correct) {
-                    choice.classList.add('incorrect');
-                }
-            });
+            const isCorrect = AppState.selectedChoice === card.correct;
+
+            // Show hint on back face if wrong
+            if (!isCorrect && card.hint) {
+                document.getElementById('cardHint').style.display = 'block';
+            }
 
             // Flip to show explanation
             document.getElementById('flashcard').classList.add('flipped');
             
-            // Show appropriate buttons
-            if (AppState.selectedChoice === card.correct) {
+            // Show answer rating buttons after flip animation completes
+            setTimeout(() => {
                 document.getElementById('answerButtons').style.display = 'flex';
-                createSuccessParticles();
-            } else {
-                document.getElementById('nextButton').style.display = 'flex';
-                document.getElementById('flashcard').classList.add('shake');
-                setTimeout(() => {
-                    document.getElementById('flashcard').classList.remove('shake');
-                }, 600);
-            }
+                if (isCorrect) {
+                    createSuccessParticles();
+                }
+            }, 500);
 
             // Update statistics
             updateStats();
@@ -2627,12 +2640,6 @@
 
         function createSuccessParticles() {
             createParticleEffect();
-            // Add a subtle success animation
-            const flashcard = document.getElementById('flashcard');
-            flashcard.style.transform = 'scale(1.02)';
-            setTimeout(() => {
-                flashcard.style.transform = '';
-            }, 200);
         }
 
         function startStudyTimer() {
@@ -2776,9 +2783,10 @@
                 }
             });
 
-            // Card flip on click
-            document.getElementById('flashcard').addEventListener('click', function() {
-                if (!AppState.showingAnswer) {
+            // Card flip on click — only if clicking card itself, not choices
+            document.getElementById('flashcard').addEventListener('click', function(e) {
+                if (e.target.closest('.card-choice')) return;
+                if (!AppState.showingAnswer && AppState.selectedChoice === null) {
                     this.classList.toggle('flipped');
                 }
             });
