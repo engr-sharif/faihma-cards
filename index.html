@@ -365,9 +365,8 @@
             transition: all 0.3s var(--spring-smooth);
         }
         
-        .card-face:hover {
+        .card-front:hover {
             box-shadow: var(--shadow-heavy);
-            transform: translateY(-5px);
         }
         
         .card-back {
@@ -830,6 +829,7 @@
             cards: [],
             filteredCards: [],
             showingAnswer: false,
+            selectedChoice: null,
             shuffleMode: false,
             reviewMode: false,
             darkMode: false,
@@ -1457,6 +1457,9 @@
 
         // ==== EVENT HANDLERS ====
         function selectChoice(choiceIndex) {
+            if (AppState.selectedChoice !== null) return; // already answered
+            AppState.selectedChoice = choiceIndex;
+            
             const choices = document.querySelectorAll('.card-choice');
             choices.forEach(choice => choice.classList.remove('selected'));
             choices[choiceIndex].classList.add('selected');
@@ -1464,22 +1467,29 @@
             const card = AppState.filteredCards[AppState.currentCardIndex];
             const isCorrect = choiceIndex === card.correct;
             
+            // Highlight correct and incorrect
             choices.forEach((choice, index) => {
                 if (index === card.correct) {
                     choice.classList.add('correct');
                 } else if (index === choiceIndex && !isCorrect) {
                     choice.classList.add('incorrect');
                 }
+                // Disable further clicks visually
+                choice.style.pointerEvents = 'none';
             });
             
             if (!isCorrect) {
+                // Wrong answer — shake, show hint, then after a moment flip to explanation
                 document.getElementById('flashcard').classList.add('shake');
                 setTimeout(() => {
                     document.getElementById('flashcard').classList.remove('shake');
                     showHint();
                 }, 600);
+                // Auto-flip after showing hint for a moment
+                setTimeout(() => flipCard(), 2000);
             } else {
-                setTimeout(() => flipCard(), 500);
+                // Correct — brief pause then flip to explanation
+                setTimeout(() => flipCard(), 600);
             }
         }
         
@@ -1492,11 +1502,16 @@
         }
         
         function flipCard() {
-            document.getElementById('flashcard').classList.add('flipped');
+            const flashcard = document.getElementById('flashcard');
+            if (flashcard.classList.contains('flipped')) return; // already flipped
+            flashcard.classList.add('flipped');
             AppState.showingAnswer = true;
             
-            document.getElementById('answerButtons').style.display = 'flex';
-            document.getElementById('nextButton').style.display = 'none';
+            // Show self-rating buttons after flip animation completes
+            setTimeout(() => {
+                document.getElementById('answerButtons').style.display = 'flex';
+                document.getElementById('nextButton').style.display = 'none';
+            }, 400);
         }
         
         function answerCard(quality) {
@@ -1539,6 +1554,7 @@
             flashcard.classList.remove('flipped', 'shake');
             
             AppState.showingAnswer = false;
+            AppState.selectedChoice = null;
             
             document.getElementById('answerButtons').style.display = 'none';
             document.getElementById('nextButton').style.display = 'none';
@@ -1547,6 +1563,7 @@
             const choices = document.querySelectorAll('.card-choice');
             choices.forEach(choice => {
                 choice.classList.remove('selected', 'correct', 'incorrect');
+                choice.style.pointerEvents = '';
             });
         }
 
@@ -1771,9 +1788,10 @@
                 if (e.key === 'Enter') authenticate();
             });
             
-            // Card interactions
-            document.getElementById('flashcard').addEventListener('click', () => {
-                if (!AppState.showingAnswer) {
+            // Card interactions — only flip if clicking card itself, not choices
+            document.getElementById('flashcard').addEventListener('click', (e) => {
+                if (e.target.closest('.card-choice')) return; // don't flip when clicking a choice
+                if (!AppState.showingAnswer && !AppState.selectedChoice) {
                     flipCard();
                 }
             });
