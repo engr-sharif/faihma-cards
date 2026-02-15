@@ -2087,161 +2087,402 @@
             fundamentals: [
                 {
                     question: "A client is scheduled for a cystoscopy. What should the nurse include in the pre-procedure teaching?",
-                    choices: [
-                        "A. The procedure requires general anesthesia",
-                        "B. Clear liquids only for 24 hours before the procedure",
-                        "C. A full bladder is required before the procedure",
-                        "D. The client will experience burning during urination post-procedure"
-                    ],
+                    choices: ["A. The procedure requires general anesthesia", "B. Clear liquids only for 24 hours before the procedure", "C. A full bladder is required before the procedure", "D. The client will experience burning during urination post-procedure"],
                     correct: 3,
                     explanation: "After a cystoscopy, clients commonly experience burning during urination due to irritation of the urethral lining from the scope insertion.",
-                    hint: "Think about what happens when a scope is inserted through the urethra - what would be the expected temporary side effect?"
+                    hint: "Think about what happens when a scope is inserted through the urethra."
                 },
-                // More general fundamentals questions...
+                {
+                    question: "Which nursing action takes priority when admitting a client to the hospital?",
+                    choices: ["A. Orienting the client to the room", "B. Applying the identification band", "C. Obtaining a complete health history", "D. Documenting the client's belongings"],
+                    correct: 1,
+                    explanation: "Patient identification is the first priority for safety. All subsequent care depends on correctly identifying the patient.",
+                    hint: "Safety first — what must happen before any care can be given?"
+                },
+                {
+                    question: "A nurse is providing discharge teaching to a client taking digoxin. Which statement by the client indicates understanding?",
+                    choices: ["A. 'I will take my pulse before each dose and call if it's below 60'", "B. 'I should double my dose if I miss one'", "C. 'I can eat as much licorice as I want'", "D. 'I only need to check my pulse once a week'"],
+                    correct: 0,
+                    explanation: "Clients taking digoxin should check their pulse before each dose. A pulse below 60 bpm may indicate toxicity and the dose should be held.",
+                    hint: "Digoxin slows the heart — what pulse rate is the danger threshold?"
+                },
+                {
+                    question: "A client's arterial blood gas results show pH 7.32, PaCO2 50, HCO3 24. Which acid-base imbalance is present?",
+                    choices: ["A. Metabolic acidosis", "B. Respiratory acidosis", "C. Metabolic alkalosis", "D. Respiratory alkalosis"],
+                    correct: 1,
+                    explanation: "pH is low (acidosis), PaCO2 is high (respiratory cause), and HCO3 is normal (no compensation yet). This is uncompensated respiratory acidosis.",
+                    hint: "Low pH + high CO2 = which body system is causing the problem?"
+                },
+                {
+                    question: "When performing a sterile dressing change, which action contaminates the sterile field?",
+                    choices: ["A. Pouring solution from 6 inches above the field", "B. Opening a sterile package away from the body", "C. Reaching across the sterile field", "D. Placing sterile items in the center of the field"],
+                    correct: 2,
+                    explanation: "Reaching across a sterile field contaminates it because the arm passes over the sterile area. Always add items from the side or edges.",
+                    hint: "What happens when a non-sterile object passes over the sterile area?"
+                },
+                {
+                    question: "A client with a nasogastric tube reports nausea. What should the nurse assess first?",
+                    choices: ["A. Tube placement and patency", "B. Client's pain level", "C. Bowel sounds in all four quadrants", "D. The client's oral intake"],
+                    correct: 0,
+                    explanation: "Nausea with an NG tube often indicates the tube is displaced or clogged. Verifying placement and patency is the priority assessment.",
+                    hint: "If the NG tube isn't working properly, what symptom would the client experience?"
+                }
             ],
             
             "med-surg": [
                 {
                     question: "A client is admitted with acute myocardial infarction. Which laboratory value is most specific for cardiac muscle damage?",
-                    choices: [
-                        "A. CK-MB",
-                        "B. Troponin I",
-                        "C. LDH",
-                        "D. AST"
-                    ],
+                    choices: ["A. CK-MB", "B. Troponin I", "C. LDH", "D. AST"],
                     correct: 1,
                     explanation: "Troponin I is the most specific marker for cardiac muscle damage and remains elevated longer than other cardiac enzymes.",
                     hint: "Which cardiac enzyme is considered the 'gold standard' for diagnosing heart attacks?"
                 },
-                // More general med-surg questions...
+                {
+                    question: "A client with COPD is receiving oxygen. Which finding requires immediate intervention?",
+                    choices: ["A. SpO2 of 90%", "B. Oxygen flow rate of 6 L/min via simple mask", "C. Pursed-lip breathing during exertion", "D. Use of incentive spirometer every 2 hours"],
+                    correct: 1,
+                    explanation: "COPD clients rely on hypoxic drive to breathe. High-flow oxygen (>2-3 L/min via nasal cannula) can suppress their respiratory drive and cause CO2 retention.",
+                    hint: "COPD clients have a unique breathing trigger — what happens with too much O2?"
+                },
+                {
+                    question: "A client 2 days post-thyroidectomy reports tingling around the mouth and fingertips. What should the nurse suspect?",
+                    choices: ["A. Thyroid storm", "B. Hypocalcemia", "C. Laryngeal nerve damage", "D. Wound infection"],
+                    correct: 1,
+                    explanation: "Tingling (paresthesia) around the mouth and fingers after thyroidectomy suggests hypocalcemia from accidental removal or damage to the parathyroid glands.",
+                    hint: "The parathyroid glands sit on the thyroid — what electrolyte do they regulate?"
+                },
+                {
+                    question: "A client with cirrhosis has a distended abdomen. Which position best facilitates breathing?",
+                    choices: ["A. Supine with legs elevated", "B. High Fowler's position", "C. Left lateral recumbent", "D. Trendelenburg position"],
+                    correct: 1,
+                    explanation: "High Fowler's position (head of bed elevated 60-90°) allows the diaphragm to descend, relieving pressure from ascites on the lungs.",
+                    hint: "Ascites pushes up on the diaphragm — what position moves fluid down?"
+                },
+                {
+                    question: "A client with type 1 diabetes has a blood glucose of 40 mg/dL and is conscious. What is the priority intervention?",
+                    choices: ["A. Administer IV dextrose 50%", "B. Give 15g of fast-acting carbohydrate", "C. Administer glucagon IM", "D. Recheck blood glucose in 15 minutes"],
+                    correct: 1,
+                    explanation: "For a conscious hypoglycemic client, the rule of 15 applies: give 15g of fast-acting carbs (juice, glucose tabs), wait 15 minutes, recheck. IV and IM routes are for unconscious clients.",
+                    hint: "The client is conscious and can swallow — what's the simplest, fastest treatment?"
+                },
+                {
+                    question: "A client has a chest tube connected to a water-seal drainage system. Continuous bubbling is observed in the water-seal chamber. What does this indicate?",
+                    choices: ["A. Normal function", "B. An air leak in the system", "C. The lung has fully re-expanded", "D. The chest tube needs to be clamped"],
+                    correct: 1,
+                    explanation: "Continuous bubbling in the water-seal chamber indicates an air leak. Intermittent bubbling with respiration is normal, but continuous bubbling is not.",
+                    hint: "Intermittent bubbling = normal. Continuous bubbling = ?"
+                }
             ],
             
             pharmacology: [
                 {
                     question: "A client is taking warfarin (Coumadin). Which laboratory value should the nurse monitor?",
-                    choices: [
-                        "A. PT/INR",
-                        "B. aPTT",
-                        "C. Platelet count",
-                        "D. Hemoglobin"
-                    ],
+                    choices: ["A. PT/INR", "B. aPTT", "C. Platelet count", "D. Hemoglobin"],
                     correct: 0,
-                    explanation: "PT/INR is monitored for warfarin therapy to ensure therapeutic anticoagulation and prevent bleeding complications.",
-                    hint: "Warfarin affects vitamin K-dependent clotting factors - which lab test measures this pathway?"
+                    explanation: "PT/INR is monitored for warfarin therapy. Therapeutic INR is typically 2-3 (2.5-3.5 for mechanical heart valves).",
+                    hint: "Warfarin affects the extrinsic pathway — which lab measures that?"
                 },
-                // More general pharmacology questions...
+                {
+                    question: "A client taking metformin (Glucophage) is scheduled for a CT scan with contrast dye. What should the nurse do?",
+                    choices: ["A. Administer the metformin with extra water", "B. Hold metformin for 48 hours before and after the procedure", "C. Give metformin only after the scan", "D. No changes are needed"],
+                    correct: 1,
+                    explanation: "Metformin must be held 48 hours before and after contrast dye procedures due to the risk of lactic acidosis from the combination's effect on kidney function.",
+                    hint: "Contrast dye + metformin = risk of a dangerous metabolic condition."
+                },
+                {
+                    question: "Which medication requires the nurse to check the apical pulse for 1 full minute before administration?",
+                    choices: ["A. Lisinopril", "B. Metoprolol", "C. Digoxin", "D. Amlodipine"],
+                    correct: 2,
+                    explanation: "Digoxin requires a full 60-second apical pulse check. Hold if pulse is <60 bpm in adults or <70 bpm in children due to risk of toxicity.",
+                    hint: "This cardiac glycoside has a narrow therapeutic range and directly affects heart rate."
+                },
+                {
+                    question: "A client is receiving IV vancomycin. Which adverse effect should the nurse monitor for during infusion?",
+                    choices: ["A. Hypotension and flushing (Red Man Syndrome)", "B. Hyperglycemia", "C. Constipation", "D. Weight gain"],
+                    correct: 0,
+                    explanation: "Red Man Syndrome (flushing, hypotension, rash on face/neck/trunk) occurs when vancomycin is infused too rapidly. Infuse over at least 60 minutes.",
+                    hint: "This syndrome is named after the characteristic skin color change during rapid infusion."
+                },
+                {
+                    question: "A client on lithium therapy has a serum level of 2.0 mEq/L. What should the nurse do first?",
+                    choices: ["A. Administer the next scheduled dose", "B. Hold the medication and notify the provider", "C. Encourage fluid intake", "D. Recheck the level in 4 hours"],
+                    correct: 1,
+                    explanation: "Therapeutic lithium level is 0.6-1.2 mEq/L. A level of 2.0 is toxic. Hold the medication immediately and notify the provider. Signs of toxicity include tremors, vomiting, and confusion.",
+                    hint: "The therapeutic range is very narrow (0.6-1.2). What is 2.0?"
+                },
+                {
+                    question: "Which antidote should the nurse have available when administering heparin?",
+                    choices: ["A. Vitamin K", "B. Protamine sulfate", "C. Naloxone", "D. Flumazenil"],
+                    correct: 1,
+                    explanation: "Protamine sulfate is the antidote for heparin. Vitamin K is the antidote for warfarin. Know your antidote pairs!",
+                    hint: "Heparin → protamine. Warfarin → ?"
+                }
             ],
             
             pediatric: [
                 {
                     question: "A 2-year-old has epiglottitis. Which intervention is contraindicated?",
-                    choices: [
-                        "A. Positioning upright",
-                        "B. Providing humidified oxygen",
-                        "C. Examining the throat",
-                        "D. Monitoring respiratory status"
-                    ],
+                    choices: ["A. Positioning upright", "B. Providing humidified oxygen", "C. Examining the throat", "D. Monitoring respiratory status"],
                     correct: 2,
-                    explanation: "Examining the throat can precipitate complete airway obstruction in a child with epiglottitis.",
-                    hint: "With epiglottitis, the inflamed epiglottis can completely block the airway - what examination could trigger this?"
+                    explanation: "Examining the throat (using a tongue depressor) can precipitate complete airway obstruction in a child with epiglottitis. Never inspect the throat!",
+                    hint: "The inflamed epiglottis can completely block the airway if disturbed."
                 },
-                // More general pediatric questions...
+                {
+                    question: "A parent asks when their infant should receive the first MMR vaccine. What is the correct response?",
+                    choices: ["A. At birth", "B. At 6 months", "C. At 12 months", "D. At 18 months"],
+                    correct: 2,
+                    explanation: "The first MMR (measles, mumps, rubella) vaccine is given at 12-15 months. The second dose is given at 4-6 years.",
+                    hint: "This live vaccine is given after maternal antibodies have waned — around the first birthday."
+                },
+                {
+                    question: "A 4-year-old is admitted with suspected Wilms tumor. Which nursing action is contraindicated?",
+                    choices: ["A. Monitoring blood pressure", "B. Palpating the abdomen", "C. Measuring abdominal girth", "D. Maintaining strict I&O"],
+                    correct: 1,
+                    explanation: "Never palpate the abdomen of a child with Wilms tumor (nephroblastoma). Palpation can cause the tumor to rupture and seed cancer cells.",
+                    hint: "This kidney tumor is fragile — what physical action could cause it to rupture?"
+                },
+                {
+                    question: "An infant with pyloric stenosis would most likely present with which type of vomiting?",
+                    choices: ["A. Bile-stained vomiting", "B. Projectile, non-bilious vomiting", "C. Bloody emesis", "D. Intermittent regurgitation"],
+                    correct: 1,
+                    explanation: "Pyloric stenosis causes projectile, non-bilious vomiting because the obstruction is proximal to the bile duct. The classic presentation is a hungry infant who vomits forcefully after feeding.",
+                    hint: "The blockage is at the pylorus (before bile enters) — so the vomit won't contain bile."
+                },
+                {
+                    question: "A child with sickle cell disease presents with severe joint pain and swelling. What is the priority nursing intervention?",
+                    choices: ["A. Apply cold compresses to the joints", "B. Administer IV fluids and pain management", "C. Encourage ambulation", "D. Apply a tourniquet above the affected area"],
+                    correct: 1,
+                    explanation: "During a sickle cell crisis (vaso-occlusive), the priority is aggressive IV hydration to reduce blood viscosity and pain management. Cold worsens sickling — use warm compresses instead.",
+                    hint: "Sickled cells are sticky and dehydrated — what two things does the body need most?"
+                }
             ],
             
             maternal: [
                 {
                     question: "A primigravida at 38 weeks experiences regular contractions every 3 minutes. What is the priority assessment?",
-                    choices: [
-                        "A. Fetal heart rate",
-                        "B. Blood pressure",
-                        "C. Cervical dilation",
-                        "D. Pain level"
-                    ],
+                    choices: ["A. Fetal heart rate", "B. Blood pressure", "C. Cervical dilation", "D. Pain level"],
                     correct: 0,
                     explanation: "Fetal heart rate assessment is priority to ensure fetal well-being during active labor.",
                     hint: "In labor, what assessment ensures the baby is tolerating the stress of contractions?"
                 },
-                // More general maternal questions...
+                {
+                    question: "A pregnant client at 32 weeks reports a sudden gush of fluid from the vagina. What should the nurse do first?",
+                    choices: ["A. Perform a vaginal exam", "B. Test the fluid with Nitrazine paper", "C. Prepare for immediate delivery", "D. Administer oxytocin"],
+                    correct: 1,
+                    explanation: "Nitrazine paper tests for amniotic fluid (turns dark blue with pH 7.0-7.5). This confirms premature rupture of membranes (PROM). Avoid vaginal exam to reduce infection risk.",
+                    hint: "Before any other action, you need to confirm whether this is amniotic fluid."
+                },
+                {
+                    question: "A client receiving magnesium sulfate for preeclampsia becomes lethargic with respirations of 10/min. What is the priority action?",
+                    choices: ["A. Continue the infusion and monitor", "B. Stop the infusion and administer calcium gluconate", "C. Increase IV fluids", "D. Position the client on her left side"],
+                    correct: 1,
+                    explanation: "Respiratory depression (<12/min), lethargy, and absent DTRs are signs of magnesium toxicity. Stop the infusion immediately and give the antidote: calcium gluconate.",
+                    hint: "Mag sulfate toxicity: first lose reflexes, then respirations, then cardiac arrest. What's the antidote?"
+                },
+                {
+                    question: "During the first stage of labor, the fetal heart rate monitor shows late decelerations. What does this indicate?",
+                    choices: ["A. Head compression — normal finding", "B. Umbilical cord compression", "C. Uteroplacental insufficiency", "D. Fetal sleep cycle"],
+                    correct: 2,
+                    explanation: "Late decelerations (FHR drops after contraction peak and recovers after contraction ends) indicate uteroplacental insufficiency — the placenta can't deliver enough oxygen. This is ominous.",
+                    hint: "Early = head compression (benign). Variable = cord compression. Late = ?"
+                },
+                {
+                    question: "A postpartum client is saturating a perineal pad in 15 minutes. What should the nurse do first?",
+                    choices: ["A. Document and continue monitoring", "B. Massage the uterine fundus", "C. Administer oxytocin", "D. Prepare for surgical intervention"],
+                    correct: 1,
+                    explanation: "Soaking a pad in <1 hour indicates postpartum hemorrhage. The first action is fundal massage to stimulate uterine contraction. A boggy uterus is the #1 cause of postpartum hemorrhage.",
+                    hint: "The most common cause of PPH is uterine atony — what's the first hands-on intervention?"
+                }
             ],
             
             psychiatric: [
                 {
                     question: "A client with bipolar disorder is in a manic episode. What is the priority nursing intervention?",
-                    choices: [
-                        "A. Encourage group therapy participation",
-                        "B. Set consistent limits and boundaries",
-                        "C. Provide detailed explanations for procedures",
-                        "D. Allow unlimited visiting hours"
-                    ],
+                    choices: ["A. Encourage group therapy participation", "B. Set consistent limits and boundaries", "C. Provide detailed explanations for procedures", "D. Allow unlimited visiting hours"],
                     correct: 1,
-                    explanation: "Setting consistent limits helps provide structure and safety for clients in manic episodes.",
-                    hint: "Manic clients need structure and safety - what intervention provides this?"
+                    explanation: "Setting consistent limits helps provide structure and safety for clients in manic episodes who have impaired judgment and impulsivity.",
+                    hint: "Manic clients need structure and safety — what intervention provides this?"
                 },
-                // More general psychiatric questions...
+                {
+                    question: "A client states, 'I have a plan to end my life tonight.' What is the nurse's priority response?",
+                    choices: ["A. Ask the client to describe the plan", "B. Leave to notify the provider immediately", "C. Stay with the client and ensure safety", "D. Administer PRN anxiolytic medication"],
+                    correct: 2,
+                    explanation: "When a client expresses suicidal intent with a plan, the priority is to stay with the client (never leave them alone) and ensure their immediate safety. Then notify the provider.",
+                    hint: "Safety first — what's the most dangerous thing you could do right now?"
+                },
+                {
+                    question: "A client with schizophrenia says, 'The TV is sending me secret messages.' This is an example of:",
+                    choices: ["A. Delusion of grandeur", "B. Idea of reference", "C. Hallucination", "D. Loose association"],
+                    correct: 1,
+                    explanation: "Ideas of reference are false beliefs that events or objects in the environment have special personal significance (e.g., the TV is sending them messages).",
+                    hint: "The client believes something external is directed specifically at them — what's the term?"
+                },
+                {
+                    question: "A client is admitted after a sexual assault. Which nursing action takes priority?",
+                    choices: ["A. Collecting forensic evidence", "B. Ensuring the client's physical safety and emotional support", "C. Obtaining a detailed history of the assault", "D. Contacting law enforcement"],
+                    correct: 1,
+                    explanation: "The client's physical safety and emotional support are the priority. Treat injuries, provide a safe environment, and offer a support person before forensic collection.",
+                    hint: "Maslow's hierarchy — what comes first, physical/emotional needs or forensic needs?"
+                },
+                {
+                    question: "Which therapeutic communication technique is the nurse using when saying, 'Tell me more about what you're feeling'?",
+                    choices: ["A. Reflection", "B. Exploring", "C. Restating", "D. Offering general leads"],
+                    correct: 1,
+                    explanation: "Exploring encourages the client to describe their experience in more depth. It's an open-ended invitation to share without leading the client.",
+                    hint: "The nurse is asking the client to go deeper into their feelings — not repeating or reflecting."
+                }
             ],
             
             leadership: [
                 {
                     question: "A nurse manager notices that medication errors have increased on the unit. What is the priority action?",
-                    choices: [
-                        "A. Discipline the nurses making errors",
-                        "B. Analyze the errors for system-based causes",
-                        "C. Increase supervision during medication administration",
-                        "D. Implement a punitive reporting system"
-                    ],
+                    choices: ["A. Discipline the nurses making errors", "B. Analyze the errors for system-based causes", "C. Increase supervision during medication administration", "D. Implement a punitive reporting system"],
                     correct: 1,
-                    explanation: "A systems approach to error analysis focuses on identifying and correcting underlying causes rather than blaming individuals.",
-                    hint: "Modern safety culture focuses on systems, not individuals - what approach identifies root causes?"
+                    explanation: "A systems approach (root cause analysis) identifies underlying causes rather than blaming individuals. This is the foundation of a just culture.",
+                    hint: "Modern safety culture focuses on systems, not individuals."
                 },
-                // More general leadership questions...
+                {
+                    question: "Which task can the RN delegate to unlicensed assistive personnel (UAP)?",
+                    choices: ["A. Administering oral medications", "B. Initial assessment of a new admission", "C. Recording vital signs on a stable client", "D. Teaching a client about a new medication"],
+                    correct: 2,
+                    explanation: "UAPs can perform routine tasks like vital signs on stable clients. Assessment, teaching, and medication administration require RN licensure.",
+                    hint: "The 5 Rights of Delegation: Right task, circumstance, person, direction, supervision."
+                },
+                {
+                    question: "A nurse receives report on 4 clients. Which client should be assessed first?",
+                    choices: ["A. Client with a blood glucose of 180 mg/dL", "B. Client with a new onset of chest pain", "C. Client requesting pain medication", "D. Client due for a scheduled dressing change"],
+                    correct: 1,
+                    explanation: "New onset chest pain could indicate MI or PE — a life-threatening emergency. Use the ABCs (Airway, Breathing, Circulation) to prioritize.",
+                    hint: "Which situation is potentially life-threatening and needs immediate assessment?"
+                },
+                {
+                    question: "A nurse witnesses a coworker diverting narcotics. What is the appropriate action?",
+                    choices: ["A. Confront the coworker privately", "B. Report to the charge nurse or supervisor immediately", "C. Document the observation in the client's chart", "D. Verify by checking the medication count at shift end"],
+                    correct: 1,
+                    explanation: "Drug diversion must be reported immediately to a supervisor. The nurse has a legal and ethical obligation to report. Do not confront or delay.",
+                    hint: "This is a legal issue — what's the chain of command?"
+                },
+                {
+                    question: "In disaster triage, a victim is not breathing after repositioning the airway. What color tag is assigned?",
+                    choices: ["A. Red (immediate)", "B. Yellow (delayed)", "C. Green (minor)", "D. Black (expectant/deceased)"],
+                    correct: 3,
+                    explanation: "In disaster triage (START), if a victim is not breathing even after opening the airway, they are tagged black (expectant/deceased). Resources go to salvageable victims.",
+                    hint: "In mass casualty, no breathing after airway repositioning = no further intervention."
+                }
             ],
             
             safety: [
                 {
                     question: "Which action demonstrates proper use of standard precautions?",
-                    choices: [
-                        "A. Wearing gloves only when visible blood is present",
-                        "B. Using PPE based on anticipated exposure to body fluids",
-                        "C. Washing hands only after removing gloves",
-                        "D. Applying precautions only for diagnosed infections"
-                    ],
+                    choices: ["A. Wearing gloves only when visible blood is present", "B. Using PPE based on anticipated exposure to body fluids", "C. Washing hands only after removing gloves", "D. Applying precautions only for diagnosed infections"],
                     correct: 1,
-                    explanation: "Standard precautions require using PPE based on the anticipated exposure to blood, body fluids, secretions, and excretions.",
-                    hint: "Standard precautions apply to ALL patients based on exposure risk, not diagnosis - what guides PPE selection?"
+                    explanation: "Standard precautions require using PPE based on the anticipated exposure to blood, body fluids, secretions, and excretions — for ALL patients.",
+                    hint: "Standard precautions apply to ALL patients based on exposure risk, not diagnosis."
                 },
-                // More general safety questions...
+                {
+                    question: "A nurse enters a client's room and finds the client unresponsive on the floor. What is the first action?",
+                    choices: ["A. Call a code blue", "B. Check for responsiveness and call for help", "C. Begin chest compressions", "D. Retrieve the AED"],
+                    correct: 1,
+                    explanation: "Per BLS guidelines: first check responsiveness (tap and shout), then call for help/activate emergency response. Don't assume cardiac arrest.",
+                    hint: "BLS sequence: Check → Call → Compress → Defibrillate."
+                },
+                {
+                    question: "Which client requires airborne precautions?",
+                    choices: ["A. Client with MRSA wound infection", "B. Client with active pulmonary tuberculosis", "C. Client with C. difficile", "D. Client with RSV"],
+                    correct: 1,
+                    explanation: "Airborne precautions (N95 respirator, negative pressure room) are required for TB, measles, varicella, and disseminated herpes zoster. Remember: 'My Chicken Hez TB' (Measles, Chickenpox, Herpes zoster, TB).",
+                    hint: "Which diseases spread via tiny droplet nuclei that float in the air?"
+                },
+                {
+                    question: "A client is restrained. How often should the nurse assess circulation, sensation, and movement?",
+                    choices: ["A. Every 4 hours", "B. Every 2 hours", "C. Every 15-30 minutes per policy", "D. Once per shift"],
+                    correct: 2,
+                    explanation: "Restraint checks should occur every 15-30 minutes (per facility policy) to assess circulation, sensation, movement, skin integrity, and need for toileting/fluids.",
+                    hint: "Restraints can compromise circulation quickly — how often is frequent enough?"
+                },
+                {
+                    question: "A nurse accidentally sustains a needlestick injury. What is the first action?",
+                    choices: ["A. Report to the supervisor", "B. Wash the site immediately with soap and water", "C. Complete an incident report", "D. Have blood drawn for baseline labs"],
+                    correct: 1,
+                    explanation: "The first action after a needlestick is to wash the site immediately with soap and water. Then report, get baseline labs, and complete an incident report.",
+                    hint: "Before paperwork or reporting — what physically reduces infection risk right now?"
+                }
             ],
             
             nutrition: [
                 {
                     question: "A client with diabetes asks about alcohol consumption. What should the nurse include in the teaching?",
-                    choices: [
-                        "A. Alcohol is prohibited for all diabetic clients",
-                        "B. Alcohol can cause delayed hypoglycemia and should be consumed with food",
-                        "C. Only wine is acceptable for diabetic clients",
-                        "D. Alcohol has no effect on blood glucose levels"
-                    ],
+                    choices: ["A. Alcohol is prohibited for all diabetic clients", "B. Alcohol can cause delayed hypoglycemia and should be consumed with food", "C. Only wine is acceptable for diabetic clients", "D. Alcohol has no effect on blood glucose levels"],
                     correct: 1,
-                    explanation: "Alcohol can cause delayed hypoglycemia in diabetic clients and should be consumed with food to minimize this risk.",
-                    hint: "Alcohol affects the liver's glucose production - what timing issue should diabetic clients be aware of?"
+                    explanation: "Alcohol inhibits gluconeogenesis in the liver, causing delayed hypoglycemia. Diabetic clients should always eat when drinking alcohol.",
+                    hint: "Alcohol affects the liver's glucose production — what could happen hours later?"
                 },
-                // More general nutrition questions...
+                {
+                    question: "A client with chronic kidney disease should limit intake of which nutrients?",
+                    choices: ["A. Carbohydrates and fiber", "B. Sodium, potassium, and phosphorus", "C. Vitamins A and C", "D. Iron and calcium"],
+                    correct: 1,
+                    explanation: "CKD clients must restrict sodium (fluid retention), potassium (hyperkalemia risk), and phosphorus (bone disease). These electrolytes accumulate when kidneys can't excrete them.",
+                    hint: "Damaged kidneys can't excrete these three electrolytes — which ones?"
+                },
+                {
+                    question: "A client taking an MAO inhibitor should avoid which food?",
+                    choices: ["A. Fresh fruits and vegetables", "B. Aged cheese and cured meats", "C. Whole grain bread", "D. Low-fat dairy products"],
+                    correct: 1,
+                    explanation: "MAOIs + tyramine-rich foods (aged cheese, cured meats, red wine, soy sauce) can cause a hypertensive crisis. Teach clients to avoid these foods strictly.",
+                    hint: "Tyramine-rich foods + MAOIs = dangerously high blood pressure."
+                },
+                {
+                    question: "Which diet is appropriate for a client with celiac disease?",
+                    choices: ["A. Low-residue diet", "B. Gluten-free diet", "C. DASH diet", "D. High-protein diet"],
+                    correct: 1,
+                    explanation: "Celiac disease is an autoimmune reaction to gluten (found in wheat, barley, rye). A strict gluten-free diet is the only treatment.",
+                    hint: "Celiac disease damages the small intestine when a specific protein is consumed."
+                },
+                {
+                    question: "A client is receiving total parenteral nutrition (TPN). Which lab value should the nurse monitor most frequently?",
+                    choices: ["A. Hemoglobin", "B. Blood glucose", "C. Serum albumin", "D. BUN"],
+                    correct: 1,
+                    explanation: "TPN contains high concentrations of dextrose, which can cause hyperglycemia. Blood glucose should be monitored every 4-6 hours initially.",
+                    hint: "TPN is basically sugar water + nutrients delivered IV — what goes up?"
+                }
             ],
             
             fluids: [
                 {
                     question: "A client has hypernatremia. Which IV fluid would the nurse expect to be prescribed?",
-                    choices: [
-                        "A. Normal saline (0.9% NaCl)",
-                        "B. Hypotonic solution (0.45% NaCl)",
-                        "C. Hypertonic saline (3% NaCl)",
-                        "D. Lactated Ringer's solution"
-                    ],
+                    choices: ["A. Normal saline (0.9% NaCl)", "B. Hypotonic solution (0.45% NaCl)", "C. Hypertonic saline (3% NaCl)", "D. Lactated Ringer's solution"],
                     correct: 1,
-                    explanation: "Hypotonic solutions help dilute serum sodium levels in clients with hypernatremia by providing free water.",
-                    hint: "High sodium needs dilution - what type of solution provides water to dilute the sodium?"
+                    explanation: "Hypotonic solutions provide free water to dilute serum sodium in hypernatremia.",
+                    hint: "High sodium needs dilution — what type of solution provides free water?"
+                },
+                {
+                    question: "A client's potassium level is 6.2 mEq/L. Which ECG change should the nurse expect?",
+                    choices: ["A. Flattened T waves", "B. Tall, peaked T waves", "C. Prolonged QT interval", "D. ST elevation"],
+                    correct: 1,
+                    explanation: "Hyperkalemia (>5.0) causes tall, peaked T waves on ECG. Severe hyperkalemia can lead to widened QRS, absent P waves, and cardiac arrest.",
+                    hint: "High K+ = tall T waves. Low K+ = flat T waves + U waves."
+                },
+                {
+                    question: "A client has a serum calcium of 7.0 mg/dL. Which assessment finding would the nurse expect?",
+                    choices: ["A. Decreased deep tendon reflexes", "B. Positive Trousseau's and Chvostek's signs", "C. Constipation", "D. Shortened QT interval"],
+                    correct: 1,
+                    explanation: "Hypocalcemia (<8.5) causes neuromuscular irritability. Trousseau's sign (carpal spasm with BP cuff) and Chvostek's sign (facial twitching when tapping facial nerve) are classic indicators.",
+                    hint: "Low calcium = muscles get twitchy. What are the two classic bedside tests?"
+                },
+                {
+                    question: "A client is receiving a blood transfusion and develops fever, chills, and back pain 15 minutes into the infusion. What should the nurse do first?",
+                    choices: ["A. Slow the infusion rate", "B. Stop the transfusion immediately", "C. Administer diphenhydramine", "D. Obtain a urine specimen"],
+                    correct: 1,
+                    explanation: "These are signs of a hemolytic transfusion reaction — a medical emergency. Stop the transfusion immediately, keep the IV open with NS, and notify the provider.",
+                    hint: "Fever + chills + back pain during transfusion = the most dangerous reaction."
+                },
+                {
+                    question: "A client in heart failure has 3+ pitting edema and crackles in the lungs. Which type of fluid imbalance is present?",
+                    choices: ["A. Fluid volume deficit (dehydration)", "B. Fluid volume excess (hypervolemia)", "C. Third-spacing", "D. Isotonic dehydration"],
+                    correct: 1,
+                    explanation: "Edema + crackles (pulmonary congestion) = fluid volume excess. The heart can't pump effectively, causing fluid to back up into the lungs and periphery.",
+                    hint: "The heart is failing as a pump — where does the fluid go?"
                 }
-                // More general fluid/electrolyte questions...
             ]
         };
 
