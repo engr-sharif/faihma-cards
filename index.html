@@ -717,6 +717,157 @@
         .swipe-indicators.active {
             opacity: 0.7;
         }
+        
+        /* CARD SLIDE ANIMATION */
+        @keyframes slideOutLeft {
+            to { transform: translateX(-120%) rotate(-5deg); opacity: 0; }
+        }
+        @keyframes slideInRight {
+            from { transform: translateX(120%) rotate(5deg); opacity: 0; }
+            to { transform: translateX(0) rotate(0); opacity: 1; }
+        }
+        .flashcard-container.slide-out {
+            animation: slideOutLeft 0.3s ease-in forwards;
+        }
+        .flashcard-container.slide-in {
+            animation: slideInRight 0.35s var(--spring-smooth) forwards;
+        }
+        
+        /* TOAST NOTIFICATIONS */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: var(--bg-card);
+            color: var(--text-dark);
+            padding: 12px 24px;
+            border-radius: 25px;
+            box-shadow: var(--shadow-heavy);
+            font-weight: 600;
+            font-size: 0.95rem;
+            z-index: 2000;
+            transition: transform 0.4s var(--spring-bounce);
+            pointer-events: none;
+            white-space: nowrap;
+        }
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        /* MASTERY DOTS on card */
+        .mastery-indicator {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            margin-bottom: 12px;
+            justify-content: center;
+        }
+        .mastery-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #e0e0e0;
+            transition: background 0.3s ease;
+        }
+        .mastery-dot.filled {
+            background: var(--success-green);
+        }
+        .mastery-dot.half {
+            background: var(--warning-yellow);
+        }
+        .mastery-label {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-left: 8px;
+            font-weight: 600;
+        }
+        
+        /* REVIEW BADGE */
+        .review-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 20px;
+            height: 20px;
+            padding: 0 6px;
+            border-radius: 10px;
+            background: var(--error-red);
+            color: white;
+            font-size: 0.7rem;
+            font-weight: 700;
+            margin-left: 6px;
+        }
+        .review-badge:empty, .review-badge.hidden { display: none; }
+        
+        /* SUBJECT MASTERY BARS in stats */
+        .subject-mastery-list {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            box-shadow: var(--shadow-light);
+        }
+        .subject-mastery-list h3 {
+            font-size: 1rem;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+        .subject-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .subject-bar-label {
+            flex: 0 0 120px;
+            font-size: 0.8rem;
+            color: var(--text-light);
+            font-weight: 600;
+            text-align: right;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .subject-bar-track {
+            flex: 1;
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .subject-bar-fill {
+            height: 100%;
+            border-radius: 5px;
+            transition: width 0.6s var(--spring-smooth);
+            background: linear-gradient(90deg, var(--primary-teal), var(--primary-blue));
+        }
+        .subject-bar-pct {
+            flex: 0 0 40px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        
+        /* Completed session confetti burst */
+        @keyframes confetti {
+            0% { transform: translateY(0) rotate(0); opacity: 1; }
+            100% { transform: translateY(-200px) rotate(720deg); opacity: 0; }
+        }
+        .confetti-piece {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            z-index: 2000;
+            pointer-events: none;
+            animation: confetti 1.5s ease-out forwards;
+        }
+        
+        @media (max-width: 768px) {
+            .subject-bar-label { flex: 0 0 80px; font-size: 0.7rem; }
+        }
     </style>
 </head>
 <body>
@@ -766,7 +917,7 @@
                         </select>
                     </div>
                     <button class="toggle-btn" id="shuffleBtn">🔀 Shuffle</button>
-                    <button class="toggle-btn" id="reviewBtn">🔄 Review Missed</button>
+                    <button class="toggle-btn" id="reviewBtn">🔄 Review Missed<span class="review-badge hidden" id="reviewBadge"></span></button>
                 </div>
 
                 <!-- PROGRESS BAR -->
@@ -784,6 +935,7 @@
                 <div class="flashcard-container">
                     <div class="flashcard" id="flashcard">
                         <div class="card-face card-front">
+                            <div class="mastery-indicator" id="masteryIndicator"></div>
                             <div class="card-question" id="cardQuestion">Loading...</div>
                             <ul class="card-choices" id="cardChoices"></ul>
                         </div>
@@ -832,6 +984,9 @@
                         <div class="stat-value" id="weakestTopic">-</div>
                         <div class="stat-label">Weakest Topic</div>
                     </div>
+                    <div class="subject-mastery-list" id="subjectMasteryList">
+                        <h3>📈 Subject Mastery</h3>
+                    </div>
                     <div style="grid-column: 1 / -1; display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; justify-content: center;">
                         <button onclick="exportProgress()" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--primary-teal); background: transparent; color: var(--text-dark); font-weight: 600; cursor: pointer;">📤 Export Progress</button>
                         <button onclick="importProgress()" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--primary-blue); background: transparent; color: var(--text-dark); font-weight: 600; cursor: pointer;">📥 Import Progress</button>
@@ -844,6 +999,9 @@
         <!-- SWIPE INDICATORS -->
         <div class="swipe-indicators swipe-left">❌</div>
         <div class="swipe-indicators swipe-right">✅</div>
+
+        <!-- TOAST -->
+        <div class="toast" id="toast"></div>
 
         <!-- PARTICLES CONTAINER -->
         <div class="particles" id="particles"></div>
@@ -2620,60 +2778,130 @@
         }
 
         function nextCard() {
-            if (AppState.currentCardIndex < AppState.filteredCards.length - 1) {
-                AppState.currentCardIndex++;
-            } else {
+            const wasLast = AppState.currentCardIndex >= AppState.filteredCards.length - 1;
+            if (wasLast) {
                 AppState.currentCardIndex = 0;
+                showToast('🔁 Deck complete! Starting over…');
+            } else {
+                AppState.currentCardIndex++;
             }
             
             AppState.showingAnswer = false;
             AppState.selectedChoice = null;
-            renderCard();
+            renderCard(true);
             updateProgress();
         }
 
+        // ==== TOAST ====
+        let _toastTimer = null;
+        function showToast(msg, durationMs) {
+            durationMs = durationMs || 2000;
+            const el = document.getElementById('toast');
+            el.textContent = msg;
+            el.classList.add('show');
+            clearTimeout(_toastTimer);
+            _toastTimer = setTimeout(() => el.classList.remove('show'), durationMs);
+        }
+
+        // ==== MASTERY DOTS ====
+        function renderMasteryDots(card) {
+            const container = document.getElementById('masteryIndicator');
+            container.innerHTML = '';
+            if (!card) return;
+            const cardKey = getCardKey(card);
+            const p = AppState.progress[cardKey];
+            const correct = p ? p.correct : 0;
+            const studied = p ? p.studied : 0;
+            const mastered = p && p.mastered;
+            const dots = 5;
+            const filled = mastered ? dots : Math.min(dots, correct);
+            for (let i = 0; i < dots; i++) {
+                const dot = document.createElement('span');
+                dot.className = 'mastery-dot' + (i < filled ? ' filled' : '');
+                container.appendChild(dot);
+            }
+            const label = document.createElement('span');
+            label.className = 'mastery-label';
+            label.textContent = mastered ? 'Mastered ✨' : studied > 0 ? `${correct}/${studied} correct` : 'New';
+            container.appendChild(label);
+        }
+
+        // ==== REVIEW BADGE ====
+        function updateReviewBadge() {
+            let count = 0;
+            const currentCards = QuestionBank[AppState.currentSubject] || [];
+            currentCards.forEach(card => {
+                const key = getCardKey(card);
+                if (AppState.progress[key] && AppState.progress[key].incorrect > 0) count++;
+            });
+            const badge = document.getElementById('reviewBadge');
+            if (count > 0) {
+                badge.textContent = count;
+                badge.classList.remove('hidden');
+            } else {
+                badge.classList.add('hidden');
+            }
+        }
+
         // ==== RENDERING ====
-        function renderCard() {
+        function renderCard(animate) {
             const card = getCurrentCard();
             if (!card) {
                 document.getElementById('cardQuestion').textContent = 'No cards available for this subject or filter.';
                 document.getElementById('cardChoices').innerHTML = '';
                 document.getElementById('cardExplanation').textContent = '';
                 document.getElementById('cardHint').style.display = 'none';
+                document.getElementById('masteryIndicator').innerHTML = '';
                 return;
             }
 
-            document.getElementById('cardQuestion').textContent = card.question;
-            
-            const choicesContainer = document.getElementById('cardChoices');
-            choicesContainer.innerHTML = '';
-            
-            card.choices.forEach((choice, index) => {
-                const li = document.createElement('li');
-                li.className = 'card-choice';
-                li.textContent = choice;
-                li.addEventListener('click', () => selectChoice(index));
-                choicesContainer.appendChild(li);
-            });
+            const container = document.querySelector('.flashcard-container');
 
-            document.getElementById('cardExplanation').textContent = card.explanation;
-            
-            const hintElement = document.getElementById('cardHint');
-            hintElement.textContent = card.hint || '';
-            hintElement.style.display = 'none'; // Hidden until wrong answer
+            function populateCard() {
+                document.getElementById('cardQuestion').textContent = card.question;
+                
+                const choicesContainer = document.getElementById('cardChoices');
+                choicesContainer.innerHTML = '';
+                
+                card.choices.forEach((choice, index) => {
+                    const li = document.createElement('li');
+                    li.className = 'card-choice';
+                    li.textContent = choice;
+                    li.addEventListener('click', () => selectChoice(index));
+                    choicesContainer.appendChild(li);
+                });
 
-            // Reset card state
-            const flashcard = document.getElementById('flashcard');
-            flashcard.classList.remove('flipped', 'shake');
-            flashcard.style.transform = '';
-            document.getElementById('answerButtons').style.display = 'none';
-            document.getElementById('nextButton').style.display = 'none';
-            
-            // Reset selectedChoice
-            AppState.selectedChoice = null;
-            AppState.showingAnswer = false;
+                document.getElementById('cardExplanation').textContent = card.explanation;
+                
+                const hintElement = document.getElementById('cardHint');
+                hintElement.textContent = card.hint || '';
+                hintElement.style.display = 'none';
 
-            updateProgress();
+                const flashcard = document.getElementById('flashcard');
+                flashcard.classList.remove('flipped', 'shake');
+                flashcard.style.transform = '';
+                document.getElementById('answerButtons').style.display = 'none';
+                document.getElementById('nextButton').style.display = 'none';
+                
+                AppState.selectedChoice = null;
+                AppState.showingAnswer = false;
+
+                renderMasteryDots(card);
+                updateReviewBadge();
+                updateProgress();
+            }
+
+            if (animate) {
+                container.classList.add('slide-out');
+                setTimeout(() => {
+                    container.classList.remove('slide-out');
+                    populateCard();
+                    container.classList.add('slide-in');
+                    setTimeout(() => container.classList.remove('slide-in'), 400);
+                }, 300);
+            } else {
+                populateCard();
+            }
         }
 
         function selectChoice(choiceIndex) {
@@ -2772,16 +3000,18 @@
             switch(difficulty) {
                 case 'easy':
                     AppState.progress[cardKey].mastered = true;
+                    showToast('⚡ Mastered!');
                     break;
                 case 'good':
-                    // Good answer, no special handling
+                    showToast('👍 Nice!', 1200);
                     break;
                 case 'hard':
-                    // Mark for more review
                     AppState.progress[cardKey].needsReview = true;
+                    showToast('💪 Keep at it!', 1200);
                     break;
                 case 'again':
                     AppState.progress[cardKey].incorrect++;
+                    showToast('🔄 You\'ll get it next time!', 1500);
                     break;
             }
             
@@ -2810,6 +3040,49 @@
             document.getElementById('sessionAccuracy').textContent = AppState.stats.sessionAccuracy + '%';
             document.getElementById('studyTime').textContent = studyTimeMinutes + 'm';
             document.getElementById('streakCount').textContent = AppState.stats.studyStreak || 0;
+
+            // Calculate weakest topic
+            const allOptions = { ...SubjectOptions.course, ...SubjectOptions.general };
+            let worstSubject = '-';
+            let worstRate = Infinity;
+            const subjectStats = {};
+
+            for (const [subjectKey, label] of Object.entries(allOptions)) {
+                const cards = QuestionBank[subjectKey] || [];
+                if (cards.length === 0) continue;
+                let correct = 0, total = 0;
+                cards.forEach(card => {
+                    const key = `${subjectKey}_${card.question.substring(0, 50)}`;
+                    const p = AppState.progress[key];
+                    if (p && p.studied > 0) {
+                        correct += p.correct;
+                        total += p.studied;
+                    }
+                });
+                const rate = total > 0 ? correct / total : -1;
+                subjectStats[subjectKey] = { label, correct, total, cardCount: cards.length, rate };
+                if (total > 0 && rate < worstRate) {
+                    worstRate = rate;
+                    worstSubject = label.length > 12 ? label.substring(0, 12) + '…' : label;
+                }
+            }
+            document.getElementById('weakestTopic').textContent = worstSubject;
+
+            // Subject mastery bars
+            const masteryList = document.getElementById('subjectMasteryList');
+            masteryList.innerHTML = '<h3>📈 Subject Mastery</h3>';
+            const currentOptions = AppState.studyMode === 'course' ? SubjectOptions.course : SubjectOptions.general;
+            for (const [key, label] of Object.entries(currentOptions)) {
+                const s = subjectStats[key];
+                if (!s) continue;
+                const pct = s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0;
+                const bar = document.createElement('div');
+                bar.className = 'subject-bar';
+                bar.innerHTML = `<span class="subject-bar-label">${label}</span>
+                    <div class="subject-bar-track"><div class="subject-bar-fill" style="width:${pct}%;${pct >= 80 ? 'background:linear-gradient(90deg,#66bb6a,#43a047)' : pct < 50 && s.total > 0 ? 'background:linear-gradient(90deg,#ef5350,#e53935)' : ''}"></div></div>
+                    <span class="subject-bar-pct">${s.total > 0 ? pct + '%' : '—'}</span>`;
+                masteryList.appendChild(bar);
+            }
         }
 
         function updateProgress() {
@@ -2859,6 +3132,13 @@
             }
             
             AppState.stats.startTime = Date.now();
+
+            // Restore dark mode
+            if (localStorage.getItem('faihma_dark_mode') === '1') {
+                AppState.darkMode = true;
+                document.body.setAttribute('data-theme', 'dark');
+                document.getElementById('darkModeBtn').textContent = '☀️';
+            }
         }
 
         // ==== UTILITIES ====
@@ -2893,6 +3173,7 @@
             AppState.darkMode = !AppState.darkMode;
             document.body.setAttribute('data-theme', AppState.darkMode ? 'dark' : '');
             document.getElementById('darkModeBtn').textContent = AppState.darkMode ? '☀️' : '🌙';
+            localStorage.setItem('faihma_dark_mode', AppState.darkMode ? '1' : '0');
         }
 
         function toggleStats() {
