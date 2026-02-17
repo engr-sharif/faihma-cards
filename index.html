@@ -2741,6 +2741,80 @@
             renderCard();
         }
 
+        // ==== SM-2 SPACED REPETITION ENGINE ====
+        // Based on SuperMemo SM-2 with Leitner-inspired short intervals
+        function sm2(progress, quality) {
+            // quality: 0 = Again, 1 = Hard, 2 = Good, 3 = Easy (mapped from 0-5 SM-2 scale)
+            // Map to SM-2 quality: Again→1, Hard→2, Good→4, Easy→5
+            const q = [1, 2, 4, 5][quality] || 2;
+
+            let ef = progress.easeFactor || 2.5;
+            let interval = progress.interval || 0;
+            let reps = progress.repetitions || 0;
+
+            if (q < 3) {
+                // Failed — reset to beginning with short interval
+                reps = 0;
+                interval = quality === 0 ? 1 : 3; // Again: 1 min, Hard: 3 min (in minutes for first steps)
+                // Store as fraction of a day for first learning steps
+                interval = quality === 0 ? 0.0007 : 0.002; // ~1 min / ~3 min in days
+            } else {
+                // Passed
+                reps++;
+                if (reps === 1) {
+                    interval = 1; // 1 day
+                } else if (reps === 2) {
+                    interval = 3; // 3 days (Leitner-inspired graduated interval)
+                } else {
+                    interval = Math.round(interval * ef);
+                }
+
+                // Easy bonus: 30% longer interval
+                if (q === 5) {
+                    interval = Math.round(interval * 1.3);
+                }
+            }
+
+            // Update ease factor (SM-2 formula)
+            ef = ef + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02));
+            ef = Math.max(1.3, ef); // Floor at 1.3
+
+            // Cap interval at 365 days
+            interval = Math.min(interval, 365);
+
+            const now = Date.now();
+            return {
+                easeFactor: Math.round(ef * 100) / 100,
+                interval: interval,
+                repetitions: reps,
+                nextReview: now + interval * 86400000, // Convert days to ms
+                lastReview: now
+            };
+        }
+
+        function isDueCard(cardKey) {
+            const p = AppState.progress[cardKey];
+            if (!p || !p.nextReview) return true; // New card = due
+            return Date.now() >= p.nextReview;
+        }
+
+        function cardSortPriority(card) {
+            const key = getCardKey(card);
+            const p = AppState.progress[key];
+            if (!p || !p.nextReview) return 0; // New cards: highest priority
+            const overdue = Date.now() - p.nextReview;
+            if (overdue >= 0) return 1; // Due/overdue: second priority (more overdue = shown sooner within group)
+            return 2; // Future: lowest priority
+        }
+
+        function getDueCount(subjectKey) {
+            const cards = QuestionBank[subjectKey] || [];
+            return cards.filter(card => {
+                const key = `${subjectKey}_${card.question.substring(0, 50)}`;
+                return isDueCard(key);
+            }).length;
+        }
+
         // ==== CARD MANAGEMENT ====
         function filterCards() {
             AppState.cards = QuestionBank[AppState.currentSubject] || [];
@@ -2756,6 +2830,19 @@
 
             if (AppState.shuffleMode) {
                 shuffleArray(AppState.filteredCards);
+            } else {
+                // SRS smart sort: due/overdue first, then new, then future
+                AppState.filteredCards.sort((a, b) => {
+                    const pa = cardSortPriority(a);
+                    const pb = cardSortPriority(b);
+                    if (pa !== pb) return pa - pb;
+                    // Within due cards, most overdue first
+                    if (pa === 1) {
+                        const ka = getCardKey(a), kb = getCardKey(b);
+                        return (AppState.progress[ka].nextReview || 0) - (AppState.progress[kb].nextReview || 0);
+                    }
+                    return 0;
+                });
             }
 
             AppState.currentCardIndex = 0;
@@ -2813,8 +2900,11 @@
             const correct = p ? p.correct : 0;
             const studied = p ? p.studied : 0;
             const mastered = p && p.mastered;
+            const reps = p ? (p.repetitions || 0) : 0;
+            const interval = p ? (p.interval || 0) : 0;
             const dots = 5;
-            const filled = mastered ? dots : Math.min(dots, correct);
+            // Dots based on SRS level: reps count progression
+            const filled = mastered ? dots : Math.min(dots, reps);
             for (let i = 0; i < dots; i++) {
                 const dot = document.createElement('span');
                 dot.className = 'mastery-dot' + (i < filled ? ' filled' : '');
@@ -2822,7 +2912,16 @@
             }
             const label = document.createElement('span');
             label.className = 'mastery-label';
-            label.textContent = mastered ? 'Mastered ✨' : studied > 0 ? `${correct}/${studied} correct` : 'New';
+            if (mastered) {
+                label.textContent = 'Mastered ✨';
+            } else if (reps > 0 && interval > 0) {
+                const intervalText = interval < 1 ? '<1d' : Math.round(interval) + 'd';
+                label.textContent = `Level ${reps} · ${intervalText} interval`;
+            } else if (studied > 0) {
+                label.textContent = `Learning · ${correct}/${studied}`;
+            } else {
+                label.textContent = 'New';
+            }
             container.appendChild(label);
         }
 
@@ -2956,8 +3055,20 @@
             // Flip to show explanation
             document.getElementById('flashcard').classList.add('flipped');
             
-            // Show answer rating buttons after flip animation completes
+            // Show answer rating buttons with interval previews
             setTimeout(() => {
+                const cardKey = getCardKey(card);
+                const p = AppState.progress[cardKey] || {};
+                const labels = ['again', 'hard', 'good', 'easy'];
+                const btnIds = ['againBtn', 'hardBtn', 'goodBtn', 'easyBtn'];
+                const emojis = ['🔄', '😤', '👍', '⚡'];
+                const names = ['Again', 'Hard', 'Good', 'Easy'];
+                for (let i = 0; i < 4; i++) {
+                    const preview = sm2({...p}, i);
+                    const iv = preview.interval;
+                    const ivText = iv < 0.01 ? '1m' : iv < 0.05 ? '3m' : iv < 1 ? Math.round(iv*24)+'h' : iv === 1 ? '1d' : Math.round(iv)+'d';
+                    document.getElementById(btnIds[i]).innerHTML = `${emojis[i]} ${names[i]}<br><small style="opacity:0.8;font-size:0.75em">${ivText}</small>`;
+                }
                 document.getElementById('answerButtons').style.display = 'flex';
                 if (isCorrect) {
                     createSuccessParticles();
@@ -2997,21 +3108,36 @@
                 AppState.progress[cardKey] = { correct: 0, incorrect: 0, studied: 0, mastered: false };
             }
             
+            // Map difficulty to quality: again=0, hard=1, good=2, easy=3
+            const qualityMap = { again: 0, hard: 1, good: 2, easy: 3 };
+            const quality = qualityMap[difficulty] ?? 2;
+
+            // Run SM-2 algorithm
+            const srsResult = sm2(AppState.progress[cardKey], quality);
+            Object.assign(AppState.progress[cardKey], srsResult);
+
+            // Friendly labels
+            const intervalLabel = srsResult.interval < 0.01 ? '~1 min' :
+                                  srsResult.interval < 0.05 ? '~3 min' :
+                                  srsResult.interval < 1 ? Math.round(srsResult.interval * 24) + 'h' :
+                                  srsResult.interval === 1 ? '1 day' :
+                                  Math.round(srsResult.interval) + ' days';
+
             switch(difficulty) {
                 case 'easy':
                     AppState.progress[cardKey].mastered = true;
-                    showToast('⚡ Mastered!');
+                    showToast(`⚡ Mastered! Next in ${intervalLabel}`);
                     break;
                 case 'good':
-                    showToast('👍 Nice!', 1200);
+                    showToast(`👍 Nice! Next in ${intervalLabel}`, 1500);
                     break;
                 case 'hard':
                     AppState.progress[cardKey].needsReview = true;
-                    showToast('💪 Keep at it!', 1200);
+                    showToast(`💪 Next in ${intervalLabel}`, 1500);
                     break;
                 case 'again':
                     AppState.progress[cardKey].incorrect++;
-                    showToast('🔄 You\'ll get it next time!', 1500);
+                    showToast('🔄 Coming back soon!', 1500);
                     break;
             }
             
@@ -3034,6 +3160,15 @@
             const masteredCards = Object.values(AppState.progress).filter(p => p.mastered).length;
             const studyTimeMinutes = Math.floor((Date.now() - AppState.stats.startTime) / 60000);
             
+            // Count cards in SRS stages
+            const now = Date.now();
+            let dueNow = 0, learning = 0, mature = 0;
+            Object.values(AppState.progress).forEach(p => {
+                if (!p.nextReview || now >= p.nextReview) dueNow++;
+                if ((p.repetitions || 0) >= 3 && (p.interval || 0) >= 21) mature++;
+                else if ((p.repetitions || 0) > 0) learning++;
+            });
+
             document.getElementById('totalCards').textContent = totalStudied;
             document.getElementById('masteredCards').textContent = masteredCards;
             document.getElementById('studyStreak').textContent = AppState.stats.studyStreak || 0;
@@ -3089,8 +3224,10 @@
             const current = AppState.currentCardIndex + 1;
             const total = AppState.filteredCards.length;
             const percentage = total > 0 ? (current / total) * 100 : 0;
+            const dueCount = getDueCount(AppState.currentSubject);
             
-            document.getElementById('progressText').textContent = `Question ${current} of ${total}`;
+            const dueLabel = dueCount > 0 ? ` · ${dueCount} due` : ' · All caught up! ✨';
+            document.getElementById('progressText').textContent = `Question ${current} of ${total}${dueLabel}`;
             document.getElementById('accuracyText').textContent = `Accuracy: ${AppState.stats.sessionAccuracy}%`;
             document.getElementById('progressFill').style.width = percentage + '%';
         }
