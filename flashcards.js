@@ -1922,6 +1922,381 @@
                     explanation: "Edema + crackles (pulmonary congestion) = fluid volume excess. The heart can't pump effectively, causing fluid to back up into the lungs and periphery.",
                     hint: "The heart is failing as a pump — where does the fluid go?"
                 }
+            ],
+            
+            ch40_bowel_elimination: [
+                {
+                    question: "Name the parts of the large intestine in order:",
+                    choices: [
+                        "A. Cecum → Sigmoid → Transverse → Descending → Ascending → Rectum",
+                        "B. Cecum → Ascending → Transverse → Descending → Sigmoid → Rectum",
+                        "C. Rectum → Sigmoid → Descending → Transverse → Ascending → Cecum",
+                        "D. Ascending → Cecum → Transverse → Sigmoid → Descending → Rectum"
+                    ],
+                    correct: 1,
+                    explanation: "The large intestine flows: Cecum → Ascending colon → Transverse colon → Descending colon → Sigmoid colon → Rectum → Anal canal. Remember: 'Can't Always Tell Doctors Seriously Refuse'",
+                    hint: "💭 Think of it as going up, across, down: Cecum → up → across → down → S-curve → exit"
+                },
+                {
+                    question: "What is the primary function of the large intestine?",
+                    choices: [
+                        "A. Digestion of proteins and carbohydrates",
+                        "B. Absorption of nutrients and vitamins",
+                        "C. Absorption of water and electrolytes, formation of feces",
+                        "D. Production of digestive enzymes"
+                    ],
+                    correct: 2,
+                    explanation: "The large intestine's main job is absorbing water and electrolytes from the remaining intestinal contents and forming/storing feces for elimination. Small intestine does most nutrient absorption.",
+                    hint: "🌊 Large intestine = the body's water recycling center + waste storage"
+                },
+                {
+                    question: "What stimulates the defecation reflex?",
+                    choices: [
+                        "A. Hormonal changes in blood glucose",
+                        "B. Distention of the rectum by feces",
+                        "C. Increased peristalsis in the stomach",
+                        "D. Changes in body temperature"
+                    ],
+                    correct: 1,
+                    explanation: "When feces enters and stretches the rectum, stretch receptors send signals to the spinal cord and brain, triggering the urge to defecate. This is the normal defecation reflex.",
+                    hint: "📏 Think stretch receptors - when the rectum gets full, it sends a message!"
+                },
+                {
+                    question: "Define constipation and list its major causes:",
+                    choices: [
+                        "A. Less than 5 BMs per day; caused by too much fiber",
+                        "B. Less than 3 BMs per week, hard dry stools; caused by inadequate fiber/fluids, immobility, medications",
+                        "C. Liquid stools more than 3 times daily; caused by infections",
+                        "D. Normal formed stools; caused by stress"
+                    ],
+                    correct: 1,
+                    explanation: "Constipation = fewer than 3 bowel movements per week with hard, dry stools and straining. Major causes: inadequate fiber/fluids, lack of exercise, opioids, antacids.",
+                    hint: "🚽 Less than 3 per week + hard & dry = constipation. Think: fiber, fluids, movement!"
+                },
+                {
+                    question: "What is the difference between acute and chronic diarrhea?",
+                    choices: [
+                        "A. Acute lasts >4 weeks, chronic lasts <2 weeks",
+                        "B. Acute is always bloody, chronic is never bloody",
+                        "C. Acute lasts <2 weeks (often infectious), chronic lasts >4 weeks (underlying disease)",
+                        "D. No difference - both are the same condition"
+                    ],
+                    correct: 2,
+                    explanation: "Acute diarrhea: sudden onset, lasts <2 weeks, often infectious. Chronic diarrhea: persistent >4 weeks, may indicate underlying disease like IBD, IBS, or malabsorption.",
+                    hint: "⏰ Acute = short & sudden (think infection). Chronic = long-term (think disease)"
+                },
+                {
+                    question: "Define fecal impaction and describe its classic signs:",
+                    choices: [
+                        "A. Normal stool formation; signs include regular bowel movements",
+                        "B. Soft liquid stool; signs include frequent watery diarrhea",
+                        "C. Hard, dry stool mass that cannot be expelled; signs include no BM for days, cramping, liquid seepage",
+                        "D. Gas accumulation; signs include belching and hiccups"
+                    ],
+                    correct: 2,
+                    explanation: "Fecal impaction = hard, dry stool mass stuck in rectum that can't be expelled. Classic signs: no BM for days, cramping, rectal fullness, paradoxical liquid stool seepage around the impaction.",
+                    hint: "🧱 Think of it like a cork in a bottle - liquid can seep around the hard blockage"
+                },
+                {
+                    question: "What are the characteristics of different colostomy locations?",
+                    choices: [
+                        "A. All colostomies produce the same consistency of stool",
+                        "B. Ascending (liquid), Transverse (mushy), Descending/Sigmoid (formed)",
+                        "C. Ascending (formed), Transverse (liquid), Descending (mushy)",
+                        "D. Location doesn't affect stool consistency"
+                    ],
+                    correct: 1,
+                    explanation: "The further along the colon, the more water is absorbed: Ascending colostomy = liquid drainage, Transverse = semi-formed/mushy, Descending/Sigmoid = formed stool.",
+                    hint: "💧 Water absorption increases as you go along the colon: liquid → mushy → formed"
+                },
+                {
+                    question: "List 5 important questions for bowel elimination assessment:",
+                    choices: [
+                        "A. Only ask about pain and nausea",
+                        "B. Usual pattern/frequency, recent changes, stool characteristics, symptoms, current medications",
+                        "C. Only focus on current bowel movements",
+                        "D. Ask about diet but nothing else"
+                    ],
+                    correct: 1,
+                    explanation: "Comprehensive bowel assessment includes: 1) Normal pattern/frequency 2) Recent changes 3) Stool characteristics (color, consistency) 4) Associated symptoms 5) Current medications affecting elimination.",
+                    hint: "📋 Think holistic: normal vs. now, what it looks like, what hurts, what drugs they take"
+                },
+                {
+                    question: "What are normal stool characteristics?",
+                    choices: [
+                        "A. Green color, liquid consistency, 10 times daily",
+                        "B. Brown color, soft formed consistency, 1-3 times daily to 3 times weekly",
+                        "C. White color, hard consistency, once monthly",
+                        "D. Red color, watery consistency, constantly"
+                    ],
+                    correct: 1,
+                    explanation: "Normal stool: brown color (from bile), soft but formed consistency, tubular shape, frequency ranges from 3 times daily to 3 times weekly. Wide variation in 'normal' is acceptable.",
+                    hint: "💩 Normal = brown, soft & formed, somewhere between 3/day to 3/week"
+                },
+                {
+                    question: "What stool characteristics should be reported immediately?",
+                    choices: [
+                        "A. Brown color and formed consistency",
+                        "B. Blood (bright red or black/tarry), very pale/clay-colored, severe consistency changes",
+                        "C. Slight variations in daily frequency",
+                        "D. Mild changes in shape"
+                    ],
+                    correct: 1,
+                    explanation: "REPORT IMMEDIATELY: Blood (red = lower GI bleed, black/tarry = upper GI bleed), clay-colored (liver/bile issues), mucus, parasites, severe consistency changes.",
+                    hint: "🚨 Blood, weird colors, or drastic changes = call the provider NOW!"
+                },
+                {
+                    question: "How does diet affect bowel elimination?",
+                    choices: [
+                        "A. Diet has no effect on bowel movements",
+                        "B. Only protein affects elimination",
+                        "C. Fiber promotes normal elimination, fluids prevent hard stool, gas-producing foods cause flatulence",
+                        "D. Carbohydrates always cause diarrhea"
+                    ],
+                    correct: 2,
+                    explanation: "Diet directly affects elimination: Fiber adds bulk and promotes regularity, adequate fluids prevent hard stools, gas-producing foods (beans, cabbage) can cause flatulence/cramping.",
+                    hint: "🥬 Fiber = bulk, Fluids = soft, Gas foods = toots! Remember the fiber-fluid connection"
+                },
+                {
+                    question: "List 3 medications that commonly cause constipation:",
+                    choices: [
+                        "A. Antibiotics, vitamins, aspirin",
+                        "B. Opioid analgesics, antacids with aluminum/calcium, anticholinergics",
+                        "C. Laxatives, stool softeners, fiber supplements",
+                        "D. Antidiarrheals only"
+                    ],
+                    correct: 1,
+                    explanation: "Major constipating medications: Opioids (morphine, oxycodone), antacids containing aluminum or calcium, anticholinergics, iron supplements, some antidepressants.",
+                    hint: "💊 Remember: Opioids plug you up, antacids with metals bind things up"
+                },
+                {
+                    question: "How does immobility affect bowel function?",
+                    choices: [
+                        "A. Increases bowel motility and prevents constipation",
+                        "B. Has no effect on elimination patterns",
+                        "C. Decreases peristalsis, weakens abdominal muscles, increases constipation risk",
+                        "D. Only affects urination, not defecation"
+                    ],
+                    correct: 2,
+                    explanation: "Immobility decreases peristalsis (less stimulation), weakens abdominal muscles needed for effective defecation, and increases constipation risk. Movement stimulates bowel motility.",
+                    hint: "🏃‍♂️ Movement = motility. No movement = no motility = constipation"
+                },
+                {
+                    question: "List 3 dietary interventions to prevent constipation:",
+                    choices: [
+                        "A. Decrease fiber, limit fluids, avoid exercise",
+                        "B. Increase fiber (25-30g daily), adequate fluids (8-10 glasses daily), include prunes",
+                        "C. Only eat processed foods and drink soda",
+                        "D. Take laxatives daily instead of dietary changes"
+                    ],
+                    correct: 1,
+                    explanation: "Constipation prevention: Increase fiber intake to 25-30g daily, drink 8-10 glasses of water daily, include natural laxatives like prunes/prune juice. Add fiber gradually to prevent gas.",
+                    hint: "🍎 Fiber + Fluids + movement = happy bowels. Prunes are nature's laxative!"
+                },
+                {
+                    question: "What is the proper positioning for defecation?",
+                    choices: [
+                        "A. Lying flat on back with legs extended",
+                        "B. Standing upright without support",
+                        "C. Sitting upright with feet flat, leaning slightly forward",
+                        "D. Side-lying position only"
+                    ],
+                    correct: 2,
+                    explanation: "Optimal position: sitting upright with feet flat on floor (or footstool), leaning slightly forward. This increases intra-abdominal pressure and straightens the anorectal angle for easier elimination.",
+                    hint: "🚽 Think squatty potty - feet up, lean forward = nature's way to poop!"
+                },
+                {
+                    question: "What is the purpose of a cleansing enema?",
+                    choices: [
+                        "A. To deliver medications directly to the colon",
+                        "B. To empty the bowel and remove feces for procedures or constipation relief",
+                        "C. To add nutrients to the body",
+                        "D. To test for allergic reactions"
+                    ],
+                    correct: 1,
+                    explanation: "Cleansing enemas empty the bowel by stimulating peristalsis and removing feces. Used for preparation before diagnostic procedures, surgery, or to relieve severe constipation/impaction.",
+                    hint: "🧹 Cleansing enema = cleaning out the pipes! Think prep for colonoscopy"
+                },
+                {
+                    question: "What is the typical volume for an adult cleansing enema?",
+                    choices: [
+                        "A. 50-100 mL",
+                        "B. 200-300 mL", 
+                        "C. 750-1000 mL",
+                        "D. 1500-2000 mL"
+                    ],
+                    correct: 2,
+                    explanation: "Adult cleansing enema volume: 750-1000 mL (about 1 liter) of solution. Pediatric doses are much smaller. Too much volume can cause complications.",
+                    hint: "💧 Think about a liter bottle - that's roughly the right amount for adults"
+                },
+                {
+                    question: "Describe the proper position for enema administration:",
+                    choices: [
+                        "A. Supine with legs straight",
+                        "B. Right side-lying with knees extended",
+                        "C. Left side-lying (Sims position) with knees flexed toward chest",
+                        "D. Standing upright"
+                    ],
+                    correct: 2,
+                    explanation: "Sims position (left side-lying with knees flexed) follows the natural S-curve of the sigmoid colon and rectum, making insertion easier and more comfortable.",
+                    hint: "⬅️ Left side = Sims position. Knees up = follows the natural curve!"
+                },
+                {
+                    question: "How far should the rectal tube be inserted for an enema?",
+                    choices: [
+                        "A. 1-2 inches (2.5-5 cm)",
+                        "B. 3-4 inches (7.5-10 cm) directed toward umbilicus", 
+                        "C. 6-8 inches (15-20 cm)",
+                        "D. As far as it will go"
+                    ],
+                    correct: 1,
+                    explanation: "Insert rectal tube 3-4 inches (7.5-10 cm) in adults, directed toward the umbilicus (not straight up). This reaches the rectum without perforating tissue.",
+                    hint: "👆 3-4 inches toward the belly button - not too deep, not too shallow!"
+                },
+                {
+                    question: "What are contraindications for enema administration?",
+                    choices: [
+                        "A. Mild constipation only",
+                        "B. Recent rectal surgery, cardiac conditions, increased ICP, severe hemorrhoids",
+                        "C. All elderly patients",
+                        "D. Patients who can walk"
+                    ],
+                    correct: 1,
+                    explanation: "CONTRAINDICATIONS: Recent rectal/abdominal surgery, severe cardiac disease (vagal stimulation), increased intracranial pressure, severe hemorrhoids, bowel obstruction.",
+                    hint: "⚠️ Don't give enemas when there's surgical sites, heart problems, or pressure issues!"
+                },
+                {
+                    question: "What is the normal appearance of a healthy stoma?",
+                    choices: [
+                        "A. Purple or black color, dry texture",
+                        "B. White or pale pink, flat against skin",
+                        "C. Reddish-pink color, moist, slightly raised above skin level",
+                        "D. Dark brown, hard texture"
+                    ],
+                    correct: 2,
+                    explanation: "Healthy stoma: reddish-pink (like inside of mouth), moist, slightly protruding above skin level, no pain when gently touched. Purple/black color indicates circulation problems.",
+                    hint: "👄 Think of the inside of your mouth - that's what a healthy stoma looks like!"
+                },
+                {
+                    question: "What stoma characteristics require immediate attention?",
+                    choices: [
+                        "A. Reddish-pink color and moist appearance",
+                        "B. Purple/black color, excessive bleeding, severe swelling",
+                        "C. Slight protrusion above skin level",
+                        "D. Normal moisture and pink color"
+                    ],
+                    correct: 1,
+                    explanation: "CALL PROVIDER for: Purple/black color (necrosis), excessive bleeding, severe swelling, complete retraction, or severe skin breakdown around stoma.",
+                    hint: "🚨 Purple/black = no blood flow = emergency! Also watch for too much bleeding"
+                },
+                {
+                    question: "How often should an ostomy pouch be changed?",
+                    choices: [
+                        "A. Every day without exception",
+                        "B. Every 3-7 days or when leaking, depending on type",
+                        "C. Once a week only",
+                        "D. Only when completely full"
+                    ],
+                    correct: 1,
+                    explanation: "Ostomy pouches: change every 3-7 days or when leaking, depending on stoma type, skin condition, and individual factors. Don't change unnecessarily (wastes supplies, irritates skin).",
+                    hint: "📅 3-7 days is the sweet spot - not too often (skin damage) not too long (leaking)"
+                },
+                {
+                    question: "What is the recommended daily fiber intake for adults?",
+                    choices: [
+                        "A. 5-10 grams per day",
+                        "B. 15-20 grams per day",
+                        "C. 25-30 grams per day",
+                        "D. 50-60 grams per day"
+                    ],
+                    correct: 2,
+                    explanation: "Adults should consume 25-30 grams of fiber daily for optimal bowel health. Increase fiber gradually to prevent gas/bloating. Include both soluble and insoluble fiber.",
+                    hint: "🌾 25-30g = about 5-6 servings of fruits/veggies + whole grains. Gradual increase!"
+                },
+                {
+                    question: "How much fluid should adults consume daily for bowel health?",
+                    choices: [
+                        "A. 2-4 glasses (16-32 oz) daily",
+                        "B. 4-6 glasses (32-48 oz) daily", 
+                        "C. 8-10 glasses (64-80 oz) daily",
+                        "D. 15-20 glasses (120-160 oz) daily"
+                    ],
+                    correct: 2,
+                    explanation: "Adults need at least 8-10 glasses (64-80 oz) of water daily for proper bowel function. More needed in hot weather, illness, or high fiber intake. Fluids soften stool.",
+                    hint: "💧 8x8 rule: 8 glasses of 8 oz each = 64 oz minimum. More fiber = need more fluids!"
+                },
+                {
+                    question: "Name 3 types of laxatives and how they work:",
+                    choices: [
+                        "A. All laxatives work the same way",
+                        "B. Bulk-forming (absorb water), Stimulant (increase peristalsis), Osmotic (draw water into colon)",
+                        "C. Only stimulant laxatives exist",
+                        "D. Laxatives don't actually work"
+                    ],
+                    correct: 1,
+                    explanation: "Laxative types: 1) Bulk-forming (psyllium) - absorb water, add bulk 2) Stimulant (senna) - stimulate peristalsis 3) Osmotic (MiraLAX) - draw water into colon 4) Emollient (docusate) - soften stool.",
+                    hint: "💊 Bulk = sponge, Stimulant = motor, Osmotic = water magnet, Emollient = oil"
+                },
+                {
+                    question: "What are common side effects of stimulant laxatives?",
+                    choices: [
+                        "A. No side effects ever occur",
+                        "B. Only cause beneficial effects",
+                        "C. Cramping, electrolyte imbalance with overuse, dependency risk",
+                        "D. Always cause severe complications"
+                    ],
+                    correct: 2,
+                    explanation: "Stimulant laxatives can cause: cramping/abdominal pain, electrolyte imbalances with overuse, and physical dependency if used long-term. Should be temporary use only.",
+                    hint: "⚡ Stimulants stimulate = cramping. Overuse = electrolyte problems & dependency"
+                },
+                {
+                    question: "List 3 antidiarrheal medications and their mechanisms:",
+                    choices: [
+                        "A. All antidiarrheals work identically",
+                        "B. Loperamide (slows motility), Bismuth subsalicylate (antimicrobial), Diphenoxylate (reduces motility)",
+                        "C. Only antibiotics work for diarrhea",
+                        "D. Antidiarrheals don't actually exist"
+                    ],
+                    correct: 1,
+                    explanation: "Antidiarrheals: 1) Loperamide (Imodium) - slows intestinal motility 2) Bismuth subsalicylate (Pepto-Bismol) - antimicrobial/anti-inflammatory 3) Diphenoxylate (Lomotil) - reduces motility.",
+                    hint: "🛑 Different mechanisms: slow the gut, kill bugs, or reduce contractions"
+                },
+                {
+                    question: "What is the priority assessment for severe diarrhea?",
+                    choices: [
+                        "A. Comfort level only",
+                        "B. Dietary preferences",
+                        "C. Fluid and electrolyte balance, skin integrity, vital signs",
+                        "D. Social history"
+                    ],
+                    correct: 2,
+                    explanation: "PRIORITY for severe diarrhea: fluid/electrolyte balance (dehydration risk), skin integrity (breakdown from frequent stool), vital signs (shock from volume loss), I&O monitoring.",
+                    hint: "🌊 Severe diarrhea = losing fluid & electrolytes fast! Check hydration status first"
+                },
+                {
+                    question: "What are signs of bowel obstruction?",
+                    choices: [
+                        "A. Normal bowel movements and comfort",
+                        "B. Mild bloating only",
+                        "C. Severe abdominal pain, vomiting, distention, absence of flatus/stool",
+                        "D. Soft formed stools"
+                    ],
+                    correct: 2,
+                    explanation: "Bowel obstruction signs: severe cramping abdominal pain, nausea/vomiting, abdominal distention, absence of flatus and stool, high-pitched bowel sounds (early) then absent sounds (late).",
+                    hint: "🚫 Nothing getting through = pain, puke, puffed up belly, no gas/poop"
+                },
+                {
+                    question: "When is fecal impaction a medical emergency?",
+                    choices: [
+                        "A. Never - it's always routine",
+                        "B. Only if patient complains",
+                        "C. When accompanied by complete obstruction, severe pain, or perforation signs",
+                        "D. Only in elderly patients"
+                    ],
+                    correct: 2,
+                    explanation: "Fecal impaction becomes emergent with: complete bowel obstruction, severe abdominal pain, signs of perforation (rigid abdomen), or systemic symptoms (fever, tachycardia).",
+                    hint: "⚠️ Impaction + obstruction or perforation signs = get help NOW!"
+                }
             ]
         };
 
