@@ -352,7 +352,7 @@
         /* FLASHCARD */
         .flashcard-container {
             perspective: 1000px;
-            height: 400px;
+            height: 420px;
             margin: 20px 0;
         }
         
@@ -421,9 +421,14 @@
         }
         
         .card-choice:hover {
-            background: var(--primary-teal);
-            color: white;
+            background: rgba(38, 166, 154, 0.15);
+            border-color: var(--primary-teal);
             transform: translateX(5px);
+        }
+        
+        .card-choice:active {
+            transform: scale(0.97);
+            transition-duration: 0.1s;
         }
         
         .card-choice.selected {
@@ -491,12 +496,12 @@
         }
         
         .btn-incorrect {
-            background: var(--error-red);
+            background: linear-gradient(135deg, #ef5350, #d32f2f);
             color: white;
         }
         
         .btn-unsure {
-            background: var(--warning-yellow);
+            background: linear-gradient(135deg, #ffa726, #fb8c00);
             color: white;
         }
         
@@ -858,6 +863,114 @@
             animation: confetti 1.5s ease-out forwards;
         }
         
+        /* ANSWER BUTTONS ENTRANCE */
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .answer-buttons.animate-in .answer-btn {
+            animation: slideUp 0.3s var(--spring-smooth) forwards;
+            opacity: 0;
+        }
+        .answer-buttons.animate-in .answer-btn:nth-child(1) { animation-delay: 0ms; }
+        .answer-buttons.animate-in .answer-btn:nth-child(2) { animation-delay: 60ms; }
+        .answer-buttons.animate-in .answer-btn:nth-child(3) { animation-delay: 120ms; }
+        .answer-buttons.animate-in .answer-btn:nth-child(4) { animation-delay: 180ms; }
+        
+        /* DAILY GOAL */
+        .daily-goal {
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            padding: 16px 20px;
+            box-shadow: var(--shadow-light);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .goal-ring {
+            position: relative;
+            width: 52px;
+            height: 52px;
+            flex-shrink: 0;
+        }
+        .goal-ring svg {
+            transform: rotate(-90deg);
+            width: 52px;
+            height: 52px;
+        }
+        .goal-ring-bg {
+            fill: none;
+            stroke: #e0e0e0;
+            stroke-width: 4;
+        }
+        .goal-ring-fill {
+            fill: none;
+            stroke: var(--primary-teal);
+            stroke-width: 4;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 0.8s var(--spring-smooth);
+        }
+        .goal-ring-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        .goal-info {
+            flex: 1;
+        }
+        .goal-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+        }
+        .goal-subtitle {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+        
+        /* CORRECT/INCORRECT FLASH */
+        @keyframes correctFlash {
+            0% { box-shadow: 0 0 0 0 rgba(102, 187, 106, 0.6); }
+            50% { box-shadow: 0 0 0 12px rgba(102, 187, 106, 0); }
+            100% { box-shadow: var(--shadow-medium); }
+        }
+        @keyframes incorrectFlash {
+            0% { box-shadow: 0 0 0 0 rgba(239, 83, 80, 0.6); }
+            50% { box-shadow: 0 0 0 12px rgba(239, 83, 80, 0); }
+            100% { box-shadow: var(--shadow-medium); }
+        }
+        .flashcard.correct-flash .card-front { animation: correctFlash 0.6s ease-out; }
+        .flashcard.incorrect-flash .card-front { animation: incorrectFlash 0.6s ease-out; }
+        
+        /* KEYBOARD HINTS (desktop only) */
+        @media (hover: hover) and (pointer: fine) {
+            .card-choice::after {
+                content: attr(data-key);
+                position: absolute;
+                right: 12px;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 0.7rem;
+                font-weight: 700;
+                color: var(--text-light);
+                opacity: 0.5;
+                background: var(--bg-white);
+                padding: 2px 6px;
+                border-radius: 4px;
+                border: 1px solid #e0e0e0;
+            }
+            .card-choice {
+                position: relative;
+            }
+        }
+        
         @media (max-width: 768px) {
             .subject-bar-label { flex: 0 0 80px; font-size: 0.7rem; }
+            .flashcard-container { height: 380px; }
+            .daily-goal { padding: 12px 16px; }
         }

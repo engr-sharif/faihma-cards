@@ -1,6 +1,30 @@
 // Faihma's NCLEX Flashcards Data
 // This file contains all the flashcard questions organized by course chapters
 
+        // Subject options for dropdowns
+        const SubjectOptions = {
+            course: {
+                'course_ch34_diagnostic': 'Ch 34: Diagnostic Tests',
+                'course_ch41_urinary': 'Ch 41: Urinary Elimination',
+                'course_ch41_vocab': 'Ch 41: Vocab & Definitions',
+                'course_ch40_bowel': 'Ch 40: Bowel Elimination',
+                'course_ch35_medication': 'Ch 35: Medication Admin',
+                'course_lecture_urinary': 'Lecture: Urinary',
+                'ch40_bowel_elimination': 'Ch 40: Bowel (Comprehensive)'
+            },
+            general: {
+                'fundamentals': 'Fundamentals',
+                'pharmacology': 'Pharmacology',
+                'med-surg': 'Med-Surg',
+                'pediatric': 'Pediatrics',
+                'maternal': 'OB/Maternal',
+                'psychiatric': 'Psychiatric',
+                'leadership': 'Leadership',
+                'safety': 'Safety & Infection Control',
+                'nutrition': 'Nutrition',
+                'fluids': 'Fluids & Electrolytes'
+            }
+        };
 
         const QuestionBank = {
             // COURSE-SPECIFIC QUESTIONS FROM FAIHMA'S STUDY MATERIALS

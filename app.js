@@ -58,6 +58,7 @@
             filterCards();
             renderCard();
             renderStats();
+            updateDailyGoal();
             startStudyTimer();
         }
 
@@ -325,6 +326,7 @@
                     const li = document.createElement('li');
                     li.className = 'card-choice';
                     li.textContent = choice;
+                    li.setAttribute('data-key', (index + 1));
                     li.addEventListener('click', () => selectChoice(index));
                     choicesContainer.appendChild(li);
                 });
@@ -383,6 +385,9 @@
             });
 
             const isCorrect = choiceIndex === card.correct;
+            const flashcard = document.getElementById('flashcard');
+            flashcard.classList.add(isCorrect ? 'correct-flash' : 'incorrect-flash');
+            setTimeout(() => flashcard.classList.remove('correct-flash', 'incorrect-flash'), 700);
             
             if (!isCorrect) {
                 // Wrong: shake first, then flip after delay
@@ -418,7 +423,6 @@
             setTimeout(() => {
                 const cardKey = getCardKey(card);
                 const p = AppState.progress[cardKey] || {};
-                const labels = ['again', 'hard', 'good', 'easy'];
                 const btnIds = ['againBtn', 'hardBtn', 'goodBtn', 'easyBtn'];
                 const emojis = ['🔄', '😤', '👍', '⚡'];
                 const names = ['Again', 'Hard', 'Good', 'Easy'];
@@ -428,7 +432,11 @@
                     const ivText = iv < 0.01 ? '1m' : iv < 0.05 ? '3m' : iv < 1 ? Math.round(iv*24)+'h' : iv === 1 ? '1d' : Math.round(iv)+'d';
                     document.getElementById(btnIds[i]).innerHTML = `${emojis[i]} ${names[i]}<br><small style="opacity:0.8;font-size:0.75em">${ivText}</small>`;
                 }
-                document.getElementById('answerButtons').style.display = 'flex';
+                const answerBtns = document.getElementById('answerButtons');
+                answerBtns.style.display = 'flex';
+                answerBtns.classList.remove('animate-in');
+                void answerBtns.offsetWidth; // force reflow
+                answerBtns.classList.add('animate-in');
                 if (isCorrect) {
                     createSuccessParticles();
                 }
@@ -458,6 +466,8 @@
             }
             
             updateSessionAccuracy();
+            saveDailyCount();
+            updateDailyGoal();
             saveProgress();
         }
 
@@ -589,6 +599,45 @@
             document.getElementById('progressText').textContent = `Question ${current} of ${total}${dueLabel}`;
             document.getElementById('accuracyText').textContent = `Accuracy: ${AppState.stats.sessionAccuracy}%`;
             document.getElementById('progressFill').style.width = percentage + '%';
+        }
+
+        // ==== DAILY GOAL ====
+        const DAILY_GOAL = 20;
+        function updateDailyGoal() {
+            const today = new Date().toDateString();
+            const todayCount = AppState.stats.sessionTotal || 0;
+            // Also count from saved progress for today
+            let savedToday = parseInt(localStorage.getItem('faihma_daily_count_date') === today ? localStorage.getItem('faihma_daily_count') || '0' : '0');
+            const total = savedToday + todayCount;
+            const pct = Math.min(total / DAILY_GOAL, 1);
+            const circumference = 138.2;
+            const offset = circumference * (1 - pct);
+            
+            const ring = document.getElementById('goalRingFill');
+            const text = document.getElementById('goalRingText');
+            const subtitle = document.getElementById('goalSubtitle');
+            const title = document.getElementById('goalTitle');
+            
+            if (ring) ring.style.strokeDashoffset = offset;
+            if (text) text.textContent = `${Math.min(total, DAILY_GOAL)}/${DAILY_GOAL}`;
+            
+            if (total >= DAILY_GOAL) {
+                if (title) title.textContent = '🎉 Goal Complete!';
+                if (subtitle) subtitle.textContent = `${total} cards studied today — amazing!`;
+                if (ring) ring.style.stroke = 'var(--success-green)';
+            } else {
+                if (title) title.textContent = 'Daily Goal';
+                if (subtitle) subtitle.textContent = `${DAILY_GOAL - total} more cards to go`;
+                if (ring) ring.style.stroke = 'var(--primary-teal)';
+            }
+        }
+        
+        function saveDailyCount() {
+            const today = new Date().toDateString();
+            const prev = localStorage.getItem('faihma_daily_count_date') === today ? 
+                parseInt(localStorage.getItem('faihma_daily_count') || '0') : 0;
+            localStorage.setItem('faihma_daily_count', prev + 1);
+            localStorage.setItem('faihma_daily_count_date', today);
         }
 
         // ==== PERSISTENCE ====
@@ -794,6 +843,18 @@
                         if (!AppState.showingAnswer) {
                             selectChoice(parseInt(e.key) - 1);
                         }
+                        break;
+                    case 'a':
+                        if (AppState.showingAnswer) handleAnswerButton('again');
+                        break;
+                    case 'h':
+                        if (AppState.showingAnswer) handleAnswerButton('hard');
+                        break;
+                    case 'g':
+                        if (AppState.showingAnswer) handleAnswerButton('good');
+                        break;
+                    case 'e':
+                        if (AppState.showingAnswer) handleAnswerButton('easy');
                         break;
                     case 'Escape':
                         toggleStats();
