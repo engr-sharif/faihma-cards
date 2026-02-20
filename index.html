@@ -1,166 +1,271 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
     <title>Faihma's NCLEX Flashcards</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="app-container" id="appContainer">
-        <!-- LOGIN SCREEN -->
-        <div class="login-screen" id="loginScreen">
-            <div class="login-card">
-                <h1 class="login-title">💙</h1>
-                <h2 class="login-subtitle">Welcome back, Faihma!</h2>
-                <p style="color: var(--text-light); margin-bottom: 20px;">Enter your PIN to access your NCLEX flashcards</p>
-                <input type="password" class="pin-input" id="pinInput" placeholder="Enter PIN" maxlength="4">
-                <button class="login-btn" id="loginBtn">Unlock</button>
+      <!-- LOGIN SCREEN -->
+      <div class="login-screen" id="loginScreen">
+        <div class="login-card">
+          <h1 class="login-title">💙</h1>
+          <h2 class="login-subtitle">Welcome back, Faihma!</h2>
+          <p style="color: var(--text-light); margin-bottom: 20px">
+            Enter your PIN to access your NCLEX flashcards
+          </p>
+          <input
+            type="password"
+            class="pin-input"
+            id="pinInput"
+            placeholder="Enter PIN"
+            maxlength="4"
+          />
+          <button class="login-btn" id="loginBtn">Unlock</button>
+        </div>
+      </div>
+
+      <!-- MAIN APP -->
+      <div class="app-content" id="appContent" style="display: none">
+        <!-- HEADER -->
+        <header class="header">
+          <div class="header-left">
+            <h1 class="app-title">NCLEX Cards</h1>
+            <div class="streak-counter">
+              <span class="fire-emoji">🔥</span>
+              <span id="streakCount">0</span>
             </div>
-        </div>
+          </div>
+          <div class="header-right">
+            <button class="icon-btn" id="statsBtn" title="View Stats">
+              📊
+            </button>
+            <button class="icon-btn" id="darkModeBtn" title="Toggle Dark Mode">
+              🌙
+            </button>
+            <button class="icon-btn" id="logoutBtn" title="Logout">🚪</button>
+          </div>
+        </header>
 
-        <!-- MAIN APP -->
-        <div class="app-content" id="appContent" style="display: none;">
-            <!-- HEADER -->
-            <header class="header">
-                <div class="header-left">
-                    <h1 class="app-title">NCLEX Cards</h1>
-                    <div class="streak-counter">
-                        <span class="fire-emoji">🔥</span>
-                        <span id="streakCount">0</span>
-                    </div>
-                </div>
-                <div class="header-right">
-                    <button class="icon-btn" id="statsBtn" title="View Stats">📊</button>
-                    <button class="icon-btn" id="darkModeBtn" title="Toggle Dark Mode">🌙</button>
-                    <button class="icon-btn" id="logoutBtn" title="Logout">🚪</button>
-                </div>
-            </header>
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+          <!-- MODE TOGGLE -->
+          <div class="mode-toggle">
+            <button class="mode-btn active" id="courseModeBtn">
+              📖 Course Material
+            </button>
+            <button class="mode-btn" id="generalModeBtn">
+              📝 General NCLEX
+            </button>
+          </div>
 
-            <!-- MAIN CONTENT -->
-            <main class="main-content">
-                <!-- MODE TOGGLE -->
-                <div class="mode-toggle">
-                    <button class="mode-btn active" id="courseModeBtn">📖 Course Material</button>
-                    <button class="mode-btn" id="generalModeBtn">📝 General NCLEX</button>
-                </div>
+          <!-- CONTROLS -->
+          <div class="controls">
+            <div class="select-wrapper">
+              <select class="subject-select" id="subjectSelect">
+                <!-- Options populated dynamically based on mode -->
+              </select>
+            </div>
+            <button class="toggle-btn" id="shuffleBtn">🔀 Shuffle</button>
+            <button class="toggle-btn" id="reviewBtn">
+              🔄 Review Missed<span
+                class="review-badge hidden"
+                id="reviewBadge"
+              ></span>
+            </button>
+          </div>
 
-                <!-- CONTROLS -->
-                <div class="controls">
-                    <div class="select-wrapper">
-                        <select class="subject-select" id="subjectSelect">
-                            <!-- Options populated dynamically based on mode -->
-                        </select>
-                    </div>
-                    <button class="toggle-btn" id="shuffleBtn">🔀 Shuffle</button>
-                    <button class="toggle-btn" id="reviewBtn">🔄 Review Missed<span class="review-badge hidden" id="reviewBadge"></span></button>
-                </div>
+          <!-- DAILY GOAL -->
+          <div class="daily-goal" id="dailyGoal">
+            <div class="goal-ring">
+              <svg viewBox="0 0 52 52">
+                <circle class="goal-ring-bg" cx="26" cy="26" r="22" />
+                <circle
+                  class="goal-ring-fill"
+                  id="goalRingFill"
+                  cx="26"
+                  cy="26"
+                  r="22"
+                  stroke-dasharray="138.2"
+                  stroke-dashoffset="138.2"
+                />
+              </svg>
+              <span class="goal-ring-text" id="goalRingText">0/20</span>
+            </div>
+            <div class="goal-info">
+              <div class="goal-title" id="goalTitle">Daily Goal</div>
+              <div class="goal-subtitle" id="goalSubtitle">
+                Answer 20 cards today
+              </div>
+            </div>
+          </div>
 
-                <!-- DAILY GOAL -->
-                <div class="daily-goal" id="dailyGoal">
-                    <div class="goal-ring">
-                        <svg viewBox="0 0 52 52">
-                            <circle class="goal-ring-bg" cx="26" cy="26" r="22"/>
-                            <circle class="goal-ring-fill" id="goalRingFill" cx="26" cy="26" r="22" 
-                                stroke-dasharray="138.2" stroke-dashoffset="138.2"/>
-                        </svg>
-                        <span class="goal-ring-text" id="goalRingText">0/20</span>
-                    </div>
-                    <div class="goal-info">
-                        <div class="goal-title" id="goalTitle">Daily Goal</div>
-                        <div class="goal-subtitle" id="goalSubtitle">Answer 20 cards today</div>
-                    </div>
-                </div>
+          <!-- PROGRESS BAR -->
+          <div class="progress-container">
+            <div class="progress-header">
+              <span class="progress-text" id="progressText"
+                >Question 1 of 200</span
+              >
+              <span class="progress-text" id="accuracyText">Accuracy: 0%</span>
+            </div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                id="progressFill"
+                style="width: 0%"
+              ></div>
+            </div>
+          </div>
 
-                <!-- PROGRESS BAR -->
-                <div class="progress-container">
-                    <div class="progress-header">
-                        <span class="progress-text" id="progressText">Question 1 of 200</span>
-                        <span class="progress-text" id="accuracyText">Accuracy: 0%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
-                    </div>
-                </div>
+          <!-- FLASHCARD -->
+          <div class="flashcard-container">
+            <div class="flashcard" id="flashcard">
+              <div class="card-face card-front">
+                <div class="mastery-indicator" id="masteryIndicator"></div>
+                <div class="card-question" id="cardQuestion">Loading...</div>
+                <ul class="card-choices" id="cardChoices"></ul>
+              </div>
+              <div class="card-face card-back">
+                <div class="card-explanation" id="cardExplanation"></div>
+                <div
+                  class="card-hint"
+                  id="cardHint"
+                  style="display: none"
+                ></div>
+              </div>
+            </div>
+          </div>
 
-                <!-- FLASHCARD -->
-                <div class="flashcard-container">
-                    <div class="flashcard" id="flashcard">
-                        <div class="card-face card-front">
-                            <div class="mastery-indicator" id="masteryIndicator"></div>
-                            <div class="card-question" id="cardQuestion">Loading...</div>
-                            <ul class="card-choices" id="cardChoices"></ul>
-                        </div>
-                        <div class="card-face card-back">
-                            <div class="card-explanation" id="cardExplanation"></div>
-                            <div class="card-hint" id="cardHint" style="display: none;"></div>
-                        </div>
-                    </div>
-                </div>
+          <!-- ANSWER BUTTONS -->
+          <div class="answer-buttons" id="answerButtons">
+            <button class="answer-btn btn-incorrect" id="againBtn">
+              🔄 Again
+            </button>
+            <button class="answer-btn btn-unsure" id="hardBtn">😤 Hard</button>
+            <button class="answer-btn btn-correct" id="goodBtn">👍 Good</button>
+            <button
+              class="answer-btn btn-correct"
+              id="easyBtn"
+              style="background: linear-gradient(135deg, #26a69a, #00897b)"
+            >
+              ⚡ Easy
+            </button>
+          </div>
 
-                <!-- ANSWER BUTTONS -->
-                <div class="answer-buttons" id="answerButtons">
-                    <button class="answer-btn btn-incorrect" id="againBtn">🔄 Again</button>
-                    <button class="answer-btn btn-unsure" id="hardBtn">😤 Hard</button>
-                    <button class="answer-btn btn-correct" id="goodBtn">👍 Good</button>
-                    <button class="answer-btn btn-correct" id="easyBtn" style="background: linear-gradient(135deg, #26a69a, #00897b);">⚡ Easy</button>
-                </div>
-                
-                <div class="answer-buttons" id="nextButton" style="display: none;">
-                    <button class="answer-btn btn-next" id="nextBtn">Next Card →</button>
-                </div>
+          <div class="answer-buttons" id="nextButton" style="display: none">
+            <button class="answer-btn btn-next" id="nextBtn">
+              Next Card →
+            </button>
+          </div>
 
-                <!-- STATS DASHBOARD -->
-                <div class="stats-dashboard" id="statsDashboard">
-                    <div class="stat-card">
-                        <div class="stat-value" id="totalCards">0</div>
-                        <div class="stat-label">Cards Studied</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="masteredCards">0</div>
-                        <div class="stat-label">Cards Mastered</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="studyStreak">0</div>
-                        <div class="stat-label">Day Streak</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="sessionAccuracy">0%</div>
-                        <div class="stat-label">Session Accuracy</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="studyTime">0m</div>
-                        <div class="stat-label">Time Studied</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="weakestTopic">-</div>
-                        <div class="stat-label">Weakest Topic</div>
-                    </div>
-                    <div class="subject-mastery-list" id="subjectMasteryList">
-                        <h3>📈 Subject Mastery</h3>
-                    </div>
-                    <div style="grid-column: 1 / -1; display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; justify-content: center;">
-                        <button onclick="exportProgress()" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--primary-teal); background: transparent; color: var(--text-dark); font-weight: 600; cursor: pointer;">📤 Export Progress</button>
-                        <button onclick="importProgress()" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--primary-blue); background: transparent; color: var(--text-dark); font-weight: 600; cursor: pointer;">📥 Import Progress</button>
-                        <button onclick="if(confirm('Reset all progress? This cannot be undone.')){AppState.progress={};AppState.stats.totalStudied=0;AppState.stats.totalCorrect=0;AppState.stats.totalIncorrect=0;AppState.stats.totalUnsure=0;AppState.stats.streak=0;saveProgress();filterCards();renderCard();renderStats();}" style="padding: 10px 20px; border-radius: 10px; border: 2px solid var(--error-red); background: transparent; color: var(--error-red); font-weight: 600; cursor: pointer;">🗑️ Reset</button>
-                    </div>
-                </div>
-            </main>
-        </div>
+          <!-- STATS DASHBOARD -->
+          <div class="stats-dashboard" id="statsDashboard">
+            <div class="stat-card">
+              <div class="stat-value" id="totalCards">0</div>
+              <div class="stat-label">Cards Studied</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="masteredCards">0</div>
+              <div class="stat-label">Cards Mastered</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="studyStreak">0</div>
+              <div class="stat-label">Day Streak</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="sessionAccuracy">0%</div>
+              <div class="stat-label">Session Accuracy</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="studyTime">0m</div>
+              <div class="stat-label">Time Studied</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="weakestTopic">-</div>
+              <div class="stat-label">Weakest Topic</div>
+            </div>
+            <div class="subject-mastery-list" id="subjectMasteryList">
+              <h3>📈 Subject Mastery</h3>
+            </div>
+            <div
+              style="
+                grid-column: 1 / -1;
+                display: flex;
+                gap: 10px;
+                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+              "
+            >
+              <button
+                onclick="exportProgress()"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 10px;
+                  border: 2px solid var(--primary-teal);
+                  background: transparent;
+                  color: var(--text-dark);
+                  font-weight: 600;
+                  cursor: pointer;
+                "
+              >
+                📤 Export Progress
+              </button>
+              <button
+                onclick="importProgress()"
+                style="
+                  padding: 10px 20px;
+                  border-radius: 10px;
+                  border: 2px solid var(--primary-blue);
+                  background: transparent;
+                  color: var(--text-dark);
+                  font-weight: 600;
+                  cursor: pointer;
+                "
+              >
+                📥 Import Progress
+              </button>
+              <button
+                onclick="
+                  if (confirm('Reset all progress? This cannot be undone.')) {
+                    resetProgress();
+                  }
+                "
+                style="
+                  padding: 10px 20px;
+                  border-radius: 10px;
+                  border: 2px solid var(--error-red);
+                  background: transparent;
+                  color: var(--error-red);
+                  font-weight: 600;
+                  cursor: pointer;
+                "
+              >
+                🗑️ Reset
+              </button>
+            </div>
+          </div>
+        </main>
+      </div>
 
-        <!-- SWIPE INDICATORS -->
-        <div class="swipe-indicators swipe-left">❌</div>
-        <div class="swipe-indicators swipe-right">✅</div>
+      <!-- SWIPE INDICATORS -->
+      <div class="swipe-indicators swipe-left">❌</div>
+      <div class="swipe-indicators swipe-right">✅</div>
 
-        <!-- TOAST -->
-        <div class="toast" id="toast"></div>
+      <!-- TOAST -->
+      <div class="toast" id="toast"></div>
 
-        <!-- PARTICLES CONTAINER -->
-        <div class="particles" id="particles"></div>
+      <!-- PARTICLES CONTAINER -->
+      <div class="particles" id="particles"></div>
     </div>
 
     <script src="config.js"></script>
     <script src="flashcards.js"></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
