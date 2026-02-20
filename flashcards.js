@@ -1589,6 +1589,27 @@
                     correct: 0,
                     explanation: "Nausea with an NG tube often indicates the tube is displaced or clogged. Verifying placement and patency is the priority assessment.",
                     hint: "If the NG tube isn't working properly, what symptom would the client experience?"
+                },
+                {
+                    question: "A client is receiving a continuous IV infusion. The nurse notes redness, swelling, and warmth at the insertion site. What should the nurse do first?",
+                    choices: ["A. Slow the infusion rate", "B. Apply a warm compress over the site", "C. Discontinue the IV and restart at a new site", "D. Elevate the extremity"],
+                    correct: 2,
+                    explanation: "Redness, swelling, and warmth indicate phlebitis or infiltration. The IV must be discontinued immediately and restarted at a new site to prevent further tissue damage.",
+                    hint: "These signs mean the IV site is compromised — can you keep using it?"
+                },
+                {
+                    question: "A nurse is preparing to administer a medication via a metered-dose inhaler (MDI). Which instruction is correct?",
+                    choices: ["A. Inhale quickly and deeply, then hold breath for 2 seconds", "B. Shake the inhaler, exhale fully, press canister while inhaling slowly, hold breath 10 seconds", "C. Breathe normally while pressing the canister", "D. Exhale into the inhaler before pressing the canister"],
+                    correct: 1,
+                    explanation: "Proper MDI technique: shake, exhale fully, press canister while inhaling slowly and deeply, hold breath for 10 seconds to allow medication to deposit in the lungs.",
+                    hint: "Slow inhalation + breath hold = medication reaches deep into the lungs."
+                },
+                {
+                    question: "Which nursing intervention is most important to prevent hospital-acquired pressure injuries?",
+                    choices: ["A. Massage bony prominences vigorously every shift", "B. Reposition the client at least every 2 hours and assess skin", "C. Keep the head of bed elevated at 90 degrees at all times", "D. Apply lotion to reddened areas and cover with gauze"],
+                    correct: 1,
+                    explanation: "Repositioning every 2 hours relieves pressure on bony prominences. Never massage reddened areas — this can cause further tissue damage. Keep HOB ≤30° when possible.",
+                    hint: "Pressure injuries are caused by sustained pressure — how do you relieve it?"
                 }
             ],
             
@@ -1634,6 +1655,27 @@
                     correct: 1,
                     explanation: "Continuous bubbling in the water-seal chamber indicates an air leak. Intermittent bubbling with respiration is normal, but continuous bubbling is not.",
                     hint: "Intermittent bubbling = normal. Continuous bubbling = ?"
+                },
+                {
+                    question: "A client with a new colostomy asks why the stoma is dark red and moist. What is the best nursing response?",
+                    choices: ["A. 'The stoma should be pale — I'll notify the surgeon'", "B. 'A beefy red, moist stoma indicates healthy tissue with good blood supply'", "C. 'The color will fade to pink within 24 hours'", "D. 'We need to apply pressure to reduce the swelling'"],
+                    correct: 1,
+                    explanation: "A healthy stoma should be beefy red and moist, similar to the inside of the mouth (buccal mucosa). A pale, dusky, or black stoma indicates ischemia and must be reported immediately.",
+                    hint: "Think of what healthy mucous membranes look like — the inside of your cheek."
+                },
+                {
+                    question: "A client with heart failure is prescribed furosemide (Lasix). Which electrolyte imbalance should the nurse monitor for?",
+                    choices: ["A. Hyperkalemia", "B. Hypokalemia", "C. Hypernatremia", "D. Hypercalcemia"],
+                    correct: 1,
+                    explanation: "Loop diuretics like furosemide waste potassium. Monitor serum K+ levels and watch for signs of hypokalemia: muscle weakness, leg cramps, irregular pulse, and U waves on ECG.",
+                    hint: "Loop diuretics are potent — they flush out water AND a critical electrolyte."
+                },
+                {
+                    question: "A client with Addison's disease is admitted in crisis. Which finding does the nurse expect?",
+                    choices: ["A. Hypertension and moon face", "B. Hypotension, hyperkalemia, and bronze skin pigmentation", "C. Weight gain and buffalo hump", "D. Hyperglycemia and polyuria"],
+                    correct: 1,
+                    explanation: "Addison's disease (adrenal insufficiency) causes low cortisol and aldosterone: hypotension, hyperkalemia, hyponatremia, hypoglycemia, and bronze hyperpigmentation. This is the opposite of Cushing's.",
+                    hint: "Addison's = ADDing pigmentation, LOSing blood pressure. Opposite of Cushing's."
                 }
             ],
             
@@ -1679,6 +1721,27 @@
                     correct: 1,
                     explanation: "Protamine sulfate is the antidote for heparin. Vitamin K is the antidote for warfarin. Know your antidote pairs!",
                     hint: "Heparin → protamine. Warfarin → ?"
+                },
+                {
+                    question: "A client is started on an ACE inhibitor (lisinopril). Which side effect should the nurse teach the client to report?",
+                    choices: ["A. Persistent dry cough", "B. Weight gain", "C. Increased appetite", "D. Drowsiness"],
+                    correct: 0,
+                    explanation: "ACE inhibitors commonly cause a persistent dry cough due to accumulation of bradykinin. If intolerable, the client may be switched to an ARB (e.g., losartan) which doesn't cause cough.",
+                    hint: "ACE inhibitors prevent breakdown of a substance that irritates the airways."
+                },
+                {
+                    question: "A client taking phenytoin (Dilantin) for seizures has a serum level of 25 mcg/mL. The nurse should:",
+                    choices: ["A. Administer the next dose as scheduled", "B. Hold the medication and notify the provider", "C. Give an additional loading dose", "D. Recheck the level in 1 hour"],
+                    correct: 1,
+                    explanation: "Therapeutic range for phenytoin is 10-20 mcg/mL. A level of 25 is toxic. Signs of toxicity include nystagmus, ataxia, slurred speech, and confusion. Hold and notify.",
+                    hint: "10-20 is therapeutic. Where does 25 fall?"
+                },
+                {
+                    question: "Which medication class requires the nurse to monitor for signs of serotonin syndrome?",
+                    choices: ["A. Beta-blockers", "B. SSRIs (selective serotonin reuptake inhibitors)", "C. Calcium channel blockers", "D. Proton pump inhibitors"],
+                    correct: 1,
+                    explanation: "SSRIs (fluoxetine, sertraline, etc.) can cause serotonin syndrome, especially when combined with MAOIs or other serotonergic drugs. Signs: hyperthermia, agitation, myoclonus, hyperreflexia, diaphoresis.",
+                    hint: "Too much serotonin = a dangerous syndrome. Which drug class increases serotonin?"
                 }
             ],
             
@@ -1717,6 +1780,27 @@
                     correct: 1,
                     explanation: "During a sickle cell crisis (vaso-occlusive), the priority is aggressive IV hydration to reduce blood viscosity and pain management. Cold worsens sickling — use warm compresses instead.",
                     hint: "Sickled cells are sticky and dehydrated — what two things does the body need most?"
+                },
+                {
+                    question: "A child is diagnosed with croup. Which assessment finding is most characteristic?",
+                    choices: ["A. Expiratory wheezing", "B. Barking cough and inspiratory stridor", "C. Productive cough with green sputum", "D. High-pitched expiratory crackles"],
+                    correct: 1,
+                    explanation: "Croup (laryngotracheobronchitis) causes swelling of the subglottic area, producing a distinctive seal-like barking cough, inspiratory stridor, and hoarseness. Worse at night.",
+                    hint: "The swelling is in the upper airway — the cough sounds like a seal barking."
+                },
+                {
+                    question: "A 6-month-old infant is brought to the ED with a bulging fontanel, high-pitched cry, and fever. The nurse should suspect:",
+                    choices: ["A. Otitis media", "B. Bacterial meningitis", "C. Dehydration", "D. Pyloric stenosis"],
+                    correct: 1,
+                    explanation: "Bulging fontanel + high-pitched cry + fever in an infant are classic signs of increased intracranial pressure from meningitis. Nuchal rigidity may also be present in older infants.",
+                    hint: "A bulging fontanel means increased pressure inside the skull — what infection causes this?"
+                },
+                {
+                    question: "A child with type 1 diabetes is found unconscious at school. The school nurse should:",
+                    choices: ["A. Give orange juice orally", "B. Administer glucagon injection", "C. Check blood glucose and wait for results", "D. Administer regular insulin"],
+                    correct: 1,
+                    explanation: "An unconscious diabetic child should receive glucagon IM/SubQ — never give anything orally to an unconscious person (aspiration risk). Glucagon stimulates the liver to release stored glucose.",
+                    hint: "The child can't swallow safely — what injectable medication raises blood sugar?"
                 }
             ],
             
@@ -1755,6 +1839,27 @@
                     correct: 1,
                     explanation: "Soaking a pad in <1 hour indicates postpartum hemorrhage. The first action is fundal massage to stimulate uterine contraction. A boggy uterus is the #1 cause of postpartum hemorrhage.",
                     hint: "The most common cause of PPH is uterine atony — what's the first hands-on intervention?"
+                },
+                {
+                    question: "A nurse is assessing a newborn at 1 minute of life. The infant has a heart rate of 110, slow respirations, some flexion, grimace with stimulation, and blue extremities. What is the APGAR score?",
+                    choices: ["A. 5", "B. 6", "C. 7", "D. 8"],
+                    correct: 1,
+                    explanation: "APGAR: Heart rate >100 = 2, Slow/irregular respirations = 1, Some flexion = 1, Grimace = 1, Acrocyanosis (blue extremities) = 1. Total = 6. Score of 7-10 is normal; 4-6 needs intervention.",
+                    hint: "APGAR: Appearance, Pulse, Grimace, Activity, Respiration — each scored 0, 1, or 2."
+                },
+                {
+                    question: "A pregnant client at 28 weeks has a negative Rh blood type and a positive indirect Coombs test. What does this indicate?",
+                    choices: ["A. The mother has not been sensitized to Rh-positive blood", "B. The mother has developed antibodies against Rh-positive blood", "C. The fetus is Rh-negative", "D. RhoGAM was administered successfully"],
+                    correct: 1,
+                    explanation: "A positive indirect Coombs test means the Rh-negative mother has developed antibodies against Rh-positive fetal red blood cells (sensitization). RhoGAM is given to prevent this, but it's too late once positive.",
+                    hint: "Indirect Coombs detects antibodies in the mother's blood — positive means she's already sensitized."
+                },
+                {
+                    question: "A laboring client's membranes rupture spontaneously. The nurse notes the amniotic fluid is green-tinged. What does this indicate?",
+                    choices: ["A. Normal amniotic fluid", "B. Meconium-stained fluid indicating possible fetal distress", "C. Infection", "D. Placental abruption"],
+                    correct: 1,
+                    explanation: "Green-tinged amniotic fluid indicates meconium passage, which can occur with fetal distress (hypoxia). The fetus may aspirate meconium, causing meconium aspiration syndrome. Alert the provider and prepare for suctioning.",
+                    hint: "Meconium (fetal stool) is greenish — its presence in amniotic fluid suggests the fetus was stressed."
                 }
             ],
             
@@ -1793,6 +1898,27 @@
                     correct: 1,
                     explanation: "Exploring encourages the client to describe their experience in more depth. It's an open-ended invitation to share without leading the client.",
                     hint: "The nurse is asking the client to go deeper into their feelings — not repeating or reflecting."
+                },
+                {
+                    question: "A client with anorexia nervosa is on a refeeding protocol. Which complication should the nurse monitor for?",
+                    choices: ["A. Hyperkalemia", "B. Refeeding syndrome (hypophosphatemia)", "C. Hyperglycemia", "D. Metabolic alkalosis"],
+                    correct: 1,
+                    explanation: "Refeeding syndrome occurs when malnourished clients are fed too rapidly. Insulin surge drives phosphate, potassium, and magnesium into cells, causing dangerous hypophosphatemia, cardiac arrhythmias, and potentially death.",
+                    hint: "When starved cells suddenly get glucose, a critical electrolyte crashes — which one?"
+                },
+                {
+                    question: "A client with PTSD avoids crowded places and has recurrent nightmares about combat. Which nursing intervention is most therapeutic?",
+                    choices: ["A. Encourage the client to avoid discussing traumatic events", "B. Create a safe environment and use trauma-informed care principles", "C. Administer benzodiazepines as the primary treatment", "D. Insist the client attend group therapy immediately"],
+                    correct: 1,
+                    explanation: "Trauma-informed care prioritizes safety, trustworthiness, peer support, and empowerment. Forcing exposure or avoiding the topic entirely are both counterproductive. Build trust first.",
+                    hint: "The foundation of trauma care is safety — physical AND emotional."
+                },
+                {
+                    question: "A nurse is caring for a client experiencing alcohol withdrawal. Which finding indicates the most serious complication?",
+                    choices: ["A. Mild hand tremors", "B. Nausea and insomnia", "C. Grand mal seizures and visual hallucinations", "D. Elevated heart rate of 100 bpm"],
+                    correct: 2,
+                    explanation: "Delirium tremens (DTs) is the most dangerous complication of alcohol withdrawal, occurring 48-72 hours after last drink. Symptoms: seizures, hallucinations, severe agitation, hyperthermia. Mortality can be 5-15% without treatment.",
+                    hint: "The most severe form of alcohol withdrawal can be fatal — what are its hallmark signs?"
                 }
             ],
             
@@ -1831,6 +1957,27 @@
                     correct: 3,
                     explanation: "In disaster triage (START), if a victim is not breathing even after opening the airway, they are tagged black (expectant/deceased). Resources go to salvageable victims.",
                     hint: "In mass casualty, no breathing after airway repositioning = no further intervention."
+                },
+                {
+                    question: "A charge nurse must assign 4 clients. Which client is most appropriate for a float nurse from the medical unit?",
+                    choices: ["A. Post-op craniotomy requiring neuro checks every hour", "B. Stable client with pneumonia on IV antibiotics", "C. Client returning from cardiac catheterization", "D. Newly diagnosed diabetic requiring insulin drip titration"],
+                    correct: 1,
+                    explanation: "Float nurses should receive the most stable clients with predictable care needs. A stable pneumonia client on IV antibiotics is routine. The others require specialized knowledge or frequent assessment changes.",
+                    hint: "Float nurses aren't specialized — give them the most stable, predictable client."
+                },
+                {
+                    question: "An RN delegates blood glucose monitoring to a UAP. The UAP reports a result of 42 mg/dL. What should the RN do?",
+                    choices: ["A. Ask the UAP to recheck the glucose", "B. Ask the UAP to give the client orange juice", "C. Assess the client personally and intervene", "D. Document the result and continue with other tasks"],
+                    correct: 2,
+                    explanation: "The RN cannot delegate assessment or clinical decision-making. A glucose of 42 is critically low — the RN must personally assess the client and implement the hypoglycemia protocol. UAPs can collect data, but the RN interprets and acts.",
+                    hint: "UAPs collect data, but who must assess and make clinical decisions?"
+                },
+                {
+                    question: "A nurse makes a medication error that does not harm the client. What is the appropriate action?",
+                    choices: ["A. Do not report since no harm occurred", "B. Report the error to the charge nurse and complete an incident report", "C. Document the error in the client's medical record as a nursing note", "D. Inform only the client's family"],
+                    correct: 1,
+                    explanation: "All medication errors must be reported regardless of whether harm occurred. Complete an incident report (not in the medical chart), notify the provider, and document the client's assessment. Near-misses help improve systems.",
+                    hint: "Even 'no harm' errors need reporting — it's about system improvement, not punishment."
                 }
             ],
             
@@ -1869,6 +2016,27 @@
                     correct: 1,
                     explanation: "The first action after a needlestick is to wash the site immediately with soap and water. Then report, get baseline labs, and complete an incident report.",
                     hint: "Before paperwork or reporting — what physically reduces infection risk right now?"
+                },
+                {
+                    question: "A client with C. difficile infection requires which type of isolation precautions?",
+                    choices: ["A. Airborne precautions", "B. Droplet precautions", "C. Contact precautions with soap and water hand hygiene", "D. Standard precautions only"],
+                    correct: 2,
+                    explanation: "C. difficile requires contact precautions (gown + gloves). Critically, alcohol-based hand sanitizer does NOT kill C. diff spores — use soap and water. Private room preferred.",
+                    hint: "C. diff spores are resistant to alcohol gel — what must you use instead?"
+                },
+                {
+                    question: "Which client is at highest risk for falls and requires additional safety interventions?",
+                    choices: ["A. 35-year-old post-appendectomy, ambulating independently", "B. 78-year-old on multiple antihypertensives with a history of falls", "C. 50-year-old with a fractured wrist, alert and oriented", "D. 28-year-old postpartum client, day 1"],
+                    correct: 1,
+                    explanation: "Age >65, polypharmacy (especially antihypertensives causing orthostatic hypotension), and fall history are the strongest risk factors. This client needs bed alarm, non-skid socks, and frequent rounding.",
+                    hint: "Age + BP medications + previous falls = a trifecta of fall risk factors."
+                },
+                {
+                    question: "A nurse is caring for a client in droplet precautions. Which PPE is required when entering the room?",
+                    choices: ["A. N95 respirator and gown", "B. Surgical mask within 3 feet (or upon room entry per policy)", "C. Full face shield only", "D. Gloves and gown only"],
+                    correct: 1,
+                    explanation: "Droplet precautions (influenza, pertussis, meningococcal disease) require a surgical mask. Many facilities require masking upon room entry. N95 is for airborne precautions (TB, measles, varicella).",
+                    hint: "Droplets are larger than airborne particles — a regular surgical mask is sufficient."
                 }
             ],
             
@@ -1907,6 +2075,27 @@
                     correct: 1,
                     explanation: "TPN contains high concentrations of dextrose, which can cause hyperglycemia. Blood glucose should be monitored every 4-6 hours initially.",
                     hint: "TPN is basically sugar water + nutrients delivered IV — what goes up?"
+                },
+                {
+                    question: "A client with iron-deficiency anemia is prescribed ferrous sulfate. Which teaching is correct?",
+                    choices: ["A. Take with milk to prevent stomach upset", "B. Take on an empty stomach with vitamin C to enhance absorption", "C. Take with antacids for better absorption", "D. Expect light-colored stools"],
+                    correct: 1,
+                    explanation: "Iron is best absorbed on an empty stomach. Vitamin C (orange juice) enhances absorption. Avoid taking with dairy, antacids, or tea (they decrease absorption). Stools will turn dark/black — this is normal.",
+                    hint: "Vitamin C + empty stomach = best iron absorption. What color will stools turn?"
+                },
+                {
+                    question: "A client on a sodium-restricted diet asks which food to avoid. The nurse should recommend avoiding:",
+                    choices: ["A. Fresh fruits and vegetables", "B. Canned soups and processed meats", "C. Grilled chicken breast", "D. Brown rice and oatmeal"],
+                    correct: 1,
+                    explanation: "Canned soups, processed meats (bacon, deli meats, hot dogs), pickles, and soy sauce are extremely high in sodium. Fresh, unprocessed foods are naturally low in sodium.",
+                    hint: "Processed and canned foods are loaded with sodium for preservation."
+                },
+                {
+                    question: "A client with hepatic encephalopathy should have which dietary modification?",
+                    choices: ["A. High-protein diet to promote healing", "B. Low-protein diet to reduce ammonia production", "C. High-fat diet for energy", "D. No dietary restrictions needed"],
+                    correct: 1,
+                    explanation: "In hepatic encephalopathy, the damaged liver can't convert ammonia to urea. Protein metabolism produces ammonia, so protein intake must be restricted to reduce ammonia levels and neurological symptoms.",
+                    hint: "The liver can't process ammonia — what macronutrient produces ammonia when metabolized?"
                 }
             ],
             
@@ -1945,6 +2134,27 @@
                     correct: 1,
                     explanation: "Edema + crackles (pulmonary congestion) = fluid volume excess. The heart can't pump effectively, causing fluid to back up into the lungs and periphery.",
                     hint: "The heart is failing as a pump — where does the fluid go?"
+                },
+                {
+                    question: "A client has a magnesium level of 1.0 mEq/L. Which assessment finding does the nurse expect?",
+                    choices: ["A. Bradycardia and hypertension", "B. Tremors, hyperreflexia, and cardiac arrhythmias", "C. Decreased deep tendon reflexes", "D. Constipation and polyuria"],
+                    correct: 1,
+                    explanation: "Hypomagnesemia (<1.5 mEq/L) causes neuromuscular excitability: tremors, hyperactive DTRs, seizures, and cardiac arrhythmias (especially torsades de pointes). Often occurs with hypokalemia and hypocalcemia.",
+                    hint: "Low magnesium = excitable nerves and muscles, just like low calcium."
+                },
+                {
+                    question: "A nurse is administering packed red blood cells. Within the first 15 minutes, the client reports itching and develops hives. What should the nurse do?",
+                    choices: ["A. Stop the transfusion — this is a hemolytic reaction", "B. Stop the transfusion, keep IV open, notify provider — this is an allergic reaction", "C. Slow the rate and continue monitoring", "D. Administer epinephrine immediately"],
+                    correct: 1,
+                    explanation: "Urticaria (hives) and itching without fever or hemodynamic instability indicate a mild allergic reaction. Stop the transfusion, maintain IV access with NS, notify the provider. Diphenhydramine may be ordered. If anaphylaxis develops, epinephrine is needed.",
+                    hint: "Hives + itching (no fever/back pain) = allergic reaction, not hemolytic."
+                },
+                {
+                    question: "A client with metabolic alkalosis (pH 7.50, HCO3 32) would most likely have which history?",
+                    choices: ["A. Diabetic ketoacidosis", "B. Prolonged nasogastric suctioning or vomiting", "C. COPD with CO2 retention", "D. Renal failure"],
+                    correct: 1,
+                    explanation: "Prolonged vomiting or NG suctioning removes hydrochloric acid (HCl) from the stomach, causing metabolic alkalosis (high pH, high HCO3). Also caused by excessive antacid use or hypokalemia.",
+                    hint: "Losing stomach acid (HCl) shifts the body toward alkalosis — what causes acid loss?"
                 }
             ],
             
