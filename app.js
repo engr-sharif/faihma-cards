@@ -74,7 +74,10 @@ function loadSubjectOptions() {
   for (const [value, label] of Object.entries(options)) {
     const option = document.createElement('option');
     option.value = value;
-    option.textContent = label;
+    const count = (QuestionBank[value] || []).length;
+    const dueCount = getDueCount(value);
+    const dueTag = dueCount > 0 ? ` (${dueCount} due)` : '';
+    option.textContent = `${label} [${count}]${dueTag}`;
     select.appendChild(option);
   }
 
@@ -241,8 +244,8 @@ function nextCard() {
   const wasLast =
     AppState.currentCardIndex >= AppState.filteredCards.length - 1;
   if (wasLast) {
+    showSessionSummary();
     AppState.currentCardIndex = 0;
-    showToast('🔁 Deck complete! Starting over…');
   } else {
     AppState.currentCardIndex++;
   }
@@ -251,6 +254,47 @@ function nextCard() {
   AppState.selectedChoice = null;
   renderCard(true);
   updateProgress();
+}
+
+function showSessionSummary() {
+  const accuracy = AppState.stats.sessionTotal > 0
+    ? Math.round((AppState.stats.sessionCorrect / AppState.stats.sessionTotal) * 100) : 0;
+  const minutes = Math.floor((Date.now() - AppState.stats.startTime) / 60000);
+  const emoji = accuracy >= 90 ? '🌟' : accuracy >= 70 ? '💪' : accuracy >= 50 ? '📚' : '🔄';
+  const message = accuracy >= 90 ? 'Outstanding!' : accuracy >= 70 ? 'Great work!' : accuracy >= 50 ? 'Keep going!' : 'Practice makes perfect!';
+
+  const overlay = document.createElement('div');
+  overlay.className = 'session-summary-overlay';
+  overlay.innerHTML = `
+    <div class="session-summary">
+      <div class="summary-emoji">${emoji}</div>
+      <h2>${message}</h2>
+      <p style="color:var(--text-light);margin-bottom:8px">Deck complete — starting over</p>
+      <div class="summary-stats">
+        <div class="summary-stat">
+          <div class="summary-stat-value">${AppState.stats.sessionTotal}</div>
+          <div class="summary-stat-label">Cards Studied</div>
+        </div>
+        <div class="summary-stat">
+          <div class="summary-stat-value">${accuracy}%</div>
+          <div class="summary-stat-label">Accuracy</div>
+        </div>
+        <div class="summary-stat">
+          <div class="summary-stat-value">${minutes}m</div>
+          <div class="summary-stat-label">Time</div>
+        </div>
+        <div class="summary-stat">
+          <div class="summary-stat-value">${AppState.stats.sessionCorrect}</div>
+          <div class="summary-stat-label">Correct</div>
+        </div>
+      </div>
+      <button onclick="this.closest('.session-summary-overlay').remove()">Continue Studying →</button>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) overlay.remove();
+  });
 }
 
 // ==== TOAST ====
@@ -364,6 +408,20 @@ function renderCard(animate) {
     renderMasteryDots(card);
     updateReviewBadge();
     updateProgress();
+
+    // SRS border indicator
+    const cardKey = getCardKey(card);
+    const prog = AppState.progress[cardKey];
+    flashcard.classList.remove('srs-new', 'srs-learning', 'srs-review', 'srs-overdue');
+    if (!prog || !prog.nextReview) {
+      flashcard.classList.add('srs-new');
+    } else if (Date.now() >= prog.nextReview) {
+      flashcard.classList.add('srs-overdue');
+    } else if ((prog.repetitions || 0) >= 3) {
+      flashcard.classList.add('srs-review');
+    } else {
+      flashcard.classList.add('srs-learning');
+    }
   }
 
   if (animate) {
@@ -545,7 +603,6 @@ function handleAnswerButton(difficulty) {
       showToast(`💪 Next in ${intervalLabel}`, 1500);
       break;
     case 'again':
-      AppState.progress[cardKey].incorrect++;
       showToast('🔄 Coming back soon!', 1500);
       break;
   }
@@ -989,4 +1046,32 @@ document.addEventListener('DOMContentLoaded', function () {
       this.classList.toggle('flipped');
     }
   });
+
+  // Touch swipe gestures for card navigation
+  let touchStartX = 0, touchStartY = 0, touchStartTime = 0;
+  const cardContainer = document.querySelector('.flashcard-container');
+
+  cardContainer.addEventListener('touchstart', function (e) {
+    if (e.target.closest('.card-choice')) return;
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+    touchStartTime = Date.now();
+  }, { passive: true });
+
+  cardContainer.addEventListener('touchend', function (e) {
+    if (e.target.closest('.card-choice')) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    const dt = Date.now() - touchStartTime;
+
+    if (dt < 400 && Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      if (AppState.showingAnswer) {
+        if (dx < 0) {
+          handleAnswerButton('good');
+        } else {
+          handleAnswerButton('easy');
+        }
+      }
+    }
+  }, { passive: true });
 });
