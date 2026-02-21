@@ -23,33 +23,139 @@
                 weakestTopic: 'fundamentals'
             },
             progress: {},
+            user: null,
+            quickUnlocked: false,
+            pendingSync: false
         };
+
+        let supabaseClient = null;
+        let encryptionKeyPromise = null;
+
 
         // ==== QUESTION DATA ====
 
         // ==== AUTHENTICATION ====
 
-        function authenticate() {
-            const pin = document.getElementById('pinInput').value;
-            const pinInput = document.getElementById('pinInput');
-            const loginBtn = document.getElementById('loginBtn');
-
-            if (pin === Config.CORRECT_PIN) {
-                AppState.authenticated = true;
-                document.getElementById('loginScreen').style.display = 'none';
-                document.getElementById('appContent').style.display = 'block';
-                loadProgress();
-                initializeApp();
-                createParticleEffect();
-            } else {
-                pinInput.classList.add('error');
-                pinInput.value = '';
-                loginBtn.textContent = 'Try Again';
-                setTimeout(() => {
-                    pinInput.classList.remove('error');
-                    loginBtn.textContent = 'Unlock';
-                }, 2000);
+        async function initBackend() {
+            if (supabaseClient || !window.supabase) return;
+            if (!Config.BACKEND.supabaseUrl || Config.BACKEND.supabaseUrl.includes('YOUR_PROJECT')) return;
+            try {
+                supabaseClient = window.supabase.createClient(Config.BACKEND.supabaseUrl, Config.BACKEND.supabaseAnonKey);
+            } catch (error) {
+                console.warn('Supabase init failed', error);
             }
+        }
+
+        function setAuthStatus(message, isError) {
+            const status = document.getElementById('authStatus');
+            status.textContent = message || '';
+            status.style.color = isError ? 'var(--error-red)' : 'var(--text-light)';
+        }
+
+        async function authenticate() {
+            const email = document.getElementById('authEmail').value.trim();
+            const password = document.getElementById('authPassword').value;
+            if (!email || !password) {
+                setAuthStatus('Enter email and password.', true);
+                return;
+            }
+
+            await initBackend();
+            if (!supabaseClient) {
+                setAuthStatus('Supabase is not configured. Update config.js first.', true);
+                return;
+            }
+
+            const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+            if (error || !data?.user) {
+                setAuthStatus(error?.message || 'Sign-in failed.', true);
+                return;
+            }
+            await completeLogin(data.user, 'Signed in successfully.');
+        }
+
+        async function signUp() {
+            const email = document.getElementById('authEmail').value.trim();
+            const password = document.getElementById('authPassword').value;
+            if (!email || !password) {
+                setAuthStatus('Enter email and password.', true);
+                return;
+            }
+            await initBackend();
+            if (!supabaseClient) return setAuthStatus('Supabase is not configured.', true);
+
+            const { error } = await supabaseClient.auth.signUp({ email, password });
+            if (error) return setAuthStatus(error.message, true);
+            setAuthStatus('Account created. Check your email for confirmation.');
+        }
+
+        async function sendRecoveryEmail() {
+            const email = document.getElementById('authEmail').value.trim();
+            if (!email) return setAuthStatus('Enter your email first.', true);
+            await initBackend();
+            if (!supabaseClient) return setAuthStatus('Supabase is not configured.', true);
+            const { error } = await supabaseClient.auth.resetPasswordForEmail(email);
+            if (error) return setAuthStatus(error.message, true);
+            setAuthStatus('Recovery email sent. Continue on this or another device after reset.');
+        }
+
+        async function signInWithPasskey() {
+            setAuthStatus('Passkey flow requires backend WebAuthn challenge endpoints. Configure in Supabase edge functions.');
+        }
+
+        async function registerPasskey() {
+            setAuthStatus('Register passkey after login via your backend WebAuthn flow.');
+        }
+
+        async function quickUnlock() {
+            const pin = document.getElementById('pinInput').value;
+            const storedHash = localStorage.getItem(Config.STORAGE_KEYS.QUICK_PIN_HASH);
+            if (!storedHash) return setAuthStatus('Set a quick PIN after signing in once.', true);
+            const hash = await hashText(pin);
+            if (hash !== storedHash) return setAuthStatus('Invalid quick PIN.', true);
+
+            const cachedSession = localStorage.getItem(Config.STORAGE_KEYS.QUICK_UNLOCK_TOKEN);
+            if (cachedSession) {
+                AppState.user = JSON.parse(cachedSession);
+                await completeLogin(AppState.user, 'Quick-unlocked local encrypted cache.');
+            } else {
+                setAuthStatus('No cached account on this device. Use full sign-in once.', true);
+            }
+        }
+
+        async function setQuickPin() {
+            const pin = document.getElementById('pinInput').value;
+            if (!/^\d{4}$/.test(pin)) return setAuthStatus('PIN must be 4 digits.', true);
+            localStorage.setItem(Config.STORAGE_KEYS.QUICK_PIN_HASH, await hashText(pin));
+            setAuthStatus('Quick PIN saved on this device.');
+        }
+
+        async function completeLogin(user, statusMessage) {
+            AppState.authenticated = true;
+            AppState.user = user;
+            localStorage.setItem(Config.STORAGE_KEYS.QUICK_UNLOCK_TOKEN, JSON.stringify({ id: user.id, email: user.email }));
+            document.getElementById('loginScreen').style.display = 'none';
+            document.getElementById('appContent').style.display = 'block';
+            await loadProgress();
+            initializeApp();
+            createParticleEffect();
+            setAuthStatus(statusMessage || 'Ready.');
+            setupNetworkListeners();
+            replayQueuedWrites();
+        }
+
+        function switchAuthTab(tab) {
+            const panels = {
+                email: 'emailAuthPanel',
+                passkey: 'passkeyAuthPanel',
+                quick: 'quickUnlockPanel'
+            };
+            Object.entries(panels).forEach(([key, id]) => {
+                document.getElementById(id).style.display = key === tab ? 'block' : 'none';
+            });
+            document.getElementById('emailTabBtn').classList.toggle('active', tab === 'email');
+            document.getElementById('passkeyTabBtn').classList.toggle('active', tab === 'passkey');
+            document.getElementById('quickUnlockTabBtn').classList.toggle('active', tab === 'quick');
         }
 
         // ==== INITIALIZATION ====
@@ -607,7 +713,7 @@
             const today = new Date().toDateString();
             const todayCount = AppState.stats.sessionTotal || 0;
             // Also count from saved progress for today
-            let savedToday = parseInt(localStorage.getItem('faihma_daily_count_date') === today ? localStorage.getItem('faihma_daily_count') || '0' : '0');
+            let savedToday = parseInt(localStorage.getItem(Config.STORAGE_KEYS.DAILY_COUNT_DATE) === today ? localStorage.getItem(Config.STORAGE_KEYS.DAILY_COUNT) || '0' : '0');
             const total = savedToday + todayCount;
             const pct = Math.min(total / DAILY_GOAL, 1);
             const circumference = 138.2;
@@ -634,56 +740,158 @@
         
         function saveDailyCount() {
             const today = new Date().toDateString();
-            const prev = localStorage.getItem('faihma_daily_count_date') === today ? 
-                parseInt(localStorage.getItem('faihma_daily_count') || '0') : 0;
-            localStorage.setItem('faihma_daily_count', prev + 1);
-            localStorage.setItem('faihma_daily_count_date', today);
+            const prev = localStorage.getItem(Config.STORAGE_KEYS.DAILY_COUNT_DATE) === today ? 
+                parseInt(localStorage.getItem(Config.STORAGE_KEYS.DAILY_COUNT) || '0') : 0;
+            localStorage.setItem(Config.STORAGE_KEYS.DAILY_COUNT, prev + 1);
+            localStorage.setItem(Config.STORAGE_KEYS.DAILY_COUNT_DATE, today);
         }
 
         // ==== PERSISTENCE ====
-        function saveProgress() {
+        async function getEncryptionKey() {
+            if (encryptionKeyPromise) return encryptionKeyPromise;
+            const saltKey = Config.STORAGE_KEYS.CACHE_KEY_SALT;
+            let salt = localStorage.getItem(saltKey);
+            if (!salt) {
+                salt = crypto.randomUUID();
+                localStorage.setItem(saltKey, salt);
+            }
+            const userMaterial = `${AppState.user?.id || 'guest'}:${salt}`;
+            const baseKey = await crypto.subtle.importKey('raw', new TextEncoder().encode(userMaterial), 'PBKDF2', false, ['deriveKey']);
+            encryptionKeyPromise = crypto.subtle.deriveKey(
+                { name: 'PBKDF2', salt: new TextEncoder().encode(salt), iterations: Config.SECURITY.PBKDF2_ITERATIONS, hash: 'SHA-256' },
+                baseKey,
+                { name: 'AES-GCM', length: 256 },
+                false,
+                ['encrypt', 'decrypt']
+            );
+            return encryptionKeyPromise;
+        }
+
+        async function encryptPayload(payload) {
+            const iv = crypto.getRandomValues(new Uint8Array(Config.SECURITY.AES_GCM_IV_LENGTH));
+            const key = await getEncryptionKey();
+            const plaintext = new TextEncoder().encode(JSON.stringify(payload));
+            const ciphertext = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, plaintext);
+            return { iv: Array.from(iv), data: Array.from(new Uint8Array(ciphertext)) };
+        }
+
+        async function decryptPayload(blob) {
+            if (!blob?.data || !blob?.iv) return null;
+            try {
+                const key = await getEncryptionKey();
+                const plain = await crypto.subtle.decrypt(
+                    { name: 'AES-GCM', iv: new Uint8Array(blob.iv) },
+                    key,
+                    new Uint8Array(blob.data)
+                );
+                return JSON.parse(new TextDecoder().decode(plain));
+            } catch (error) {
+                console.warn('Unable to decrypt cache', error);
+                return null;
+            }
+        }
+
+        function queueWrite(action, payload) {
+            const queue = JSON.parse(localStorage.getItem(Config.STORAGE_KEYS.WRITE_QUEUE) || '[]');
+            queue.push({ action, payload, ts: Date.now() });
+            localStorage.setItem(Config.STORAGE_KEYS.WRITE_QUEUE, JSON.stringify(queue));
+        }
+
+        async function replayQueuedWrites() {
+            if (!navigator.onLine || !supabaseClient || !AppState.user) return;
+            const queue = JSON.parse(localStorage.getItem(Config.STORAGE_KEYS.WRITE_QUEUE) || '[]');
+            if (!queue.length) return;
+
+            const remaining = [];
+            for (const item of queue) {
+                try {
+                    await remoteUpsert(item.payload);
+                } catch (error) {
+                    remaining.push(item);
+                }
+            }
+            localStorage.setItem(Config.STORAGE_KEYS.WRITE_QUEUE, JSON.stringify(remaining));
+        }
+
+        function setupNetworkListeners() {
+            window.addEventListener('online', replayQueuedWrites);
+        }
+
+        async function remoteUpsert(state) {
+            if (!supabaseClient || !AppState.user) return;
+            const payload = {
+                user_id: AppState.user.id,
+                progress: state.progress,
+                stats: state.stats,
+                settings: { darkMode: AppState.darkMode },
+                updated_at: new Date().toISOString()
+            };
+            const { error } = await supabaseClient.from(Config.BACKEND.tables.progress).upsert(payload, { onConflict: 'user_id' });
+            if (error) throw error;
+        }
+
+        async function saveProgress() {
             const data = {
                 progress: AppState.progress,
                 stats: AppState.stats,
-                lastStudyDate: new Date().toDateString()
+                lastStudyDate: new Date().toDateString(),
+                updated_at: new Date().toISOString()
             };
-            localStorage.setItem('faihma_nclex_progress', JSON.stringify(data));
+            localStorage.setItem(Config.STORAGE_KEYS.PROGRESS, JSON.stringify(await encryptPayload(data)));
+            if (navigator.onLine) {
+                try {
+                    await remoteUpsert(data);
+                } catch (_error) {
+                    queueWrite('upsert_progress', data);
+                }
+            } else {
+                queueWrite('upsert_progress', data);
+            }
         }
 
-        function loadProgress() {
-            const saved = localStorage.getItem('faihma_nclex_progress');
+        async function loadProgress() {
+            const saved = localStorage.getItem(Config.STORAGE_KEYS.PROGRESS);
             if (saved) {
-                const data = JSON.parse(saved);
-                AppState.progress = data.progress || {};
-                AppState.stats = { ...AppState.stats, ...data.stats };
-                
-                // Check study streak
-                const lastStudyDate = data.lastStudyDate;
-                const today = new Date().toDateString();
-                const yesterday = new Date(Date.now() - 86400000).toDateString();
-                
-                if (lastStudyDate === today) {
-                    // Already studied today, keep streak
-                } else if (lastStudyDate === yesterday) {
-                    // Studied yesterday, increment streak
-                    AppState.stats.studyStreak = (AppState.stats.studyStreak || 0) + 1;
-                } else if (lastStudyDate) {
-                    // Streak broken
-                    AppState.stats.studyStreak = 1;
-                } else {
-                    // First time
-                    AppState.stats.studyStreak = 1;
+                const decrypted = await decryptPayload(JSON.parse(saved));
+                if (decrypted) {
+                    AppState.progress = decrypted.progress || {};
+                    AppState.stats = { ...AppState.stats, ...decrypted.stats };
+                    AppState.lastUpdatedAt = decrypted.updated_at;
                 }
             }
-            
+
+            if (supabaseClient && AppState.user && navigator.onLine) {
+                const { data } = await supabaseClient
+                    .from(Config.BACKEND.tables.progress)
+                    .select('*')
+                    .eq('user_id', AppState.user.id)
+                    .maybeSingle();
+
+                if (data) {
+                    const remoteTs = new Date(data.updated_at || 0).getTime();
+                    const localTs = new Date(AppState.lastUpdatedAt || 0).getTime();
+                    if (remoteTs > localTs) {
+                        AppState.progress = data.progress || {};
+                        AppState.stats = { ...AppState.stats, ...(data.stats || {}) };
+                    } else if (localTs > remoteTs) {
+                        await remoteUpsert({ progress: AppState.progress, stats: AppState.stats });
+                    }
+                }
+            }
+
             AppState.stats.startTime = Date.now();
 
-            // Restore dark mode
-            if (localStorage.getItem('faihma_dark_mode') === '1') {
+            if (localStorage.getItem(Config.STORAGE_KEYS.DARK_MODE) === '1') {
                 AppState.darkMode = true;
                 document.body.setAttribute('data-theme', 'dark');
                 document.getElementById('darkModeBtn').textContent = '☀️';
             }
+        }
+
+        async function hashText(text) {
+            const bytes = new TextEncoder().encode(text);
+            const digest = await crypto.subtle.digest('SHA-256', bytes);
+            return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
         }
 
         // ==== UTILITIES ====
@@ -718,7 +926,8 @@
             AppState.darkMode = !AppState.darkMode;
             document.body.setAttribute('data-theme', AppState.darkMode ? 'dark' : '');
             document.getElementById('darkModeBtn').textContent = AppState.darkMode ? '☀️' : '🌙';
-            localStorage.setItem('faihma_dark_mode', AppState.darkMode ? '1' : '0');
+            localStorage.setItem(Config.STORAGE_KEYS.DARK_MODE, AppState.darkMode ? '1' : '0');
+            saveProgress();
         }
 
         function toggleStats() {
@@ -729,21 +938,27 @@
             renderStats();
         }
 
-        function logout() {
+        async function logout() {
             AppState.authenticated = false;
+            AppState.user = null;
+            if (supabaseClient) await supabaseClient.auth.signOut();
             document.getElementById('loginScreen').style.display = 'flex';
             document.getElementById('appContent').style.display = 'none';
             document.getElementById('pinInput').value = '';
+            setAuthStatus('Signed out.');
         }
 
-        function exportProgress() {
+        async function exportProgress() {
             const data = {
                 progress: AppState.progress,
                 stats: AppState.stats,
-                exportDate: new Date().toISOString()
+                exportDate: new Date().toISOString(),
+                userId: AppState.user?.id || null
             };
-            
-            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const secret = localStorage.getItem(Config.STORAGE_KEYS.EXPORT_SIGNING_SECRET) || crypto.randomUUID();
+            localStorage.setItem(Config.STORAGE_KEYS.EXPORT_SIGNING_SECRET, secret);
+            const signature = await hashText(JSON.stringify(data) + secret);
+            const blob = new Blob([JSON.stringify({ data, signature, algo: 'sha256' }, null, 2)], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
@@ -760,9 +975,19 @@
                 const file = e.target.files[0];
                 if (file) {
                     const reader = new FileReader();
-                    reader.onload = (e) => {
+                    reader.onload = async (e) => {
                         try {
-                            const data = JSON.parse(e.target.result);
+                            const imported = JSON.parse(e.target.result);
+                            const secret = localStorage.getItem(Config.STORAGE_KEYS.EXPORT_SIGNING_SECRET) || '';
+                            const container = imported.data ? imported : { data: imported, signature: null };
+                            if (container.signature) {
+                                const actual = await hashText(JSON.stringify(container.data) + secret);
+                                if (actual !== container.signature) {
+                                    alert('Invalid signature. Import blocked.');
+                                    return;
+                                }
+                            }
+                            const data = container.data;
                             AppState.progress = data.progress || {};
                             AppState.stats = { ...AppState.stats, ...data.stats };
                             saveProgress();
@@ -781,10 +1006,18 @@
         // ==== EVENT LISTENERS ====
         document.addEventListener('DOMContentLoaded', function() {
             // Login
-            document.getElementById('loginBtn').addEventListener('click', authenticate);
-            document.getElementById('pinInput').addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') authenticate();
-            });
+            document.getElementById('loginBtn').addEventListener('click', () => authenticate());
+            document.getElementById('signupBtn').addEventListener('click', () => signUp());
+            document.getElementById('sendRecoveryBtn').addEventListener('click', () => sendRecoveryEmail());
+            document.getElementById('passkeyLoginBtn').addEventListener('click', () => signInWithPasskey());
+            document.getElementById('registerPasskeyBtn').addEventListener('click', () => registerPasskey());
+            document.getElementById('quickUnlockBtn').addEventListener('click', () => quickUnlock());
+            document.getElementById('setQuickPinBtn').addEventListener('click', () => setQuickPin());
+            document.getElementById('emailTabBtn').addEventListener('click', () => switchAuthTab('email'));
+            document.getElementById('passkeyTabBtn').addEventListener('click', () => switchAuthTab('passkey'));
+            document.getElementById('quickUnlockTabBtn').addEventListener('click', () => switchAuthTab('quick'));
+            document.getElementById('authPassword').addEventListener('keypress', function(e) { if (e.key === 'Enter') authenticate(); });
+            document.getElementById('pinInput').addEventListener('keypress', function(e) { if (e.key === 'Enter') quickUnlock(); });
 
             // Mode toggle
             document.getElementById('courseModeBtn').addEventListener('click', () => switchStudyMode('course'));

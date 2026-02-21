@@ -974,3 +974,66 @@
             .flashcard-container { height: 380px; }
             .daily-goal { padding: 12px 16px; }
         }
+
+.auth-helper-text {
+    color: var(--text-light);
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+}
+
+.auth-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.auth-tab {
+    flex: 1;
+    border: 1px solid #d7e0e3;
+    border-radius: 10px;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.auth-tab.active {
+    background: linear-gradient(135deg, var(--primary-teal), var(--primary-blue));
+    color: #fff;
+    border-color: transparent;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.auth-row {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn.secondary {
+    background: transparent;
+    color: var(--text-dark);
+    border: 2px solid var(--primary-blue);
+}
+
+.inline-link {
+    margin-top: 10px;
+    border: 0;
+    background: transparent;
+    color: var(--primary-blue);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.auth-status {
+    margin-top: 12px;
+    color: var(--text-light);
+    min-height: 22px;
+    font-size: 0.9rem;
+}

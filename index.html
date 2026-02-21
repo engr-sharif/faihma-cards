@@ -12,10 +12,41 @@
         <div class="login-screen" id="loginScreen">
             <div class="login-card">
                 <h1 class="login-title">💙</h1>
-                <h2 class="login-subtitle">Welcome back, Faihma!</h2>
-                <p style="color: var(--text-light); margin-bottom: 20px;">Enter your PIN to access your NCLEX flashcards</p>
-                <input type="password" class="pin-input" id="pinInput" placeholder="Enter PIN" maxlength="4">
-                <button class="login-btn" id="loginBtn">Unlock</button>
+                <h2 class="login-subtitle">Sync your NCLEX progress securely</h2>
+                <p class="auth-helper-text">Use account auth for cross-device resume. Optional quick-unlock PIN keeps local access fast.</p>
+
+                <div class="auth-tabs">
+                    <button class="auth-tab active" id="emailTabBtn">Email</button>
+                    <button class="auth-tab" id="passkeyTabBtn">Passkey</button>
+                    <button class="auth-tab" id="quickUnlockTabBtn">Quick PIN</button>
+                </div>
+
+                <div id="emailAuthPanel">
+                    <input type="email" class="auth-input" id="authEmail" placeholder="Email" autocomplete="username">
+                    <input type="password" class="auth-input" id="authPassword" placeholder="Password" autocomplete="current-password">
+                    <div class="auth-row">
+                        <button class="login-btn" id="loginBtn">Sign In</button>
+                        <button class="login-btn secondary" id="signupBtn">Create Account</button>
+                    </div>
+                    <button class="inline-link" id="sendRecoveryBtn">Send account recovery email</button>
+                </div>
+
+                <div id="passkeyAuthPanel" style="display:none;">
+                    <p class="auth-helper-text">Use device passkeys for passwordless sign-in.</p>
+                    <button class="login-btn" id="passkeyLoginBtn">Sign in with Passkey</button>
+                    <button class="login-btn secondary" id="registerPasskeyBtn">Register Passkey (after sign-in)</button>
+                </div>
+
+                <div id="quickUnlockPanel" style="display:none;">
+                    <p class="auth-helper-text">Optional local PIN (works only after a successful account sign-in on this device).</p>
+                    <input type="password" class="pin-input" id="pinInput" placeholder="4-digit PIN" maxlength="4">
+                    <div class="auth-row">
+                        <button class="login-btn" id="quickUnlockBtn">Quick Unlock</button>
+                        <button class="login-btn secondary" id="setQuickPinBtn">Set / Update PIN</button>
+                    </div>
+                </div>
+
+                <div class="auth-status" id="authStatus"></div>
             </div>
         </div>
 
@@ -160,6 +191,7 @@
     </div>
 
     <script src="config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="flashcards.js"></script>
     <script src="app.js"></script>
 </body>

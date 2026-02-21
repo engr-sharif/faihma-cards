@@ -1,87 +1,70 @@
 // Configuration settings for Faihma's NCLEX Flashcards
 
 const Config = {
-    // Authentication
-    CORRECT_PIN: "0214",
-    
+    // Backend platform (Supabase)
+    BACKEND: {
+        provider: 'supabase',
+        supabaseUrl: 'https://YOUR_PROJECT.supabase.co',
+        supabaseAnonKey: 'YOUR_PUBLIC_ANON_KEY',
+        tables: {
+            profiles: 'profiles',
+            progress: 'user_progress',
+            settings: 'user_settings'
+        }
+    },
+
     // App metadata
     APP_NAME: "Faihma's NCLEX Flashcards",
-    VERSION: "2.0.0",
-    
+    VERSION: "3.0.0",
+
     // Storage keys
     STORAGE_KEYS: {
-        PROGRESS: 'faihmaFlashcardsProgress',
-        SETTINGS: 'faihmaFlashcardsSettings',
-        STATS: 'faihmaFlashcardsStats'
+        PROGRESS: 'faihma_nclex_progress',
+        WRITE_QUEUE: 'faihma_write_queue',
+        QUICK_PIN_HASH: 'faihma_quick_pin_hash',
+        QUICK_UNLOCK_TOKEN: 'faihma_quick_unlock_token',
+        CACHE_KEY_SALT: 'faihma_cache_key_salt',
+        EXPORT_SIGNING_SECRET: 'faihma_export_signing_secret',
+        DARK_MODE: 'faihma_dark_mode',
+        DAILY_COUNT: 'faihma_daily_count',
+        DAILY_COUNT_DATE: 'faihma_daily_count_date'
     },
-    
-    // Default settings
-    DEFAULT_SETTINGS: {
-        showHints: true,
-        showExplanations: true,
-        shuffleCards: true,
-        darkTheme: false,
-        soundEnabled: false
-    },
-    
+
     // Subject display names and options
     SUBJECT_OPTIONS: {
         course: {
             'course_ch34_diagnostic': 'Ch 34: Diagnostic Tests',
-            'course_ch41_urinary': 'Ch 41: Urinary Elimination', 
+            'course_ch41_urinary': 'Ch 41: Urinary Elimination',
             'course_ch41_vocab': 'Ch 41: Vocab & Definitions',
             'course_ch40_bowel': 'Ch 40: Bowel Elimination'
         }
     },
-    
-    // Spaced repetition algorithm settings
-    SRS_SETTINGS: {
-        DEFAULT_EASE_FACTOR: 2.5,
-        MIN_EASE_FACTOR: 1.3,
-        EASE_FACTOR_ADJUSTMENT: {
-            0: -0.8,  // again
-            1: -0.54, // hard  
-            2: 0,     // good
-            3: 0.15   // easy
-        },
-        QUALITY_THRESHOLDS: [1, 2, 4, 5]
-    },
-    
-    // UI settings
-    UI_SETTINGS: {
-        MAX_CARDS_PER_SESSION: 20,
-        REVIEW_BATCH_SIZE: 10,
-        AUTO_ADVANCE_DELAY: 1500,
-        ANIMATION_DURATION: 300
-    },
-    
-    // Performance thresholds
-    MASTERY_THRESHOLDS: {
-        MASTERED_INTERVAL: 21, // days
-        MIN_REVIEWS: 3,
-        SUCCESS_RATE: 0.8
+
+    // Security settings
+    SECURITY: {
+        PBKDF2_ITERATIONS: 120000,
+        AES_GCM_IV_LENGTH: 12,
+        PIN_LENGTH: 4
     }
 };
 
-// Validation function for config
 function validateConfig() {
     const warnings = [];
-    
-    if (!Config.CORRECT_PIN || Config.CORRECT_PIN.length !== 4) {
-        warnings.push('PIN must be exactly 4 characters');
+
+    if (!Config.BACKEND.supabaseUrl || Config.BACKEND.supabaseUrl.includes('YOUR_PROJECT')) {
+        warnings.push('Set Config.BACKEND.supabaseUrl to your Supabase project URL.');
     }
-    
-    if (!Config.SUBJECT_OPTIONS.course || Object.keys(Config.SUBJECT_OPTIONS.course).length === 0) {
-        warnings.push('No course subjects configured');
+
+    if (!Config.BACKEND.supabaseAnonKey || Config.BACKEND.supabaseAnonKey.includes('YOUR_PUBLIC_ANON_KEY')) {
+        warnings.push('Set Config.BACKEND.supabaseAnonKey to your Supabase anon key.');
     }
-    
+
     if (warnings.length > 0) {
         console.warn('Config validation warnings:');
-        warnings.forEach(warning => console.warn('⚠️', warning));
+        warnings.forEach((warning) => console.warn('⚠️', warning));
     }
-    
+
     return warnings.length === 0;
 }
 
-// Validate config on load
 validateConfig();
