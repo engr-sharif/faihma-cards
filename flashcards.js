@@ -1610,6 +1610,41 @@
                     correct: 1,
                     explanation: "Repositioning every 2 hours relieves pressure on bony prominences. Never massage reddened areas — this can cause further tissue damage. Keep HOB ≤30° when possible.",
                     hint: "Pressure injuries are caused by sustained pressure — how do you relieve it?"
+                },
+                {
+                    question: "A nurse is performing a focused respiratory assessment. Which finding is most concerning and requires immediate intervention?",
+                    choices: ["A. Respiratory rate of 18/min", "B. Tracheal deviation to one side", "C. Mild expiratory wheeze in a client with asthma", "D. Oxygen saturation of 94% on room air"],
+                    correct: 1,
+                    explanation: "Tracheal deviation indicates a tension pneumothorax or massive mediastinal shift — a life-threatening emergency. The trachea deviates AWAY from the affected side. Immediate intervention required.",
+                    hint: "The trachea should be midline — deviation means something is pushing or pulling it."
+                },
+                {
+                    question: "A client is confused and the nurse suspects delirium. Which finding best differentiates delirium from dementia?",
+                    choices: ["A. The client is forgetful", "B. Sudden acute onset with fluctuating consciousness", "C. The client denies memory problems", "D. The client is unable to perform ADLs"],
+                    correct: 1,
+                    explanation: "Delirium has an ACUTE onset (hours to days) with fluctuating levels of consciousness. Dementia is gradual (months to years) with stable, progressive decline. Delirium often has an identifiable cause (infection, medication).",
+                    hint: "DELIRIUM = Acute & Fluctuating. DEMENTIA = Gradual & Stable. When did symptoms start?"
+                },
+                {
+                    question: "A nurse is documenting client care. Which entry is most appropriate?",
+                    choices: ["A. 'Client seems like he's in pain — medicated at 1400'", "B. 'Client reported pain 8/10 at 1400. Morphine 2 mg IV administered. Reassessed at 1430: pain 3/10, client resting comfortably.'", "C. 'Pain medicated per protocol. Client better.'", "D. 'Client complaining again — gave pain meds'"],
+                    correct: 1,
+                    explanation: "Good nursing documentation is objective, specific, uses quotes for client statements, includes time, medication name/dose/route, and follow-up reassessment. Never use subjective terms like 'seems' or 'complaining again.'",
+                    hint: "SBAR and objective language: What did the client say? What did you give? What happened after?"
+                },
+                {
+                    question: "During a blood transfusion, a client develops sudden dyspnea, hypoxia, and bilateral pulmonary infiltrates (not due to circulatory overload). What complication should the nurse suspect?",
+                    choices: ["A. Transfusion-associated circulatory overload (TACO)", "B. Transfusion-related acute lung injury (TRALI)", "C. Febrile non-hemolytic reaction", "D. Delayed hemolytic reaction"],
+                    correct: 1,
+                    explanation: "TRALI (within 6 hours of transfusion) presents as acute lung injury — sudden dyspnea, hypoxia, non-cardiogenic pulmonary edema (bilateral infiltrates without elevated filling pressures). It's a leading cause of transfusion-related death. Stop transfusion immediately.",
+                    hint: "TRALI = Lung Injury within 6 hrs. TACO = fluid overload with elevated filling pressures."
+                },
+                {
+                    question: "A client is being discharged on a new anticoagulant. Which statement by the client indicates a need for further teaching?",
+                    choices: ["A. 'I should use an electric razor instead of a straight blade.'", "B. 'I'll take ibuprofen for my arthritis pain since it's over-the-counter.'", "C. 'I should report any unusual bruising or prolonged bleeding.'", "D. 'I should wear a medical alert bracelet.'"],
+                    correct: 1,
+                    explanation: "NSAIDs (ibuprofen, naproxen) significantly increase bleeding risk when combined with anticoagulants. Clients should use acetaminophen (Tylenol) for pain relief instead.",
+                    hint: "NSAIDs affect platelet function — dangerous when combined with blood thinners."
                 }
             ],
             
@@ -1676,6 +1711,41 @@
                     correct: 1,
                     explanation: "Addison's disease (adrenal insufficiency) causes low cortisol and aldosterone: hypotension, hyperkalemia, hyponatremia, hypoglycemia, and bronze hyperpigmentation. This is the opposite of Cushing's.",
                     hint: "Addison's = ADDing pigmentation, LOSing blood pressure. Opposite of Cushing's."
+                },
+                {
+                    question: "A client with acute pancreatitis is admitted. Which position provides the most pain relief?",
+                    choices: ["A. Supine with legs extended", "B. Prone position", "C. Fetal position (knees to chest, side-lying)", "D. Semi-Fowler's with legs flat"],
+                    correct: 2,
+                    explanation: "The fetal position (knees drawn to the chest) relieves pressure on the inflamed pancreas by reducing tension on the abdominal muscles. Pain worsens in the supine position (classic sign of pancreatitis).",
+                    hint: "Lying flat makes pancreatitis pain worse — what position takes pressure off the abdomen?"
+                },
+                {
+                    question: "A client with end-stage renal disease reports intense leg cramps and muscle weakness. Lab results show potassium 6.8 mEq/L. The nurse should prepare for which PRIORITY intervention?",
+                    choices: ["A. Administer sodium polystyrene sulfonate (Kayexalate)", "B. Prepare for emergency dialysis", "C. Administer IV calcium gluconate to protect the heart", "D. Restrict dietary potassium immediately"],
+                    correct: 2,
+                    explanation: "At K+ 6.8, cardiac toxicity is the immediate danger. IV calcium gluconate is given FIRST to stabilize the myocardium (membrane protection), then drive potassium into cells (insulin/glucose, sodium bicarbonate), then remove it (Kayexalate, dialysis).",
+                    hint: "Severe hyperkalemia threatens the heart FIRST — what protects the cardiac membrane?"
+                },
+                {
+                    question: "A client with a deep vein thrombosis (DVT) in the left leg is on heparin infusion. The nurse is teaching about DVT. Which statement by the client is INCORRECT?",
+                    choices: ["A. 'I should avoid standing or sitting for long periods without moving.'", "B. 'I need to massage my leg to break up the clot.'", "C. 'I should wear compression stockings as prescribed.'", "D. 'I should report any chest pain or shortness of breath immediately.'"],
+                    correct: 1,
+                    explanation: "Never massage a DVT! The clot can dislodge and travel to the lungs (pulmonary embolism), which can be fatal. The leg should be elevated and the client should avoid vigorous activity.",
+                    hint: "A DVT is a clot that can travel — what happens if you massage it loose?"
+                },
+                {
+                    question: "A client with type 2 diabetes has a fasting blood glucose of 280 mg/dL and fruity breath. Urine ketones are negative. The nurse suspects:",
+                    choices: ["A. Diabetic ketoacidosis (DKA)", "B. Hyperosmolar hyperglycemic state (HHS)", "C. Hypoglycemia", "D. Somogyi effect"],
+                    correct: 1,
+                    explanation: "HHS (formerly HHNS) occurs in type 2 diabetes: extreme hyperglycemia (>600 mg/dL typically), NO ketones (residual insulin prevents ketosis), profound dehydration, and altered mental status. DKA has ketones and is more common in type 1.",
+                    hint: "Type 2, very high glucose, NO ketones = HHS. Type 1, high glucose, WITH ketones = DKA."
+                },
+                {
+                    question: "A client returns from a thyroidectomy. Which assessment finding requires the nurse's IMMEDIATE attention?",
+                    choices: ["A. Mild sore throat and hoarse voice", "B. Tingling in the fingertips and positive Chvostek's sign", "C. Pain at the incision site rated 5/10", "D. Drowsiness from anesthesia"],
+                    correct: 1,
+                    explanation: "Tingling extremities and Chvostek's sign indicate hypocalcemia from accidental removal of parathyroid glands (parathyroid controls calcium). This can lead to tetany and laryngospasm — have calcium gluconate at bedside!",
+                    hint: "The parathyroid glands sit on the thyroid — what happens to calcium if they're accidentally removed?"
                 }
             ],
             
@@ -1742,6 +1812,41 @@
                     correct: 1,
                     explanation: "SSRIs (fluoxetine, sertraline, etc.) can cause serotonin syndrome, especially when combined with MAOIs or other serotonergic drugs. Signs: hyperthermia, agitation, myoclonus, hyperreflexia, diaphoresis.",
                     hint: "Too much serotonin = a dangerous syndrome. Which drug class increases serotonin?"
+                },
+                {
+                    question: "A client is receiving gentamicin (an aminoglycoside). Which two toxicities must the nurse monitor for throughout therapy?",
+                    choices: ["A. Hepatotoxicity and photosensitivity", "B. Nephrotoxicity and ototoxicity", "C. Pulmonary fibrosis and myelosuppression", "D. Cardiotoxicity and bone marrow suppression"],
+                    correct: 1,
+                    explanation: "Aminoglycosides (gentamicin, tobramycin, amikacin) are notorious for nephrotoxicity (monitor creatinine/BUN) and ototoxicity (hearing loss, tinnitus, vertigo). Trough levels should be monitored to prevent toxicity.",
+                    hint: "Aminoglycosides damage two organs that end in '-tox': KIDney and EAR."
+                },
+                {
+                    question: "A client is prescribed nitroglycerin SL for angina. Which teaching point is most important?",
+                    choices: ["A. Take with a full glass of water for best absorption", "B. If one dose doesn't relieve pain in 5 minutes, call 911 after the 3rd dose", "C. Store in a clear plastic bag in your purse or pocket for quick access", "D. You can take up to 10 tablets before seeking medical attention"],
+                    correct: 1,
+                    explanation: "NTG protocol: take 1 tablet SL every 5 minutes, up to 3 doses. If pain is unrelieved after 3 doses, call 911 — this may be an MI. Store NTG in original dark glass bottle away from heat/light.",
+                    hint: "3 tablets, 5 minutes apart, then 911. Dark glass bottle."
+                },
+                {
+                    question: "A client receiving IV morphine becomes lethargic with respirations of 6/min and pinpoint pupils. What is the priority action?",
+                    choices: ["A. Stimulate the client by calling their name loudly", "B. Administer naloxone (Narcan) per protocol", "C. Stop the morphine infusion and reassess in 30 minutes", "D. Administer flumazenil (Romazicon)"],
+                    correct: 1,
+                    explanation: "Classic opioid overdose: lethargy/unconsciousness, respiratory depression, and miosis (pinpoint pupils). Naloxone (Narcan) is the opioid antagonist. Administer immediately. Note: naloxone has a shorter half-life than most opioids — the client may need repeat dosing.",
+                    hint: "Opioid overdose triad: respiratory depression + pinpoint pupils + unconsciousness. What's the reversal agent?"
+                },
+                {
+                    question: "A client taking corticosteroids (prednisone) long-term should be monitored for which complications?",
+                    choices: ["A. Hypoglycemia and weight loss", "B. Hyperglycemia, osteoporosis, and increased infection risk", "C. Hypotension and bradycardia", "D. Hypothyroidism and hair loss"],
+                    correct: 1,
+                    explanation: "Long-term corticosteroids cause: hyperglycemia (steroid diabetes), bone loss/osteoporosis (inhibit calcium), immune suppression (infection risk), weight gain, moon face, buffalo hump, fluid retention, and poor wound healing.",
+                    hint: "Think Cushing's syndrome — steroids mimic excess cortisol. What does excess cortisol do?"
+                },
+                {
+                    question: "A nurse is administering IV potassium chloride. Which is most important to remember?",
+                    choices: ["A. IV potassium can be given via IV push for severe hypokalemia", "B. IV potassium must always be diluted and given slowly via IV pump", "C. Maximum infusion rate is 100 mEq/hour", "D. Potassium can be mixed in a concentrated solution for faster effect"],
+                    correct: 1,
+                    explanation: "IV potassium MUST be diluted (never give concentrated) and infused slowly — maximum 10-20 mEq/hour (never exceed 40 mEq/hour). IV push potassium can cause immediate cardiac arrest. Always use an infusion pump.",
+                    hint: "IV potassium pushed too fast causes cardiac arrest. It MUST be diluted and pumped slowly."
                 }
             ],
             
@@ -1801,6 +1906,41 @@
                     correct: 1,
                     explanation: "An unconscious diabetic child should receive glucagon IM/SubQ — never give anything orally to an unconscious person (aspiration risk). Glucagon stimulates the liver to release stored glucose.",
                     hint: "The child can't swallow safely — what injectable medication raises blood sugar?"
+                },
+                {
+                    question: "A nurse is educating parents about Reye syndrome. Which over-the-counter medication should be avoided in children under 18 with viral illness?",
+                    choices: ["A. Acetaminophen (Tylenol)", "B. Aspirin (salicylates)", "C. Ibuprofen (Advil)", "D. Diphenhydramine (Benadryl)"],
+                    correct: 1,
+                    explanation: "Aspirin given to children with viral illness (flu, chickenpox) is associated with Reye syndrome — a rare but serious condition causing liver failure and encephalopathy. Use acetaminophen or ibuprofen instead.",
+                    hint: "Reye syndrome = aspirin + viral illness in children. What's the safe alternative?"
+                },
+                {
+                    question: "A 3-year-old is admitted with burns covering the face and hands. What is the most important initial assessment?",
+                    choices: ["A. Wound depth and percentage of body surface area", "B. Airway, breathing, and signs of inhalation injury", "C. Pain level using FACES scale", "D. Fluid intake over the last 24 hours"],
+                    correct: 1,
+                    explanation: "Facial burns with singed nasal hairs, hoarseness, or carbonaceous sputum indicate inhalation injury — a life-threatening airway emergency. The airway can swell and close rapidly. Secure the airway FIRST.",
+                    hint: "Burns to the face = risk of inhalation injury. What's your first priority with any trauma?"
+                },
+                {
+                    question: "Which developmental milestone should a nurse expect a typical 12-month-old infant to have achieved?",
+                    choices: ["A. Speaking in 3-word sentences", "B. Walking independently, saying 1-2 words, and using pincer grasp", "C. Running, jumping, and drawing circles", "D. Riding a tricycle and copying squares"],
+                    correct: 1,
+                    explanation: "By 12 months: walks holding furniture or independently, says 'mama/dada' meaningfully + 1-2 other words, uses pincer grasp to pick up small objects, waves bye-bye. 3-word sentences = 24 months.",
+                    hint: "12 months = 1 year — first steps, first words, fine motor with fingers."
+                },
+                {
+                    question: "A child with nephrotic syndrome presents with massive edema and decreased urinary output. Which dietary modification is expected?",
+                    choices: ["A. High-sodium, high-protein diet", "B. Sodium restriction and moderate protein intake", "C. High-fluid intake to flush the kidneys", "D. Fat-free, low-carbohydrate diet"],
+                    correct: 1,
+                    explanation: "Nephrotic syndrome causes massive protein loss in urine (proteinuria), leading to low oncotic pressure and edema. Management includes sodium restriction (reduce edema), moderate protein (replace losses without overloading), and diuretics.",
+                    hint: "Low albumin → edema. Restrict sodium to reduce fluid retention."
+                },
+                {
+                    question: "An 18-month-old is brought to the ER with a bulging anterior fontanel, photophobia, and stiff neck. What is the nurse's priority action?",
+                    choices: ["A. Perform a lumbar puncture immediately", "B. Initiate isolation precautions and notify the provider immediately", "C. Place the child in bright light to assess pupillary response", "D. Encourage oral fluids"],
+                    correct: 1,
+                    explanation: "These signs suggest bacterial meningitis. Initiate droplet precautions immediately (until infection is ruled out) and notify the provider urgently. IV antibiotics should be started within 1 hour — every minute counts. Lumbar puncture confirms the diagnosis but treatment is not delayed.",
+                    hint: "Suspected meningitis = droplet precautions first, then notify, then lumbar puncture."
                 }
             ],
             
@@ -1860,6 +2000,41 @@
                     correct: 1,
                     explanation: "Green-tinged amniotic fluid indicates meconium passage, which can occur with fetal distress (hypoxia). The fetus may aspirate meconium, causing meconium aspiration syndrome. Alert the provider and prepare for suctioning.",
                     hint: "Meconium (fetal stool) is greenish — its presence in amniotic fluid suggests the fetus was stressed."
+                },
+                {
+                    question: "A client with preeclampsia is admitted. Which assessment finding would indicate progression to eclampsia?",
+                    choices: ["A. Blood pressure of 150/95 mmHg", "B. Protein in urine of 2+", "C. Grand mal seizure", "D. Edema in the hands and face"],
+                    correct: 2,
+                    explanation: "Eclampsia = preeclampsia + seizures. The seizure is the defining feature that converts preeclampsia to eclampsia. Nursing priority: protect from injury, turn to side, administer magnesium sulfate, notify provider.",
+                    hint: "Pre-eclampsia + what neurological event = eclampsia?"
+                },
+                {
+                    question: "A nurse is caring for a client in active labor when the fetal heart monitor shows a variable deceleration. What is the priority nursing intervention?",
+                    choices: ["A. Prepare for emergency cesarean section", "B. Change the maternal position and administer oxygen via face mask", "C. Increase the oxytocin infusion rate", "D. Perform an amnioinfusion immediately"],
+                    correct: 1,
+                    explanation: "Variable decelerations = umbilical cord compression. First action: reposition the mother (side to side, knee-chest), administer O2 at 8-10 L/min via face mask. These measures often resolve variable decels. If persistent, provider is notified.",
+                    hint: "Variable decel = cord compression. First intervention: change position to take pressure off the cord."
+                },
+                {
+                    question: "A postpartum client on day 3 reports breast engorgement. She is bottle-feeding. What is the most appropriate nursing intervention?",
+                    choices: ["A. Apply warm compresses and encourage breastfeeding", "B. Apply ice packs and a supportive bra, and avoid breast stimulation", "C. Pump the breasts every 4 hours to relieve pressure", "D. Administer bromocriptine to suppress lactation"],
+                    correct: 1,
+                    explanation: "For non-breastfeeding clients, suppress lactation by: wearing a tight-fitting bra, applying ice packs (cold reduces blood flow), and avoiding any breast stimulation or pumping (which signals the body to produce more milk).",
+                    hint: "For bottle-feeding moms, warmth and pumping stimulate more milk — you want the opposite."
+                },
+                {
+                    question: "A nurse assesses a newborn immediately after birth. Which finding requires immediate intervention?",
+                    choices: ["A. Acrocyanosis (blue hands and feet)", "B. Vernix caseosa covering the body", "C. Central cyanosis (blue lips and trunk)", "D. Molding of the skull bones"],
+                    correct: 2,
+                    explanation: "Central cyanosis (blue lips, tongue, trunk) in a newborn indicates hypoxia and requires immediate respiratory support. Acrocyanosis (blue extremities only) is normal in the first 24-48 hours. Vernix and molding are expected findings.",
+                    hint: "Blue hands/feet = normal for newborns. Blue lips/trunk = emergency."
+                },
+                {
+                    question: "A gestational diabetic client is having her blood glucose monitored. During labor, her glucose is 190 mg/dL. Which nursing action is correct?",
+                    choices: ["A. Give the client orange juice to stabilize glucose", "B. Administer insulin per protocol and continue monitoring", "C. This level is normal during labor — no action needed", "D. Withhold all IV fluids to reduce glucose level"],
+                    correct: 1,
+                    explanation: "Maternal hyperglycemia during labor causes fetal hyperinsulinemia. After delivery, the baby will be at risk for neonatal hypoglycemia (rebound). Target maternal glucose during labor is 70-110 mg/dL. Insulin is given per protocol.",
+                    hint: "High maternal glucose → baby produces extra insulin → baby's glucose crashes after birth."
                 }
             ],
             
@@ -1919,6 +2094,41 @@
                     correct: 2,
                     explanation: "Delirium tremens (DTs) is the most dangerous complication of alcohol withdrawal, occurring 48-72 hours after last drink. Symptoms: seizures, hallucinations, severe agitation, hyperthermia. Mortality can be 5-15% without treatment.",
                     hint: "The most severe form of alcohol withdrawal can be fatal — what are its hallmark signs?"
+                },
+                {
+                    question: "A nurse is using the CIWA-Ar scale. What is it used to assess?",
+                    choices: ["A. Severity of depression in inpatient settings", "B. Alcohol withdrawal severity to guide treatment decisions", "C. Cognitive function in elderly patients", "D. Pain level in non-verbal patients"],
+                    correct: 1,
+                    explanation: "The CIWA-Ar (Clinical Institute Withdrawal Assessment for Alcohol) measures 10 symptoms of alcohol withdrawal (tremor, sweating, anxiety, agitation, perceptual disturbances). Scores guide medication dosing (usually benzodiazepines).",
+                    hint: "CIWA = tool to monitor alcohol withdrawal symptoms and guide treatment."
+                },
+                {
+                    question: "A client with schizophrenia stops taking antipsychotic medication because of troublesome side effects. Which side effect is most commonly associated with non-adherence?",
+                    choices: ["A. Dry mouth", "B. Extrapyramidal symptoms (EPS) including stiffness, akathisia, and tardive dyskinesia", "C. Mild sedation", "D. Headache"],
+                    correct: 1,
+                    explanation: "Extrapyramidal symptoms (EPS) — including muscle rigidity, tremors, akathisia (restless legs), and tardive dyskinesia (involuntary facial movements) — are the most distressing side effects of typical antipsychotics and the #1 reason for non-adherence.",
+                    hint: "EPS = the movement-related side effects of antipsychotics. Which side effects are most bothersome?"
+                },
+                {
+                    question: "A nurse is caring for a client who is actively hallucinating. Which nursing response is most therapeutic?",
+                    choices: ["A. Agree with the hallucination to avoid agitating the client", "B. Firmly tell the client the voices are not real", "C. Acknowledge the client's experience without reinforcing the hallucination", "D. Ignore the behavior and redirect to a group activity"],
+                    correct: 2,
+                    explanation: "Best approach: acknowledge the client's distress ('I understand you're hearing something frightening') without agreeing that the voices are real. Don't argue or reinforce the hallucination. Build trust.",
+                    hint: "Don't confirm OR deny the hallucination — acknowledge the FEELINGS."
+                },
+                {
+                    question: "A client with borderline personality disorder threatens to harm herself if the nurse leaves the room. What is the most therapeutic response?",
+                    choices: ["A. Stay in the room indefinitely to prevent harm", "B. Set consistent limits while ensuring safety and maintaining therapeutic boundaries", "C. Call security immediately", "D. Agree to stay all shift to build trust"],
+                    correct: 1,
+                    explanation: "BPD clients often use threats to avoid abandonment. The therapeutic response maintains clear, consistent limits while ensuring safety. Giving in reinforces manipulative behavior; abandoning the client escalates the crisis.",
+                    hint: "BPD: maintain therapeutic LIMITS while validating feelings. Don't give in, don't abandon."
+                },
+                {
+                    question: "A nurse is preparing to administer lithium. The client reports nausea, vomiting, and coarse hand tremors. The morning lithium level is 1.8 mEq/L. What is the priority action?",
+                    choices: ["A. Administer the lithium with food to reduce GI upset", "B. Hold the lithium, notify the provider, and prepare to treat toxicity", "C. Reduce the dose by half and recheck in 4 hours", "D. Encourage fluid intake and give the scheduled dose"],
+                    correct: 1,
+                    explanation: "Lithium toxicity (>1.5 mEq/L): early signs include coarse tremors, GI distress, confusion. Therapeutic range: 0.6-1.2 mEq/L. At 1.8, HOLD the medication, notify provider, monitor for seizures. Treatment is supportive — no antidote.",
+                    hint: "Lithium therapeutic: 0.6-1.2. Level 1.8 with symptoms = toxicity. What do you do?"
                 }
             ],
             
@@ -1978,6 +2188,41 @@
                     correct: 1,
                     explanation: "All medication errors must be reported regardless of whether harm occurred. Complete an incident report (not in the medical chart), notify the provider, and document the client's assessment. Near-misses help improve systems.",
                     hint: "Even 'no harm' errors need reporting — it's about system improvement, not punishment."
+                },
+                {
+                    question: "A nurse is using SBAR to communicate a change in client status. What does SBAR stand for?",
+                    choices: ["A. Safety, Brevity, Assessment, Rationale", "B. Situation, Background, Assessment, Recommendation", "C. Symptoms, Baseline, Action, Response", "D. Status, Brief, Assess, Report"],
+                    correct: 1,
+                    explanation: "SBAR (Situation-Background-Assessment-Recommendation) is a structured communication tool used for handoffs and urgent provider notifications. It ensures critical information is communicated clearly and reduces miscommunication errors.",
+                    hint: "SBAR = what's happening, what's the history, what I think, what I need."
+                },
+                {
+                    question: "A nurse is triaging multiple victims arriving at the emergency department after a bus accident. Using the START triage system, which client is tagged RED (immediate)?",
+                    choices: ["A. A conscious client with a fractured arm and stable vitals", "B. An apneic client who remains apneic after airway repositioning", "C. A client with respiratory rate of 28/min and no radial pulse", "D. A client with minor lacerations, walking and talking"],
+                    correct: 2,
+                    explanation: "START triage: RED = immediate life threat, salvageable. No radial pulse + RR >30 = hemodynamic instability = RED. Breathing >30 alone = RED. Walking wounded = GREEN. Apneic after repositioning = BLACK.",
+                    hint: "RED = immediate but salvageable. RR >30 or absent pulse = RED tag."
+                },
+                {
+                    question: "The nurse is planning care for 5 clients. Using Maslow's hierarchy, which client has the highest priority need?",
+                    choices: ["A. A client asking about discharge medications", "B. A client who feels unsafe and fears their roommate", "C. A client with an oxygen saturation of 85% on room air", "D. A client requesting a second blanket"],
+                    correct: 2,
+                    explanation: "Maslow's hierarchy: Physiological → Safety → Love/Belonging → Esteem → Self-Actualization. An SpO2 of 85% is a critical physiological emergency (oxygenation) — the highest priority. Safety, warmth, and education come after.",
+                    hint: "Maslow: Physiological needs are ALWAYS first. What threatens survival most immediately?"
+                },
+                {
+                    question: "A newly graduated nurse is experiencing burnout. Which strategy is most effective in preventing nursing burnout?",
+                    choices: ["A. Working extra shifts to feel more competent", "B. Seeking social support, self-care, and speaking with a mentor or EAP", "C. Transferring to a different department immediately", "D. Avoiding difficult patients to reduce stress"],
+                    correct: 1,
+                    explanation: "Burnout prevention requires self-care strategies (sleep, exercise, nutrition), social support (colleagues, friends, family), mentorship, and use of Employee Assistance Programs (EAP). Avoidance and overworking worsen burnout.",
+                    hint: "Burnout requires rest, connection, and support — not more work or avoidance."
+                },
+                {
+                    question: "A client refuses a blood transfusion based on religious beliefs (Jehovah's Witness). The client is alert and competent. What is the nurse's ethical obligation?",
+                    choices: ["A. Administer the transfusion anyway since it's medically necessary", "B. Respect the client's decision and document accordingly", "C. Call the client's family to override the decision", "D. Request a court order to proceed with the transfusion"],
+                    correct: 1,
+                    explanation: "An alert, competent adult has the legal and ethical right to refuse any treatment, including life-saving treatment. Autonomy is the foundation. Document the refusal, ensure informed consent was given, notify the provider, and respect the decision.",
+                    hint: "Autonomy = the right to refuse treatment. What must you do when a competent adult refuses care?"
                 }
             ],
             
@@ -2037,6 +2282,41 @@
                     correct: 1,
                     explanation: "Droplet precautions (influenza, pertussis, meningococcal disease) require a surgical mask. Many facilities require masking upon room entry. N95 is for airborne precautions (TB, measles, varicella).",
                     hint: "Droplets are larger than airborne particles — a regular surgical mask is sufficient."
+                },
+                {
+                    question: "A nurse is preparing to give medications through an NG tube. Which action is the priority before instilling any medication?",
+                    choices: ["A. Check medication compatibility", "B. Verify tube placement by aspirating gastric contents and checking pH", "C. Flush the tube with 60 mL of water", "D. Elevate the head of bed to 90 degrees"],
+                    correct: 1,
+                    explanation: "Verifying NG tube placement before every use is essential — aspiration of gastric contents with pH <5.5 confirms placement in the stomach. Instilling medications into a displaced tube (e.g., in the lungs) is a potentially fatal error.",
+                    hint: "Tube displacement = medication goes into the wrong place. What do you check FIRST?"
+                },
+                {
+                    question: "A nurse is preparing a sterile field for a procedure. The outer edge (1-inch border) of the sterile drape is considered:",
+                    choices: ["A. Sterile and safe for all items", "B. Non-sterile — considered contaminated", "C. Only contaminated if touched by gloved hands", "D. Sterile if covered with a sterile towel"],
+                    correct: 1,
+                    explanation: "The 1-inch border around a sterile drape is considered non-sterile (contaminated) because it hangs over the edge and may contact non-sterile surfaces. All sterile items must be placed within the sterile field, away from the border.",
+                    hint: "The edges of the sterile field = contaminated. Stay within the interior."
+                },
+                {
+                    question: "Which client is most appropriate to place in a room with another client (cohorting)?",
+                    choices: ["A. A client with MRSA and a client with active influenza", "B. Two clients diagnosed with the same strain of MRSA", "C. A client with VRE and an immunosuppressed client", "D. A client with active TB and a client with bronchitis"],
+                    correct: 1,
+                    explanation: "Cohorting (placing clients with the same infection together) is acceptable and reduces the need for single rooms. Two clients with the same organism (same MRSA strain) can share a room safely.",
+                    hint: "Cohort = same bug together. Never mix infections or place with immunosuppressed clients."
+                },
+                {
+                    question: "A nurse is giving a medication to a client and realizes the patient's name on the MAR doesn't match the wristband. What should the nurse do?",
+                    choices: ["A. Ask the client to verbally confirm their name and give the medication", "B. Withhold the medication and clarify the discrepancy before proceeding", "C. Give the medication since the dose and drug name are correct", "D. Ask the family to confirm identity"],
+                    correct: 1,
+                    explanation: "Any discrepancy in patient identification must be resolved BEFORE giving any medication. This is a critical safety moment — wrong-patient errors kill people. Use 2 identifiers (name + date of birth or MRN) every time.",
+                    hint: "Discrepancy in ID = STOP. Never give medication until identity is confirmed."
+                },
+                {
+                    question: "Which hand hygiene method is most effective against Clostridioides difficile (C. diff) spores?",
+                    choices: ["A. Alcohol-based hand sanitizer (ABHR)", "B. Soap and water with vigorous scrubbing for at least 20 seconds", "C. Chlorhexidine gluconate foam", "D. Antiseptic wipes"],
+                    correct: 1,
+                    explanation: "C. diff forms spores that are resistant to alcohol. Soap and water (physical removal through friction and rinsing) is the ONLY effective hand hygiene method for C. diff. This is a critical concept tested frequently on NCLEX.",
+                    hint: "Alcohol kills most germs — but C. diff spores laugh at alcohol. What removes them physically?"
                 }
             ],
             
@@ -2096,6 +2376,41 @@
                     correct: 1,
                     explanation: "In hepatic encephalopathy, the damaged liver can't convert ammonia to urea. Protein metabolism produces ammonia, so protein intake must be restricted to reduce ammonia levels and neurological symptoms.",
                     hint: "The liver can't process ammonia — what macronutrient produces ammonia when metabolized?"
+                },
+                {
+                    question: "A client with phenylketonuria (PKU) should avoid which food?",
+                    choices: ["A. Rice and corn", "B. High-phenylalanine foods: meat, fish, eggs, dairy, nuts, and products containing aspartame", "C. All citrus fruits", "D. Complex carbohydrates"],
+                    correct: 1,
+                    explanation: "PKU is an inability to metabolize phenylalanine (amino acid). Accumulation causes brain damage. Avoid high-protein foods and aspartame (contains phenylalanine — the 'PKU warning' on diet soda). Low-phenylalanine formula is used.",
+                    hint: "PKU = can't break down phenylalanine. What foods are high in amino acids?"
+                },
+                {
+                    question: "A post-surgical client has a poor appetite. Which intervention best promotes wound healing through nutrition?",
+                    choices: ["A. Increase carbohydrate intake for energy", "B. Ensure adequate protein, vitamin C, and zinc intake", "C. Restrict fats to reduce inflammation", "D. Encourage high-sodium foods to improve fluid balance"],
+                    correct: 1,
+                    explanation: "Wound healing requires: protein (collagen formation), vitamin C (collagen synthesis), zinc (immune function and cell division). Deficiency in any delays healing. Protein is the most critical macronutrient.",
+                    hint: "Collagen = protein backbone of wound healing. What nutrients build collagen?"
+                },
+                {
+                    question: "A client with gout is counseled about dietary modifications. Which foods should the client limit?",
+                    choices: ["A. Complex carbohydrates and fiber", "B. Low-fat dairy products", "C. Organ meats, shellfish, and alcohol (especially beer)", "D. Fresh fruits and vegetables"],
+                    correct: 2,
+                    explanation: "Gout is caused by uric acid crystal deposits. Purine-rich foods (organ meats, anchovies, shellfish) and alcohol (beer especially) increase uric acid. Encourage fluids, low-fat dairy, and limit high-purine foods.",
+                    hint: "Gout = uric acid crystals. Purines → uric acid. What foods are high in purines?"
+                },
+                {
+                    question: "A nurse is caring for a client with anorexia who refuses to eat. Which nursing action best addresses this in the short term?",
+                    choices: ["A. Force-feed the client to prevent malnutrition", "B. Establish a structured meal plan with consistent times, sit with the client, and provide small frequent meals", "C. Leave trays in the room and allow the client to eat whenever they want", "D. Offer high-calorie snacks only at night when the client is less anxious"],
+                    correct: 1,
+                    explanation: "Structured meal times, sitting with the client (supervision to prevent hiding food), and small frequent offerings are evidence-based strategies for anorexia nervosa. A multidisciplinary team approach with consistent, supportive, non-pressuring presence is key.",
+                    hint: "Anorexia requires structure, supervision, and a therapeutic approach — not force or avoidance."
+                },
+                {
+                    question: "A client with chronic liver failure is placed on a low-sodium diet of 2,000 mg/day. Which food choice by the client shows understanding?",
+                    choices: ["A. 'I'll have canned chicken noodle soup for lunch.'", "B. 'I'll cook chicken breast with herbs and lemon juice.'", "C. 'I'll eat dill pickles and a hot dog for dinner.'", "D. 'I'll use soy sauce instead of salt to season my food.'"],
+                    correct: 1,
+                    explanation: "Fresh chicken with herbs is low-sodium. Canned soups (~800-900 mg/serving), hot dogs (~500-600 mg), pickles (~700-900 mg), and soy sauce (~900 mg/Tbsp) are all extremely high in sodium and should be avoided.",
+                    hint: "Fresh, unprocessed, home-cooked food = low sodium. Canned/processed = high sodium."
                 }
             ],
             
@@ -2155,6 +2470,41 @@
                     correct: 1,
                     explanation: "Prolonged vomiting or NG suctioning removes hydrochloric acid (HCl) from the stomach, causing metabolic alkalosis (high pH, high HCO3). Also caused by excessive antacid use or hypokalemia.",
                     hint: "Losing stomach acid (HCl) shifts the body toward alkalosis — what causes acid loss?"
+                },
+                {
+                    question: "A client's ABG results are: pH 7.48, PaCO2 32, HCO3 24. What is the acid-base disorder?",
+                    choices: ["A. Respiratory acidosis", "B. Metabolic alkalosis", "C. Respiratory alkalosis (uncompensated)", "D. Metabolic acidosis"],
+                    correct: 2,
+                    explanation: "pH high (alkalosis) + low CO2 (blown off CO2 = respiratory cause) + normal HCO3 (no metabolic compensation) = uncompensated respiratory alkalosis. Common causes: hyperventilation, anxiety, pain, mechanical ventilation.",
+                    hint: "High pH + low CO2 = alkalosis from the respiratory system. HCO3 normal = uncompensated."
+                },
+                {
+                    question: "A client is receiving 3% hypertonic saline for severe hyponatremia. What is the most critical nursing assessment?",
+                    choices: ["A. Urine output and color", "B. Neurological status and serum sodium levels hourly", "C. Daily weight only", "D. Skin turgor and mucous membranes"],
+                    correct: 1,
+                    explanation: "Hypertonic saline must be infused slowly. Correcting sodium too rapidly causes osmotic demyelination syndrome (ODS/central pontine myelinolysis) — permanent brain damage. Monitor neuro status and sodium hourly. Max correction: 8-12 mEq/L per 24 hours.",
+                    hint: "Too-fast sodium correction = ODS (brain damage). Monitor neurological status and sodium closely."
+                },
+                {
+                    question: "A client is prescribed IV potassium to treat hypokalemia. The nurse knows IV potassium should never be given as a bolus because it can cause:",
+                    choices: ["A. Severe hypotension", "B. Cardiac arrest from rapid depolarization", "C. Metabolic alkalosis", "D. Renal failure"],
+                    correct: 1,
+                    explanation: "Rapid IV potassium causes fatal cardiac dysrhythmias. It must always be diluted in IV solution and infused at a controlled rate (max 10-20 mEq/hr via peripheral line). Never give undiluted or by IV push.",
+                    hint: "Potassium and the heart: too fast = lethal arrhythmia."
+                },
+                {
+                    question: "A client with heart failure is on a fluid restriction of 1,500 mL/day. Which approach best helps manage thirst?",
+                    choices: ["A. Allow extra fluid in the morning to prevent afternoon thirst", "B. Offer hard candy, ice chips (counted as fluid), and space fluids throughout the day", "C. Encourage the client to drink as much as needed since fluid restriction is rarely enforced", "D. Limit all fluids to meals only to make restriction easier"],
+                    correct: 1,
+                    explanation: "To manage thirst on fluid restriction: offer small amounts frequently, use ice chips (counted — 1 cup ice = ½ cup fluid), hard candy or lemon swabs stimulate saliva. Space fluids throughout the day: 800 mL days, 400 mL evenings, 300 mL nights.",
+                    hint: "Ice chips count as fluid (half volume). Space fluids to avoid thirst spikes."
+                },
+                {
+                    question: "A client develops sudden confusion, seizures, and hyponatremia (Na+ 118 mEq/L) after a transurethral resection of the prostate (TURP). The nurse suspects:",
+                    choices: ["A. Hypertensive crisis", "B. TURP syndrome (dilutional hyponatremia from absorption of irrigating fluid)", "C. Anesthesia-related encephalopathy", "D. Urinary tract infection with sepsis"],
+                    correct: 1,
+                    explanation: "TURP syndrome occurs when large amounts of hypotonic irrigating fluid are absorbed through open venous sinuses during the procedure, causing dilutional hyponatremia, water intoxication, and cerebral edema. Symptoms: confusion, seizures, bradycardia, hypertension.",
+                    hint: "TURP procedure + confusion + very low sodium = irrigating fluid absorbed into bloodstream."
                 }
             ],
             
