@@ -1746,6 +1746,76 @@
                     correct: 1,
                     explanation: "Tingling extremities and Chvostek's sign indicate hypocalcemia from accidental removal of parathyroid glands (parathyroid controls calcium). This can lead to tetany and laryngospasm — have calcium gluconate at bedside!",
                     hint: "The parathyroid glands sit on the thyroid — what happens to calcium if they're accidentally removed?"
+                }                ,
+                {
+                    question: "A client with COPD is receiving supplemental oxygen. The nurse notes the respiratory rate has decreased from 22 to 10/min and the client is difficult to arouse. What is the priority action?",
+                    choices: ["A. Increase oxygen flow rate to 6 L/min", "B. Reduce the oxygen to 1-2 L/min and notify provider", "C. Continue monitoring — decreased rate means the client is resting", "D. Administer a bronchodilator via nebulizer"],
+                    correct: 1,
+                    explanation: "COPD clients rely on hypoxic drive (low O2) to breathe — their respiratory drive is triggered by low oxygen, not high CO2. Too much oxygen removes this drive and causes respiratory depression. Reduce O2 to 1-2 L/min (keep SpO2 88-92%) and notify the provider immediately.",
+                    hint: "COPD = hypoxic drive. Too much O2 = stops breathing! Keep SpO2 at 88-92%, not 100%."
+                },
+                {
+                    question: "A client with acute myocardial infarction (MI) is prescribed MONA therapy. Which medications does MONA represent?",
+                    choices: ["A. Metoprolol, Oxygen, Nitroglycerin, Aspirin", "B. Morphine, Oxygen, Nitroglycerin, Aspirin", "C. Morphine, Ondansetron, Nitroglycerin, Anticoagulants", "D. Metformin, Oxygen, Nifedipine, Anticoagulants"],
+                    correct: 1,
+                    explanation: "MONA for acute MI: Morphine (relieves pain, reduces preload), Oxygen (if SpO2 < 94%), Nitroglycerin (vasodilates, reduces preload), Aspirin (antiplatelet — chew immediately). These are given in the first minutes of suspected MI.",
+                    hint: "MONA: Morphine, Oxygen, Nitroglycerin, Aspirin — memorize this for NCLEX! Given in first minutes of MI."
+                },
+                {
+                    question: "A client with heart failure has dependent pitting edema and an S3 heart sound. What does the S3 (ventricular gallop) indicate?",
+                    choices: ["A. Normal heart rhythm in adults over 40", "B. Fluid overload and ventricular failure", "C. Aortic stenosis and increased afterload", "D. Mitral valve regurgitation"],
+                    correct: 1,
+                    explanation: "S3 heart sound (ventricular gallop) is abnormal in adults > 40 and indicates FLUID OVERLOAD and ventricular failure — blood rushing into a stiff, overloaded ventricle. It sounds like 'Ken-TUCK-y.' It's an early sign of decompensated heart failure.",
+                    hint: "S3 = 'Ken-TUCK-y' gallop = fluid overload = bad in adults. Report to provider!"
+                },
+                {
+                    question: "A client with renal failure has a serum potassium of 6.8 mEq/L and is showing peaked T-waves on the ECG. What is the PRIORITY intervention?",
+                    choices: ["A. Administer sodium polystyrene sulfonate (Kayexalate) by mouth", "B. Administer IV calcium gluconate immediately", "C. Start a low-potassium diet", "D. Prepare for dialysis"],
+                    correct: 1,
+                    explanation: "In SEVERE hyperkalemia with EKG changes (peaked T-waves → widened QRS → fatal arrhythmia), the PRIORITY is IV calcium gluconate — it stabilizes the cardiac membrane IMMEDIATELY (within minutes) while other treatments lower potassium. Kayexalate and diet changes are too slow for EKG changes.",
+                    hint: "Peaked T-waves + high K+ = cardiac emergency! Calcium gluconate FIRST — it protects the heart immediately."
+                },
+                {
+                    question: "A nurse is assessing a client 24 hours after abdominal surgery. Which finding is MOST concerning?",
+                    choices: ["A. Absent bowel sounds in all four quadrants", "B. Pain level of 5/10 at the incision site", "C. Temperature of 101.5°F (38.6°C)", "D. Small amount of serosanguineous drainage at the incision"],
+                    correct: 2,
+                    explanation: "Fever (>100.4°F/38°C) within 24 hours of surgery suggests WIND (pulmonary complications like atelectasis or pneumonia), which is the most common early post-op complication. Although absent bowel sounds are expected post-abdominal surgery, fever is the MOST concerning finding requiring immediate assessment.",
+                    hint: "Post-op days 1-2 fever = WIND (pulmonary). Remember the 5 W's: Wind, Water, Wound, Walking (DVT), Wonder drugs."
+                },
+                {
+                    question: "A client with pneumonia has a respiratory rate of 28/min, SpO2 of 88% on 2L NC, and confusion. What is the priority nursing action?",
+                    choices: ["A. Obtain sputum culture before starting antibiotics", "B. Apply a non-rebreather mask at 10-15 L/min and notify provider", "C. Position the client in supine to improve circulation", "D. Administer scheduled antibiotics and monitor closely"],
+                    correct: 1,
+                    explanation: "SpO2 of 88% with confusion indicates severe hypoxemia — this is a respiratory emergency. Apply high-flow oxygen via non-rebreather mask (10-15 L/min) first, then notify provider. Position: high Fowler's (not supine). Supine worsens breathing. Antibiotics are important but oxygenation is THE priority.",
+                    hint: "SpO2 < 90% + confusion = emergency. High-flow O2 FIRST, then notify provider. Never put them flat!"
+                },
+                {
+                    question: "A client with a new colostomy is being discharged. Which statement by the client indicates understanding of colostomy care?",
+                    choices: ["A. 'I will change my pouch every day whether it's full or not'", "B. 'I should empty the pouch when it's 1/3 to 1/2 full'", "C. 'I need to avoid all high-fiber foods permanently'", "D. 'I should apply the pouch directly to moist, irritated skin'"],
+                    correct: 1,
+                    explanation: "Empty the ostomy pouch when it's 1/3 to 1/2 full — waiting until it's completely full increases the risk of leakage and skin breakdown. The skin must be clean and DRY before applying the pouch. Diet restrictions depend on the type of ostomy and individual tolerance.",
+                    hint: "1/3 to 1/2 full = time to empty the ostomy pouch. Don't wait until it's full — it'll leak!"
+                },
+                {
+                    question: "A client has a new stroke (CVA) affecting the left hemisphere. Which deficit is the nurse MOST likely to find?",
+                    choices: ["A. Left-sided weakness and neglect of the left visual field", "B. Right-sided weakness and expressive or receptive aphasia", "C. Cerebellar ataxia and nystagmus", "D. Homonymous hemianopia on the right side only"],
+                    correct: 1,
+                    explanation: "The brain is contralateral (opposite side controls movement): left hemisphere stroke → RIGHT-SIDED weakness/paralysis. The left hemisphere also controls language/speech → aphasia (Broca's = expressive, Wernicke's = receptive). Right hemisphere stroke → left-sided weakness and neglect.",
+                    hint: "Left brain → right body, right brain → left body. Left brain also = language. So left stroke = right weakness + aphasia!"
+                },
+                {
+                    question: "A client with a pulmonary embolism is started on anticoagulation. Which finding indicates the therapy is adequate but also a serious complication to watch for?",
+                    choices: ["A. Increased respiratory rate and new pleuritic chest pain", "B. Blood in urine (hematuria) or black tarry stools (melena)", "C. Elevated D-dimer levels", "D. Tachycardia and low SpO2"],
+                    correct: 1,
+                    explanation: "Hematuria (blood in urine) and melena (black tarry stools = GI bleed) are signs of bleeding — the most serious complication of anticoagulation therapy. While anticoagulation is necessary to treat PE, bleeding complications can be life-threatening. Monitor closely and have antidotes available (protamine for heparin, vitamin K for warfarin).",
+                    hint: "Anticoagulation risk = BLEEDING. Watch for hematuria, melena, unusual bruising, and gum bleeding."
+                },
+                {
+                    question: "A client is admitted with diabetic ketoacidosis (DKA). What is the PRIORITY nursing intervention?",
+                    choices: ["A. Administer IV regular insulin bolus immediately", "B. Establish IV access and begin aggressive IV fluid replacement (0.9% NS)", "C. Correct acidosis by administering sodium bicarbonate", "D. Monitor blood glucose every 4 hours"],
+                    correct: 1,
+                    explanation: "In DKA, the PRIORITY is IV FLUID replacement — clients are severely dehydrated (3-5 liters deficit) from osmotic diuresis. Start with 0.9% NS. Insulin comes AFTER fluids are started (insulin drives K+ into cells, and if K+ is already low from diuresis, giving insulin first can cause fatal hypokalemia). Bicarb is rarely needed.",
+                    hint: "DKA treatment order: FLUIDS first, check K+, THEN insulin. Giving insulin without fixing fluids/K+ can be fatal!"
                 }
             ],
             
@@ -1847,6 +1917,76 @@
                     correct: 1,
                     explanation: "IV potassium MUST be diluted (never give concentrated) and infused slowly — maximum 10-20 mEq/hour (never exceed 40 mEq/hour). IV push potassium can cause immediate cardiac arrest. Always use an infusion pump.",
                     hint: "IV potassium pushed too fast causes cardiac arrest. It MUST be diluted and pumped slowly."
+                }                ,
+                {
+                    question: "A client is prescribed metformin (Glucophage) for type 2 diabetes. Which instruction is MOST important?",
+                    choices: ["A. Take on an empty stomach to maximize absorption", "B. Hold metformin before surgery or IV contrast dye procedures", "C. Monitor for hypoglycemia — it is common with metformin", "D. Expect significant weight gain as a side effect"],
+                    correct: 1,
+                    explanation: "Metformin must be HELD before IV contrast and surgery (risk of lactic acidosis when kidneys are stressed). It rarely causes hypoglycemia alone (it lowers glucose without stimulating insulin). GI upset is common — take with food. It typically causes weight neutral or slight weight loss.",
+                    hint: "Metformin + contrast = lactic acidosis risk. Always HOLD before imaging with contrast!"
+                },
+                {
+                    question: "The nurse is caring for a client on heparin infusion. aPTT is 140 seconds (therapeutic range: 60-100 sec). What is the priority action?",
+                    choices: ["A. Continue current infusion — this is therapeutic", "B. Decrease the heparin infusion rate per protocol", "C. Administer protamine sulfate immediately", "D. Obtain platelet count and draw another aPTT in 6 hours"],
+                    correct: 1,
+                    explanation: "aPTT of 140 seconds is supratherapeutic (> 100 sec = too anticoagulated). The nurse should DECREASE the infusion rate per protocol. Protamine sulfate is the antidote for heparin overdose, but it's only given for serious bleeding — not just high aPTT.",
+                    hint: "aPTT above 100 = too anticoagulated → slow down heparin. Protamine = antidote (for bleeding, not just high aPTT)."
+                },
+                {
+                    question: "A client is taking digoxin (Lanoxin) 0.25 mg daily. Which finding should the nurse report to the provider IMMEDIATELY?",
+                    choices: ["A. Heart rate of 62 bpm", "B. Serum potassium of 2.9 mEq/L", "C. Serum digoxin level of 1.5 ng/mL", "D. Mild ankle edema"],
+                    correct: 1,
+                    explanation: "Hypokalemia (K+ < 3.5) POTENTIATES digoxin toxicity — low potassium makes the heart more sensitive to digoxin. This is a dangerous combination that can cause life-threatening dysrhythmias. Report immediately! Therapeutic digoxin level is 0.5-2.0 ng/mL.",
+                    hint: "Low K+ + digoxin = TOXIC combo. Potassium protects the heart from digoxin toxicity."
+                },
+                {
+                    question: "A client is prescribed furosemide (Lasix) 40 mg IV. Which assessment finding indicates the medication is effective?",
+                    choices: ["A. Blood pressure decreased by 30 mmHg", "B. Urine output increased to 200 mL/hour", "C. Respiratory rate decreased from 28 to 18/min", "D. Heart rate decreased from 110 to 88 bpm"],
+                    correct: 2,
+                    explanation: "Furosemide is a loop diuretic used for fluid overload/pulmonary edema. Effectiveness = reduced fluid overload signs. Decreased respiratory rate (from 28 → 18) shows the pulmonary congestion is resolving. Increased urine output shows the diuresis is working. Both B and C are correct; however, decreased respiratory rate is the best sign that the PURPOSE (treating pulmonary edema/HF) is being achieved.",
+                    hint: "Lasix treats fluid overload — look for signs that CONGESTION is improving, not just that urine is coming out."
+                },
+                {
+                    question: "Which medication requires the nurse to assess the client's apical pulse for 1 full minute BEFORE administration?",
+                    choices: ["A. Metoprolol (Lopressor) oral 25 mg", "B. Digoxin (Lanoxin) 0.125 mg oral", "C. Atorvastatin (Lipitor) 40 mg oral", "D. Lisinopril (Zestril) 10 mg oral"],
+                    correct: 1,
+                    explanation: "Digoxin requires assessing the APICAL pulse for 1 FULL MINUTE before administration. Hold if pulse < 60 bpm (adult). Digoxin slows the heart rate and excessive bradycardia is a sign of toxicity. Metoprolol also requires pulse check but the '1 full minute apical' rule is classically associated with digoxin.",
+                    hint: "Digoxin = count apical pulse for 60 full seconds. Hold if HR < 60. This is a classic NCLEX rule!"
+                },
+                {
+                    question: "A client is receiving gentamicin (an aminoglycoside antibiotic). The nurse should monitor for which priority adverse effects? (Select all that apply)",
+                    choices: ["A. Ototoxicity (hearing loss/tinnitus)", "B. Nephrotoxicity (rising BUN/creatinine)", "C. Hepatotoxicity (elevated liver enzymes)", "D. Peripheral neuropathy (tingling extremities)", "E. Hypertension"],
+                    correct: 0,
+                    explanation: "Aminoglycosides (gentamicin, tobramycin, amikacin) cause: OTOTOXICITY (damage to 8th cranial nerve → hearing loss, tinnitus, vertigo) and NEPHROTOXICITY (kidney damage). Monitor serum drug levels (peak/trough), BUN, creatinine, and hearing. This is a SATA — both A and B are correct.",
+                    hint: "Aminoglycosides: oto (ears) + nephro (kidneys). 'OtoNephro' — remember the two toxicities!"
+                },
+                {
+                    question: "A client with hypothyroidism is prescribed levothyroxine (Synthroid). Which teaching point is MOST important?",
+                    choices: ["A. Take with milk or antacids to prevent GI upset", "B. Expect improvement within 24-48 hours of starting", "C. Take on an empty stomach 30-60 minutes before breakfast", "D. Double the dose if a dose is missed"],
+                    correct: 2,
+                    explanation: "Levothyroxine must be taken on an EMPTY STOMACH 30-60 minutes BEFORE breakfast for optimal absorption. Food, calcium, iron, and antacids all reduce absorption. Full therapeutic effects take 4-6 weeks. NEVER double a missed dose.",
+                    hint: "Synthroid = empty stomach, morning, wait 30-60 min before eating. Many things (iron, calcium) block its absorption."
+                },
+                {
+                    question: "A client taking lithium carbonate for bipolar disorder has a lithium level of 1.9 mEq/L. Which action is priority?",
+                    choices: ["A. Continue current dose — this is within therapeutic range", "B. Hold the next dose and notify the provider immediately", "C. Administer activated charcoal", "D. Encourage increased sodium intake"],
+                    correct: 1,
+                    explanation: "Therapeutic lithium range is 0.6-1.2 mEq/L (maintenance). A level of 1.9 is TOXIC (toxicity > 1.5). Early toxicity signs: tremors, nausea, diarrhea, confusion. Hold the dose and notify provider immediately. Encourage fluids (dehydration raises lithium levels), but sodium shouldn't be drastically altered.",
+                    hint: "Lithium therapeutic range: 0.6-1.2 mEq/L. Above 1.5 = toxicity. Above 2.0 = severe toxicity. HOLD and call MD!"
+                },
+                {
+                    question: "The nurse is preparing to give a subcutaneous injection of insulin NPH and Regular insulin together. What is the correct order of preparation?",
+                    choices: ["A. Draw up NPH first, then Regular insulin", "B. Draw up Regular insulin first, then NPH", "C. The order doesn't matter for subcutaneous insulin", "D. They cannot be mixed — administer in separate syringes"],
+                    correct: 1,
+                    explanation: "When mixing insulins: draw up CLEAR (Regular) first, then CLOUDY (NPH). Mnemonic: 'Clear before Cloudy' or 'RN rule' — Regular first, NPH second. This prevents contaminating the Regular insulin vial with NPH.",
+                    hint: "Clear before Cloudy! Draw up Regular (clear) FIRST, then NPH (cloudy). Never contaminate the clear with cloudy!"
+                },
+                {
+                    question: "A client on long-term phenytoin (Dilantin) therapy has gum overgrowth. What is this called and what is the priority nursing action?",
+                    choices: ["A. Xerostomia — increase fluid intake and use sugar-free candy", "B. Gingival hyperplasia — teach meticulous oral hygiene and regular dental visits", "C. Stomatitis — apply topical antifungal to the gums", "D. Candidiasis — swish and swallow nystatin solution"],
+                    correct: 1,
+                    explanation: "Gingival hyperplasia (gum overgrowth) is a classic side effect of phenytoin. Teach the client meticulous oral hygiene (soft toothbrush, gentle brushing 3x/day) and regular dental visits. This condition can be minimized but not always reversed. It does not indicate toxicity.",
+                    hint: "Phenytoin causes gum overgrowth (gingival hyperplasia) → teach good dental hygiene! Classic NCLEX phenytoin side effect."
                 }
             ],
             
@@ -2035,6 +2175,62 @@
                     correct: 1,
                     explanation: "Maternal hyperglycemia during labor causes fetal hyperinsulinemia. After delivery, the baby will be at risk for neonatal hypoglycemia (rebound). Target maternal glucose during labor is 70-110 mg/dL. Insulin is given per protocol.",
                     hint: "High maternal glucose → baby produces extra insulin → baby's glucose crashes after birth."
+                }                ,
+                {
+                    question: "A client is 38 weeks pregnant and reports decreased fetal movement. After counting only 3 movements in 2 hours, what should the nurse instruct her to do?",
+                    choices: ["A. Continue monitoring at home — 3 movements is normal", "B. Come to the hospital immediately for fetal monitoring (NST/BPP)", "C. Lie on the right side and count again in 4 more hours", "D. Drink ice cold water and recount movements"],
+                    correct: 1,
+                    explanation: "Kick counts (fetal movement counting) should show at least 10 movements in 2 hours. Only 3 movements is BELOW the threshold and requires immediate evaluation — non-stress test (NST) or biophysical profile (BPP). Decreased fetal movement can indicate fetal distress.",
+                    hint: "Fetal movement < 10 in 2 hours = go to hospital NOW for fetal monitoring. Never wait."
+                },
+                {
+                    question: "A client is in active labor and the nurse notices variable decelerations on the fetal monitor. What is the PRIORITY nursing action?",
+                    choices: ["A. Notify the physician and prepare for immediate cesarean section", "B. Reposition the client to relieve cord compression (left lateral or knee-chest)", "C. Increase the oxytocin infusion to speed delivery", "D. Administer oxygen at 2 L/min via nasal cannula"],
+                    correct: 1,
+                    explanation: "Variable decelerations indicate umbilical cord compression. PRIORITY is repositioning: left lateral, right lateral, or knee-chest position to relieve pressure on the cord. Also give O2 at 8-10 L/min via face mask and stop oxytocin if running. Notify provider after initial interventions.",
+                    hint: "Variable decels = cord compression → REPOSITION first! Stop Pitocin, give O2, call MD if not resolved."
+                },
+                {
+                    question: "A postpartum client has a fundus that is displaced to the right of the midline. What is the MOST likely cause?",
+                    choices: ["A. Retained placental fragments", "B. Full bladder", "C. Normal postpartum finding", "D. Uterine atony"],
+                    correct: 1,
+                    explanation: "A displaced (deviated) uterine fundus — usually to the RIGHT — indicates a FULL BLADDER. The distended bladder pushes the uterus to the side and prevents proper uterine contraction, which can cause postpartum hemorrhage. Intervention: have the client void or catheterize. Then reassess fundus.",
+                    hint: "Fundus displaced to the right = FULL BLADDER! Have client void first, then reassess."
+                },
+                {
+                    question: "A client delivered 30 minutes ago. The nurse assesses heavy vaginal bleeding, a soft 'boggy' uterus, and a fundus 2 cm above the umbilicus. What is the PRIORITY action?",
+                    choices: ["A. Apply ice packs to the fundus", "B. Perform uterine fundal massage and notify provider", "C. Increase IV fluid rate immediately", "D. Check vital signs every 15 minutes"],
+                    correct: 1,
+                    explanation: "A boggy uterus with heavy bleeding = UTERINE ATONY (most common cause of postpartum hemorrhage). PRIORITY: perform fundal massage immediately to stimulate uterine contractions. If this doesn't work, provider may order oxytocin or other uterotonics. This is a life-threatening emergency.",
+                    hint: "Boggy uterus + heavy bleeding = uterine atony = PPH! Fundal massage FIRST, then notify provider."
+                },
+                {
+                    question: "A client at 10 weeks gestation has a positive Group B Streptococcus (GBS) culture. What is the appropriate management?",
+                    choices: ["A. Treat with oral antibiotics for 10 days immediately", "B. Administer IV penicillin G during labor, not during pregnancy", "C. Perform a cesarean section to prevent neonatal infection", "D. No treatment needed — GBS clears on its own by delivery"],
+                    correct: 1,
+                    explanation: "GBS colonization is treated with IV penicillin G (or ampicillin) DURING LABOR — not during pregnancy (it would just recolonize). Treatment during labor prevents neonatal GBS disease. A C-section is NOT routinely indicated for GBS alone.",
+                    hint: "GBS positive: treat with IV penicillin during LABOR, not during pregnancy. Time the antibiotics right!"
+                },
+                {
+                    question: "A nurse is assessing a newborn at 1 minute after birth. Heart rate is 110 bpm, breathing is irregular with slow gasps, actively moving all extremities, cries when stimulated, and entire body is pink except for blue hands/feet. What is the APGAR score?",
+                    choices: ["A. 5", "B. 7", "C. 8", "D. 9"],
+                    correct: 1,
+                    explanation: "APGAR: Appearance (body pink, extremities blue = 1), Pulse (HR 110 ≥ 100 = 2), Grimace (cries = 2), Activity (active movement = 2), Respiration (irregular gasps = 1). Total = 1+2+2+2+1 = 8. Wait — Grimace: cries when stimulated = 2. Respiration irregular = 1. Total = 8. Score ≥ 7 = reassuring.",
+                    hint: "APGAR: Appearance(0-2) + Pulse(0-2) + Grimace(0-2) + Activity(0-2) + Respirations(0-2). ≥7 = good!"
+                },
+                {
+                    question: "A client at 34 weeks gestation presents with sudden onset severe headache, visual disturbances, and blood pressure of 162/110 mmHg. What condition do these signs indicate?",
+                    choices: ["A. Gestational hypertension (PIH)", "B. Severe preeclampsia / HELLP syndrome", "C. Eclampsia", "D. Placenta previa"],
+                    correct: 1,
+                    explanation: "BP ≥ 160/110 + severe headache + visual changes = SEVERE PREECLAMPSIA. If the client were to seize, it would become eclampsia. HELLP (Hemolysis, Elevated Liver enzymes, Low Platelets) is a complication of severe preeclampsia. Priority: seizure precautions, magnesium sulfate, antihypertensives, notify provider.",
+                    hint: "BP ≥ 160/110 + headache + visual changes = severe preeclampsia. Mag sulfate for seizure prevention!"
+                },
+                {
+                    question: "A nurse is caring for a client on magnesium sulfate for preeclampsia. Which assessment finding requires the nurse to STOP the infusion?",
+                    choices: ["A. Flushing and warmth at the infusion site", "B. Respiratory rate of 10/min and absent deep tendon reflexes", "C. Urine output of 35 mL/hour", "D. Mild sedation and drowsiness"],
+                    correct: 1,
+                    explanation: "Magnesium toxicity signs: respiratory rate < 12/min, loss of deep tendon reflexes (DTRs), urine output < 25-30 mL/hr, lethargy. RR of 10 + absent DTRs = STOP magnesium and notify provider. Antidote: calcium gluconate at bedside. Therapeutic Mg range: 4-7 mEq/L.",
+                    hint: "Mag sulfate toxicity: RR < 12, absent DTRs, oliguria. Stop immediately! Antidote = calcium gluconate."
                 }
             ],
             
@@ -2129,6 +2325,62 @@
                     correct: 1,
                     explanation: "Lithium toxicity (>1.5 mEq/L): early signs include coarse tremors, GI distress, confusion. Therapeutic range: 0.6-1.2 mEq/L. At 1.8, HOLD the medication, notify provider, monitor for seizures. Treatment is supportive — no antidote.",
                     hint: "Lithium therapeutic: 0.6-1.2. Level 1.8 with symptoms = toxicity. What do you do?"
+                }                ,
+                {
+                    question: "A client with schizophrenia says 'The government put a chip in my brain to track me.' How should the nurse respond therapeutically?",
+                    choices: ["A. 'I understand why you believe that. I would be scared too.'", "B. 'That's not possible. No one can put chips in brains.'", "C. 'You seem frightened. Can you tell me more about what you're experiencing?'", "D. 'Let me explain why that's a hallucination, not a delusion.'"],
+                    correct: 2,
+                    explanation: "When a client states a delusion, the nurse should NEITHER reinforce it (option A implies agreement) NOR directly challenge/argue it (option B). The therapeutic response focuses on the client's FEELINGS and emotions, not the content of the delusion. Option C is empathetic and opens communication without reinforcing the false belief.",
+                    hint: "Delusions: Don't reinforce, don't argue. Focus on the FEELING behind it: 'You seem frightened…'"
+                },
+                {
+                    question: "A client on haloperidol (Haldol) develops sudden muscle rigidity, high fever (104°F), altered consciousness, and tachycardia. The nurse should suspect:",
+                    choices: ["A. Tardive dyskinesia", "B. Akathisia", "C. Neuroleptic malignant syndrome (NMS)", "D. Extrapyramidal symptoms (EPS)"],
+                    correct: 2,
+                    explanation: "Neuroleptic Malignant Syndrome (NMS) is a life-threatening emergency: FEVER (hyperthermia), muscle RIGIDITY, altered CONSCIOUSNESS, autonomic instability (tachycardia, diaphoresis, labile BP). Stop the antipsychotic immediately and get emergency treatment. NMS has high mortality if untreated.",
+                    hint: "NMS = FEVER + RIGIDITY + altered consciousness on antipsychotics. STOP the drug — it's a medical emergency!"
+                },
+                {
+                    question: "A client who attempted suicide is admitted to the psychiatric unit. Which nursing action is the HIGHEST priority?",
+                    choices: ["A. Assess the client's social support system", "B. Ensure a safe environment by removing all potentially harmful items", "C. Explore the reason for the suicide attempt", "D. Notify the client's family immediately"],
+                    correct: 1,
+                    explanation: "SAFETY is the highest priority — Maslow's hierarchy: physiological and safety needs first. Remove all potentially harmful items (sharp objects, cords, belts, medications). The environment must be safe BEFORE therapeutic communication, family notification, or exploring reasons.",
+                    hint: "Suicidal client = SAFETY FIRST. Clear the environment of anything that could cause harm."
+                },
+                {
+                    question: "A client with alcohol use disorder is admitted for detoxification. The nurse should anticipate which priority intervention within 24-72 hours of last drink?",
+                    choices: ["A. Administering disulfiram (Antabuse) to deter drinking", "B. Monitoring for and treating alcohol withdrawal seizures with benzodiazepines", "C. Starting naltrexone therapy for alcohol cravings", "D. Providing nutritional supplements only"],
+                    correct: 1,
+                    explanation: "Alcohol withdrawal syndrome peaks at 24-72 hours and can be life-threatening — delirium tremens (DT's) can cause seizures, hallucinations, and death. Benzodiazepines (lorazepam, diazepam) are first-line to PREVENT and TREAT withdrawal seizures. Disulfiram is given AFTER detox for relapse prevention.",
+                    hint: "Alcohol withdrawal peaks 24-72h. Danger = DTs and seizures. Benzos prevent/treat withdrawal seizures."
+                },
+                {
+                    question: "A client with major depression is started on fluoxetine (Prozac). The nurse teaches the client that therapeutic effects will be seen in:",
+                    choices: ["A. 2-4 hours after the first dose", "B. 24-48 hours of daily dosing", "C. 2-6 weeks of consistent daily dosing", "D. 3-6 months of consistent daily dosing"],
+                    correct: 2,
+                    explanation: "SSRIs like fluoxetine take 2-6 WEEKS to show full therapeutic effects. CRITICAL teaching point: clients must continue taking the medication even if they feel no benefit initially. The danger period is 2-4 weeks — enough energy returns before mood improves, increasing suicide risk. Monitor closely during this time.",
+                    hint: "SSRIs take 2-6 WEEKS to work. Danger: client has energy to act before mood improves — watch for suicide!"
+                },
+                {
+                    question: "A client with anorexia nervosa is in medical stabilization. Which nursing intervention is the PRIORITY on admission?",
+                    choices: ["A. Weigh the client daily and record intake/output", "B. Monitor for cardiac dysrhythmias and electrolyte imbalances", "C. Begin a behavioral contract for weight gain", "D. Provide education about healthy body image"],
+                    correct: 1,
+                    explanation: "In anorexia, MEDICAL STABILITY is the priority. Severe malnutrition and electrolyte imbalances (especially hypokalemia and hypophosphatemia in refeeding syndrome) can cause FATAL cardiac dysrhythmias. Monitor ECG and electrolytes continuously. Behavioral therapy and education are important but secondary to preventing cardiac death.",
+                    hint: "Anorexia emergency = electrolyte imbalances → cardiac arrest. Monitor K+, phosphorus, and ECG first!"
+                },
+                {
+                    question: "A client states, 'I've decided to give all my belongings to my children and say goodbye to everyone.' How should the nurse interpret this?",
+                    choices: ["A. The client is being generous and has good family relationships", "B. This is a possible sign of giving away possessions — a warning sign of suicide", "C. The client is planning to move and reorganize", "D. This behavior is normal in depressed clients"],
+                    correct: 1,
+                    explanation: "Giving away possessions is a CLASSIC warning sign of suicidal intent — it suggests the person is making final arrangements. Other warning signs: sudden calmness after depression (may have made a decision), saying goodbyes, researching methods. This requires immediate safety assessment and psychiatric evaluation.",
+                    hint: "Giving away belongings + saying goodbyes = SUICIDE WARNING SIGN. Perform immediate safety assessment!"
+                },
+                {
+                    question: "Which communication technique is MOST therapeutic when a client with depression says 'Nothing ever goes right for me'?",
+                    choices: ["A. 'I'm sure things will get better soon. Try to stay positive!'", "B. 'You shouldn't say that. Many people have it much worse.'", "C. 'It sounds like you're feeling really hopeless right now. Tell me more.'", "D. 'Have you tried exercise and a healthy diet? It really helps.'"],
+                    correct: 2,
+                    explanation: "The therapeutic response uses EMPATHY and REFLECTION (mirroring feelings) and OPEN-ENDED questioning to encourage the client to express more. Options A and D give false reassurance. Option B dismisses feelings (deflection). Option C validates the emotion and invites therapeutic dialogue.",
+                    hint: "Therapeutic communication: Reflect feelings, use open-ended questions. NEVER give false reassurance or compare suffering!"
                 }
             ],
             
@@ -2223,6 +2475,34 @@
                     correct: 1,
                     explanation: "An alert, competent adult has the legal and ethical right to refuse any treatment, including life-saving treatment. Autonomy is the foundation. Document the refusal, ensure informed consent was given, notify the provider, and respect the decision.",
                     hint: "Autonomy = the right to refuse treatment. What must you do when a competent adult refuses care?"
+                }                ,
+                {
+                    question: "The RN is caring for 4 clients. Which task is APPROPRIATE to delegate to the unlicensed assistive personnel (UAP)?",
+                    choices: ["A. Assess a newly admitted client's pain and vital signs", "B. Provide teaching to a diabetic client about insulin injection technique", "C. Assist a stable post-op day 2 client with ambulation to the hallway", "D. Change a wound dressing on a client with a stage 3 pressure injury"],
+                    correct: 2,
+                    explanation: "UAP CAN assist stable clients with ambulation (mobility assistance is within their scope). UAP CANNOT: assess (assessment requires RN), teach (education requires RN or LPN), or perform wound care for complex wounds. The RN must delegate tasks within the UAP's scope of practice.",
+                    hint: "UAP can do: ADLs, ambulation assistance, vitals (stable), bathing. Cannot: assess, teach, complex wound care."
+                },
+                {
+                    question: "A nurse receives shift report on 5 clients. Which client should the nurse assess FIRST?",
+                    choices: ["A. A client 1 day post-op hip replacement who needs pain medication (6/10)", "B. A client with chronic kidney disease awaiting afternoon dialysis", "C. A client with COPD whose SpO2 dropped from 94% to 84% in the last hour", "D. A client with diabetes awaiting breakfast tray who hasn't received insulin yet"],
+                    correct: 2,
+                    explanation: "SpO2 of 84% = severe hypoxemia = LIFE-THREATENING emergency. Oxygenation is always the top priority (Maslow: physiological needs). COPD client with rapidly dropping SpO2 must be assessed first. Pain medication and insulin are important but not immediately life-threatening.",
+                    hint: "Priority: ALWAYS oxygenation first! SpO2 84% = respiratory emergency. ABC's always win."
+                },
+                {
+                    question: "An RN suspects a co-worker is diverting narcotics (stealing patient medications). What is the appropriate action?",
+                    choices: ["A. Confront the co-worker privately and give them a chance to explain", "B. Document observations and report to the charge nurse/supervisor immediately", "C. Continue monitoring and wait for more evidence before reporting", "D. Report directly to the State Board of Nursing"],
+                    correct: 1,
+                    explanation: "Diversion of controlled substances is a serious patient safety issue and a crime. The nurse must DOCUMENT observations and report to the charge nurse/supervisor through proper chain of command immediately. Waiting for more evidence puts patients at risk. The facility then decides whether to report to BON or law enforcement.",
+                    hint: "Suspected diversion = patient safety risk. Document → report to charge nurse immediately. Don't confront alone."
+                },
+                {
+                    question: "The nurse is completing a medication error report (incident report). The charge nurse reminds the nurse NOT to document in the client's medical record that an incident report was filed. This is because:",
+                    choices: ["A. Incident reports are privileged quality improvement documents and not part of the medical record", "B. The incident report will be automatically linked to the medical record by the hospital system", "C. Incident reports are only filed if the client is harmed", "D. Documentation of the error itself is not required in the medical record"],
+                    correct: 0,
+                    explanation: "Incident reports (occurrence reports) are internal quality improvement/risk management documents that are SEPARATE from the medical record. Mentioning the incident report IN the chart can make it discoverable in lawsuits and defeat its privileged status. The nurse DOES document the actual event/facts in the chart, but NOT the existence of the incident report.",
+                    hint: "Never mention 'incident report filed' in the chart — it's a separate QI document. Document facts of event, not the report."
                 }
             ],
             
