@@ -10,7 +10,8 @@
                 'course_ch40_bowel': 'Ch 40: Bowel Elimination',
                 'course_ch35_medication': 'Ch 35: Medication Admin',
                 'course_lecture_urinary': 'Lecture: Urinary',
-                'ch40_bowel_elimination': 'Ch 40: Bowel (Comprehensive)'
+                'ch40_bowel_elimination': 'Ch 40: Bowel (Comprehensive)',
+                'course_ch30_nutrition': 'Ch 30: Nutrition'
             },
             general: {
                 'fundamentals': 'Fundamentals',
@@ -1543,6 +1544,917 @@
                     correct: 0,
                     explanation: "This is a reflective question from the lecture asking students to identify 3 things they already knew, 2 things they learned, and 1 question they still have.",
                     hint: "This is a personal reflection question - think about your prior knowledge!"
+                }
+            ],
+
+            // CHAPTER 30 - NUTRITION
+            course_ch30_nutrition: [
+                // --- Nutrition Basics ---
+                {
+                    question: "What is the definition of nutrition?",
+                    choices: [
+                        "A. The process of eliminating waste from the body",
+                        "B. The body's intake and use of adequate amounts of necessary nutrients for tissue growth and energy production",
+                        "C. The chemical breakdown of food in the stomach only",
+                        "D. The absorption of water through the intestinal walls"
+                    ],
+                    correct: 1,
+                    explanation: "Nutrition is the body's intake and use of adequate amounts of necessary nutrients for tissue growth and energy production.",
+                    hint: "Think about what nutrition provides — growth + energy."
+                },
+                {
+                    question: "Which of the following best describes the function of nutrients?",
+                    choices: [
+                        "A. Substances that only provide energy",
+                        "B. Necessary substances from food that supply energy, build/maintain tissues, aid growth, and support body systems",
+                        "C. Chemicals produced by the liver for digestion",
+                        "D. Hormones that regulate metabolism"
+                    ],
+                    correct: 1,
+                    explanation: "Nutrients are necessary substances obtained from ingested food that supply energy, build and maintain bones/muscles/skin, aid normal growth, and support function of each body system.",
+                    hint: "Nutrients do it ALL — energy, building, growth, and function."
+                },
+                {
+                    question: "A patient who is overweight but lacks important nutrients due to poor food choices is an example of:",
+                    choices: [
+                        "A. Obesity only",
+                        "B. Malnutrition",
+                        "C. Anorexia",
+                        "D. Normal nutritional status"
+                    ],
+                    correct: 1,
+                    explanation: "Malnutrition is an imbalance between nutrient intake and the body's needs. It can occur in individuals who are overweight OR undernourished — both may lack important nutrients because of poor food choices.",
+                    hint: "Malnutrition isn't just about being thin — it's about nutrient IMBALANCE."
+                },
+                {
+                    question: "Poor nutrition, lack of exercise, obesity, and stress contribute to all of the following EXCEPT:",
+                    choices: [
+                        "A. Heart disease and stroke",
+                        "B. Hypertension and diabetes",
+                        "C. Kidney disease",
+                        "D. Appendicitis"
+                    ],
+                    correct: 3,
+                    explanation: "Poor nutrition contributes to heart disease, some cancers, stroke, hypertension, diabetes, and kidney disease. Appendicitis is not typically caused by poor nutrition.",
+                    hint: "Think chronic diseases — which one doesn't fit?"
+                },
+                // --- Metabolism ---
+                {
+                    question: "What is metabolism?",
+                    choices: [
+                        "A. The process of chewing and swallowing food",
+                        "B. The process of chemically changing nutrients into end products that meet energy needs or are stored for future use",
+                        "C. The elimination of waste products",
+                        "D. The transport of oxygen through the bloodstream"
+                    ],
+                    correct: 1,
+                    explanation: "Metabolism is the process of chemically changing nutrients (such as fats and proteins) into end products that meet the energy needs of the body, are stored for future use, and help maintain homeostasis.",
+                    hint: "Metabolism = chemical changes to nutrients for energy + storage."
+                },
+                {
+                    question: "What is Basal Metabolic Rate (BMR)?",
+                    choices: [
+                        "A. The maximum energy used during intense exercise",
+                        "B. The minimum amount of energy required to maintain body functions while resting and awake",
+                        "C. The total calories consumed in a day",
+                        "D. The rate at which food moves through the GI tract"
+                    ],
+                    correct: 1,
+                    explanation: "BMR is the minimum amount of energy required to maintain body functions when the body is resting and awake. Even during rest or sleep, the body requires calories for cardiac function and breathing.",
+                    hint: "BMR = MINIMUM energy at REST — your body still needs fuel even sleeping."
+                },
+                {
+                    question: "Which metabolic process uses energy to build complex body substances from simple materials?",
+                    choices: [
+                        "A. Catabolism",
+                        "B. Anabolism",
+                        "C. Glycolysis",
+                        "D. Peristalsis"
+                    ],
+                    correct: 1,
+                    explanation: "Anabolism uses energy to change simple materials into complex body substances and tissues. It supports cell growth and builds body tissues (e.g., bone mineralization, muscle development).",
+                    hint: "Ana-BOLISM = BUILDS up. Think 'anabolic steroids build muscle.'"
+                },
+                {
+                    question: "Catabolism is best described as:",
+                    choices: [
+                        "A. Building complex tissues from simple nutrients",
+                        "B. Breaking down complex substances into simpler ones, releasing energy",
+                        "C. Storing excess glucose as glycogen",
+                        "D. Absorbing nutrients through intestinal walls"
+                    ],
+                    correct: 1,
+                    explanation: "Catabolism is the process of breaking down complex substances into simpler ones, which releases energy. Example: proteins broken down into amino acids.",
+                    hint: "Cata-BOLISM = CRASHES things down. Breaking apart releases energy."
+                },
+                // --- Macronutrients ---
+                {
+                    question: "Which nutrients are classified as macronutrients?",
+                    choices: [
+                        "A. Vitamins and minerals",
+                        "B. Carbohydrates, fats, proteins, and water",
+                        "C. Antioxidants and electrolytes",
+                        "D. Iron, calcium, and potassium"
+                    ],
+                    correct: 1,
+                    explanation: "Macronutrients are nutrients needed in large amounts: carbohydrates (energy), fats (energy + vitamin absorption), proteins (build/maintain/repair), and water (metabolism + body function).",
+                    hint: "MACRO = large amounts. The big 4: carbs, fats, protein, water."
+                },
+                {
+                    question: "Micronutrients include:",
+                    choices: [
+                        "A. Carbohydrates and proteins",
+                        "B. Fats and water",
+                        "C. Minerals and vitamins",
+                        "D. Glucose and glycogen"
+                    ],
+                    correct: 2,
+                    explanation: "Micronutrients are nutrients needed in small amounts. They include minerals (energy, muscle building, nerve conduction, blood clotting, immunity) and vitamins (regulate body processes, reproduction, growth).",
+                    hint: "MICRO = small amounts. Vitamins + minerals."
+                },
+                // --- Carbohydrates ---
+                {
+                    question: "How many kilocalories per gram do carbohydrates provide?",
+                    choices: [
+                        "A. 2 kcal/g",
+                        "B. 4 kcal/g",
+                        "C. 7 kcal/g",
+                        "D. 9 kcal/g"
+                    ],
+                    correct: 1,
+                    explanation: "Carbohydrates provide 4 kcal per gram. They are the body's major energy source and also prevent the body from using protein for energy and prevent ketosis.",
+                    hint: "Carbs and protein both = 4 kcal/g. Fat = 9 kcal/g. Remember 4-4-9!"
+                },
+                {
+                    question: "Which of the following is a function of carbohydrates?",
+                    choices: [
+                        "A. Transport fat-soluble vitamins",
+                        "B. Build and repair muscle tissue",
+                        "C. Prevent ketosis and support memory and learning",
+                        "D. Produce prothrombin for blood clotting"
+                    ],
+                    correct: 2,
+                    explanation: "Carbohydrates provide energy, prevent the body from using protein for energy, prevent ketosis, and support memory and learning.",
+                    hint: "Carbs protect protein + prevent ketosis + fuel the brain!"
+                },
+                {
+                    question: "Fructose, sucrose, lactose, and glucose are all examples of:",
+                    choices: [
+                        "A. Complex carbohydrates",
+                        "B. Simple carbohydrates",
+                        "C. Essential fatty acids",
+                        "D. Amino acids"
+                    ],
+                    correct: 1,
+                    explanation: "Simple carbohydrates are broken down quickly and provide quick energy. Examples: fructose (fruit), sucrose (table sugar), lactose (milk), glucose (blood sugar).",
+                    hint: "Simple sugars = quick energy. Fruit, table sugar, milk sugar, blood sugar."
+                },
+                {
+                    question: "A patient reports extreme fatigue during exercise. Which of the following could be a contributing factor?",
+                    choices: [
+                        "A. High protein intake",
+                        "B. Low glycogen stores from insufficient complex carbohydrates",
+                        "C. Excessive water intake",
+                        "D. Too much dietary fiber"
+                    ],
+                    correct: 1,
+                    explanation: "Muscles store glycogen for exercise, and the brain and tissues need carbohydrates as glycogen. Low glycogen can cause extreme fatigue. Complex carbohydrates break down slower and provide longer energy supply.",
+                    hint: "Muscles store glycogen from complex carbs — low glycogen = fatigue!"
+                },
+                {
+                    question: "Adults should consume approximately what percentage of daily calories from carbohydrates?",
+                    choices: [
+                        "A. 25%",
+                        "B. 35%",
+                        "C. 50%",
+                        "D. 70%"
+                    ],
+                    correct: 2,
+                    explanation: "Adults should consume about 50% of calories from carbohydrates. Complex carbohydrate sources include bread, rice, pasta, legumes, and starchy vegetables.",
+                    hint: "Half your calories from carbs — 50%!"
+                },
+                // --- Fiber ---
+                {
+                    question: "Which type of fiber mixes with water and forms a gel-like substance that slows digestion?",
+                    choices: [
+                        "A. Insoluble fiber",
+                        "B. Soluble fiber",
+                        "C. Cellulose",
+                        "D. Glycogen"
+                    ],
+                    correct: 1,
+                    explanation: "Soluble fiber mixes with water and forms a gel-like substance that slows digestion. Insoluble fiber does not retain water — it adds bulk to stool and helps move waste through intestines.",
+                    hint: "SOLUBLE = dissolves in water → gel → slows digestion."
+                },
+                {
+                    question: "A high-fiber diet helps with all of the following EXCEPT:",
+                    choices: [
+                        "A. Lowering cholesterol and blood pressure",
+                        "B. Improving blood glucose control in diabetes",
+                        "C. Increasing fat absorption",
+                        "D. Improving bowel regularity"
+                    ],
+                    correct: 2,
+                    explanation: "High-fiber diets help lower cholesterol and blood pressure, improve weight control, blood glucose control, bowel regularity, enhance immune function, and decrease inflammation. Fiber does NOT increase fat absorption.",
+                    hint: "Fiber is great for cholesterol, BP, glucose, bowels — but NOT fat absorption."
+                },
+                {
+                    question: "What are diverticula?",
+                    choices: [
+                        "A. Ulcers in the stomach lining",
+                        "B. Protrusions of the intestinal membrane",
+                        "C. Blockages in the bile duct",
+                        "D. Inflammation of the esophagus"
+                    ],
+                    correct: 1,
+                    explanation: "Diverticula are protrusions of the intestinal membrane. The presence of diverticula is called diverticulosis. Lack of fiber can cause constipation, hemorrhoids, and diverticula.",
+                    hint: "Diverticula = pouches poking out of intestinal wall. Low fiber → higher risk."
+                },
+                {
+                    question: "The recommended daily fiber intake for older children, adolescents, and adults is:",
+                    choices: [
+                        "A. 5–10 g/day",
+                        "B. 10–15 g/day",
+                        "C. 20–35 g/day",
+                        "D. 50–60 g/day"
+                    ],
+                    correct: 2,
+                    explanation: "Recommended fiber intake is 20–35 g/day. Sources include whole grains, wheat bran, cereals, fruits, vegetables, and legumes.",
+                    hint: "20–35 grams daily — whole grains, fruits, veggies, legumes."
+                },
+                // --- Fats ---
+                {
+                    question: "How many kilocalories per gram do fats provide?",
+                    choices: [
+                        "A. 4 kcal/g",
+                        "B. 7 kcal/g",
+                        "C. 9 kcal/g",
+                        "D. 12 kcal/g"
+                    ],
+                    correct: 2,
+                    explanation: "Fats provide 9 kcal per gram — more than double what carbohydrates and protein provide (4 kcal/g each). This is why fats are such a concentrated energy source.",
+                    hint: "Fat = 9 kcal/g. The 4-4-9 rule: carbs 4, protein 4, fat 9."
+                },
+                {
+                    question: "Which fat-soluble vitamins require dietary fat for absorption?",
+                    choices: [
+                        "A. B complex and C",
+                        "B. A, D, E, K",
+                        "C. B1, B2, B3",
+                        "D. Folic acid and biotin"
+                    ],
+                    correct: 1,
+                    explanation: "Fat transports fat-soluble vitamins A, D, E, and K. Without adequate fat intake, these vitamins cannot be properly absorbed.",
+                    hint: "Fat-soluble = A, D, E, K. No fat → can't absorb them!"
+                },
+                {
+                    question: "What is the recommended total fat intake as a percentage of daily calories?",
+                    choices: [
+                        "A. 10–15%",
+                        "B. 20–35%",
+                        "C. 40–50%",
+                        "D. 50–60%"
+                    ],
+                    correct: 1,
+                    explanation: "Total fat intake should be 20–35% of daily calories, with saturated fat less than 5–6% of daily calories.",
+                    hint: "20–35% total fat. Saturated fat < 5–6%."
+                },
+                {
+                    question: "Which type of fat raises cholesterol and is found in butter, cheese, and red meat?",
+                    choices: [
+                        "A. Monounsaturated fat",
+                        "B. Polyunsaturated fat",
+                        "C. Saturated fat",
+                        "D. Omega-3 fatty acids"
+                    ],
+                    correct: 2,
+                    explanation: "Saturated fat raises cholesterol. Found in butter, cheese, ice cream, processed foods, and red meat.",
+                    hint: "Saturated = solid at room temp = bad cholesterol. Butter, cheese, red meat."
+                },
+                {
+                    question: "Trans fats are found in:",
+                    choices: [
+                        "A. Olive oil and avocados",
+                        "B. Partially hydrogenated oils",
+                        "C. Fatty fish and flaxseed",
+                        "D. Nuts and seeds"
+                    ],
+                    correct: 1,
+                    explanation: "Trans fats raise cholesterol and are found in partially hydrogenated oils. They are considered the worst type of dietary fat.",
+                    hint: "Trans fat = partially HYDROGENATED oils. Raises cholesterol."
+                },
+                {
+                    question: "Omega-3 fatty acids are essential for all of the following EXCEPT:",
+                    choices: [
+                        "A. Brain and nervous system function",
+                        "B. Blood clotting regulation",
+                        "C. Raising LDL cholesterol",
+                        "D. Lowering triglycerides"
+                    ],
+                    correct: 2,
+                    explanation: "Omega-3s support brain and nervous system function, blood clotting, prevent atherosclerosis, and lower triglycerides. They do NOT raise LDL cholesterol — they're heart-protective.",
+                    hint: "Omega-3 = good for brain, heart, blood. Found in fatty fish, nuts, seeds."
+                },
+                // --- Protein ---
+                {
+                    question: "How many kilocalories per gram does protein provide?",
+                    choices: [
+                        "A. 2 kcal/g",
+                        "B. 4 kcal/g",
+                        "C. 7 kcal/g",
+                        "D. 9 kcal/g"
+                    ],
+                    correct: 1,
+                    explanation: "Protein provides 4 kcal per gram, the same as carbohydrates. In a 2000-calorie diet, 5.5 ounces of protein per day is recommended.",
+                    hint: "4-4-9 rule: carbs = 4, protein = 4, fat = 9."
+                },
+                {
+                    question: "Which statement about amino acids is correct?",
+                    choices: [
+                        "A. The body stores excess amino acids for later use",
+                        "B. Amino acids must be consumed daily because the body does not store them",
+                        "C. Only animal sources contain amino acids",
+                        "D. Amino acids are only needed for energy production"
+                    ],
+                    correct: 1,
+                    explanation: "Amino acids must be consumed daily because the body does not store excess amino acids. If fat and carbohydrates are insufficient, protein may be used for energy, leading to protein deficiency.",
+                    hint: "No storage for amino acids — eat them DAILY!"
+                },
+                {
+                    question: "Which of the following is a complete protein source?",
+                    choices: [
+                        "A. Beans and peas",
+                        "B. Nuts and seeds",
+                        "C. Soybeans",
+                        "D. Bread products"
+                    ],
+                    correct: 2,
+                    explanation: "Complete proteins contain all essential amino acids. Sources: milk, eggs, cheese, fish, meat, poultry, and soybeans. Incomplete proteins (beans, peas, nuts, seeds) lack one or more essential amino acids.",
+                    hint: "Complete protein = ALL essential amino acids. Animal sources + soybeans."
+                },
+                {
+                    question: "Which food combination creates a complete protein from incomplete sources?",
+                    choices: [
+                        "A. Chicken and fish",
+                        "B. Rice and beans",
+                        "C. Eggs and cheese",
+                        "D. Milk and yogurt"
+                    ],
+                    correct: 1,
+                    explanation: "Combining incomplete proteins can form complete proteins. Examples: rice + beans, peanut butter + whole wheat bread, pasta + broccoli.",
+                    hint: "Combine incomplete proteins to get all amino acids — rice + beans is classic!"
+                },
+                // --- Water ---
+                {
+                    question: "Water makes up approximately what percentage of adult body weight?",
+                    choices: [
+                        "A. 30%",
+                        "B. 45%",
+                        "C. 60%",
+                        "D. 75%"
+                    ],
+                    correct: 2,
+                    explanation: "Water makes up about 60% of adult body weight. Older adults have about 50%, which puts them at higher risk for dehydration.",
+                    hint: "60% adults, ~50% older adults → elderly = higher dehydration risk."
+                },
+                {
+                    question: "How is body fluid distributed?",
+                    choices: [
+                        "A. 1/3 intracellular, 2/3 extracellular",
+                        "B. 2/3 intracellular, 1/3 extracellular",
+                        "C. Equal amounts intracellular and extracellular",
+                        "D. 3/4 intracellular, 1/4 extracellular"
+                    ],
+                    correct: 1,
+                    explanation: "Body fluid: 2/3 intracellular fluid, 1/3 extracellular fluid. Extracellular fluids include blood and interstitial fluid.",
+                    hint: "2/3 INSIDE cells, 1/3 OUTSIDE (blood + interstitial)."
+                },
+                {
+                    question: "Too much water intake can cause:",
+                    choices: [
+                        "A. Hypernatremia",
+                        "B. Hyponatremia",
+                        "C. Hyperkalemia",
+                        "D. Metabolic acidosis"
+                    ],
+                    correct: 1,
+                    explanation: "Water intoxication can cause hyponatremia (low sodium). Fluid intake must be monitored in patients with fluid overload, congestive heart failure, and renal disease.",
+                    hint: "Too much water DILUTES sodium → hypoNAtremia. Watch CHF and renal patients!"
+                },
+                // --- Fat-Soluble Vitamins ---
+                {
+                    question: "Which vitamins are fat-soluble?",
+                    choices: [
+                        "A. B complex and C",
+                        "B. A, D, E, K",
+                        "C. B1, B6, B12",
+                        "D. Folic acid and biotin"
+                    ],
+                    correct: 1,
+                    explanation: "Fat-soluble vitamins: A, D, E, K. They require fat for absorption, are stored in the liver and fat tissue, are NOT excreted by kidneys, and can cause toxicity (especially A and D).",
+                    hint: "Fat-soluble = A, D, E, K. Stored → can become TOXIC!"
+                },
+                {
+                    question: "Why can fat-soluble vitamins cause toxicity?",
+                    choices: [
+                        "A. They are excreted in urine quickly",
+                        "B. They are stored in liver and fat tissue and not excreted by kidneys",
+                        "C. They dissolve in water and accumulate",
+                        "D. They interfere with protein metabolism"
+                    ],
+                    correct: 1,
+                    explanation: "Fat-soluble vitamins are stored in liver and fat tissue and are NOT excreted by kidneys. Because they accumulate, toxicity may occur — especially with vitamins A and D.",
+                    hint: "Stored + not excreted = BUILDS UP → toxicity risk. Especially A and D!"
+                },
+                {
+                    question: "Vitamin A deficiency can cause:",
+                    choices: [
+                        "A. Scurvy",
+                        "B. Rickets",
+                        "C. Night blindness and decreased immunity",
+                        "D. Bleeding and bruising"
+                    ],
+                    correct: 2,
+                    explanation: "Vitamin A deficiency causes night blindness, poor appetite, decreased immunity, and impaired growth. Vitamin A promotes night vision, maintains epithelial tissue, and increases resistance to infection.",
+                    hint: "Vitamin A = vision (especially NIGHT vision) + immunity + skin."
+                },
+                {
+                    question: "Vitamin D is called the 'sunshine vitamin' because:",
+                    choices: [
+                        "A. It is found in yellow-colored foods",
+                        "B. It is produced when skin is exposed to sunlight",
+                        "C. It makes patients feel happier",
+                        "D. It is only available during summer months"
+                    ],
+                    correct: 1,
+                    explanation: "Vitamin D is produced when skin is exposed to sunlight. It works with calcium and phosphorus to develop and strengthen bones. Recommended sun exposure: about 15 minutes several times per week.",
+                    hint: "Sunshine → skin makes vitamin D → strong bones. 15 min, several times/week."
+                },
+                {
+                    question: "Which vitamin is necessary for blood clotting and production of prothrombin?",
+                    choices: [
+                        "A. Vitamin A",
+                        "B. Vitamin C",
+                        "C. Vitamin E",
+                        "D. Vitamin K"
+                    ],
+                    correct: 3,
+                    explanation: "Vitamin K is necessary for blood clotting and production of prothrombin in the liver. Deficiency causes bruising and bleeding. Found in dark green leafy vegetables (broccoli, spinach, Brussels sprouts, cabbage).",
+                    hint: "K = Klotting! Prothrombin needs vitamin K. Dark leafy greens."
+                },
+                {
+                    question: "Vitamin E functions primarily as:",
+                    choices: [
+                        "A. A blood clotting factor",
+                        "B. An antioxidant that protects cells from free radical damage",
+                        "C. A hormone regulator",
+                        "D. A calcium transporter"
+                    ],
+                    correct: 1,
+                    explanation: "Vitamin E is an antioxidant that protects cells from damage caused by free radicals. Free radicals form when the body converts food into energy or is exposed to cigarette smoke, sun, and air pollution. Vitamin E also supports the immune system.",
+                    hint: "Vitamin E = antioxidant. Protects cells from free radicals."
+                },
+                // --- Water-Soluble Vitamins ---
+                {
+                    question: "Which statement about water-soluble vitamins is correct?",
+                    choices: [
+                        "A. They are stored in the liver and can cause toxicity",
+                        "B. They dissolve in water, are excreted in urine, and must be consumed daily",
+                        "C. They require fat for absorption",
+                        "D. They are not affected by heat or light"
+                    ],
+                    correct: 1,
+                    explanation: "Water-soluble vitamins dissolve in water, are excreted in urine, are NOT stored in the body, and must be consumed daily. They are easily destroyed by heat, light, and air.",
+                    hint: "Water-soluble = NOT stored → need them DAILY. Heat/light destroys them."
+                },
+                {
+                    question: "Vitamin C (ascorbic acid) is important for:",
+                    choices: [
+                        "A. Blood clotting",
+                        "B. Collagen production, wound healing, and immune function",
+                        "C. Night vision",
+                        "D. Red blood cell production"
+                    ],
+                    correct: 1,
+                    explanation: "Vitamin C produces collagen, supports connective tissue, promotes wound healing, maintains cartilage/bones/teeth, acts as an antioxidant, and strengthens the immune system.",
+                    hint: "Vitamin C = Collagen + wound healing + immune boost. Citrus fruits!"
+                },
+                {
+                    question: "Vitamin B12 (cyanocobalamin) is essential for:",
+                    choices: [
+                        "A. Blood clotting and bone formation",
+                        "B. Red blood cell production, maintaining myelin sheath, and DNA formation",
+                        "C. Fat absorption and vision",
+                        "D. Collagen production and wound healing"
+                    ],
+                    correct: 1,
+                    explanation: "Vitamin B12 is essential for red blood cell production, maintaining the myelin sheath of nerves, and DNA formation. Sources: meat, eggs, dairy products.",
+                    hint: "B12 = RBCs + myelin sheath + DNA. Animal products only!"
+                },
+                {
+                    question: "Why is folic acid (vitamin B9) especially important during pregnancy?",
+                    choices: [
+                        "A. It prevents gestational diabetes",
+                        "B. It prevents neural tube defects",
+                        "C. It prevents preeclampsia",
+                        "D. It prevents postpartum depression"
+                    ],
+                    correct: 1,
+                    explanation: "Folic acid is important during pregnancy to prevent neural tube defects. It is essential for DNA synthesis, red blood cell formation, and supports rapidly growing cells. Sources: leafy greens, oranges, beans, fortified grains.",
+                    hint: "Folic acid + pregnancy = prevents NEURAL TUBE DEFECTS. Super testable!"
+                },
+                {
+                    question: "Vitamin B1 (thiamine) supports all of the following EXCEPT:",
+                    choices: [
+                        "A. Metabolism of carbohydrates, protein, and fat",
+                        "B. Heart, muscle, and nervous system function",
+                        "C. Production of hydrochloric acid for digestion",
+                        "D. Blood clotting and prothrombin production"
+                    ],
+                    correct: 3,
+                    explanation: "Vitamin B1 (thiamine) supports metabolism of carbs/protein/fat, heart/muscle/nervous system function, and helps produce hydrochloric acid for digestion. Blood clotting is vitamin K's job.",
+                    hint: "B1 = metabolism + heart + muscles + nerves + HCl. NOT clotting!"
+                },
+                // --- Minerals ---
+                {
+                    question: "Which electrolyte minerals maintain fluid balance, nerve conduction, and muscle contraction?",
+                    choices: [
+                        "A. Calcium, phosphorus, magnesium",
+                        "B. Potassium, sodium, chloride",
+                        "C. Iron, zinc, copper",
+                        "D. Selenium, iodine, chromium"
+                    ],
+                    correct: 1,
+                    explanation: "Potassium, sodium, and chloride are electrolyte minerals that maintain fluid balance, nerve conduction, and muscle contraction.",
+                    hint: "The fluid/nerve/muscle trio: potassium, sodium, chloride."
+                },
+                {
+                    question: "Calcium is important for all of the following EXCEPT:",
+                    choices: [
+                        "A. Bone and teeth formation",
+                        "B. Nerve conduction and muscle contraction",
+                        "C. Hormone secretion",
+                        "D. Red blood cell production"
+                    ],
+                    correct: 3,
+                    explanation: "Calcium functions include bone and teeth formation, nerve conduction, muscle contraction, and hormone secretion. Red blood cell production is related to B12 and folic acid, not calcium.",
+                    hint: "Calcium = bones + teeth + nerves + muscles + hormones. NOT RBCs!"
+                },
+                {
+                    question: "Magnesium helps produce which neurotransmitters?",
+                    choices: [
+                        "A. Serotonin and melatonin",
+                        "B. Dopamine, norepinephrine, and epinephrine",
+                        "C. Acetylcholine and GABA",
+                        "D. Histamine and glutamate"
+                    ],
+                    correct: 1,
+                    explanation: "Magnesium helps produce neurotransmitters such as dopamine, norepinephrine, and epinephrine. It also supports bone structure, energy production, blood pressure regulation, and nerve/muscle function.",
+                    hint: "Magnesium → dopamine, norepi, epi. Plus bones, energy, BP, nerves."
+                },
+                // --- Antioxidants ---
+                {
+                    question: "Antioxidants protect cells from damage caused by:",
+                    choices: [
+                        "A. Excess water intake",
+                        "B. Free radicals",
+                        "C. Amino acid deficiency",
+                        "D. Low sodium levels"
+                    ],
+                    correct: 1,
+                    explanation: "Antioxidants protect cells from free radical damage. Free radicals form when the body breaks down food or is exposed to toxins (tobacco smoke, radiation). Antioxidants may reduce risk of heart disease, cancer, and diabetes.",
+                    hint: "Antioxidants fight FREE RADICALS. Examples: vitamins A, C, E + selenium."
+                },
+                // --- Digestion ---
+                {
+                    question: "Digestion begins in the:",
+                    choices: [
+                        "A. Stomach",
+                        "B. Small intestine",
+                        "C. Mouth",
+                        "D. Esophagus"
+                    ],
+                    correct: 2,
+                    explanation: "Digestion begins in the mouth with chewing and salivary enzymes. Salivary amylase (ptyalin) breaks down carbohydrates (starch) into maltose.",
+                    hint: "Mouth = first stop! Salivary amylase breaks down starch → maltose."
+                },
+                {
+                    question: "Salivary amylase (ptyalin) breaks down:",
+                    choices: [
+                        "A. Proteins into amino acids",
+                        "B. Fats into fatty acids",
+                        "C. Carbohydrates (starch) into maltose",
+                        "D. Vitamins into coenzymes"
+                    ],
+                    correct: 2,
+                    explanation: "Salivary amylase (ptyalin) is released by salivary glands in the mouth and breaks down carbohydrates (starch) into maltose. Further digestion in the small intestine breaks maltose into glucose.",
+                    hint: "Amylase = starch enzyme. Mouth: starch → maltose. Small intestine: maltose → glucose."
+                },
+                {
+                    question: "What is chyme?",
+                    choices: [
+                        "A. A digestive enzyme",
+                        "B. A semiliquid mass of food as it moves through the digestive tract",
+                        "C. A type of fiber",
+                        "D. A hormone that stimulates digestion"
+                    ],
+                    correct: 1,
+                    explanation: "Chyme is the semiliquid mass that food becomes as it moves through the digestive tract. It forms when food mixes with gastric juices in the stomach.",
+                    hint: "Chyme = food + gastric juices = semiliquid mush moving through GI tract."
+                },
+                {
+                    question: "Peristalsis is:",
+                    choices: [
+                        "A. The chemical breakdown of food by enzymes",
+                        "B. Wavelike muscular movements that move food through the digestive tract",
+                        "C. The absorption of nutrients into the blood",
+                        "D. The production of digestive enzymes"
+                    ],
+                    correct: 1,
+                    explanation: "Peristalsis refers to wavelike muscular movements that move food through the digestive tract and waste toward elimination.",
+                    hint: "Peristalsis = WAVES pushing food along. Like squeezing a tube of toothpaste."
+                },
+                {
+                    question: "The four primary functions of the GI system are:",
+                    choices: [
+                        "A. Chewing, swallowing, digesting, excreting",
+                        "B. Ingestion, digestion, absorption, elimination",
+                        "C. Metabolism, catabolism, anabolism, homeostasis",
+                        "D. Secretion, motility, absorption, defecation"
+                    ],
+                    correct: 1,
+                    explanation: "The four primary GI functions are: ingestion, digestion, absorption, and elimination.",
+                    hint: "GI tract: take it IN → break it DOWN → ABSORB it → get rid of WASTE."
+                },
+                {
+                    question: "If carbohydrates are too low, fat is broken down rapidly producing:",
+                    choices: [
+                        "A. Glucose",
+                        "B. Glycogen",
+                        "C. Ketones",
+                        "D. Amino acids"
+                    ],
+                    correct: 2,
+                    explanation: "If carbohydrates are too low, fat is broken down rapidly, producing ketones. This occurs during incomplete fat metabolism. The body needs carbohydrates for fat to be used properly.",
+                    hint: "Low carbs → rapid fat breakdown → KETONES. That's why carbs matter!"
+                },
+                // --- Dietary Guidelines ---
+                {
+                    question: "According to the Dietary Guidelines, daily sodium intake should be less than:",
+                    choices: [
+                        "A. 1000 mg",
+                        "B. 1500 mg",
+                        "C. 2300 mg",
+                        "D. 3000 mg"
+                    ],
+                    correct: 2,
+                    explanation: "Sodium intake should be less than 2300 mg per day. Other limits: less than 10% of calories from added sugars, and less than 10% from saturated fats.",
+                    hint: "Sodium < 2300 mg/day. Added sugar < 10%. Saturated fat < 10%."
+                },
+                {
+                    question: "According to MyPlate, what should cover half of your plate?",
+                    choices: [
+                        "A. Grains and protein",
+                        "B. Fruits and vegetables",
+                        "C. Dairy and protein",
+                        "D. Grains and dairy"
+                    ],
+                    correct: 1,
+                    explanation: "The MyPlate guide recommends fruits and vegetables should cover half of the plate. Important: MyPlate is designed for healthy individuals, not patients on special or prescribed diets.",
+                    hint: "HALF the plate = fruits + veggies. MyPlate = healthy people only, not special diets."
+                },
+                // --- Altered Nutrition ---
+                {
+                    question: "Osteomalacia is caused by a deficiency of:",
+                    choices: [
+                        "A. Vitamin A",
+                        "B. Vitamin C",
+                        "C. Vitamin D",
+                        "D. Vitamin K"
+                    ],
+                    correct: 2,
+                    explanation: "Osteomalacia (softening of bones) is caused by vitamin D deficiency. Poor calcium absorption may lead to osteopenia (decreased bone density) and osteoporosis (bone deterioration with increased fracture risk).",
+                    hint: "Vitamin D deficiency → soft bones (osteomalacia) in adults, rickets in kids."
+                },
+                {
+                    question: "High sodium intake increases the risk for:",
+                    choices: [
+                        "A. Osteoporosis",
+                        "B. Hypertension, which increases risk for stroke",
+                        "C. Night blindness",
+                        "D. Scurvy"
+                    ],
+                    correct: 1,
+                    explanation: "High sodium intake can cause hypertension, which increases risk for stroke (CVA). Stroke is a major cause of death in the United States.",
+                    hint: "Too much sodium → high BP → STROKE risk. Major cause of death in US."
+                },
+                {
+                    question: "Folate deficiency may cause:",
+                    choices: [
+                        "A. Night blindness",
+                        "B. Scurvy",
+                        "C. Macrocytic (megaloblastic) anemia",
+                        "D. Osteomalacia"
+                    ],
+                    correct: 2,
+                    explanation: "Low folate levels may cause macrocytic (megaloblastic) anemia. Symptoms may include depression, mental confusion, glossitis (inflamed tongue), loose stools, and decreased nerve function.",
+                    hint: "Low folate → big RBCs that don't work right = megaloblastic anemia."
+                },
+                {
+                    question: "Atherosclerosis is:",
+                    choices: [
+                        "A. Inflammation of the joints",
+                        "B. Plaque buildup in artery walls containing cholesterol and lipids",
+                        "C. Softening of the bones",
+                        "D. Inflammation of the stomach lining"
+                    ],
+                    correct: 1,
+                    explanation: "Atherosclerosis is plaque buildup in artery walls. Plaque contains cholesterol, lipids, and other substances, causing reduced blood flow. If blood flow to the heart becomes blocked, acute myocardial infarction may occur.",
+                    hint: "Athero = plaque in arteries. Blocked heart artery → heart attack (MI)."
+                },
+                {
+                    question: "Dysphagia means:",
+                    choices: [
+                        "A. Difficulty breathing",
+                        "B. Difficulty swallowing",
+                        "C. Difficulty speaking",
+                        "D. Difficulty urinating"
+                    ],
+                    correct: 1,
+                    explanation: "Dysphagia is difficulty swallowing. Possible causes include tumor or obstruction, stroke (CVA), neurologic damage, and psychological disorders.",
+                    hint: "Dys = difficult, phagia = swallowing. Causes: stroke, tumors, neuro damage."
+                },
+                {
+                    question: "Scurvy is caused by deficiency of:",
+                    choices: [
+                        "A. Vitamin A",
+                        "B. Vitamin C",
+                        "C. Vitamin D",
+                        "D. Vitamin K"
+                    ],
+                    correct: 1,
+                    explanation: "Vitamin C deficiency causes scurvy. Effects include gingivitis, bleeding gums, loose teeth, and joint pain. Vitamin D deficiency causes rickets.",
+                    hint: "Vitamin C deficiency = Scurvy (bleeding gums, loose teeth). Vitamin D = Rickets."
+                },
+                {
+                    question: "Kwashiorkor is characterized by:",
+                    choices: [
+                        "A. Protein and calorie deficiency",
+                        "B. Protein deficiency with fluid retention",
+                        "C. Excess vitamin intake",
+                        "D. Iron deficiency anemia"
+                    ],
+                    correct: 1,
+                    explanation: "Kwashiorkor is protein deficiency with fluid retention. Marasmus is protein AND calorie deficiency. Both are severe malnutrition disorders most common in children.",
+                    hint: "Kwashiorkor = protein deficiency + edema. Marasmus = protein + calorie deficiency."
+                },
+                {
+                    question: "Phenylketonuria (PKU) is:",
+                    choices: [
+                        "A. A food allergy to peanuts",
+                        "B. An inherited metabolic disorder where the body cannot metabolize phenylalanine",
+                        "C. A vitamin D deficiency in children",
+                        "D. A type of eating disorder"
+                    ],
+                    correct: 1,
+                    explanation: "PKU is an inherited metabolic disorder where the body cannot metabolize phenylalanine. Effects include impaired brain development, cognitive delays, and permanent neurologic damage.",
+                    hint: "PKU = can't break down phenylalanine → brain damage if not caught early."
+                },
+                // --- Diabetes ---
+                {
+                    question: "What happens in diabetes mellitus?",
+                    choices: [
+                        "A. The liver produces too much bile",
+                        "B. The pancreas does not produce enough insulin, so glucose accumulates in the blood",
+                        "C. The kidneys cannot filter sodium",
+                        "D. The stomach cannot produce digestive enzymes"
+                    ],
+                    correct: 1,
+                    explanation: "In diabetes mellitus, the pancreas does not produce enough insulin. Glucose accumulates in the bloodstream and cannot enter cells. Glucose is the end product of carbohydrate metabolism.",
+                    hint: "No insulin → glucose stuck in blood → can't get into cells = diabetes."
+                },
+                {
+                    question: "Type 1 diabetes differs from Type 2 in that Type 1:",
+                    choices: [
+                        "A. Can be controlled with diet and exercise alone",
+                        "B. The body does not produce insulin and requires insulin injections",
+                        "C. Is caused by obesity",
+                        "D. Only occurs in older adults"
+                    ],
+                    correct: 1,
+                    explanation: "Type 1 diabetes: body does NOT produce insulin → requires insulin injections. Type 2: often controlled with diet, exercise, and oral antiglycemic medications.",
+                    hint: "Type 1 = NO insulin made → must inject. Type 2 = diet + exercise + oral meds."
+                },
+                {
+                    question: "Complications of diabetes include all of the following EXCEPT:",
+                    choices: [
+                        "A. Blindness from retinal damage",
+                        "B. Neuropathy with loss of sensation",
+                        "C. Improved wound healing",
+                        "D. Renal failure"
+                    ],
+                    correct: 2,
+                    explanation: "Diabetes complications include blindness (retinal damage), renal failure, neuropathy (loss of sensation in lower extremities), and POOR wound healing — not improved.",
+                    hint: "Diabetes = eyes, kidneys, nerves, wounds. Healing gets WORSE, not better."
+                },
+                // --- Food Allergies & Intolerance ---
+                {
+                    question: "What is the difference between a food allergy and food intolerance?",
+                    choices: [
+                        "A. Food allergy is a digestive response; food intolerance is an immune response",
+                        "B. Food allergy is an immune system reaction; food intolerance is a digestive system response",
+                        "C. They are the same thing",
+                        "D. Food allergy only affects children; food intolerance affects adults"
+                    ],
+                    correct: 1,
+                    explanation: "Food allergy = immune system reaction (can be life-threatening). Food intolerance = digestive system response (causes discomfort but usually not life-threatening). Example of intolerance: lactose intolerance.",
+                    hint: "Allergy = IMMUNE (dangerous!). Intolerance = DIGESTIVE (uncomfortable)."
+                },
+                // --- Obesity ---
+                {
+                    question: "Obesity is defined as a BMI of:",
+                    choices: [
+                        "A. ≥ 25",
+                        "B. ≥ 30",
+                        "C. ≥ 35",
+                        "D. ≥ 40"
+                    ],
+                    correct: 1,
+                    explanation: "Obesity = BMI ≥ 30. Morbid obesity = BMI > 40 (or 50% above ideal body weight), which interferes with activities of daily living.",
+                    hint: "Obesity starts at BMI 30. Morbid obesity = BMI > 40."
+                },
+                {
+                    question: "As BMI increases, which of the following occurs?",
+                    choices: [
+                        "A. HDL increases and blood pressure decreases",
+                        "B. Blood pressure increases, cholesterol increases, HDL decreases",
+                        "C. All lab values remain normal",
+                        "D. Only triglycerides are affected"
+                    ],
+                    correct: 1,
+                    explanation: "As BMI increases: blood pressure increases, cholesterol increases, and HDL ('good cholesterol') decreases. This increases risk for diabetes, hypertension, and heart disease.",
+                    hint: "Higher BMI = higher BP + higher cholesterol + LOWER HDL. Bad combo!"
+                },
+                // --- Eating Disorders ---
+                {
+                    question: "Anorexia nervosa is characterized by:",
+                    choices: [
+                        "A. Binge eating followed by purging",
+                        "B. Severe food restriction, distorted body image, and intense fear of weight gain",
+                        "C. Loss of appetite due to illness",
+                        "D. Overeating due to emotional stress"
+                    ],
+                    correct: 1,
+                    explanation: "Anorexia nervosa involves life-threatening food restriction, distorted body image, and intense fear of gaining weight. Complications include circulatory collapse, organ failure, cachexia (extreme weight loss/muscle wasting), and suicide risk.",
+                    hint: "Anorexia nervosa = won't eat + thinks they're fat even when underweight. DANGEROUS."
+                },
+                {
+                    question: "What is the difference between anorexia and anorexia nervosa?",
+                    choices: [
+                        "A. They are the same condition",
+                        "B. Anorexia is loss of appetite (from illness/meds); anorexia nervosa is a psychological eating disorder",
+                        "C. Anorexia nervosa is less severe than anorexia",
+                        "D. Anorexia only occurs in children"
+                    ],
+                    correct: 1,
+                    explanation: "Anorexia = loss of appetite, often from illness, medications, or treatments like chemotherapy — usually resolves. Anorexia nervosa = serious psychological eating disorder with intentional food restriction and distorted body image.",
+                    hint: "Anorexia = no appetite (medical). Anorexia NERVOSA = psychological disorder."
+                },
+                {
+                    question: "Bulimia nervosa involves:",
+                    choices: [
+                        "A. Severe food restriction only",
+                        "B. Binge eating followed by purging behaviors",
+                        "C. Excessive water intake",
+                        "D. Only excessive exercise"
+                    ],
+                    correct: 1,
+                    explanation: "Bulimia nervosa involves binge eating (2000–3000 calories at one time) followed by purging (self-induced vomiting, excessive exercise, laxatives, diuretics).",
+                    hint: "Bulimia = BINGE then PURGE. Eat a ton → try to get rid of it."
+                },
+                {
+                    question: "Complications of bulimia nervosa include all of the following EXCEPT:",
+                    choices: [
+                        "A. Tooth decay and GI problems",
+                        "B. Electrolyte imbalance",
+                        "C. Improved cardiac function",
+                        "D. Cardiac dysrhythmias and heart failure"
+                    ],
+                    correct: 2,
+                    explanation: "Bulimia complications: tooth decay, GI problems, electrolyte imbalance, cardiac dysrhythmias, heart failure, and death. Cardiac function is IMPAIRED, not improved.",
+                    hint: "Purging → electrolyte imbalance → heart problems. Very dangerous!"
+                },
+                {
+                    question: "Management of eating disorders requires:",
+                    choices: [
+                        "A. Only medication management",
+                        "B. A collaborative health care team including physician, psychologist, dietitian, and family",
+                        "C. Only individual therapy",
+                        "D. Hospitalization in all cases"
+                    ],
+                    correct: 1,
+                    explanation: "Eating disorders require an interdisciplinary team: physician, psychologist, family therapist, registered dietitian, and family members. Early detection is critical to prevent long-term complications.",
+                    hint: "Team approach: MD + psych + dietitian + family therapist + family. Early intervention = key!"
                 }
             ],
 
